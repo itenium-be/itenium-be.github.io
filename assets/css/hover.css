@@ -1,0 +1,365 @@
+
+/* Common style */
+#grid figure {
+	position 	: relative;
+	float 		: left;
+	overflow 	: hidden;
+	margin      : 0;
+	width 		: 100%;
+	height 		: auto;
+	text-align 	: center;
+	cursor 		: pointer;
+}
+
+#grid figure img {
+	position 	: relative;
+	display 	: block;
+	opacity 	: 0.8;
+	width 	    : 100%;
+}
+
+#grid figure figcaption {
+	padding 					: 2em;
+	color 						: #fff;
+	text-transform 				: uppercase;
+	font-size 					: 1.25em;
+	-webkit-backface-visibility : hidden;
+	backface-visibility 		: hidden;
+}
+
+#grid figure figcaption::before,
+#grid figure figcaption::after {
+	
+	width 		: 100%;
+}
+
+#grid figure figcaption,
+#grid figure figcaption > a {
+	position 	: absolute;
+	top 		: 0;
+	left 		: 0;
+	width 		: 100%;
+	height 		: 100%;
+}
+
+/* Anchor will cover the whole item by default */
+/* For some effects it will show as a button */
+#grid figure figcaption > a {
+	z-index 	: 1000;
+	text-indent : 200%;
+	white-space : nowrap;
+	font-size   : 0;
+	opacity     : 0;
+}
+
+#grid figure h2 {
+	word-spacing 	: -0.15em;
+	font-weight 	: 300;
+}
+
+#grid figure h2 span {
+	font-weight 	: 800;
+}
+
+#grid figure h2,
+#grid figure p {
+	margin 			: 0;
+}
+
+#grid figure p {
+	letter-spacing 	: 1px;
+	
+}
+
+
+
+
+/*---------------*/
+/***** Duke *****/
+/*---------------*/
+
+figure.effect-duke
+{
+	background  : rgba(232,71,0,0.7);
+	overflow    :hidden;
+}
+
+figure.effect-duke img,
+figure.effect-duke:hover .icon-holder {
+	opacity 			: 1;
+	top 				: 50%;
+	-webkit-transition  : all 0.35s, -webkit-transform 0.35s;
+	transition 			: all 1s 0.25s, transform 0.35s;
+	z-index 			: 999;
+}
+
+figure.effect-duke:hover img {
+	opacity 			: 0.1;
+	-webkit-transform 	: scale3d(1.2,1.2,1);
+	transform 			: scale3d(1.2,1.2,1);
+}
+
+figure.effect-duke h2 {
+	-webkit-transition 		: -webkit-transform 0.35s;
+	transition 				: transform 0.35s;
+	-webkit-transform 		: scale3d(0.8,0.8,1);
+	transform 				: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% 100%;
+	transform-origin 		: 50% 100%;
+}
+
+figure.effect-duke .icon-holder {
+	position 				: absolute;
+	top 					: 40%;
+	left 					: 0;
+	margin 					: 20px;
+	padding 				: 30px;
+	text-transform 			: none;
+	font-size 				: 90%;
+	opacity 				: 0;
+	width 					: 100%;
+	margin 					: auto;
+	-webkit-transform 		: scale3d(0.8,0.8,1);
+	transform 				: scale3d(0.8,0.8,1);
+	-webkit-transform-origin: 50% -100%;
+	transform-origin 		: 50% -100%;
+}
+
+figure.effect-duke .icon-holder ul{
+	width 		: 185px;
+	margin 		: auto;
+
+}
+
+figure.effect-duke:hover h2,
+figure.effect-duke:hover p {
+	opacity 			: 1;
+	-webkit-transform 	: scale3d(1,1,1);
+	transform 			: scale3d(1,1,1);
+}
+
+/* Media queries */
+@media screen and (max-width: 50em) {
+	.content {
+		padding 	: 0 10px;
+		text-align 	: center;
+	}
+	.grid figure {
+		display 	: inline-block;
+		float 		: none;
+		margin 		: 10px auto;
+		width 		: 100%;
+	}
+}
+
+
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+
+
+figure.effect-julia img {
+
+	-webkit-transition 				: opacity 0.5s, -webkit-transform 0.5s;
+	-moz-transition 				: opacity 0.5s, -webkit-transform 0.5s;
+	-ms-transition 					: opacity 0.5s, -webkit-transform 0.5s;
+	-o-transition 					: opacity 0.5s, -webkit-transform 0.5s;
+	transition 						: opacity 0.5s, transform 0.5s;
+	-webkit-backface-visibility 	: hidden;
+	backface-visibility 			: hidden;
+}
+
+figure.effect-julia figcaption {
+	text-align 			: center;
+	position 			: relative;
+	background 			: rgba(232,71,0,0);
+	-sm-transition 		: background 1s ease 0.15s;
+	-o-transition 		: background 1s ease 0.15s;
+	-webkit-transition 	: background 1s ease 0.15s;
+	-moz-transition 	: background 1s ease 0.15s;
+	transition 			: background 1s ease 0.15s;
+}
+figure.effect-julia figcaption:hover{
+	background 			: rgba(232,71,0,0.8);
+
+}
+
+figure.effect-julia:hover img {
+	opacity 			: 1;
+	-webkit-transform 	: scale3d(1.1,1.1,1);
+	transform 			: scale3d(1.2, 1.3, 1);
+}
+
+
+
+figcaption>.socials{
+	width 		:50%;
+	margin 		:auto; 
+
+}
+
+figcaption>.socials>a:first-child{
+	padding-right 	: 3px;
+
+}
+
+figcaption>.socials>a:last-child{
+	padding-left 	: 3px;
+
+}
+
+figcaption>.socials > a>.fa
+{
+	height 				: 56px;
+	width 				: 56px;
+	font-size 			: 25px;
+	border-radius 		: 50%;
+	border 				: 2px solid #fff;
+	padding 			: 14px;
+	opacity 			: 0;
+	transition 			: opacity 0.30s  ease 0.35s;
+	-moz-transition 	: opacity 0.30s  ease 0.35s;
+	-webkit-transition 	: opacity 0.30s  ease 0.35s;
+	-ms-transition 		: opacity 0.30s  ease 0.35s;
+	-o-transition 		: opacity 0.30s  ease 0.35s;
+}
+
+
+figcaption:hover>.socials > a>.fa{
+
+	opacity 	: 1;
+
+}
+
+
+figcaption>.socials > a>.fa{
+	background-color 	: rgba(255,255,255,0);
+	color 				: #ffffff;
+	transition 			: all   ease 0.35s;
+	-moz-transition 	: all   ease 0.35s;
+	-webkit-transition 	: all   ease 0.35s;
+	-ms-transition 		: all   ease 0.35s;
+	-o-transition 		: all   ease 0.35s;
+
+}
+
+figcaption>.socials > a>.fa:hover{
+	background-color 	: rgba(255,255,255,1);
+	color 				: #e84700;
+
+}
+
+
+figcaption>.socials > a>.fa.animated{
+	background-color 	: rgba(255,255,255,0);
+	color 				: #ffffff;
+	transform 			: rotate(0deg);
+	box-shadow 			: 0 0 5px rgba(232,71,0, 0);
+	transition 			: all   ease 0.50s;
+	-moz-transition 	: all   ease 0.50s;
+	-webkit-transition 	: all   ease 0.50s;
+	-ms-transition 		: all   ease 0.50s;
+	-o-transition 		: all   ease 0.50s;
+
+
+}
+
+figcaption>.socials > a>.fa.animated:hover{
+	background-color 	: rgba(255,255,255,1);
+	color 				: #e84700;
+	transform 			: rotate(360deg);
+
+}
+
+
+
+
+
+figcaption>.socials{
+	position 			: absolute;
+	top 				: 20%;
+	left 				: 0;
+	right 				: 0;
+	margin 				: auto; 
+	-moz-transition 	: top 1s  ease 0.15s;
+	-webkit-transition 	: top 1s  ease 0.15s;
+	-ms-transition 		: top 1s  ease 0.15s;
+	-o-transition 		: top 1s  ease 0.15s;
+	transition 			: top 1s  ease 0.15s;
+}
+
+figcaption:hover>.socials{
+	position 	: absolute;
+	top 		: 40%;
+	left 		: 0;
+	right 		: 0;
+	margin 		: auto; 
+}
+
+
+
+figcaption > .scoial-heading {
+
+	position 			: absolute;
+	top 				: 90%;
+	left 				: 0;
+	right 				: 0;
+	margin 				: auto;
+	-moz-transition 	: top 1s  ease 0.15s;
+	-webkit-transition 	: top 1s  ease 0.15s;
+	-ms-transition 		: top 1s  ease 0.15s;
+	-o-transition 		: top 1s  ease 0.15s;
+	transition 			: top 1s  ease 0.15s;
+
+}
+
+figcaption:hover > .scoial-heading {
+	position 	: absolute;
+	top 		: 75%;
+	left 		: 0;
+	right 		: 0;
+	margin 		: auto; 
+
+}
+
+
+
+figcaption .scoial-heading p{
+
+
+	font-size 		: 22px;
+	line-height 	: 15px;
+	font-weight 	: bold;
+	text-transform 	: uppercase;
+	text-shadow 	: 0px 1px 1px rgba(0,0,0,0.3);
+}
+
+figcaption .scoial-heading strong{
+
+
+	font-size 		: 16px;
+	font-weight 	: normal;
+	text-transform 	: capitalize;
+	text-shadow 	: 0px 1px 1px rgba(0,0,0,0.5);	
+}
+
+figcaption .scoial-heading p,figcaption .scoial-heading strong{
+	font-family 		: 'Roboto Condensed', sans-serif;
+	color 				: #ffffff;
+	letter-spacing 		: 1.5px;
+	opacity 			: 0;
+	transition 			: opacity 1s  ease 0.35s;
+	-moz-transition 	: opacity 1s  ease 0.35s;
+	-webkit-transition 	: opacity 1s  ease 0.35s;
+	-ms-transition 		: opacity 1s  ease 0.35s;
+	-o-transition 		: opacity 1s  ease 0.35s;
+
+}
+figcaption:hover .scoial-heading p,figcaption:hover .scoial-heading strong{
+
+	opacity : 1;
+
+}
+
