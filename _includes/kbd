@@ -1,0 +1,17 @@
+<div style="display: block">
+	{% assign keyCombos = include.k | split: "," %}
+	{% for combo in keyCombos %}
+		{% assign keys = combo | split: "+" %}
+		{% for key in keys %}
+			<kbd>{{key}}</kbd>
+			{% if forloop.last == false %}
+				+
+			{% endif %}
+		{% endfor %}
+
+		{% if forloop.last == false %}
+			,
+		{% endif %}
+	{% endfor %}
+	: {{include.l}}
+</div>
