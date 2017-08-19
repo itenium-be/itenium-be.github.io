@@ -36,17 +36,8 @@ Styling: {: style="margin-top: 10"}
 {% include kbd k="Win+E" l="" %}
 
 
-## Front Matter
-
-```
-series: xxx
-extras:
-  - githubproject: https://github.com/be-pongit/
-    githubtext: Just Be pongit
-interesting:
-  - url
-  - url
-```
+{% include icon-github.html username=site.github_username %}
+{% include icon-twitter.html username=site.twitter_username %}
 
 ## Jekyll TODO
 
@@ -60,10 +51,6 @@ Plugins that might be added later:
 
 **Keyboard Glyphs**:  
 BUG: Shortcut containing a + or ,
-
-## Bliki TODO
-
-- .NET Number/Date Formatting: Create a cheat-sheet and a comparison with MomentJS
 
 
 Liquid
