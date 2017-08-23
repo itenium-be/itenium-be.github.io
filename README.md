@@ -8,11 +8,7 @@ itenium
 gem install jekyll bundler
 
 # run:
-npm start
 bundle exec jekyll serve --drafts
-
-# Show theme path
-bundle show minima
 
 # New plugin
 # Add to _config.yml and Gemfile
@@ -23,7 +19,6 @@ $env:JEKYLL_ENV = "production"
 ```
 
 ## Blog
-
 ```
 # First fetch
 git submodule update --init --recursive
