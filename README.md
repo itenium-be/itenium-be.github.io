@@ -22,6 +22,16 @@ bundle install
 $env:JEKYLL_ENV = "production"
 ```
 
+## Blog
+
+```
+# First fetch
+git submodule update --init --recursive
+
+# Update
+git pull --recurse-submodules
+```
+
 ## Kramdown
 
 Notices: {: .notice}, {: .notice--info}, {: .notice--danger}  
