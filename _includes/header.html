@@ -1,10 +1,63 @@
+<header class="header-part">
+    <div id="home" class="wrapper">
+        <!-- Fixed navbar -->
+        <div class="navi navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <a href="#menu">
+                        <button type="button" data-effect="st-effect-1" class="navbar-toggle collapsed"
+                                data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                                aria-controls="navbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </a>
+                    <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="{{ site.name }}"></a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse pull-right hidden-xs">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a class="page-scroll" href="index.html">Home</a></li>
+                        <li><a class="page-scroll" href="index.html#about">about us</a></li>
+                        <li><a class="page-scroll" href="index.html#services">services</a></li>
+                        <li><a class="page-scroll" href="index.html#product">product</a></li>
+                        <li><a class="page-scroll" href="index.html#team">team</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a class="page-scroll" href="index.html#contact">Contact</a></li>
+                        <!-- Search Block -->
+                        <li>
+                            <i class="search fa fa-search search-btn"></i>
+                            <div class="search-open" style="display:none;">
+                                <div class="input-group animated fadeInDown">
+                                    <input type="text" class="form-control" placeholder="Search">
+                                    <span class="input-group-btn">
+                                        <button class="btn-u" type="button">Go</button>
+                                    </span>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- End Search Block -->
+                    </ul>
+                </div><!--/.nav-collapse -->
+            </div>
+        </div><!-- End of Nav -->
+    </div>
+</header>
+
+
+
+<!--
+
+TODO: Delete this!!
+
 <header class="site-header" role="banner">
 
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
     {% assign page_paths = site.header_pages | default: default_paths %}
     <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-  
+
     {% if page_paths %}
       <nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -30,3 +83,4 @@
     {% endif %}
   </div>
 </header>
+ -->

@@ -1,0 +1,38 @@
+{% assign posts = site.posts | sort:"date" | reverse | slice: 0, 3 %}
+{% for post in posts %}
+    <div class="wow zoomIn col-xs-12 col-md-4">
+        <img class="img-responsive" src="{{ 'assets/' | append: post.img | absolute_url }}" />
+        <div class="blog-date-wrapper">
+            <span class="floatleft"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
+            <!-- <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
+            <span class="floatright"><i class="fa fa-comments"></i> 25 </span> -->
+            <span class="clearboth"> &nbsp; </span>
+        </div>
+        <div class="blog-container">
+            <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+            <p>{{ post.desc }}</p>
+            <a class="custom-button" href="{{ post.url | relative_url }}">read more <i class="fa fa-angle-right"></i></a>
+        </div>
+    </div>
+{% endfor %}
+
+
+<!--
+TODO: Do remove this!!!
+<div class="wow zoomIn col-xs-12 col-md-4">
+    <img class="img-responsive" src="img/blog2.jpg" alt="Image"/>
+    <div class="blog-date-wrapper">
+        <span class="floatleft"><i class="fa fa-calendar"></i> 01th june 2015</span>
+        <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
+        <span class="floatright"><i class="fa fa-comments"></i> 25 </span>
+        <span class="clearboth"> &nbsp; </span>
+    </div>
+    <div class="blog-container">
+        <h2><a href="blog-sidebar.html" target="_blank"> 10 Things you Need to Know</a></h2>
+        <p>Tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima
+            veniam</p>
+        <a class="custom-button" href="blog-sidebar.html">read more <i
+                class="fa fa-angle-right"></i></a>
+    </div>
+</div>
+-->

@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: itenium
 name: itenium
-email: iteniumbvba@gmail.com
+email: info@itenium.be # iteniumbvba@gmail.com
 address: Linde 11, 1840 Londerzeel
 tel: 000000000
 description: > # this means to ignore newlines until "baseurl:"
@@ -25,10 +25,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://itenium.be" # the base hostname & protocol for your site, e.g. http://example.com
 
-twitter_username: jekyllrb
+google_analytics: ABCDE
+twitter_username: itenium_be
 github_username: itenium-be
 
 github_data_url: https://github.com/Laoujin/bliki-posts/blob/master
+
+collections:
+  posts:
+    output: true
+    permalink: /blog/:categories/:title/
 
 # Build settings
 markdown: kramdown
@@ -38,3 +44,4 @@ gems:
 exclude:
   - Gemfile
   - Gemfile.lock
+  - README.md

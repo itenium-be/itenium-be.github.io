@@ -1,7 +1,7 @@
 <aside class="sidebar__right">
 <nav class="toc" markdown="1">
 <header>
-{% include edit-post.html %}
+{% include components/edit-post.html %}
 <h4 class="nav__title">
 {% if include.icon contains "icon-" %}
 <i class="{{include.icon}}"></i>
