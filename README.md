@@ -6,6 +6,7 @@ itenium
 ```powershell
 # setup:
 gem install jekyll bundler
+bundle install
 
 # run:
 bundle exec jekyll serve --drafts
