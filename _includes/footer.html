@@ -20,10 +20,10 @@
        <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
          <p class="footer-heading">find us</p>
          <ul class="footercontact">
-           <li><i class="flaticon-mainpage"></i><span>address:</span> One TECHGUT loop, 54100</li>
-           <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:88 02 8714612"> +88 02 8714612</a></li>
-           <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:support@themerole.com"> support@themerole.com</a></li>
-           <li><i class="flaticon-world91"></i><span>web:</span><a href="http://themerole.com"> www.themerole.com</a></li>
+           <li><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address }}</li>
+           <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel }}"> {{ site.tel }}</a></li>
+           <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
+           <li><i class="flaticon-world91"></i><span>web:</span><a href=">{{ site.url }}"> {{ site.url }}</a></li>
          </ul>
          <i class="flaticon-home78"></i>
        </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
@@ -42,7 +42,7 @@
    <div class="container">
      <div class="row">
        <div class="wow zoomIn col-xs-12">
-         <p>© 2015 All rights reserved. <span>techgut</span> theme by <a href="http://themerole.com">themerole</a></p>
+         <p>© 2017 All rights reserved. <span>{{ site.name }}</span></p>
          <div class="backtop  pull-right">
            <i class="fa fa-angle-up back-to-top"></i>
          </div><!-- /.backtop -->
