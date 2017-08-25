@@ -11,11 +11,15 @@ layout: default
     <div class="container">
       <div class="row">
         <div class="col-xs-12 col-sm-12 col-md-8">
-          {% include blog/entries.html %}
+          {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
+          {% for post in posts %}
+            {% include blog/entry-excerpt.html post=post %}
+          {% endfor %}
+
           {% include blog/pagination.html %}
         </div>
 
-        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4 ">
+        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
           {% include blog/category-list.html %}
           {% include blog/recent-posts-sidebar.html %}
           {% include blog/tag-cloud.html %}

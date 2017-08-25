@@ -1,6 +1,5 @@
-{% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
-{% for post in posts %}
-  <div class="blog-content">
+{% assign post = include.post %}
+<div class="blog-content">
     <div class="sidebar-blog-content">
       <div class="row">
         <div class="col-xs-12">
@@ -38,5 +37,4 @@
         </div>
       </div>
     </div>
-  </div>
-{% endfor %}
+</div>
