@@ -26,30 +26,12 @@ layout: default
           {% include blog/pagination.html %}
         </div>
 
-        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4 "> <!-- col-xs-12 col-sm-12 col-md-4  -->
-          <div class="sidebar">
-            <div class="list-group">
-              <div class="sidebar-heading">
-                categories
-              </div>
-              {% include blog/category-list.html %}
-            </div><!-- /.list-group -->
-          </div><!-- sidebar -->
-          <div class="blog-sidebar sidebar">
-            <div class="sidebar-heading">
-              recent posts
-            </div>
-            {% include blog/recent-posts-sidebar.html %}
-          </div><!-- blog-sidebar -->
-
-          <div class="blog-sidebar sidebar">
-            <div class="sidebar-heading">
-              tags
-            </div>
-            {% include blog/tag-cloud.html %}
-          </div><!-- blog-sidebar -->
+        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4 ">
+          {% include blog/category-list.html %}
+          {% include blog/recent-posts-sidebar.html %}
+          {% include blog/tag-cloud.html %}
         </div>
-      </div><!-- row -->
-    </div><!-- container -->
+      </div>
+    </div>
   </section>
 </div>
