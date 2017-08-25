@@ -1,14 +1,24 @@
 .logo {
-    height: 23px;
-    width: 160px;
-    font-size: 30px;
     font-family: 'Roboto Condensed', sans-serif;
+    font-size: 0;     // whitespaces go away
+    height: 23px;
 
-    .dark-gray {
-
+    span{
+        height:100%;
+        display: inline-block;
+        font-size: 23px;
+        line-height: 23px;
     }
+}
 
-    .orange {
-        color: orange;
-    }
+.dark-orange {
+    color: $dark-orange;
+}
+
+.dark-gray {
+    color: $dark-gray;
+}
+
+.white {
+    color: $white;
 }
