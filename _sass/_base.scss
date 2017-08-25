@@ -278,7 +278,7 @@ a {
 
 .buy-btn:hover,
 .buy-btn:focus{
-    background-color    : #e84700;
+    background-color    : $dark-orange;
     border              : 0;
     color               : #fff;
 }
@@ -296,7 +296,7 @@ a {
     margin-left     : -20px;
     border-left     : 20px solid transparent;
     border-right    : 20px solid transparent;
-    border-bottom   : 70px solid  #e84700;
+    border-bottom   : 70px solid  $dark-orange;
 }
 
 .second-title{
@@ -349,7 +349,7 @@ ul.nav.navbar-nav{
 }
 ul.nav.navbar-nav li a {
     text-transform  : uppercase;
-    color           : #343434;
+    color           : $dark-gray;
     font-weight     : 300;
     font-size       : 14px;
 }
@@ -362,7 +362,7 @@ ul.nav.navbar-nav li a {
 .navbar-nav > li:last-child{
     border-right   : 1px solid transparent;
     padding-left   : 15px;
-    border-left    : 1px solid #e84700;
+    border-left    : 1px solid $dark-orange;
     line-height    : 20px;
     min-width      : 31px;
 
@@ -415,7 +415,7 @@ font-size           : 15px;
 button.btn-u {
 padding             : 6px 10px;
 color               : #fff;
-background-color    : #e84700;
+background-color    : $dark-orange;
 border              : 1px solid #e84711;
 }
 button.btn-u:focus,
@@ -609,12 +609,12 @@ section.who-we-are .col-lg-12{
 }
 section.who-we-are .col-md-3 .fa{
     font-size           : 25px;
-    color               : #e84700;
+    color               : $dark-orange;
     margin              : 0 auto;
     height              : 90px;
     width               : 90px;
     border-radius       : 50%;
-    border              :2px solid #e84700;
+    border              :2px solid $dark-orange;
     line-height         : 80px;
     cursor              : pointer;
     -webkit-transition  : all  ease-in-out 0.35s;
@@ -631,7 +631,7 @@ section.who-we-are .col-md-3 i:before{
 
 section.who-we-are .col-md-3 .fa:hover{
 
-    background-color        : #e84700;
+    background-color        : $dark-orange;
     color                   : #fff;
     border                  : 1px solid #e84711;
     -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
@@ -706,7 +706,7 @@ section.who-we-are .col-md-3 .fa:hover{
 .media:hover .media-left a .fa{
     color                   : #999;
     border                  : 2px solid #e84711;
-    background-color        : #e84700;
+    background-color        : $dark-orange;
 }
 
 .media:hover .media-left a,
@@ -813,7 +813,7 @@ padding-right       :20px;
     font-family         : 'Open Sans', sans-serif;
     text-transform      : uppercase;
     font-size           : 20px;
-    color               : #e84700;
+    color               : $dark-orange;
     background-color    : #ffffff;
     border              : 1px solid #fff;
 }
@@ -841,7 +841,7 @@ padding-right       :20px;
 
 }
 .button-set .btn-primary{
-    background-color    : #e84700;
+    background-color    : $dark-orange;
     border              : 1px solid #e84711;
 }
 .button-set{
@@ -852,7 +852,7 @@ padding-right       :20px;
 }
 .contact-us{
     padding: 6px 12px;
-    background-color: #e84700;
+    background-color: $dark-orange;
     border: 1px solid #e84711;
     color: #fff;
     font-family: 'Open Sans', sans-serif;
@@ -920,7 +920,7 @@ padding-right       :20px;
 #filter li a.active,
 #filter li a:hover,
 #filter li a:focus{
-    background-color    : #e84700;
+    background-color    : $dark-orange;
     color               : #fff;
     text-decoration     : none;
     outline             : none;
@@ -1444,7 +1444,7 @@ padding-top     : 19px;
 .contact-wrapper .costom-btn{
     width                       : 100%;
     background                  : rgba(232, 71, 0, 1);
-    border                      : 1px solid #e84700;
+    border                      : 1px solid $dark-orange;
     font                        : bold 16px/18px 'Open Sans', sans-serif;
     color                       : #ffffff;
     text-transform              : uppercase;
@@ -1534,7 +1534,7 @@ padding-top     : 19px;
 
 .contact-wrapper .contact-or p{
     font                : bold 25px/22px 'Roboto Condensed', sans-serif;
-    color               : #e84700;
+    color               : $dark-orange;
     padding             : 0;
     margin              : 0 auto;
     letter-spacing      : 1.5px;
@@ -1632,7 +1632,7 @@ footer .footer-heading{
 
 .footer-heading::first-letter {
 
-  color  : #e84700;
+  color  : $dark-orange;
 }
 
 .footer-content{
@@ -1751,7 +1751,7 @@ footer .footer-heading{
     }
 
 .backtop:hover {
-    color      : #e84700;
+    color      : $dark-orange;
     background : #252525;
     }
 
@@ -1802,12 +1802,12 @@ footer .footer-heading{
     border-radius   : 0;
 }
 .navbar-default .navbar-toggle .icon-bar {
-background-color    : #e84700;
+background-color    : $dark-orange;
 }
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-background-color    : #e84700;
+background-color    : $dark-orange;
 -webkit-transition  : all ease 200ms;
 -moz-transition     : all ease 200ms;
 -o-transition       : all ease 200ms;
