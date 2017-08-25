@@ -19,6 +19,9 @@ bundle install
 $env:JEKYLL_ENV = "production"
 ```
 
+Github pages supported plugins:  
+https://pages.github.com/versions/
+
 ## Blog
 ```
 # First fetch
