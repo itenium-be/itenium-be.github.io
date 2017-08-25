@@ -5,18 +5,7 @@ layout: default
 <div class="main">
   {% include header.html %}
 
-<!--   Start Blog with Sidebar   -->
-
-  <section class="blog-header section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-12 text-center">
-          <h1 class="section-title">all blog post</h1>
-        </div><!-- /.col-xs-12 -->
-      </div><!-- /.row -->
-    </div><!-- /.container -->
-  </section><!-- /.blog-header -->
-
+  {% include blog/big-header.html title="all blog post" %}
 
   <section class="blog-sidebar">
     <div class="container">
@@ -26,45 +15,12 @@ layout: default
           {% include blog/pagination.html %}
         </div>
 
-        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4 "> <!-- col-xs-12 col-sm-12 col-md-4  -->
-          <div class="sidebar">
-            <div class="list-group">
-              <div class="sidebar-heading">
-                categories
-              </div>
-              {% include blog/category-list.html %}
-            </div><!-- /.list-group -->
-          </div><!-- sidebar -->
-          <div class="blog-sidebar sidebar">
-            <div class="sidebar-heading">
-              recent posts
-            </div>
-            {% include blog/recent-posts-sidebar.html %}
-          </div><!-- blog-sidebar -->
-
-          <div class="blog-sidebar sidebar">
-            <div class="sidebar-heading">
-              tags
-            </div>
-            {% include blog/tag-cloud.html %}
-          </div><!-- blog-sidebar -->
+        <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4 ">
+          {% include blog/category-list.html %}
+          {% include blog/recent-posts-sidebar.html %}
+          {% include blog/tag-cloud.html %}
         </div>
-      </div><!-- row -->
-    </div><!-- container -->
+      </div>
+    </div>
   </section>
-
-
-<!-- MMENU  -->
-<nav id="menu">
-  <ul>
-    <li><a href="index.html">home</a></li>
-    <li><a href="index.html">about us</a></li>
-    <li><a href="index.html">services</a></li>
-    <li><a href="index.html">product</a></li>
-    <li><a href="index.html">team</a></li>
-    <li><a href="blog.html">blog</a></li>
-    <li><a href="index.html">contact</a></li>
-  </ul>
-</nav><!-- /#menu -->
-
-</div><!-- /.main -->
+</div>
