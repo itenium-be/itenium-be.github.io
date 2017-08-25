@@ -1,15 +1,15 @@
 <div class="sidebar">
-  <div class="list-group">
-    <div class="sidebar-heading">
-      categories
+    <div class="list-group">
+        <div class="sidebar-heading">
+            categories
+        </div>
+        <ul>
+            {% for cat in site.categories %}
+                <a href="category{{ cat | first | relative_url }}" class="list-group-item">
+                    {{ cat | first }}
+                    <span class="pull-right">({{ cat | last | size }})</span>
+                </a>
+            {% endfor %}
+        </ul>
     </div>
-    <ul>
-        {% for cat in site.categories %}
-            <a href="category{{ cat | first | relative_url }}" class="list-group-item">
-                {{ cat | first }}
-                <span class="pull-right">({{ cat | last | size }})</span>
-            </a>
-        {% endfor %}
-    </ul>
-  </div>
 </div>

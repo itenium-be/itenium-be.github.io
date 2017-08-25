@@ -1,20 +1,20 @@
 <div class="blog-sidebar sidebar">
-  <div class="sidebar-heading">
-    recent posts
-  </div>
-  {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 3 %}
-  {% for post in posts %}
-      <div class="media">
-        <div class="media-left">
-          <a href="#">
-            <img class="media-object" src="{{ 'assets/' | append: post.img | absolute_url }}">
-          </a>
+    <div class="sidebar-heading">
+        recent posts
+    </div>
+    {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 3 %}
+    {% for post in posts %}
+        <div class="media">
+            <div class="media-left">
+                <a href="#">
+                    <img class="media-object" src="{{ 'assets/' | append: post.img | absolute_url }}">
+                </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
+                <p>{{ post.date | date: "%b %-d, %Y" }}</p>
+                <a href="#"><span>0 Conmments</span></a>
+            </div>
         </div>
-        <div class="media-body">
-          <h3 class="media-heading"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
-          <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-          <a href="#"><span>0 Conmments</span></a>
-        </div>
-      </div>
-  {% endfor %}
+    {% endfor %}
 </div>

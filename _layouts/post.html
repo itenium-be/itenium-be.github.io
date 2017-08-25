@@ -1,26 +1,21 @@
 ---
 layout: default
 ---
-
 <div class="main">
     {% include header.html %}
-
     {% include blog/big-header.html title=page.title %}
-
-      <section class="blog-sidebar">
+    <section class="blog-sidebar">
         <div class="container">
-          <div class="row">
-            <div class="col-xs-12 col-sm-12 col-md-8">
-              {% include blog/entry-full.html post=page %}
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8">
+                    {% include blog/entry-full.html post=page %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
+                    {% include blog/category-list.html %}
+                    {% include blog/recent-posts-sidebar.html %}
+                    {% include blog/tag-cloud.html %}
+                </div>
             </div>
-
-            <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
-              {% include blog/category-list.html %}
-              {% include blog/recent-posts-sidebar.html %}
-              {% include blog/tag-cloud.html %}
-            </div>
-          </div>
         </div>
-      </section>
-
+    </section>
 </div>
