@@ -9,11 +9,11 @@
             </div><!-- col-xs-12 -->
         </div><!-- row -->
         <div class="row">
-
-            {% for member in site.data.teamMembers %}
-            {% include main/team-member.html member=member %}
-            {% endfor %}
-
+            <div class="col-md-12 col-md-offset-3">
+                {% for member in site.data.teamMembers %}
+                {% include main/team-member.html member=member %}
+                {% endfor %}
+            </div>
         </div><!-- row -->
     </div><!-- container -->
 </section><!-- our team -->
