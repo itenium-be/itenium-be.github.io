@@ -5,9 +5,9 @@
             <figcaption>
                 <div class="icon-holder">
                     <ul>
-                        <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="mailto:{{ include.member.email }}"><i class="fa fa-envelope"></i></a></li>
+                        <li><a href="{{ include.member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="{{ include.member.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
                     </ul>
                 </div>
             </figcaption>
@@ -15,6 +15,8 @@
     </div>
     <div class="team-designation">
         <p>{{ include.member.name }}</p>
-        <span>{{ include.member.title }}"</span>
+        <span>{{ include.member.title }}</span>
+        <span>{{ include.member.email }}</span>
+        <span>{{ include.member.phone }}</span>
     </div>
 </div>
