@@ -1,0 +1,9 @@
+- image : /img/team1.jpg
+  name: Steven Robijns
+  title: Technical expert
+  phone: +32 477 54 89 57
+
+- image : /img/team2.jpg
+  name: Wouter van Schandevijl
+  title: Solution Architect
+  phone:
