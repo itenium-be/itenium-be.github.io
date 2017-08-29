@@ -9,26 +9,10 @@
             </div><!-- col-xs-12 -->
         </div><!-- row -->
         <div class="row">
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                <div class="grid">
-                    <figure class="effect-duke">
-                        <img class="img-responsive" src="img/team1.jpg" alt="img09">
-                        <figcaption>
-                            <div class="icon-holder">
-                                <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="team-designation">
-                    <p>MATTIAS NUFFER</p>
-                    <span>CEO</span>
-                </div>
-            </div>
+
+            {% include main/team-member.html member=site.data.teamMember | first %}
+
+
             <div class=" wow zoomIn col-xs-12 col-sm-6 col-md-3">
                 <div class="grid">
                     <figure class="effect-duke">
