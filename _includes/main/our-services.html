@@ -2,10 +2,8 @@
     <div class="container">
         <div class="row">
             <div class="wow zoomIn col-xs-12 text-center p-padding">
-                <h1 class="section-title">our service</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                    sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida
-                    felis vitae ipsum pharetra maximus.</p>
+                <h1 class="section-title">our services</h1>
+                <p>{{site.data.ourServices.title}}</p>
             </div><!-- col-xs-12 -->
             <div class="col-xs-12 col-sm-5 col-md-5">
                 <div class="left-column">
@@ -16,9 +14,10 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h2>Public speaking</h2>
-                            <h3>We introduce new technologies</h3>
-                            <span>in your company (or we deepen your internal knowledge)</span>
+                            {% assign aService = site.data.ourServices.speaking %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div>
                     </div>
                     <div class="wow zoomIn media">
@@ -28,9 +27,10 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h2>Greenfield development</h2>
-                            <h3>Project setup</h3>
-                            <span>Exactly what you need</span>
+                            {% assign aService = site.data.ourServices.green %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div>
                     </div>
                     <div class="wow zoomIn media">
@@ -40,9 +40,10 @@
                             </a>
                         </div>
                         <div class="media-body">
-                            <h2>Brownfield development</h2>
-                            <h3>We help you escape the tar pit</h3>
-                            <span>iusto odio</span>
+                            {% assign aService = site.data.ourServices.brown %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div>
                     </div>
                 </div>
@@ -63,9 +64,10 @@
                             </a>
                         </div><!-- media left-->
                         <div class="media-body">
-                            <h2>Attention to detail</h2>
-                            <h3>Clean, consistent, conscise code</h3>
-                            <span>iusto odio</span>
+                            {% assign aService = site.data.ourServices.detail %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div><!--/.media body-->
                     </div><!-- /.media -->
                     <div class="wow zoomIn media">
@@ -75,9 +77,10 @@
                             </a>
                         </div><!-- media left-->
                         <div class="media-body">
-                            <h2>A real definition of done</h2>
-                            <h3>Automated tests and manual verification</h3>
-                            <span>robust, qualititative</span>
+                            {% assign aService = site.data.ourServices.dod %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div><!--/.media body-->
                     </div><!-- /.media -->
                     <div class="wow zoomIn media">
@@ -87,9 +90,10 @@
                             </a>
                         </div><!-- media left-->
                         <div class="media-body">
-                            <h2>Cloud services</h2>
-                            <h3>Microservices, serverless architecture</h3>
-                            <span></span>
+                            {% assign aService = site.data.ourServices.cloud %}
+                            <h2>{{aService.title}}</h2>
+                            <h3>{{aService.sub}}</h3>
+                            <span>{{aService.label}}</span>
                         </div><!--/.media body-->
                     </div><!-- /.media -->
                 </div><!-- /.right-column -->

@@ -1,0 +1,33 @@
+{
+    "title": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed",
+    "speaking": {
+        "title": "Public Speaking",
+        "sub": "Introducing new technologies",
+        "label": "or deepen knowledge of existing ones"
+    },
+    "green": {
+        "title": "Greenfield development",
+        "sub": "Project setup",
+        "label": "Exactly what you need"
+    },
+    "brown": {
+        "title": "Brownfield development",
+        "sub": "We help you escape the tar pit",
+        "label": "iusto odio"
+    },
+    "detail": {
+        "title": "Attention to detail",
+        "sub": "Clean, consistent, concise code",
+        "label": "Linting, testing, asserting, documenting"
+    },
+    "dod": {
+        "title": "A real definition of done",
+        "sub": "Automated tests and manual verification",
+        "label": "robust, qualititative"
+    },
+    "cloud": {
+        "title": "Cloud services",
+        "sub": "Microservices, serverless architecture",
+        "label": ""
+    }
+}
