@@ -10,69 +10,10 @@
         </div><!-- row -->
         <div class="row">
 
-            {% include main/team-member.html member=site.data.teamMember | first %}
+            {% for member in site.data.teamMembers %}
+            {% include main/team-member.html member=member %}
+            {% endfor %}
 
-
-            <div class=" wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                <div class="grid">
-                    <figure class="effect-duke">
-                        <img class="img-responsive" src="img/team2.jpg" alt="img09">
-                        <figcaption>
-                            <div class="icon-holder">
-                                <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="team-designation">
-                    <p>kendra hall</p>
-                    <span>cto</span>
-                </div>
-            </div>
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                <div class="grid">
-                    <figure class="effect-duke">
-                        <img class="img-responsive" src="img/team3.jpg" alt="img09">
-                        <figcaption>
-                            <div class="icon-holder">
-                                <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="team-designation">
-                    <p>jessica morgan</p>
-                    <span>programmer</span>
-                </div>
-            </div>
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                <div class="grid">
-                    <figure class="effect-duke">
-                        <img class="img-responsive" src="img/team4.jpg" alt="img09">
-                        <figcaption>
-                            <div class="icon-holder">
-                                <ul>
-                                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                </ul>
-                            </div>
-                        </figcaption>
-                    </figure>
-                </div>
-                <div class="team-designation">
-                    <p>jenny terrell</p>
-                    <span>market analyst</span>
-                </div>
-            </div>
         </div><!-- row -->
     </div><!-- container -->
 </section><!-- our team -->
