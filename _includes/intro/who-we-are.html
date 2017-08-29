@@ -2,19 +2,17 @@
     <div class="container">
         <div class="row">
             <div class="wow zoomIn col-xs-12 col-lg-12 text-center p-padding">
-                <h1 class="section-title">who we are</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                    sollicitudin. Duis in odio ex. Sed elementum varius enim. In vel tincidunt lorem. Donec gravida
-                    felis vitae ipsum pharetra maximus.</p>
+                <h1 class="section-title">{{ site.data.whoWeAre.title }}</h1>
+                <p>{{ site.data.whoWeAre.sub }}</p>
             </div><!-- col-xs-12 -->
             <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
                 <div class="icon-circle">
                     <i class="fa flaticon-android2"></i>
                 </div><!-- /.icon-circle -->
                 <div class="who-we-are-content text-center">
-                    <h2>simple design</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                        sollicitudin. </p>
+                    {% assign section = site.data.whoWeAre.section1 %}
+                    <h2>{{ section.header }}</h2>
+                    <p>{{ section.label }}</p>
                 </div><!-- /.who-we-are-content -->
             </div><!-- /.col-xs-6 -->
             <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
@@ -22,9 +20,9 @@
                     <i class="fa fa-laptop"></i>
                 </div><!-- /.icon-circle -->
                 <div class="who-we-are-content text-center">
-                    <h2>perfect for all</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                        sollicitudin. </p>
+                    {% assign section = site.data.whoWeAre.section2 %}
+                    <h2>{{ section.header }}</h2>
+                    <p>{{ section.label }}</p>
                 </div><!-- /.who-we-are-content -->
             </div><!-- /.col-xs-6 -->
             <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
@@ -32,9 +30,9 @@
                     <i class="fa flaticon-christmas128"></i>
                 </div><!-- /.icon-circle -->
                 <div class="who-we-are-content text-center">
-                    <h2>easy to customize</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                        sollicitudin. </p>
+                    {% assign section = site.data.whoWeAre.section3 %}
+                    <h2>{{ section.header }}</h2>
+                    <p>{{ section.label }}</p>
                 </div><!-- /.who-we-are-content -->
             </div><!-- /.col-xs-6 -->
             <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
@@ -42,9 +40,9 @@
                     <i class="fa fa-code"></i>
                 </div><!-- /.icon-circle -->
                 <div class="who-we-are-content text-center">
-                    <h2>beautifully crafted</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
-                        sollicitudin. </p>
+                    {% assign section = site.data.whoWeAre.section4 %}
+                    <h2>{{ section.header }}</h2>
+                    <p>{{ section.label }}</p>
                 </div><!-- /.who-we-are-content -->
             </div><!-- /.col-xs-6 -->
         </div><!--/row-->

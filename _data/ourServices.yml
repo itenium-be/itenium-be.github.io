@@ -1,0 +1,32 @@
+title: our services
+sub: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
+
+speaking:
+   title: Public Speaking
+   sub: Introducing new technologi
+   label: or deepen knowledge of existing on
+
+green:
+   title: Greenfield development
+   sub: Project setup
+   label: Exactly what you nee
+
+brown:
+   title: Brownfield development
+   sub: We help you escape the tar pit
+   label: iusto odi
+
+detail:
+   title: Attention to detail
+   sub: Clean, consistent, concise code
+   label: Linting, testing, asserting, documentin
+
+dod:
+   title: A real definition of done
+   sub: Automated tests and manual verification
+   label: robust, qualititativ
+
+cloud:
+   title: Cloud services
+   sub: Microservices, serverless architecture
+   label:

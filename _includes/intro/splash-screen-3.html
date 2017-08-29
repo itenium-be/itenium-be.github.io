@@ -1,3 +1,4 @@
+{% assign splash = site.data.splash.splash3 %}
 <li class="items" data-transition="slidevertical" data-slotamount="1" data-masterspeed="1500"
     data-thumb="img/slider/slider_img_03.jpg" data-delay="13000" data-saveperformance="off">
     <!-- MAIN IMAGE -->
@@ -20,7 +21,7 @@
          data-endspeed="500"
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <h1><span>we create </span> amazing apps </h1>
+        <h1><span>{{ splash.text1a }} </span> {{ splash.text1b }} </h1>
     </div>
 
     <!-- LAYER NR. 2 -->
@@ -36,7 +37,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-        <p>Real communication gets the right product built</p>
+        <p>{{ splash.text2a }}</p>
     </div>
 
     <!-- LAYER NR. 3 -->
@@ -52,7 +53,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-        <p>Real knowledge gets the product build right</p>
+        <p>{{ splash.text2b }}</p>
     </div>
 
     <!-- LAYER NR. 4 -->
@@ -70,7 +71,7 @@
          data-endeasing="Power1.easeOut"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
         <button type="button" class="btn btn-danger" style="background-color:transparent;">
-            Hire us
+            {{ splash.button1 }}
         </button>
     </div>
     <!-- LAYER NR. 5 -->
@@ -88,7 +89,7 @@
          data-endeasing="Power1.easeOut"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
         <button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">
-            Job listing
+            {{ splash.button2 }}
         </button>
     </div>
     <!-- LAYER NR. 6 -->

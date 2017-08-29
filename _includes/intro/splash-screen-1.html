@@ -1,3 +1,4 @@
+{% assign splash = site.data.splash.splash1 %}
 <li data-transition="fade" data-slotamount="25" data-masterspeed="2500"
     data-thumb="img/slider/slider_img_01.jpg" data-saveperformance="off">
     <!-- MAIN IMAGE -->
@@ -16,7 +17,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;">
-        <h1>WE MAKE YOUR</h1>
+        <h1>{{ splash.text1 }}</h1>
     </div>
     <div class="tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme head-tag"
          data-x="1090"
@@ -30,7 +31,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;">
-        <h1>IDEAS</h1>
+        <h1>{{ splash.text2 }}</h1>
     </div>
 
     <!-- LAYERS -->
@@ -46,7 +47,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#f9844c;">
-        <h1>BECOME</h1>
+        <h1>{{ splash.text3 }}</h1>
     </div>
     <div class="tp-caption very_large_text lfb ltt skewfromrightshort fadeout tp-resizeme"
          data-x="1024"
@@ -60,7 +61,7 @@
          data-endelementdelay="0.1"
          data-endspeed="300"
          style="z-index: 5; max-width: auto; max-height: auto; font-size:63px;white-space: nowrap;color:#fff;">
-        <h1>REALITY</h1>
+        <h1>{{ splash.text4 }}</h1>
     </div>
 
 
@@ -125,7 +126,7 @@
          data-endelementdelay="0.1"
          data-endspeed="500"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <h2 class="small-title second-title">Full stack developers</h2>
+        <h2 class="small-title second-title">{{ splash.label1 }}</h2>
     </div>
 
     <!-- LAYER NR. 3 -->
@@ -142,7 +143,7 @@
          data-endspeed="500"
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <h2 class="small-title second-title">Architecture &amp; Coaching</h2>
+        <h2 class="small-title second-title">{{ splash.label2 }}</h2>
     </div>
     <!-- LAYER NR. 4 -->
     <div class="tp-caption  lfl tp-resizeme"
@@ -158,7 +159,7 @@
          data-endspeed="500"
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <h2 class="small-title second-title">Agile &amp; Scrum</h2>
+        <h2 class="small-title second-title">{{ splash.label3 }}</h2>
     </div>
 
     <!-- LAYER NR. 5 -->
@@ -176,7 +177,7 @@
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
         <button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">
-            Jobs
+            {{ splash.button }}
         </button>
     </div>
 </li>
