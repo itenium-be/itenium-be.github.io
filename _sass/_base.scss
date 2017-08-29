@@ -1874,6 +1874,7 @@ transition          : all ease 200ms;
 
 .blog-sidebar .blog-date{
     margin-right    : 0;
+    max-width: 100px;
     }
 
 .blog-date p{
@@ -1889,6 +1890,7 @@ transition          : all ease 200ms;
 
 .blog-sidebar .blog-date p{
     font-size   : 18px;
+    max-width: 100px;
 }
 
 .blog-date p span{
@@ -1921,7 +1923,7 @@ transition          : all ease 200ms;
 }
 
 .blog-sidebar .blog-content h1{
-    line-height     : 15px;
+    line-height     : 18px;
 }
 
 .blog-content h1 a:hover, .blog-content .icon-holder a:hover{
@@ -1980,7 +1982,7 @@ transition          : all ease 200ms;
     color               :  #6b6b6b ;
     font-family         : 'Open Sans', sans-serif;
     font-size           : 16px;
-    margin              : 45px 0 0 0;
+    margin              : 0;
     letter-spacing      : 2px;
     float               : right;
     -webkit-transition  : all  ease-in-out 0.30s;

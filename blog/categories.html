@@ -1,0 +1,28 @@
+---
+layout: default
+permalink: /blog/cats/
+---
+<div class="main">
+    {% include header.html %}
+    {% for category in site.categories %}
+        {% assign catName = category | first %}
+        <a name="{{ catName }}">
+            {% include blog/big-header.html title=catName %}
+        </a>
+        <section class="blog-sidebar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-12">
+                        {% for posts in category %}
+                            {% for post in posts %}
+                                {% if post.url %}
+                                    {% include blog/entry-excerpt.html post=post %}
+                                {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+        </section>
+    {% endfor %}
+</div>

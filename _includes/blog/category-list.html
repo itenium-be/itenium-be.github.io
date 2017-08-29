@@ -5,7 +5,7 @@
         </div>
         <ul>
             {% for cat in site.categories %}
-                <a href="category{{ cat | first | relative_url }}" class="list-group-item">
+                <a href="/blog/cats/#{{ cat | first }}" class="list-group-item">
                     {{ cat | first }}
                     <span class="pull-right">({{ cat | last | size }})</span>
                 </a>
