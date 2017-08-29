@@ -9,78 +9,81 @@
                         <span class="dark-orange">tenium</span>
                     </div>
                     <p class="footer-content">Lorem ipsum dolor sit amet, consect tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven.</p>
-                    </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
-                    <div class="wow zoomIn col-xs-12 col-sm-3 col-md-3">
-                        <p class="footer-heading">link</p>
-                        {% include menus.html footermenu=true %}
-                        </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
-                        <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                            <p class="footer-heading">find us</p>
-                            <ul class="footercontact">
-                                <li><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address }}</li>
-                                <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel }}"> {{ site.tel }}</a></li>
-                                <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
-                                <li><i class="flaticon-world91"></i><span>web:</span><a href=">{{ site.url }}"> {{ site.url }}</a></li>
-                            </ul>
-                            <i class="flaticon-home78"></i>
-                            </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
-                            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                                <p class="footer-heading">recent posts</p>
-                                <ul class="footerblog">
-                                    {% include blog/recent-posts-footer.html %}
-                                </ul>
-                                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
-                                </div> <!-- /.row -->
-                                </div> <!-- /.container -->
-                            </div>
-                            <div class="footer-bottom">
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="wow zoomIn col-xs-12">
-                                            <p>© 2017 All rights reserved. <span>{{ site.name }}</span></p>
-                                            <div class="backtop  pull-right">
-                                                <i class="fa fa-angle-up back-to-top"></i>
-                                                </div><!-- /.backtop -->
-                                                </div><!-- /.col-xs-12 -->
-                                                </div><!-- /.row -->
-                                                </div><!-- /.container -->
-                                                </div><!-- /.creditwrapper -->
-                                                </footer><!-- /Footer -->
-                                                <!-- jQuery JS -->
-                                                <script src="/js/jquery-1.11.1.js"></script>
-                                                <!-- Modernizr JS -->
-                                                <script src="/js/modernizr-2.6.2.min.js"></script>
-                                                <!--Bootatrap JS-->
-                                                <script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
-                                                <!-- REVOLUTION Slider  -->
-                                                <script type="text/javascript" src="/vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
-                                                <script type="text/javascript" src="/vendor/rs-plugin/js/jquery.themepunch.revolution.js"></script>
-                                                <!-- Shuffle JS -->
-                                                <script src="/js/jquery.shuffle.min.js"></script>
-                                                <!-- mmenu -->
-                                                <script type="text/javascript" src="/vendor/mmenu/js/jquery.mmenu.min.js"></script>
-                                                <!-- Owl Carosel -->
-                                                <script src="/vendor/owl/js/owl.carousel.min.js"></script>
-                                                <script src="/js/wow.min.js"></script>
-                                                <!-- waypoints JS-->
-                                                <script src="/js/waypoints.min.js"></script>
-                                                <!-- Counterup JS -->
-                                                <script src="/js/jquery.counterup.min.js"></script>
-                                                <!-- Easing JS -->
-                                                <script src="/js/jquery.easing.min.js"></script>
-                                                <!-- Smooth Scroll JS -->
-                                                <script src="/js/scrolling-nav.js"></script>
-                                                <script src="/js/smoothscroll.min.js"></script>
-                                                <!-- Custom Script JS -->
-                                                <script src="/js/script.js"></script>
-                                                <!-- Email JS -->
-                                                <script src="/js/email.js"></script>
-                                                <script>
-                                                $(window).on('scroll', function(){
-                                                if( $(window).scrollTop()>670 ){
-                                                $('.navbar-default').addClass('navbar-fixed-top');
-                                                } else {
-                                                $('.navbar-default').removeClass('navbar-fixed-top');
-                                                }
-                                                });
-                                                </script>
+                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                <div class="wow zoomIn col-xs-12 col-sm-3 col-md-3">
+                    <p class="footer-heading">link</p>
+                    {% include menus.html footermenu=true %}
+                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
+                    <p class="footer-heading">find us</p>
+                    <ul class="footercontact">
+                        <li><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address }}</li>
+                        <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel }}"> {{ site.tel }}</a></li>
+                        <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
+                        <li><i class="flaticon-world91"></i><span>web:</span><a href=">{{ site.url }}"> {{ site.url }}</a></li>
+                    </ul>
+                    <i class="flaticon-home78"></i>
+                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
+                    <p class="footer-heading">recent posts</p>
+                    <ul class="footerblog">
+                        {% include blog/recent-posts-footer.html %}
+                    </ul>
+                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="wow zoomIn col-xs-12">
+                    <p>© 2017 All rights reserved. <span>{{ site.name }}</span></p>
+                    <div class="backtop  pull-right">
+                        <i class="fa fa-angle-up back-to-top"></i>
+                    </div><!-- /.backtop -->
+                </div><!-- /.col-xs-12 -->
+            </div><!-- /.row -->
+        </div><!-- /.container -->
+    </div><!-- /.creditwrapper -->
+</footer><!-- /Footer -->
+
+
+<!-- jQuery JS -->
+<script src="/js/jquery-1.11.1.js"></script>
+<!-- Modernizr JS -->
+<script src="/js/modernizr-2.6.2.min.js"></script>
+<!--Bootatrap JS-->
+<script src="/vendor/bootstrap/js/bootstrap.min.js"></script>
+<!-- REVOLUTION Slider  -->
+<script type="text/javascript" src="/vendor/rs-plugin/js/jquery.themepunch.plugins.min.js"></script>
+<script type="text/javascript" src="/vendor/rs-plugin/js/jquery.themepunch.revolution.js"></script>
+<!-- Shuffle JS -->
+<script src="/js/jquery.shuffle.min.js"></script>
+<!-- mmenu -->
+<script type="text/javascript" src="/vendor/mmenu/js/jquery.mmenu.min.js"></script>
+<!-- Owl Carosel -->
+<script src="/vendor/owl/js/owl.carousel.min.js"></script>
+<script src="/js/wow.min.js"></script>
+<!-- waypoints JS-->
+<script src="/js/waypoints.min.js"></script>
+<!-- Counterup JS -->
+<script src="/js/jquery.counterup.min.js"></script>
+<!-- Easing JS -->
+<script src="/js/jquery.easing.min.js"></script>
+<!-- Smooth Scroll JS -->
+<script src="/js/scrolling-nav.js"></script>
+<script src="/js/smoothscroll.min.js"></script>
+<!-- Custom Script JS -->
+<script src="/js/script.js"></script>
+<!-- Email JS -->
+<script src="/js/email.js"></script>
+
+<script>
+    $(window).on('scroll', function(){
+    if( $(window).scrollTop()>670 ){
+    $('.navbar-default').addClass('navbar-fixed-top');
+    } else {
+    $('.navbar-default').removeClass('navbar-fixed-top');
+    }
+    });
+</script>
