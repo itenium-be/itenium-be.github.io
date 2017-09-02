@@ -4,6 +4,10 @@
     }
 }
 
+
+
+
+
 kbd {
     display: inline-block;
     margin: 0 .1em;
@@ -18,4 +22,70 @@ kbd {
     border-radius: 3px;
     box-shadow: 0 1px 0 rgba(12,13,14,0.2), 0 0 0 2px #FFF inset;
     white-space: nowrap;
+}
+
+
+
+
+
+
+table.table-margin {
+    margin-bottom: 15px;
+    border-collapse: collapse;
+    display: block;
+    // width: 100%;
+    overflow: auto
+
+    th {
+        font-weight: 600;
+    }
+
+    th, td {
+        padding: 6px 13px;
+        border: 1px solid #dfe2e5;
+    }
+
+    tr {
+        background-color: #fff;
+        border-top: 1px solid #c6cbd1;
+    }
+
+    tr:nth-child(2n) {
+        background-color: #f6f8fa;
+    }
+
+}
+
+table.table-code {
+    @extend .table-margin;
+    width: 100%;
+
+    th:first, table td:first {
+        width: 50%;
+    }
+}
+
+
+table.table-excel {
+    width: 100%;
+    margin-bottom: 15px;
+    border-collapse: collapse;
+
+    th, tr td:first-child {
+        background-color: #EEE;
+        color: #222;
+        text-align: center;
+        font-weight: normal;
+        white-space: nowrap;
+    }
+
+    th, td {
+        border: 1px solid #CCC;
+        padding: 5px;
+    }
+
+    tbody tr:first-child {
+        color: white;
+        background-color: #089DE3;
+    }
 }
