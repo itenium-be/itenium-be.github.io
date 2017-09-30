@@ -1,18 +1,26 @@
 title: who we are
-sub: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
+sub: We are a team of passionate, highly motivated and dedicated techies with a strong focus on improving ourselves while having fun.
 
 section1:
-    header: simple design
-    label: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed sollicitudin.
+    header: People
+    fa: fa fa-angellist
+    label: >
+        Our people are the core of our business.
+        Investing in the core business is only natural. (Bootcamps, technical sessions, carreer plans)
+        Happy employees means high output for our clients.
+        Team events.
 
 section2:
-    header: perfect for all
-    label: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+    header: Projects
+    fa: fa fa-code
+    label:
 
 section3:
-    header: easy to customize
-    label: orem ipsum dolor sit amet, consectetur adipiscing elit
+    header: Patterns
+    fa: fa flaticon-christmas128
+    label:
 
 section4:
-    header: beautifully crafted
-    label: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+    header: Coding
+    fa: fa fa-code
+    label:
