@@ -681,7 +681,7 @@ section.who-we-are .col-md-3 .fa:hover{
     padding-left        : 20px;
     padding-right       : 0;
 }
-.media-left>a>.fa{
+.media-left > .fa {
     height                  : 56px;
     width                   : 56px;
     border-radius           : 50%;
@@ -695,7 +695,7 @@ section.who-we-are .col-md-3 .fa:hover{
     -o-transition           : all 0.2s ease 0s;
     transition              : all 0.2s ease 0s;
 }
-.media-left>a>.fa:before{
+.media-left > .fa:before {
     color                   : #ccc;
     font-size               : 25px;
 }
@@ -703,14 +703,14 @@ section.who-we-are .col-md-3 .fa:hover{
      width                  : 100%;
 }
 
-.media:hover .media-left a .fa{
+.media:hover .media-left .fa {
     color                   : #999;
     border                  : 2px solid #e84711;
     background-color        : $dark-orange;
 }
 
-.media:hover .media-left a,
-.media:hover .media-left > a > .fa:before{
+.media:hover .media-left,
+.media:hover .media-left > .fa:before{
     color               : #fff;
     text-decoration     : none;
 }

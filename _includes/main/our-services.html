@@ -4,100 +4,39 @@
             <div class="wow zoomIn col-xs-12 text-center p-padding">
                 <h1 class="section-title">{{ site.data.ourServices.title }}</h1>
                 <p>{{ site.data.ourServices.sub }}</p>
-            </div><!-- col-xs-12 -->
+            </div>
+
             <div class="col-xs-12 col-sm-5 col-md-5">
                 <div class="left-column">
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa flaticon-christmas128"></i>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.speaking %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div>
-                    </div>
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa fa-database"></i>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.green %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div>
-                    </div>
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa fa-compress"></i>
-                            </a>
-                        </div>
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.brown %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div>
-                    </div>
+                    {% assign aService = site.data.ourServices.speaking %}
+                    {% include main/our-services-item.html service=aService %}
+
+                    {% assign aService = site.data.ourServices.green %}
+                    {% include main/our-services-item.html service=aService %}
+
+                    {% assign aService = site.data.ourServices.brown %}
+                    {% include main/our-services-item.html service=aService %}
                 </div>
-            </div><!-- col-md-5 -->
+            </div>
 
             <div class="col-xs-6 col-sm-2 col-md-2 hidden-xs">
                 <div class="image-box">
                     <img class="img-responsive" src="img/phn.png" alt="">
                 </div>
-            </div><!-- /col-md-2 -->
+            </div>
 
             <div class="col-xs-12 col-sm-5 col-md-5">
                 <div class="right-column">
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa flaticon-leaf32"></i>
-                            </a>
-                        </div><!-- media left-->
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.detail %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div><!--/.media body-->
-                    </div><!-- /.media -->
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa fa-rocket"></i>
-                            </a>
-                        </div><!-- media left-->
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.dod %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div><!--/.media body-->
-                    </div><!-- /.media -->
-                    <div class="wow zoomIn media">
-                        <div class="media-left media-middle">
-                            <a href="#">
-                                <i class="fa fa-laptop"></i>
-                            </a>
-                        </div><!-- media left-->
-                        <div class="media-body">
-                            {% assign aService = site.data.ourServices.cloud %}
-                            <h2>{{ aService.title }}</h2>
-                            <h3>{{ aService.sub }}</h3>
-                            <span>{{ aService.label }}</span>
-                        </div><!--/.media body-->
-                    </div><!-- /.media -->
-                </div><!-- /.right-column -->
+                    {% assign aService = site.data.ourServices.detail %}
+                    {% include main/our-services-item.html service=aService %}
+
+                    {% assign aService = site.data.ourServices.dod %}
+                    {% include main/our-services-item.html service=aService %}
+
+                    {% assign aService = site.data.ourServices.cloud %}
+                    {% include main/our-services-item.html service=aService %}
+                </div>
             </div>
-        </div><!-- row-->
-    </div><!-- container -->
-</section><!-- /our services -->
+        </div>
+    </div>
+</section>

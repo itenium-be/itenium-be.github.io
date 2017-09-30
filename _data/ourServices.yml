@@ -1,32 +1,38 @@
 title: our services
-sub: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed accumsan venenatis lectus sed
+sub: Whether you need a mobile app, a responsive website or a desktop application, we've got you covered.
 
 speaking:
    title: Public Speaking
-   sub: Introducing new technologi
-   label: or deepen knowledge of existing on
+   sub: Introducing new technologies
+   label: or deepen knowledge of existing ones
+   fa: fa fa-bullhorn
 
 green:
    title: Greenfield development
-   sub: Project setup
-   label: Exactly what you nee
+   sub: Custom project setup
+   label: Exactly what you need. Nothing less, nothing more.
+   fa: fa flaticon-leaf32
 
 brown:
    title: Brownfield development
-   sub: We help you escape the tar pit
-   label: iusto odi
+   sub: We help you escape the software tar pit
+   label: Continuous integration, performance tuning
+   fa: fa flaticon-christmas128
 
 detail:
    title: Attention to detail
    sub: Clean, consistent, concise code
-   label: Linting, testing, asserting, documentin
+   label: Linting, testing, asserting, documentation
+   fa: fa fa-rocket
 
 dod:
    title: A real definition of done
    sub: Automated tests and manual verification
-   label: robust, qualititativ
+   label: Robust, qualitative, maintainable
+   fa: fa fa-list-ol
 
 cloud:
    title: Cloud services
    sub: Microservices, serverless architecture
    label:
+   fa: fa fa-cloud
