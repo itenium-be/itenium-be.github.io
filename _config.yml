@@ -26,6 +26,7 @@ url: "http://www.itenium.be" # the base hostname & protocol for your site, e.g. 
 google_analytics: UA-107324319-1
 twitter_username: itenium_be
 github_username: itenium-be
+linkedin_company: itenium
 
 github_data_url: https://github.com/Laoujin/bliki-posts/blob/master
 
