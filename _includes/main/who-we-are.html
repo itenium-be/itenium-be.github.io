@@ -4,47 +4,13 @@
             <div class="wow zoomIn col-xs-12 col-lg-12 text-center p-padding">
                 <h1 class="section-title">{{ site.data.whoWeAre.title }}</h1>
                 <p>{{ site.data.whoWeAre.sub }}</p>
-            </div><!-- col-xs-12 -->
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
-                <div class="icon-circle">
-                    <i class="fa flaticon-android2"></i>
-                </div><!-- /.icon-circle -->
-                <div class="who-we-are-content text-center">
-                    {% assign section = site.data.whoWeAre.section1 %}
-                    <h2>{{ section.header }}</h2>
-                    <p>{{ section.label }}</p>
-                </div><!-- /.who-we-are-content -->
-            </div><!-- /.col-xs-6 -->
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
-                <div class="icon-circle">
-                    <i class="fa fa-laptop"></i>
-                </div><!-- /.icon-circle -->
-                <div class="who-we-are-content text-center">
-                    {% assign section = site.data.whoWeAre.section2 %}
-                    <h2>{{ section.header }}</h2>
-                    <p>{{ section.label }}</p>
-                </div><!-- /.who-we-are-content -->
-            </div><!-- /.col-xs-6 -->
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
-                <div class="icon-circle">
-                    <i class="fa flaticon-christmas128"></i>
-                </div><!-- /.icon-circle -->
-                <div class="who-we-are-content text-center">
-                    {% assign section = site.data.whoWeAre.section3 %}
-                    <h2>{{ section.header }}</h2>
-                    <p>{{ section.label }}</p>
-                </div><!-- /.who-we-are-content -->
-            </div><!-- /.col-xs-6 -->
-            <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
-                <div class="icon-circle">
-                    <i class="fa fa-code"></i>
-                </div><!-- /.icon-circle -->
-                <div class="who-we-are-content text-center">
-                    {% assign section = site.data.whoWeAre.section4 %}
-                    <h2>{{ section.header }}</h2>
-                    <p>{{ section.label }}</p>
-                </div><!-- /.who-we-are-content -->
-            </div><!-- /.col-xs-6 -->
-        </div><!--/row-->
-    </div><!-- /container -->
-</section><!-- /who we wre -->
+            </div>
+
+            {% include main/who-we-are-section.html section=site.data.whoWeAre.section1 %}
+            {% include main/who-we-are-section.html section=site.data.whoWeAre.section2 %}
+            {% include main/who-we-are-section.html section=site.data.whoWeAre.section3 %}
+            {% include main/who-we-are-section.html section=site.data.whoWeAre.section4 %}
+
+        </div>
+    </div>
+</section>

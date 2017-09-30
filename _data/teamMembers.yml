@@ -1,4 +1,4 @@
-- image : /img/team1.jpg
+- image : /img/team/steven.png
   name: Steven Robijns
   title: Technical expert
   email: steven.robijns@itenium.be
@@ -6,7 +6,7 @@
   linkedin: https://www.linkedin.com/in/stevenrobijns
   github: https://github.com/stevenrobijns
 
-- image : /img/team2.jpg
+- image : /img/team/wouter.png
   name: Wouter van Schandevijl
   title: Solution Architect
   email: wouter.van.schandevijl@itenium.be
