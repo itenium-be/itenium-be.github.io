@@ -1,9 +1,12 @@
 title: who we are
-sub: We are a team of passionate, highly motivated and dedicated techies with a strong focus on improving ourselves while having fun.
+sub: >
+    We are a team of passionate, highly motivated and dedicated techies with a strong focus on improving ourselves
+    while still delivering quality software on time, on budget
+    while having fun.
 
 section1:
-    header: People
-    fa: fa fa-angellist
+    header: People = OUR EMPLOYEES ??
+    fa: fa fa-users
     label: >
         Our people are the core of our business.
         Investing in the core business is only natural. (Bootcamps, technical sessions, carreer plans)
@@ -11,16 +14,21 @@ section1:
         Team events.
 
 section2:
-    header: Projects
+    header: Projects = OUR CLIENTS ??
     fa: fa fa-code
-    label:
+    label: >
+        Met onze jarenlange ervaring brengen wij uw projecten tot een goed einde.
+        Gericht naar de klanten: Gedreven consultants, get things done, is altijd vroeg aanwezig op het bureau, ...
+        Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
 
 section3:
-    header: Patterns
+    header: Patterns / Processes ???
     fa: fa flaticon-christmas128
-    label:
+    label: >
+        We follow your inhouse processes and rules (to the letter? and might event make suggestions to improve upon them)
 
 section4:
-    header: Coding
+    header: Customers ???
     fa: fa fa-code
-    label:
+    label: >
+
