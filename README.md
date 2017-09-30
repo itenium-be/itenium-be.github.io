@@ -5,6 +5,8 @@ itenium
 
 ```powershell
 # setup:
+# install chocolatey
+cinst ruby ruby2.devkit /y
 gem install jekyll bundler
 bundle install
 
@@ -30,6 +32,9 @@ git submodule update --init --recursive
 # Update
 git pull --recurse-submodules
 ```
+
+## ContactForm
+see _contact folder
 
 ## Kramdown
 
