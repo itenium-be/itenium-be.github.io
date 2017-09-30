@@ -5,7 +5,7 @@
     <ul>
         {% for tag in site.tags %}
             <li>
-                <a href="tags{{ tag | first | relative_url }}">
+                <a href="/blog/tags/#{{ tag | first }}">
                     {{ tag | first }}
                     <span class="badge" style="background-color: #5BC0DE">{{ tag | last | size }}</span>
                     &nbsp;
