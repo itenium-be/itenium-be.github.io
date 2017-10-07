@@ -359,14 +359,13 @@ ul.nav.navbar-nav li a {
 .navbar-nav > li:nth-child(8){
     border-right    : 1px solid transparent;
 }
-.navbar-nav > li:last-child{
-    border-right   : 1px solid transparent;
-    padding-left   : 15px;
-    border-left    : 1px solid $dark-orange;
-    line-height    : 20px;
-    min-width      : 31px;
-
-}
+// .navbar-nav > li:last-child{
+//     border-right   : 1px solid transparent;
+//     padding-left   : 15px;
+//     border-left    : 1px solid $dark-orange;
+//     line-height    : 20px;
+//     min-width      : 31px;
+// }
 .navbar-nav > li > a {
     padding-top     : 0;
     padding-bottom  : 0;

@@ -1,34 +1,21 @@
-{% if include.mobileMenu %}
-    <!-- Mobile menu -->
-    <nav id="menu">
-        <ul>
-            <li><a href="/index.html">home</a></li>
-            <li><a href="/index.html#about">about us</a></li>
-            <li><a href="/index.html#services">services</a></li>
-            <li><a href="/index.html#product">product</a></li>
-            <li><a href="/index.html#team">team</a></li>
-            <li><a href="/blog">blog</a></li>
-            <li><a href="/index.html#contact">contact</a></li>
-        </ul>
-    </nav>
-{% elsif include.footermenu %}
+{% if include.footermenu %}
     <ul class="footermenu">
         <li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="/index.html#about">about us</a></li>
         <li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="/index.html#services">services</a></li>
-        <li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="/index.html#product">product</a></li>
         <li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="/index.html#team">team</a></li>
         <li><a data-scroll data-options='{ "easing": "easeInQuad" }' href="/blog">blog</a></li>
     </ul>
+
 {% else %}
     <ul class="nav navbar-nav navbar-right">
-        <li><a class="page-scroll" href="/index.html">Home</a></li>
+        <li><a class="page-scroll" href="/index.html#home">Home</a></li>
         <li><a class="page-scroll" href="/index.html#about">about us</a></li>
         <li><a class="page-scroll" href="/index.html#services">services</a></li>
-        <li><a class="page-scroll" href="/index.html#product">product</a></li>
         <li><a class="page-scroll" href="/index.html#team">team</a></li>
         <li><a class="page-scroll" href="/blog">Blog</a></li>
         <li><a class="page-scroll" href="/index.html#contact">Contact</a></li>
         <!-- Search Block -->
+        <!--
         <li>
             <i class="search fa fa-search search-btn"></i>
             <div class="search-open" style="display:none;">
@@ -40,5 +27,18 @@
                 </div>
             </div>
         </li>
+        -->
     </ul>
+
+    <!-- Mobile menu -->
+    <nav id="menu">
+        <ul>
+            <li><a href="/index.html#home">home</a></li>
+            <li><a href="/index.html#about">about us</a></li>
+            <li><a href="/index.html#services">services</a></li>
+            <li><a href="/index.html#team">team</a></li>
+            <li><a href="/blog">blog</a></li>
+            <li><a href="/index.html#contact">contact</a></li>
+        </ul>
+    </nav>
 {% endif %}
