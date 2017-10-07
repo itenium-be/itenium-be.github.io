@@ -1406,9 +1406,33 @@ padding-top     : 19px;
 /*===========================================================
    -         PARTNER WRAPPER            -
 =============================================================*/
-.partner-wrapper .owl-carousel .feature-image{
-    padding     : 35px;
+.partner-wrapper .owl-carousel .feature-image {
+    padding     : 35px 15px;
 }
+
+.owl-wrap {
+    max-width: 600px;
+    margin: auto;
+}
+
+.feature-image img {
+    filter: gray;
+    -webkit-filter: grayscale(0.8);
+    filter: grayscale(0.8);
+
+    width: 50%;
+    height: 50%;
+}
+
+.feature-image img:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+}
+
+section.who-we-are {
+    padding-bottom: 50px;
+}
+
 /*=========================================================
                   GET IN TOUCH
 ==========================================================*/
