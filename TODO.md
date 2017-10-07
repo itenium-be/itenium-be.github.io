@@ -8,3 +8,5 @@ TODO stuff
 - smaller pages should load faster: don't need all the cruft on jobs/blog/...
 
 - splash screen Html/JS/CSS: replace CSS with C#
+
+- layout of the blog posts is not ok
