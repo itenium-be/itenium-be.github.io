@@ -3,13 +3,11 @@ sub: >
     We are a team of passionate, highly motivated and dedicated .NET consultants with a strong focus on improving ourselves while having fun.
 
 section1:
-    header: People
+    header: Our People
     fa: fa fa-users
     label: >
-        People are the core of our business. Therefore our focus is on our people.
-        Happy employees means happy customers.
-        Investing in them is only natural.
-        We achieve this by organizing bootcamps, technical sessions and team events.
+        The core of our business.
+        We keep our people happy and well-trained
 
 section2:
     header: Projects

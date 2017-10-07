@@ -7,9 +7,10 @@ section1:
     header: People
     fa: fa fa-users
     label: >
-        People are the core of our business. Therefore our focus is on our people.
-        Happy employees means happy customers. Investing in them is only natural.
-        We achieve this by organizing bootcamps, technical sessions and team events.
+        #People are the core of our business. Therefore our focus is on our people.
+        #Happy employees means happy customers.
+        #Investing in them is only natural.
+        #We achieve this by organizing bootcamps, technical sessions and team events.
         # Met onze jarenlange ervaring brengen wij uw projecten tot een goed einde.
         # Gericht naar de klanten: Gedreven consultants, get things done, is altijd vroeg aanwezig op het bureau, ...
         # Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
