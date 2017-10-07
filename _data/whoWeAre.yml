@@ -3,17 +3,17 @@ sub: >
     We are a team of passionate, highly motivated and dedicated .NET consultants with a strong focus on improving ourselves while having fun.
 
 section1:
-    header: Our People
+    header: People
     fa: fa fa-users
     label: >
         The core of our business.
-        We keep our people happy and well-trained
+        We keep them happy and well-trained
 
 section2:
     header: Projects
     fa: fa flaticon-christmas128
     label: >
-        Interesting projects in .NET, javascript, angular, react
+        Interesting projects in .NET, Javascript, Angular, React, ..
 
 section3:
     header: Customers
