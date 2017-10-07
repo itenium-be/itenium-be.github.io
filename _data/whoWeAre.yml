@@ -11,13 +11,13 @@ section1:
 
 section2:
     header: Projects
-    fa: fa flaticon-christmas128
+    fa: fa fa-code-fork
     label: >
         Interesting projects in .NET, Javascript, Angular, React, ..
 
 section3:
     header: Customers
-    fa: fa flaticon-christmas128
+    fa: fa fa-beer
     label: >
         A strong focus on quality, professionalism and dedication
 
