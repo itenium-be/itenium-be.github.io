@@ -73,6 +73,7 @@
     </div>
 
     <!-- LAYER NR. 5 -->
+    {% if site.display_jobs %}
     <div class="tp-caption lfr tp-resizeme"
          data-x="right" data-hoffset="100"
          data-y="bottom" data-voffset="-90"
@@ -86,6 +87,9 @@
          data-endspeed="500"
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <button type="button" class="btn btn-default buy-btn">{{ splash.button }}</button>
+         <a href="/jobs">
+            <button type="button" class="btn btn-default buy-btn">{{ splash.button }}</button>
+        </a>
     </div>
+    {% endif %}
 </li>

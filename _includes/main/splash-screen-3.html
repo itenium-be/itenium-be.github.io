@@ -21,7 +21,7 @@
          data-endspeed="500"
          data-endeasing="Power4.easeIn"
          style="z-index: 2; max-width: auto; max-height: auto; white-space: nowrap;">
-        <h1><span>{{ splash.text1a }} </span> {{ splash.text1b }} </h1>
+        <h1>{{ splash.text1a }} <span>{{ splash.text1b }}</span> {{ splash.text1c }}</h1>
     </div>
 
     <!-- LAYER NR. 2 -->
@@ -70,11 +70,15 @@
          data-endspeed="1000"
          data-endeasing="Power1.easeOut"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-        <button type="button" class="btn btn-danger" style="background-color:transparent;">
-            {{ splash.button1 }}
-        </button>
+         <a href="#contact">
+            <button type="button" class="btn btn-danger" style="background-color:transparent;">
+                {{ splash.button1 }}
+            </button>
+        </a>
     </div>
+
     <!-- LAYER NR. 5 -->
+    {% if site.display_jobs %}
     <div class="lfr tp-caption tp-resizeme start-button"
          data-x="center" data-hoffset="90"
          data-y="center" data-voffset="33"
@@ -88,10 +92,14 @@
          data-endspeed="1000"
          data-endeasing="Power1.easeOut"
          style="z-index: 3; max-width: auto; max-height: auto; white-space: nowrap;">
-        <button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">
-            {{ splash.button2 }}
-        </button>
+         <a href="/jobs">
+            <button type="button" class="btn btn-primary" style="background-color: #e84700;border:1px solid #e95e1d;">
+                {{ splash.button2 }}
+            </button>
+        </a>
     </div>
+    {% endif %}
+
     <!-- LAYER NR. 6 -->
     <div class="tp-caption tp-resizeme lfb randomrotate down-arrow"
          data-x="center" data-hoffset="0"

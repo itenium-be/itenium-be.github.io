@@ -28,6 +28,9 @@ twitter_username: itenium_be
 github_username: itenium-be
 linkedin_company: itenium
 
+# Display links to the jobs page?
+display_jobs: true
+
 github_data_url: https://github.com/Laoujin/bliki-posts/blob/master
 
 collections:

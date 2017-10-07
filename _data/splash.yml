@@ -1,22 +1,23 @@
 splash1:
-    text1: WE MAKE YOUR
-    text2: IDEAS
-    text3: BECOME
-    text4: REALITY
+    text1: .NET Consultancy
+    text2:
+    text3: On Demand
+    text4:
     label1: Full stack developers
     label2: Architecture &amp; Coaching
     label3: Agile &amp; Scrum
-    button: Jobs
+    button: Work with us
 
 splash2:
-    text1: Easy to extend and modify
-    text2: Multiple Blog pages
-    text3: have Parallax section
-    button: Hire us
+    text1: Awesome projects
+    text2: Continuous learning
+    text3: Exciting team events
+    button: Jobs
 
 splash3:
     text1a: we create
-    text1b: amazing apps
+    text1b: amazing
+    text1c: apps
     text2a: Real communication gets the right product built
     text2b: Real knowledge gets the product build right
     button1: Hire us
