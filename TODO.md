@@ -12,3 +12,5 @@ TODO stuff
 - layout of the blog posts is not ok
 
 - title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
+
+- printable versie van jobs maken?

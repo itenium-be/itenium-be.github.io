@@ -29,3 +29,69 @@
         height: 15px;
     }
 }
+
+/*------------------------------------------
+    -   JOBS  -
+--------------------------------------------*/
+
+//.jobs-content{
+//    padding-top         : 60px;
+//}
+section.jobs .col-lg-12{
+    margin-bottom       : 50px;
+}
+//section.jobs .col-md-3 .fa{
+//    font-size           : 25px;
+//    color               : $dark-orange;
+//    margin              : 0 auto;
+//    height              : 90px;
+//    width               : 90px;
+//    border-radius       : 50%;
+//    border              :2px solid $dark-orange;
+//    line-height         : 80px;
+//    cursor              : pointer;
+//    -webkit-transition  : all  ease-in-out 0.35s;
+//    -moz-transition     : all  ease-in-out 0.35s;
+//    -o-transition       : all  ease-in-out 0.35s;
+//    -ms-transition      : all  ease-in-out 0.35s;
+//    transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
+//}
+section.jobs .col-md-3 i:before{
+    margin-left         : 0px;
+    font-size           : 40px;
+}
+
+
+//section.jobs .col-md-3 .fa:hover{
+//
+//    background-color        : $dark-orange;
+//    color                   : #fff;
+//    border                  : 1px solid #e84711;
+//    -moz-box-shadow         : inset 0px 0px 0px 5px #ffffff;
+//    -o-box-shadow           : inset 0px 0px 0px 5px #ffffff;
+//    -ms-box-shadow          : inset 0px 0px 0px 5px #ffffff;
+//    -webkit-box-shadow      : inset 0px 0px 0px 5px #ffffff;
+//    box-shadow              : inset 0px 0px 0px 5px #ffffff;
+//    -ms-transform           : scale(1.2,1.2);
+//    -webkit-transform       : scale(1.2,1.2);
+//    -moz-transform          : scale(1.2,1.2);
+//    -o-transform            : scale(1.2,1.2);
+//    transform               : scale(1.2,1.2);
+//}
+
+//.jobs-content p{
+//    font-size               : 13px;
+//    padding-top             : 30px;
+//}
+
+.menu-fix{
+    margin-top  : 100px;
+}
+
+section.jobs h1 {
+    margin-bottom: 50px;
+}
+
+section.jobs .p-padding p {
+    padding-top: 25px;
+}
