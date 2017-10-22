@@ -2,6 +2,13 @@
     -   JOBS  -
 --------------------------------------------*/
 
+.jobs ul {
+    list-style-type: circle;
+    margin-left: 35px;
+}
+
+
+
 .jobs-sidebar {
     margin: 35px 0;
     padding: 0 15px;
@@ -12,6 +19,10 @@
     padding: 11px 0 8px 0;
     border-bottom: 1px solid #ececec !important;
     position: relative;
+}
+
+.jobs-sidebar .sidebar-subheading {
+    margin-bottom: 8px;
 }
 
 .jobs-sidebar .sidebar-heading {
@@ -42,10 +53,21 @@
 .jobs-sidebar i.fa {
     color: #E84700;
     background-color: white;
+    padding-right: 7px;
+    padding-bottom: 7px;
 
     position: absolute;
     left: 3px;
     margin-top: -10px;
+}
+
+.jobs-sidebar .sidebar-content dd {
+    display: inline;
+    color: rgb(232, 71, 0);
+}
+
+.jobs-sidebar .sidebar-content dt {
+    display: inline;
 }
 
 
