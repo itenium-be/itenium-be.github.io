@@ -35,7 +35,18 @@
     left            : 0;
 }
 
+.jobs-sidebar .sidebar-content {
+    padding: 15px;
+}
 
+.jobs-sidebar i.fa {
+    color: #E84700;
+    background-color: white;
+
+    position: absolute;
+    left: 3px;
+    margin-top: -10px;
+}
 
 
 section.jobs .col-lg-12 {
