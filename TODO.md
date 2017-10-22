@@ -10,4 +10,16 @@ TODO stuff
 
 - title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
 
+
+
+
+
+Op temrmijn
+=========
+
+Jos page:
 - printable versie van jobs maken?
+- apply for this job contact form
+- attachment voorzien zodat cv kan ge-upload worden?
+- share this vacancy knoppen
+- what others said about working for/with itenium
