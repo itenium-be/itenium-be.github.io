@@ -1,0 +1,60 @@
+/*------------------------------------------
+    -   JOBS  -
+--------------------------------------------*/
+
+.jobs-sidebar {
+    margin: 35px 0;
+    padding: 0 15px;
+    border: 1px solid #dddddd;
+}
+
+.jobs-sidebar .sidebar-heading {
+    padding: 11px 0 8px 0;
+    border-bottom: 1px solid #ececec !important;
+    position: relative;
+}
+
+.jobs-sidebar .sidebar-heading {
+    background      : transparent;
+    color           : #4e4e4e;
+    font-size       : 16px;
+    font-weight     : bold;
+    text-transform  : uppercase;
+    border-width    : 0 0 0 0;
+    letter-spacing  : 1.5px;
+}
+
+.jobs-sidebar .sidebar-heading:before {
+    content         : " ";
+    border-width    : 0 0 2px 0;
+    border-color    : rgba(232,71,0, 1);
+    border-style    :  solid ;
+    width           : 60px;
+    position        : absolute;
+    bottom          : 0;
+    left            : 0;
+}
+
+
+
+
+section.jobs .col-lg-12 {
+    margin-bottom: 50px;
+}
+
+section.jobs .col-md-3 i:before {
+    margin-left: 0px;
+    font-size: 40px;
+}
+
+.menu-fix {
+    margin-top: 100px;
+}
+
+section.jobs h1 {
+    margin-bottom: 50px;
+}
+
+section.jobs .p-padding p {
+    padding-top: 25px;
+}
