@@ -10,7 +10,7 @@ TODO stuff
 
 - title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
 
-
+- Jobs: culture: Add something about team events?
 
 
 
