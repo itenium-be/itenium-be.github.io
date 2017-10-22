@@ -13,6 +13,8 @@ TODO stuff
 - Jobs: culture: Add something about team events?
 
 
+- splash: the three text labels (Full stack developers, architecture & coaching, agile & scrum) should have their orange "strepen" aligned
+
 
 Op temrmijn
 =========
