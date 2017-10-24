@@ -1,14 +1,13 @@
 TODO stuff
 ==========
 
+- Freelance wegdoen in naam op linked in
+
 - icoon maken(zie huidi browser tablad icoon)
 
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
-
-- smaller pages should load faster: don't need all the cruft on jobs/blog/...
-
 
 - site loading symbol wegdoen of ander.
 
@@ -44,3 +43,5 @@ TECHNOLOGIES:
 add jasmine icon?
 RxJs icon?
 webpack, vagrant, docker, gulp, yarn?
+
+- smaller pages should load faster: don't need all the cruft on jobs/blog/...
