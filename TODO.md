@@ -12,13 +12,15 @@ TODO stuff
 
 - Jobs: culture: Add something about team events?
 
-
 - splash: the three text labels (Full stack developers, architecture & coaching, agile & scrum) should have their orange "strepen" aligned
-
 
 - get in touch => facebook er bijzetten
 
 - Footer: mss ook linkedin facebook twitter onder web zetten?
+
+- Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
+
+
 
 Op temrmijn
 =========
