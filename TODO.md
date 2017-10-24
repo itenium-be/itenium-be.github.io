@@ -24,3 +24,8 @@ Jobs page:
 - share this vacancy knoppen
 - what others said about working for/with itenium
 - Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
+
+TECHNOLOGIES:
+add jasmine icon?
+RxJs icon?
+webpack, vagrant, docker, gulp, yarn?
