@@ -165,6 +165,8 @@ $(window).scroll(function(){
 //Rs-PLUGIN
 jQuery(document).ready(function() {
 
+                    //////// -- loader -- /////////
+                    $('.loader').fadeOut();
 
 
                     jQuery('.tp-banner').show().revolution(
@@ -245,7 +247,6 @@ jQuery(document).ready(function() {
 
 
 
-
                 });
 
 
@@ -288,10 +289,6 @@ $(function() {
                 );
             });
 
-
-//////// -- loader -- /////////
-
-setTimeout(function(){ $('.loader').fadeOut(); }, 3000);
 
 
 //////// -- Smooth scroll -- /////////

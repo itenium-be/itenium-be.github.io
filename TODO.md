@@ -1,13 +1,14 @@
 TODO stuff
 ==========
 
+- icoon maken(zie huidi browser tablad icoon)
+
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
 
 - smaller pages should load faster: don't need all the cruft on jobs/blog/...
 
-- title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
 
 - site loading symbol wegdoen of ander.
 

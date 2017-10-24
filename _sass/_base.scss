@@ -128,7 +128,7 @@ a {
     width: 100%;
     height: 100%;
     z-index: 99999999;
-    background: url('../img/page-loader.gif') 50% 50% no-repeat rgb(249,249,249);
+    background: rgb(249,249,249); // url('../img/page-loader.gif') 50% 50% no-repeat
 }
 
 
@@ -1435,7 +1435,7 @@ section.who-we-are {
 ==========================================================*/
 
 .contact-wrapper{
-    background      : #161616 url("../img/contact-back-img.jpg") no-repeat center center fixed;
+    background      : #161616 url("../img/contact-back-img-compressed.jpg") no-repeat center center fixed;
     position        : relative;
     background-size : cover;
 }
