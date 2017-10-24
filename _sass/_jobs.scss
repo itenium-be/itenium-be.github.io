@@ -75,7 +75,7 @@
     padding: 15px;
 }
 
-.jobs-sidebar i.fa {
+.jobs-sidebar > i.fa:first-child {
     color: #E84700;
     background-color: white;
     padding-right: 7px;
@@ -84,6 +84,17 @@
     position: absolute;
     left: 3px;
     margin-top: -10px;
+}
+
+.jobs-sidebar span:first-child {
+    color: #E84700;
+    background-color: white;
+    padding-right: 7px;
+    padding-bottom: 7px;
+
+    position: absolute;
+    left: -2px;
+    margin-top: -17px;
 }
 
 .jobs-sidebar .sidebar-content dd {
