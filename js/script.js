@@ -244,7 +244,8 @@ jQuery(document).ready(function() {
                     });
 
 
-
+                    //////// -- loader -- /////////
+                    $('.loader').fadeOut();
 
                 });
 
@@ -288,10 +289,6 @@ $(function() {
                 );
             });
 
-
-//////// -- loader -- /////////
-
-setTimeout(function(){ $('.loader').fadeOut(); }, 3000);
 
 
 //////// -- Smooth scroll -- /////////
