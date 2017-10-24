@@ -6,14 +6,13 @@
     {% for post in posts %}
         <div class="media">
             <div class="media-left">
-                <a href="#">
+                <a href="{{ post.url | relative_url }}">
                     <img class="media-object" src="{{ 'assets/' | append: post.img | absolute_url }}">
                 </a>
             </div>
             <div class="media-body">
                 <h3 class="media-heading"><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h3>
                 <p>{{ post.date | date: "%b %-d, %Y" }}</p>
-                <a href="#"><span>0 Conmments</span></a>
             </div>
         </div>
     {% endfor %}
