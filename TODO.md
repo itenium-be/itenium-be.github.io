@@ -11,21 +11,13 @@ TODO stuff
 - title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
 
 
-- get in touch => facebook er bijzetten
-- Footer: mss ook linkedin facebook twitter onder web zetten?
-
-
-- Jobs: culture: Add something about team events?
-- Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
-
-
-
-Op temrmijn
-=========
+Op termijn
+==========
 
 Jos page:
 - printable versie van jobs maken?
-- apply for this job contact form
+- Jobs: culture: Add something about team events?
 - attachment voorzien zodat cv kan ge-upload worden?
 - share this vacancy knoppen
 - what others said about working for/with itenium
+- Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
