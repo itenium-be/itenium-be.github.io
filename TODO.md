@@ -10,14 +10,12 @@ TODO stuff
 
 - title aanpassen(als je hover met muis over tabblad in chrome) bvb .net | angular | react | cloud. Check concurrentie
 
-- Jobs: culture: Add something about team events?
-
-- splash: the three text labels (Full stack developers, architecture & coaching, agile & scrum) should have their orange "strepen" aligned
 
 - get in touch => facebook er bijzetten
-
 - Footer: mss ook linkedin facebook twitter onder web zetten?
 
+
+- Jobs: culture: Add something about team events?
 - Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
 
 
