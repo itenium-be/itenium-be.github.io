@@ -1,13 +1,9 @@
 {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 3 %}
 {% for post in posts %}
     <div class="wow zoomIn col-xs-12 col-md-4">
-        <img class="img-responsive" src="{{ 'assets/' | append: post.img | absolute_url }}" />
+        <img class="img-responsive" src="{{ 'assets/' | append: post.img | absolute_url }}" style="border: 1px solid rgb(215, 215, 215)" />
         <div class="blog-date-wrapper">
             <span class="floatleft"><i class="fa fa-calendar"></i> {{ post.date | date: "%b %-d, %Y" }}</span>
-            <!--
-            <span class="floatright"><i class="fa fa-thumbs-o-up"></i> 30</span>
-            <span class="floatright"><i class="fa fa-comments"></i> 25 </span>
-            -->
             <span class="clearboth"> &nbsp; </span>
         </div>
         <div class="blog-container">

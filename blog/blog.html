@@ -12,8 +12,9 @@ permalink: /blog/
                     {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
                     {% for post in posts %}
                         {% include blog/entry-excerpt.html post=post %}
+                        <hr>
                     {% endfor %}
-                    {% include blog/pagination.html %}
+                    <!-- include blog/pagination.html -->
                 </div>
                 <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
                     {% include blog/category-list.html %}

@@ -8,7 +8,8 @@
                 </div>
             {% endif %}
             <div class="wow col-xs-12 col-sm-12 col-md-12">
-                <p> <span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
+
+                <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
                 <p class="contents">
                     {{ post.content }}
                 </p>

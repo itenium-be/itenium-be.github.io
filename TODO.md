@@ -9,10 +9,25 @@ TODO stuff
 
 - smaller pages should load faster: don't need all the cruft on jobs/blog/...
 
-- layout of the blog posts is not ok
 
 - site loading symbol wegdoen of ander.
 
+- mobile: menu does not close after navigation
+
+Splash
+- de fixed length van de labels om ze te alignen werkt niet op kleinere devices
+- splash 3: de text is te klein (niet leesbaar) op mobile
+
+
+Blog
+====
+- Pagination plugin (is supported by GH pages)
+- Separate page for each category (same for tags?) --> Requires a code change every time a new category or tag is introduced
+- Better code syntax highlighting
+- Blog detail sidebar
+-- delete cats, last posts, tags
+-- show series info
+-- render table of contents
 
 
 Op termijn
