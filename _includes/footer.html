@@ -21,6 +21,14 @@
                         <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel }}"> {{ site.tel }}</a></li>
                         <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email }}"> {{ site.email }}</a></li>
                         <li><i class="flaticon-world91"></i><span>web:</span><a href="{{ site.url }}"> {{ site.url }}</a></li>
+                        <li>
+                            {% include components/icon-twitter.html username=site.twitter_username %}
+                            <span style="margin-left: -5px">Twitter:</span><a href="https://twitter.com/{{ site.twitter_username }}"> {{ site.twitter_username }}</a>
+                        </li>
+                        <li>
+                            {% include components/icon-linkedin.html company=site.linkedin_company %}
+                            <span style="margin-left: -5px">LinkedIn:</span><a href="https://sg.linkedin.com/company/{{ site.linkedin_company }}"> {{ site.linkedin_company }}</a>
+                        </li>
                     </ul>
                     <i class="flaticon-home78"></i>
                 </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
