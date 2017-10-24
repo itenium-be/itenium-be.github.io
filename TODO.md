@@ -1,6 +1,8 @@
 TODO stuff
 ==========
 
+- icoon maken(zie huidi browser tablad icoon)
+
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
