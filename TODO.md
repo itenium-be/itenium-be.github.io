@@ -3,13 +3,11 @@ TODO stuff
 
 - Freelance wegdoen in naam op linked in
 
-- icoon maken(zie huidi browser tablad icoon)
+- icoon maken(zie huidig browser tablad icoon)
 
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
-
-- site loading symbol wegdoen of ander.
 
 - mobile: menu does not close after navigation
 
