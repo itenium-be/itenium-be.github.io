@@ -17,6 +17,8 @@ Splash
 - de fixed length van de labels om ze te alignen werkt niet op kleinere devices
 - splash 3: de text is te klein (niet leesbaar) op mobile
 
+-ERROR `/js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
+
 
 Blog
 ====
