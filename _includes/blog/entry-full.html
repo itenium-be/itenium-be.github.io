@@ -1,18 +1,16 @@
 {% assign post = include.post %}
 <div class="blog-content">
-    <div class="sidebar-blog-content">
-        <div class="row">
-            {% if post.bigimg %}
-                <div class="col-xs-12">
-                    <img class="img-responsive" src="{{ 'assets/' | append: post.bigimg | absolute_url }}" />
-                </div>
-            {% endif %}
-            <div class="wow col-xs-12 col-sm-12 col-md-12">
-
-                <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
-                <p class="contents">
-                    {{ post.content }}
-                </p>
+    <div class="row">
+        {% if post.bigimg %}
+            <div class="col-xs-12">
+                <img class="img-responsive" src="{{ 'assets/' | append: post.bigimg | absolute_url }}" />
+            </div>
+        {% endif %}
+        <div class="wow col-md-12">
+            <!-- <h1>{{ post.title | escape }}</h1> -->
+            <!-- <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p> -->
+            <div class="contents">
+                {{ post.content }}
             </div>
         </div>
     </div>
