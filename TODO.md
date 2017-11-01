@@ -1,6 +1,12 @@
 TODO stuff
 ==========
 
+- mobile: menu does not close after navigation
+
+- #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
+
+- subheading text op jobs page staat niet goed op mobile
+
 - Freelance wegdoen in naam op linked in
 
 - icoon maken(zie huidig browser tablad icoon)
@@ -11,13 +17,14 @@ Bij andere browsers of de originele templ. niet.
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
 
-- mobile: menu does not close after navigation
 
 Splash
 - de fixed length van de labels om ze te alignen werkt niet op kleinere devices
 - splash 3: de text is te klein (niet leesbaar) op mobile
 
 -ERROR `/js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
+
+
 
 
 Blog
