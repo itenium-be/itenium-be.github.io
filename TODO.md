@@ -1,22 +1,32 @@
 TODO stuff
 ==========
 
-- icoon maken(zie huidi browser tablad icoon)
+- mobile: menu does not close after navigation(erin geslopen met commit: ce4ac4ebda61114ed397a3864474cae5024a1331)
+
+- #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
+
+- subheading text op jobs page staat niet goed op mobile
+
+- ERROR `/js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
+
+- Freelance wegdoen in naam & op linked in. Owner at itenium doen. Itenium company page updaten.
+
+- icoon maken(zie huidig browser tablad icoon)
 
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
+=> zit er al in van 1 vd eerste commits(8f20e51344d8b98b2aa37223fee9666d5ad3a7ed). In chrome worden de afbeeldingen meerdere keren geladen, en ik denk bij de knippering dat er dus een nieuwe afbeedling wordt geladen.
+Bij andere browsers of de originele templ. niet.
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
 
-- smaller pages should load faster: don't need all the cruft on jobs/blog/...
-
-
-- site loading symbol wegdoen of ander.
-
-- mobile: menu does not close after navigation
 
 Splash
 - de fixed length van de labels om ze te alignen werkt niet op kleinere devices
 - splash 3: de text is te klein (niet leesbaar) op mobile
+
+
+
+
 
 
 Blog
@@ -44,3 +54,5 @@ TECHNOLOGIES:
 add jasmine icon?
 RxJs icon?
 webpack, vagrant, docker, gulp, yarn?
+
+- smaller pages should load faster: don't need all the cruft on jobs/blog/...
