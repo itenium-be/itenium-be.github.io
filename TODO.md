@@ -1,7 +1,7 @@
 TODO stuff
 ==========
 
-- mobile: menu does not close after navigation
+- mobile: menu does not close after navigation(erin geslopen met commit: ce4ac4ebda61114ed397a3864474cae5024a1331)
 
 - #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
 
