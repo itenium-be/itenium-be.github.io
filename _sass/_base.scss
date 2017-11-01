@@ -305,6 +305,31 @@ a {
     text-transform  : capitalize;
 }
 
+@media (min-width: 765px) {
+    .splash1-label1 {
+        width: 162px;
+    }
+
+    .splash1-label2 {
+        width: 189px;
+    }
+
+    .splash1-label3 {
+        width: 215px;
+    }
+
+    .splash2-label1 {
+        width: 322px;
+    }
+
+    .splash2-label2 {
+        width: 350px;
+    }
+
+    .splash2-label3 {
+        width: 377px;
+    }
+}
 
 
 

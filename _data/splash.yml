@@ -4,17 +4,13 @@ splash1:
     text3: to strenghten your business
     text4:
     label1: Agile &amp; Scrum
-    label1Width: 162
     label2: Full stack developers
-    label2Width: 189
     label3: Architecture &amp; Coaching
     button: Work with us
 
 splash2:
     text1: Awesome projects
-    text1Width: 322
     text2: Continuous learning
-    text2Width: 350
     text3: Exciting team events
     button: Jobs
 
