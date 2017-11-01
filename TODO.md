@@ -9,7 +9,7 @@ TODO stuff
 
 - ERROR `/js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
 
-- Freelance wegdoen in naam & op linked in. Owner at itenium doen. Itenium company page updaten.
+- Freelance wegdoen in naam & op linked in & StackOverflow. Owner at itenium doen. Itenium company page updaten.
 
 - icoon maken(zie huidig browser tablad icoon)
 
@@ -23,8 +23,6 @@ Bij andere browsers of de originele templ. niet.
 Splash
 - de fixed length van de labels om ze te alignen werkt niet op kleinere devices
 - splash 3: de text is te klein (niet leesbaar) op mobile
-
-
 
 
 
