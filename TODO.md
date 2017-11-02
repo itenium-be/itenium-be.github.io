@@ -1,7 +1,7 @@
 TODO stuff
 ==========
 
-- #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
+- #about => wanneer op de about link geklikt wordt verdwijnt de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
 - icoon maken(zie huidig browser tablad icoon)
