@@ -8,7 +8,7 @@
         </div>
         <div class="blog-container">
             <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
-            <p>{{ post.desc }}</p>
+            <p class="blog-description">{{ post.desc }}</p>
             <a class="custom-button" href="{{ post.url | relative_url }}">read more <i class="fa fa-angle-right"></i></a>
         </div>
     </div>

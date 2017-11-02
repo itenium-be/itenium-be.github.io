@@ -1,7 +1,7 @@
 TODO stuff
 ==========
 
-- #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
+- #about => wanneer op de about link geklikt wordt verdwijnt de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
 - icoon maken(zie huidig browser tablad icoon)
@@ -9,10 +9,6 @@ TODO stuff
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 => zit er al in van 1 vd eerste commits(8f20e51344d8b98b2aa37223fee9666d5ad3a7ed). In chrome worden de afbeeldingen meerdere keren geladen, en ik denk bij de knippering dat er dus een nieuwe afbeedling wordt geladen.
 Bij andere browsers of de originele templ. niet.
-
-- Responsiveness of site is not ok (can scroll horizontally on small devices)
-
-
 
 
 Blog
