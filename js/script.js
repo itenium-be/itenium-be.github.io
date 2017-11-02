@@ -147,7 +147,7 @@ $(window).scroll(function(){
       }
     });
 
-    $('.back-to-top').click(function (event) {
+    $('.backtop').click(function (event) {
       event.preventDefault();
       $('html, body').animate({scrollTop: 0}, 1000);
       return false;
