@@ -4,10 +4,11 @@ TODO stuff
 - mobile: menu does not close after navigation(erin geslopen met commit: ce4ac4ebda61114ed397a3864474cae5024a1331)
 
 - #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
+ => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
 - ERROR /js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
 
-- Freelance wegdoen in naam & op linked in. Owner at itenium doen. Itenium company page updaten.
+- Freelance wegdoen in naam & op linked in & StackOverflow. Owner at itenium doen. Itenium company page updaten.
 
 - icoon maken(zie huidig browser tablad icoon)
 
@@ -20,8 +21,6 @@ Bij andere browsers of de originele templ. niet.
 
 Splash
 - splash 3: de text is te klein (niet leesbaar) op mobile (6px)
-
-
 
 
 
