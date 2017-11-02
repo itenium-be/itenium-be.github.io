@@ -23,8 +23,27 @@
                 </span>
             {% endif %}
 
-            <div class="contents" style="margin-top: 15px">
+            <div class="contents" style="margin: 15px 0">
                 {{ post.content }}
+            </div>
+
+
+            <hr>
+
+            {% include blog/post-extras.html %}
+
+
+            <div style="margin-bottom: 25px">
+                <div class="cat-links">
+                    <span class="cat-text">
+                        <i class="fa fa-fw fa-folder-open" aria-hidden="true" title="Post category"></i>
+                        Category:
+                    </span>
+
+                    <a href="/blog/cats/#{{ page.categories }}">{{ page.categories }}</a>
+                </div>
+
+                {% include blog/tag-list.html tags=page.tags prefix=true %}
             </div>
         </div>
     </div>

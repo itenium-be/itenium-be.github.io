@@ -24,6 +24,7 @@ Blog
 -- show series info
 -- at end of post: show category, tags
 -- render table of contents like the other sidebar stuff
++ the toc links are no good because the header is displayed over where the user should be taken to...
 
 
 Op termijn

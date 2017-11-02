@@ -83,7 +83,13 @@ table.table-excel {
 }
 
 
+.blog-content ul {
+    list-style-type: unset;
+}
 
+.blog-content ul li {
+    margin-left: 25px;
+}
 
 
 
@@ -104,6 +110,48 @@ table.table-excel {
 }
 
 
+/*===============================================================
+                    Category & Tag Badges
+================================================================*/
+
+.tag-links {
+    clear: both;
+    display: inline;
+}
+
+.tag-text, .cat-text {
+    color: #9ba1a6;
+    font-weight: bold;
+}
+
+.tag-links {
+    clear: both;
+    display: inline;
+}
+
+.badge {
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 3px .4em 0;
+    padding: 1px 3px;
+}
+
+.tag-links a {
+    @extend .badge;
+    background-color: rgba(57,172,160,1.0);
+}
+.tag-links a:hover {
+    background-color: #63c8bd;
+}
+
+.cat-links a {
+    @extend .badge;
+    background-color: rgba(243,133,31,1.0);
+}
+.cat-links a:hover {
+    background-color: #f5a061;
+}
 
 
 
