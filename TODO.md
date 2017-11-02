@@ -1,14 +1,10 @@
 TODO stuff
 ==========
 
-- mobile: menu does not close after navigation(erin geslopen met commit: ce4ac4ebda61114ed397a3864474cae5024a1331)
-
 - #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
 - ERROR /js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
-
-- Freelance wegdoen in naam & op linked in & StackOverflow. Owner at itenium doen. Itenium company page updaten.
 
 - icoon maken(zie huidig browser tablad icoon)
 
@@ -17,10 +13,6 @@ TODO stuff
 Bij andere browsers of de originele templ. niet.
 
 - Responsiveness of site is not ok (can scroll horizontally on small devices)
-
-
-Splash
-- splash 3: de text is te klein (niet leesbaar) op mobile (6px)
 
 
 
@@ -52,3 +44,8 @@ RxJs icon?
 webpack, vagrant, docker, gulp, yarn?
 
 - smaller pages should load faster: don't need all the cruft on jobs/blog/...
+
+- op jobs en blog page horizontal rule(met oranje icoontje) terug adden onder heading. Wel opletten bij jobs dat de subheading text er dan niet weer overkomt.
+
+Splash
+- splash 3: de text(Real communication gets the right product built) is te klein (niet leesbaar) op mobile (6px). Eigenlijk wel op een echte mobiles (bvb. iphone 6) maar niet op de emulator. Text op splash screen 3 is wel moeilijk leesbaar.

@@ -40,7 +40,7 @@
                 $('#send_message').attr({'enabled' : 'enable', 'value' : 'Sending...' });
                 
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-                $.post("php/email.php", $("#contact_form").serialize(),function(result){
+                $.post("http://www.insight8.be/itenium-mail-processor/itenium-contact-form-processor.php", $("#contact_form").serialize(),function(result){
                     //Check the result set from email.php file.
                     if(result == 'sent'){
                         //If the email is sent successfully, remove the submit button
