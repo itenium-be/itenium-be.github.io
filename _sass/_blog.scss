@@ -2,7 +2,24 @@
     font-size: 32px;
     text-transform: none;
     margin-top: 20px;
+    margin-bottom: 7px;
 }
+
+.blog-content .contents h2 {
+    font-size: 20px;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    letter-spacing: unset;
+}
+
+.blog-content .contents h3 {
+    font-size: 18px;
+    text-transform: none;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
 
 
 kbd {
@@ -284,44 +301,6 @@ table.table-excel {
                          Table of Contents
 ================================================================*/
 
-.toc {
-    color: #7a8288;
-    background-color: #fff;
-    border: 1px solid #f2f3f3;
-    border-radius: 4px;
-    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
-
-    ul {
-        margin-left: 0px;
-    }
-}
-
-.toc .nav__title {
-    margin-bottom: 0px;
-    padding: 10px;
-    color: #fff;
-    font-size: 20px;
-    background: #7a8288;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px;
-    white-space: nowrap;
-}
-
-a.entry-edit {
-    color: #ccc;
-    font-size: 14px;
-    margin-right: 4px;
-}
-
-
-.toc__menu {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    list-style: none;
-    font-size: 18px;
-}
-
 .toc__menu a {
     display: block;
     padding: 0.5rem 1rem;
@@ -544,16 +523,16 @@ a.entry-edit {
     position: relative;
 }
 
-.blog-sidebar  ul {
+.blog-sidebar.tag-cloud ul {
     padding: 19px 0;
 }
 
-.blog-sidebar  ul li {
+.blog-sidebar.tag-cloud ul li {
     display: inline-block;
     margin: 10px 0;
 }
 
-.blog-sidebar  ul li a {
+.blog-sidebar.tag-cloud ul li a {
     background: transparent;
     margin-right: 5px;
     border: 1px solid #dddddd;
@@ -564,7 +543,7 @@ a.entry-edit {
     padding: 10px 5px 10px 12px;
 }
 
-.blog-sidebar  ul li a:hover {
+.blog-sidebar.tag-cloud ul li a:hover {
     background: rgba(272,45,40,0.9);
     color: #ffffff;
 }

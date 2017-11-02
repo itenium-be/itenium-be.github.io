@@ -14,13 +14,21 @@ Bij andere browsers of de originele templ. niet.
 Blog
 ====
 - Pagination plugin (is supported by GH pages)
-- Separate page for each category (same for tags?) --> Requires a code change every time a new category or tag is introduced
-- Better code syntax highlighting
 - Blog detail sidebar
--- show series info
--- at end of post: show category, tags
--- render table of contents like the other sidebar stuff
-+ the toc links are no good because the header is displayed over where the user should be taken to...
+--- the toc links are no good because the header is displayed over where the user should be taken to...
+---> No fixed header on the blog pages?
+
+create-xlsx-excel-with-epplus-csharp-miscellaneous
+--> de toc bevat: "1 class=”hide-from-excerpt” id=”miscellaneous-features”>Miscellaneous features"
+
+- de blog post is niet al te breed (door de sidebar met toc & series...)
+
+- still need to include {: .notice--info} etc css
+
+http://localhost:4000/blog/dotnet/create-xlsx-excel-with-epplus-csharp/
+--> the ul li is back to gray color... (sheet.View.PageLayoutView = true)
+
+kbd also reverts back to gray font color (ex: http://localhost:4000/blog/productivity/advanced-windows-explorer/)
 
 
 Op termijn

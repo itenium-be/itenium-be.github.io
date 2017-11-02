@@ -1,0 +1,21 @@
+{% if page.series %}
+<div class="blog-sidebar sidebar">
+    <div class="sidebar-heading">
+        Also in this series
+    </div>
+    <div style="margin-top: 8px">
+        {% assign counter = 0 %}
+        {% assign sorted = site.posts | sort: 'date' %}
+        {% for post in sorted %}
+            {% if post.series == page.series %}
+                {% assign counter = counter | plus:1 %}
+                {% if post.url == page.url %}
+                    <div>This Part: {{ page.title }}</div>
+                {% else %}
+                    <div>Part {{ counter }}: <a href="{{ post.url }}">{{ post.title }}</a></div>
+                {% endif %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}
