@@ -4,8 +4,6 @@ TODO stuff
 - #about => wanneer op de about link geklikt wordt verdwijnd de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
-- ERROR /js/jquery.min.map' not found. Bij serve. Ik heb de min.map al toegevoegd maar hij wordt niet geserved door jekyll.
-
 - icoon maken(zie huidig browser tablad icoon)
 
 - In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
@@ -49,3 +47,5 @@ webpack, vagrant, docker, gulp, yarn?
 
 Splash
 - splash 3: de text(Real communication gets the right product built) is te klein (niet leesbaar) op mobile (6px). Eigenlijk wel op een echte mobiles (bvb. iphone 6) maar niet op de emulator. Text op splash screen 3 is wel moeilijk leesbaar.
+
+- anchor tags in addres bar worden niet upgedate nadat je er op klikt. Klik bvb op about us en dan op services => in address bar staat nog steeds about us. Waarschijnlijk omdat de navigatie met jquery gebeurt.
