@@ -33,7 +33,7 @@ linkedin_company: itenium
 # Display links to the jobs page?
 display_jobs: true
 
-github_data_url: https://github.com/Laoujin/bliki-posts/blob/master
+github_data_url: https://github.com/itenium-be/blog-posts/blob/master
 
 collections:
   posts:
