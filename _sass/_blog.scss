@@ -1,3 +1,27 @@
+.blog-content .contents h1 {
+    font-size: 32px;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+.blog-content .contents h2 {
+    font-size: 20px;
+    text-transform: none;
+    margin-top: 20px;
+    margin-bottom: 7px;
+    letter-spacing: unset;
+}
+
+.blog-content .contents h3 {
+    font-size: 18px;
+    text-transform: none;
+    margin-top: 15px;
+    margin-bottom: 7px;
+}
+
+
+
 kbd {
     display: inline-block;
     margin: 0 .1em;
@@ -76,7 +100,13 @@ table.table-excel {
 }
 
 
+.blog-content ul {
+    list-style-type: unset;
+}
 
+.blog-content ul li {
+    margin-left: 25px;
+}
 
 
 
@@ -97,6 +127,48 @@ table.table-excel {
 }
 
 
+/*===============================================================
+                    Category & Tag Badges
+================================================================*/
+
+.tag-links {
+    clear: both;
+    display: inline;
+}
+
+.tag-text, .cat-text {
+    color: #9ba1a6;
+    font-weight: bold;
+}
+
+.tag-links {
+    clear: both;
+    display: inline;
+}
+
+.badge {
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    margin: 0 3px .4em 0;
+    padding: 1px 3px;
+}
+
+.tag-links a {
+    @extend .badge;
+    background-color: rgba(57,172,160,1.0);
+}
+.tag-links a:hover {
+    background-color: #63c8bd;
+}
+
+.cat-links a {
+    @extend .badge;
+    background-color: rgba(243,133,31,1.0);
+}
+.cat-links a:hover {
+    background-color: #f5a061;
+}
 
 
 
@@ -173,11 +245,16 @@ table.table-excel {
     font-size: 27px;
 }
 
+.contents strong {
+    font-weight: bold;
+}
 
 .contents p {
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 .blog-sidebar .blog-content .contents {
@@ -217,6 +294,44 @@ table.table-excel {
     height: 450px;
     width: 100%;
 }
+
+
+
+/*===============================================================
+                         Table of Contents
+================================================================*/
+
+.toc__menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #7a8288;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    border-bottom: 1px solid #f2f3f3;
+}
+
+.toc__menu a:hover {
+    color: #000;
+    background: #f2f3f3;
+    text-decoration: underline;
+}
+
+.toc__menu li ul>li a {
+    padding-left: 2rem;
+    font-weight: normal;
+}
+
+.toc__menu li>ul li {
+    display: none;
+}
+
+@media (min-width: 48em) {
+    .toc__menu li>ul li {
+        display:block;
+    }
+}
+
 
 
 
@@ -408,16 +523,16 @@ table.table-excel {
     position: relative;
 }
 
-.blog-sidebar  ul {
+.blog-sidebar.tag-cloud ul {
     padding: 19px 0;
 }
 
-.blog-sidebar  ul li {
+.blog-sidebar.tag-cloud ul li {
     display: inline-block;
     margin: 10px 0;
 }
 
-.blog-sidebar  ul li a {
+.blog-sidebar.tag-cloud ul li a {
     background: transparent;
     margin-right: 5px;
     border: 1px solid #dddddd;
@@ -428,7 +543,7 @@ table.table-excel {
     padding: 10px 5px 10px 12px;
 }
 
-.blog-sidebar  ul li a:hover {
+.blog-sidebar.tag-cloud ul li a:hover {
     background: rgba(272,45,40,0.9);
     color: #ffffff;
 }

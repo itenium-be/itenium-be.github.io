@@ -1,0 +1,12 @@
+{% if page.extras %}
+    <div style="margin-bottom: 15px">
+        <b>Stuff that came into being during the making of this post</b><br>
+
+        {% assign extras = page.extras | first %}
+        <ul>
+            {% if extras.githubproject %}
+                <li><a href="{{extras.githubproject}}">{{extras.githubtext | default: 'The accompanying source on GitHub'}}</a></li>
+            {% endif %}
+        </ul>
+    </div>
+{% endif %}

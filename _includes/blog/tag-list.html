@@ -1,0 +1,12 @@
+<span class="tag-links">
+    {% if include.prefix %}
+        <span class="tag-text">
+            <i class="fa fa-fw fa-tags" aria-hidden="true" title="Post tags"></i>
+            Tags:
+        </span>
+    {% endif %}
+
+    {% for tag in include.tags %}
+        <a href="/blog/tags/#{{ tag }}">{{ tag }}</a>
+    {% endfor %}
+</span>

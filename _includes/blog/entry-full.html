@@ -7,10 +7,43 @@
             </div>
         {% endif %}
         <div class="wow col-md-12">
-            <!-- <h1>{{ post.title | escape }}</h1> -->
-            <!-- <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p> -->
-            <div class="contents">
+            <h2>{{ post.title }}</h2>
+            posted in <a href="/blog/cats/#{{post.categories}}">{{ post.categories }}</a>
+
+            {% assign postDate = post.date | date: "%-d %B %Y" %}
+            on
+            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
+                {{ postDate }}
+            </time>
+
+            {% if post.author %}
+                •
+                <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+                    by <span itemprop="name">{{ post.author }}</span>
+                </span>
+            {% endif %}
+
+            <div class="contents" style="margin: 15px 0">
                 {{ post.content }}
+            </div>
+
+
+            <hr>
+
+            {% include blog/post-extras.html %}
+
+
+            <div style="margin-bottom: 25px">
+                <div class="cat-links">
+                    <span class="cat-text">
+                        <i class="fa fa-fw fa-folder-open" aria-hidden="true" title="Post category"></i>
+                        Category:
+                    </span>
+
+                    <a href="/blog/cats/#{{ page.categories }}">{{ page.categories }}</a>
+                </div>
+
+                {% include blog/tag-list.html tags=page.tags prefix=true %}
             </div>
         </div>
     </div>

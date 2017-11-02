@@ -3,9 +3,17 @@ layout: default
 ---
 <div class="main">
     {% include header.html %}
-    {% assign postDate = page.date | date: "%-d %B %Y" %}
-    {% include blog/big-header.html title=page.title subTitle=postDate %}
+    {% include blog/big-header.html title=page.title %}
     <div class="container">
-        {% include blog/entry-full.html post=page %}
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-8">
+                {% include blog/entry-full.html post=page %}
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-4">
+                {% include toc.html html=content toc=page.toc %}
+
+                {% include blog/post-series.html %}
+            </div>
+        </div>
     </div>
 </div>
