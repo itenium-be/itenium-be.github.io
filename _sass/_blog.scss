@@ -1,3 +1,10 @@
+.blog-content .contents h1 {
+    font-size: 32px;
+    text-transform: none;
+    margin-top: 20px;
+}
+
+
 kbd {
     display: inline-block;
     margin: 0 .1em;
@@ -173,11 +180,16 @@ table.table-excel {
     font-size: 27px;
 }
 
+.contents strong {
+    font-weight: bold;
+}
 
 .contents p {
     color: black;
-    font-family: 'Roboto', sans-serif;
-    font-size: 13px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 5px;
 }
 
 .blog-sidebar .blog-content .contents {
@@ -217,6 +229,82 @@ table.table-excel {
     height: 450px;
     width: 100%;
 }
+
+
+
+/*===============================================================
+                         Table of Contents
+================================================================*/
+
+.toc {
+    color: #7a8288;
+    background-color: #fff;
+    border: 1px solid #f2f3f3;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.125);
+
+    ul {
+        margin-left: 0px;
+    }
+}
+
+.toc .nav__title {
+    margin-bottom: 0px;
+    padding: 10px;
+    color: #fff;
+    font-size: 20px;
+    background: #7a8288;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    white-space: nowrap;
+}
+
+a.entry-edit {
+    color: #ccc;
+    font-size: 14px;
+    margin-right: 4px;
+}
+
+
+.toc__menu {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    list-style: none;
+    font-size: 18px;
+}
+
+.toc__menu a {
+    display: block;
+    padding: 0.5rem 1rem;
+    color: #7a8288;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 1.5;
+    border-bottom: 1px solid #f2f3f3;
+}
+
+.toc__menu a:hover {
+    color: #000;
+    background: #f2f3f3;
+    text-decoration: underline;
+}
+
+.toc__menu li ul>li a {
+    padding-left: 2rem;
+    font-weight: normal;
+}
+
+.toc__menu li>ul li {
+    display: none;
+}
+
+@media (min-width: 48em) {
+    .toc__menu li>ul li {
+        display:block;
+    }
+}
+
 
 
 

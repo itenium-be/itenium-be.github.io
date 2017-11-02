@@ -31,9 +31,9 @@ Blog
 - Separate page for each category (same for tags?) --> Requires a code change every time a new category or tag is introduced
 - Better code syntax highlighting
 - Blog detail sidebar
--- delete cats, last posts, tags
 -- show series info
--- render table of contents
+-- at end of post: show category, tags
+-- render table of contents like the other sidebar stuff
 
 
 Op termijn

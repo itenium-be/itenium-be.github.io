@@ -3,16 +3,16 @@
 <header>
 {% include components/edit-post.html %}
 <h4 class="nav__title">
-{% if include.icon contains "icon-" %}
-<i class="{{include.icon}}"></i>
+{% if include.toc.icon contains "icon-" %}
+<i class="{{include.toc.icon}}"></i>
 {% else %}
-<i class="fa fa-{{include.icon | default: 'file-text'}}"></i>
+<i class="fa fa-{{include.toc.icon | default: 'file-text'}}"></i>
 {% endif %}
-{{include.title}}
+{{include.toc.title}}
 </h4>
 </header>
-*  Auto generated table of contents
-{:toc .toc__menu}
+
+{% include toc.html html=include.html %}
+
 </nav>
 </aside>
-<!--endtoc-->
