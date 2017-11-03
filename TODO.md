@@ -1,6 +1,8 @@
 TODO stuff
 ==========
 
+- add target blank to all external media sites. (so also when hovering over our pictures)
+
 - #about => wanneer op de about link geklikt wordt verdwijnt de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
