@@ -1,6 +1,10 @@
 TODO stuff
 ==========
 
+- <h2>Oour People</h2> => ouur people, want people is te algemeen
+  <p>The core of our business. They are qualified and show motivation.
+  Keep hapy well-trained is precies gelijk beesten of kinderen die ge potty-trained
+
 - add target blank to all external media sites. (so also when hovering over our pictures)
 
 - #about => wanneer op de about link geklikt wordt verdwijnt de header menu, op mobile. Werkt wel bij andere links
