@@ -1,7 +1,9 @@
-TODO stuff
+﻿TODO stuff
 ==========
 
-- <h2>Oour People</h2> => ouur people, want people is te algemeen
+- Linked in follow button zetten(kijk naar elevate-it)
+
+- <h2>Our People</h2> => ouur people, want people is te algemeen
   <p>The core of our business. They are qualified and show motivation.
   Keep hapy well-trained is precies gelijk beesten of kinderen die ge potty-trained
 
