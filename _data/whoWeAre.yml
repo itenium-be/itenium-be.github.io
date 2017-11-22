@@ -3,11 +3,11 @@ sub: >
     We are a team of passionate, highly motivated and dedicated .NET consultants with a strong focus on improving ourselves while loving what we do.
 
 section1:
-    header: People
+    header: Our People
     fa: fa fa-users
     label: >
         The core of our business.
-        We keep them happy and well-trained
+        We like them to be happy and well-trained
 
 section2:
     header: Events
