@@ -3,7 +3,7 @@
         <div class="row">
             <div class="wow zoomIn col-xs-12 col-lg-12 text-center p-padding">
                 <h1 class="section-title">{{ site.data.whoWeAre.title }}</h1>
-                <p>{{ site.data.whoWeAre.sub }}</p>
+                <p>{{ site.data.whoWeAre.sub | newline_to_br }}</p>
             </div>
 
             {% include main/who-we-are-section.html section=site.data.whoWeAre.section1 %}
