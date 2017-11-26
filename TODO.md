@@ -1,5 +1,7 @@
-TODO stuff
+﻿TODO stuff
 ==========
+
+- Linked in follow button zetten(kijk naar elevate-it)
 
 - add target blank to all external media sites. (so also when hovering over our pictures)
 
@@ -49,3 +51,13 @@ Splash
 - splash 3: de text(Real communication gets the right product built) is te klein (niet leesbaar) op mobile (6px). Eigenlijk wel op een echte mobiles (bvb. iphone 6) maar niet op de emulator. Text op splash screen 3 is wel moeilijk leesbaar.
 
 - anchor tags in addres bar worden niet upgedate nadat je er op klikt. Klik bvb op about us en dan op services => in address bar staat nog steeds about us. Waarschijnlijk omdat de navigatie met jquery gebeurt.
+
+
+
+Al dan niet doen. Nog over nadenken
+==================================
+Our people : enjoy working here.
+
+The core of our business. We like them to be happy and well-trained => flemish english, belachlijk voor english native speakers.
+Happy is een woord om kinderen te beschrijven. Voor volwassenen wordt content=tevreden gebruikt.
+Our people : enjoy working here & get all the training they want
