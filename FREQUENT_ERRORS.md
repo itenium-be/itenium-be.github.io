@@ -5,3 +5,9 @@ d, if it is a symlink, does not point outside your site source.
 
 => posts repo updaten. Check readme.md
 
+
+--> Dit is een error die nooit meer gaat voorkomen:
+
+De "toc" die gebruikt werd op pongit.be had een offline build step nodig (nu is het pushen = deployen, pongit.be moet de volledige gebuilde site op de gh-pages branch gepushed worden)
+De "toc" die nu gebruikt wordt heeft dit niet nodig
+Maar dat was wel een breaking change waardoor de _posts moesten geüpdate worden
