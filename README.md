@@ -21,10 +21,8 @@ bundle install
 $env:JEKYLL_ENV = "production"
 ```
 
-Github pages supported plugins:  
-https://pages.github.com/versions/
-
 ## Blog
+
 ```
 # First fetch
 git submodule update --init --recursive
@@ -33,29 +31,28 @@ git submodule update --init --recursive
 git pull --recurse-submodules
 ```
 
+
+## Theme
+
+Original theme on Google Drive:  
+`Consultancy Firma\Website\itenium-original-bootstrap-template.7z`.  
+
+Serve it:
+
+```
+npm i -g static-server
+static-server
+```
+
+
 ## ContactForm
-see _contact folder
 
-## Kramdown
+See `_contact` folder.
 
-Notices: {: .notice}, {: .notice--info}, {: .notice--danger}  
-Are, for some reason, defined in _sass/vendor/notices.scss
+## Jekyll
 
-Hide from excerpt: {: .hide-from-excerpt}
-
-Table formatting: {: .table-code}, {: .table-margin}, {: .table-excel}
-
-Styling: {: style="margin-top: 10"}
-
-{% include kbd k="Win+E" l="" %}
-
-
-{% include icon-github.html username=site.github_username %}
-{% include icon-twitter.html username=site.twitter_username %}
-
-## Jekyll TODO
-
-Add an {: .aside}
+Github pages supported plugins:  
+https://pages.github.com/versions/
 
 Plugins that might be added later:  
 - [jekyll-gist][jekyll-gist]
@@ -63,19 +60,14 @@ Plugins that might be added later:
 - [jekyll-compose][jekyll-compose]
 - https://github.com/bdesham/inline_highlight
 
-**Keyboard Glyphs**:  
-BUG: Shortcut containing a + or ,
-
-
 Liquid
 ------
 https://help.shopify.com/themes/liquid
 https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
 
 
-
-Kramdown tutorial
------------------
+Kramdown
+--------
 
 ```md
 # Images:
