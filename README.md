@@ -32,19 +32,6 @@ git pull --recurse-submodules
 ```
 
 
-## Theme
-
-Original theme on Google Drive:  
-`Consultancy Firma\Website\itenium-original-bootstrap-template.7z`.  
-
-Serve it:
-
-```
-npm i -g static-server
-static-server
-```
-
-
 ## ContactForm
 
 See `_contact` folder.
