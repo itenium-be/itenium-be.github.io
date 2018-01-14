@@ -10,10 +10,6 @@
 
 - icoon maken(zie huidig browser tablad icoon)
 
-- In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
-=> zit er al in van 1 vd eerste commits(8f20e51344d8b98b2aa37223fee9666d5ad3a7ed). In chrome worden de afbeeldingen meerdere keren geladen, en ik denk bij de knippering dat er dus een nieuwe afbeedling wordt geladen.
-Bij andere browsers of de originele templ. niet.
-
 
 Blog
 ====
@@ -61,3 +57,10 @@ Our people : enjoy working here.
 The core of our business. We like them to be happy and well-trained => flemish english, belachlijk voor english native speakers.
 Happy is een woord om kinderen te beschrijven. Voor volwassenen wordt content=tevreden gebruikt.
 Our people : enjoy working here & get all the training they want
+
+
+Non Issues
+==================================
+Jekyll bug wanneer je lokaal draait want doet zich niet voor op www.itenium.be: In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
+=> zit er al in van 1 vd eerste commits(8f20e51344d8b98b2aa37223fee9666d5ad3a7ed). In chrome worden de afbeeldingen meerdere keren geladen, en ik denk bij de knippering dat er dus een nieuwe afbeedling wordt geladen.
+Bij andere browsers of de originele templ. niet.
