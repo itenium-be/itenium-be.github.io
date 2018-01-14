@@ -25,6 +25,8 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://itenium.be" # the base hostname & protocol for your site, e.g. http://example.com
 
+btw: BE0687800967
+
 google_analytics: UA-107324319-1
 twitter_username: itenium_be
 github_username: itenium-be
