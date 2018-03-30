@@ -87,11 +87,11 @@
 <script src="/js/email.js"></script>
 
 <script>
-    $(window).on('scroll', function(){
-    if( $(window).scrollTop()>670 ){
-    $('.navbar-default').addClass('navbar-fixed-top');
+$(window).on('scroll', function() {
+    if ($(window).scrollTop() > 670 && !$('.navbar-default').hasClass('blog')) {
+        $('.navbar-default').addClass('navbar-fixed-top');
     } else {
-    $('.navbar-default').removeClass('navbar-fixed-top');
+        $('.navbar-default').removeClass('navbar-fixed-top');
     }
-    });
+});
 </script>

@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/cats/
 ---
 <div class="main">
-    {% include header.html %}
+    {% include header.html context="blog" %}
     {% for category in site.categories %}
         {% assign catName = category | first %}
         <a name="{{ catName }}">

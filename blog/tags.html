@@ -3,7 +3,7 @@ layout: default
 permalink: /blog/tags/
 ---
 <div class="main">
-    {% include header.html %}
+    {% include header.html context="blog" %}
     {% for tag in site.tags %}
         {% assign tagName = tag | first %}
         <a name="{{ tagName }}">
