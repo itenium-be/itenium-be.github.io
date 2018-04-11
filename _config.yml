@@ -28,6 +28,7 @@ url: "http://itenium.be" # the base hostname & protocol for your site, e.g. http
 btw: BE0687800967
 
 bank: BE84 7370 4817 1859
+bic: KREDBEBB
 bank_name: KBC
 paritair_comite: PC200
 
