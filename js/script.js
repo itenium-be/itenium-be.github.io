@@ -4,6 +4,15 @@ jQuery(function ($) {
 
     // -------------------------------------------------------------
 
+    if (!localStorage.getItem('cookieNoticeKilled')) {
+        $('.cookie-notice').show();
+
+        $('#cookie-notice-kill').click(function() {
+            localStorage.setItem('cookieNoticeKilled', true);
+            $('.cookie-notice').hide();
+        });
+    }
+
 
     // -------------------------------------------------------------
 

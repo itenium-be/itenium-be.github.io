@@ -50,3 +50,15 @@ code {
 code {
   padding: 1px 5px;
 }
+
+.cookie-notice {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 10px 20px;
+  background: rgba(37, 37, 37, 0.9);
+  font-size: 12px;
+  z-index: 999;
+}
