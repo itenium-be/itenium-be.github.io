@@ -13,8 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: itenium | .NET consulting
-meta-description: .NET JavaScript Consultancy Software Development Typescript Belgie
+title: itenium | .NET & JavaScript Consultancy
+meta-description: Your partner for .NET and JavaScript software development
+meta-keywords: .NET, JavaScript, Consultancy, Software Development, Angular, Typescript, Belgium, België
 name: itenium
 email: info@itenium.be
 jobemail: jobs@itenium.be
