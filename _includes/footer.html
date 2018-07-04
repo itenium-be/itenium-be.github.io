@@ -29,6 +29,10 @@
                             {% include components/icon-linkedin.html company=site.linkedin_company %}
                             <span style="margin-left: -5px">LinkedIn:</span><a href="https://sg.linkedin.com/company/{{ site.linkedin_company }}"> {{ site.linkedin_company }}</a>
                         </li>
+                        <li style="margin-left: -4px;">
+                            <i class="fa fa-bank"></i>
+                            <span style="margin-left: -5px">Bank:</span> {{ site.bank }}
+                        </li>
                     </ul>
                     <i class="flaticon-home78"></i>
                 </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
@@ -45,7 +49,13 @@
         <div class="container">
             <div class="row">
                 <div class="wow zoomIn col-xs-12">
-                    <p>© 2017-2018 All rights reserved. <span>{{ site.name }}. {{ site.btw }}.</span></p>
+                    <p>
+                        © 2017-2018 All rights reserved.
+                        <span>
+                            {{ site.name }}.
+                            {% comment %} {{ site.btw }}.{% endcomment %}
+                        </span>
+                    </p>
                     <div class="backtop pull-right">
                         <i class="fa fa-angle-up back-to-top"></i>
                     </div><!-- /.backtop -->
