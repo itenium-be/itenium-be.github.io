@@ -1,0 +1,21 @@
+---
+layout: default
+permalink: /freelance/
+---
+<div class="main">
+    {% include header.html %}
+    {% include blog/big-header.html title="Freelance Jobs" subTitle="Technical skills are, as much as communication skills, the founding building blocks for any succesful project" %}
+
+    <section id="jobs" class="jobs">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 job-content">
+                    <h1>Freelance Jobs</h1>
+                    {% for freelanceJob in site.data.freelance %}
+                    {% include freelance-job.html job=freelanceJob %}
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
