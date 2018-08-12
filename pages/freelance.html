@@ -12,7 +12,9 @@ permalink: /freelance/
                 <div class="col-md-12 job-content">
                     <h1>Freelance Jobs</h1>
                     {% for freelanceJob in site.data.freelance %}
+                    {% unless freelanceJob.deleted %}
                     {% include freelance-job.html job=freelanceJob %}
+                    {% endunless %}
                     {% endfor %}
                 </div>
             </div>
