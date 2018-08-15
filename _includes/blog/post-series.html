@@ -5,7 +5,7 @@
     </div>
     <div style="margin-top: 8px">
         {% assign counter = 0 %}
-        {% assign sorted = site.posts | sort: 'date' %}
+        {% assign sorted = site.posts | where:"draft",false | sort: 'date' %}
         {% for post in sorted %}
             {% if post.series == page.series %}
                 {% assign counter = counter | plus:1 %}

@@ -2,7 +2,7 @@
     <div class="sidebar-heading">
         recent posts
     </div>
-    {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
+    {% assign posts = site.posts | sort:"date" | reverse | where:"draft",false | slice: 0, 5 %}
     {% for post in posts %}
         <div class="media">
             <div class="media-left">
