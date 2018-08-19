@@ -11,19 +11,6 @@
 - icoon maken(zie huidig browser tablad icoon)
 
 
-Blog
-====
-- Pagination plugin (is supported by GH pages)
-
-- Blog detail sidebar
---- the toc links are no good because the header is displayed over where the user should be taken to...
----> No fixed header on the blog pages?
-
-
-- de blog post is niet al te breed (door de sidebar met toc & series...)
---> minder padding aan de zijkanten doen???
-
-
 Op termijn
 ==========
 
