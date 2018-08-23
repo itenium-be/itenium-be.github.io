@@ -21,6 +21,8 @@ bundle install
 $env:JEKYLL_ENV = "production"
 ```
 
+Using the [livereload app](http://livereload.com/) for automatic refresh.
+
 ## Blog
 
 ```
