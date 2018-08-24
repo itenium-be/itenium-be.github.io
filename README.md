@@ -21,7 +21,9 @@ bundle install
 $env:JEKYLL_ENV = "production"
 ```
 
-Using the [livereload app](http://livereload.com/) for automatic refresh.
+Using the [livereload app](http://livereload.com/) for automatic refresh
+with the [Chrome plugin](https://chrome.google.com/webstore/detail/livereload/jnihajbhpnppcggbcgedagnkighmdlei?hl=en).  
+As an alternative to the Chrome plugin, livereload is also injected in `default.html` with a script tag.
 
 ## Blog
 
