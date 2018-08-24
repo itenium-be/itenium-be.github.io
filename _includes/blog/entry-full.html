@@ -29,9 +29,10 @@
                 •
                 last updated on
 
-                {% assign postDate = lastUpdate.date | date: "%-d %B %Y" %}
-                {{ postDate }}
-
+                {% assign updateDate = lastUpdate.date | date: "%-d %B %Y" %}
+                <time datetime="{{ updateDate | date_to_xmlschema }}" itemprop="dateModified">
+                    {{ updateDate }}
+                </time>
             {% endif %}
 
 
