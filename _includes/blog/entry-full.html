@@ -10,6 +10,7 @@
             <h2>{{ post.title }}</h2>
             posted in <a href="/blog/cats/#{{post.categories}}">{{ post.categories }}</a>
 
+
             {% assign postDate = post.date | date: "%-d %B %Y" %}
             on
             <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
@@ -23,6 +24,17 @@
                 </span>
             {% endif %}
 
+            {% if post.updates %}
+                {% assign lastUpdate = post.updates | last %}
+                •
+                last updated on
+
+                {% assign postDate = lastUpdate.date | date: "%-d %B %Y" %}
+                {{ postDate }}
+
+            {% endif %}
+
+
             <div class="contents" style="margin: 15px 0">
                 {{ post.content }}
             </div>
@@ -32,8 +44,7 @@
 
             {% include blog/post-extras.html %}
 
-
-            <div style="margin-bottom: 25px">
+            <div style="margin-bottom: 25px; margin-top: 15px">
                 <div class="cat-links">
                     <span class="cat-text">
                         <i class="fa fa-fw fa-folder-open" aria-hidden="true" title="Post category"></i>
