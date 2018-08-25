@@ -35,13 +35,17 @@
         <ul>
             {% for interest in post.interesting %}
                 <li>
-                    <a href="{{ interest.url }}">
-                        {% if interest.desc %}
-                            {{ interest.desc }}
-                        {% else %}
-                            {{ interest.url }}
-                        {% endif %}
-                    </a>
+                    {% if interest.url %}
+                        <a href="{{ interest.url }}">
+                            {% if interest.desc %}
+                                {{ interest.desc }}
+                            {% else %}
+                                {{ interest.url }}
+                            {% endif %}
+                        </a>
+                    {% elsif interest.git %}
+                        {% include github-stars.html url=interest.git desc=interest.desc %}
+                    {% endif %}
                 </li>
             {% endfor %}
         </ul>
