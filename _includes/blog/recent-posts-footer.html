@@ -1,4 +1,4 @@
-{% assign posts = site.posts | sort:"date" | reverse | where:"draft",false | slice: 0, 5 %}
+{% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
 {% for post in posts %}
     <li>
         <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
