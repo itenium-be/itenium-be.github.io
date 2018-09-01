@@ -11,6 +11,12 @@
         {% include components/edit-post.html %}
     </div>
 
+    <div style="line-height: 16px; margin-top: 6px">{{ page.desc }}</div>
+
+    <div style="margin-top: 5px">
+        <img class="img-responsive" src="{{ 'assets/' | append: page.img | absolute_url }}" style="border: 1px solid rgb(215, 215, 215)" title="{{ page.imgdesc }}" />
+    </div>
+
     <div class="toc__menu">
         {% include toc-inner.html html=include.html %}
     </div>
