@@ -44,19 +44,11 @@
             <hr>
 
             {% include blog/post-extras.html %}
+            {% include blog/post-category-and-tags.html %}
 
-            <div style="margin-bottom: 25px; margin-top: 15px">
-                <div class="cat-links">
-                    <span class="cat-text">
-                        <i class="fa fa-fw fa-folder-open" aria-hidden="true" title="Post category"></i>
-                        Category:
-                    </span>
+            <hr>
 
-                    <a href="/blog/cats/#{{ page.categories }}">{{ page.categories }}</a>
-                </div>
-
-                {% include blog/tag-list.html tags=page.tags prefix=true %}
-            </div>
+            {% include blog/post-prev-next-links.html %}
         </div>
     </div>
 </div>

@@ -630,3 +630,28 @@ table.table-excel {
 .notice--danger {
   @include notice(#ee5f5b);
 }
+
+
+
+/*===============================================================
+                    Prev/Next post links
+================================================================*/
+
+.PageNavigation {
+  font-size: 14px;
+  display: block;
+  width: auto;
+  overflow: hidden;
+  margin-top: -20px;
+}
+
+.PageNavigation a {
+  display: block;
+  width: 50%;
+  float: left;
+  margin: 1em 0;
+}
+
+.PageNavigation .next {
+  text-align: right;
+}

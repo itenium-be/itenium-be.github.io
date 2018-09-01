@@ -1,0 +1,12 @@
+<div style="margin-top: 15px">
+    <div class="cat-links">
+        <span class="cat-text">
+            <i class="fa fa-fw fa-folder-open" aria-hidden="true" title="Post category"></i>
+            Category:
+        </span>
+
+        <a href="/blog/cats/#{{ page.categories }}">{{ page.categories }}</a>
+    </div>
+
+    {% include blog/tag-list.html tags=page.tags prefix=true %}
+</div>
