@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: default-blog
 permalink: /blog/
 ---
 <div class="main">
@@ -13,11 +13,9 @@ permalink: /blog/
                     {% for post in posts %}
                         {% include blog/entry-excerpt.html post=post %}
                     {% endfor %}
-
-
-
                 </div>
                 <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
+                    {% include blog/search.html %}
                     {% include blog/category-list.html %}
                     {% include blog/recent-posts-sidebar.html %}
                     {% include blog/tag-cloud.html %}

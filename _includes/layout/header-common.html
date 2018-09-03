@@ -1,0 +1,37 @@
+<!-- Google Fonts -->
+<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:300italic,400italic,700italic,400,300,700' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400italic,600italic,400,300,600,700' rel='stylesheet' type='text/css'>
+
+<!-- Flat icon css -->
+<link rel="stylesheet" href="/vendor/flat-icon/flaticon.css">
+<link rel="stylesheet" href="/vendor/font-mfizz/font-mfizz.css">
+
+<!-- Font awesome -->
+<link rel="stylesheet" href="/vendor/font-awesome/css/font-awesome.min.css">
+
+<!-- mmenu -->
+<link type="text/css" rel="stylesheet" href="/vendor/mmenu/css/jquery.mmenu.css" />
+
+<!-- Bootstrap css -->
+<link rel="stylesheet" href="/vendor/bootstrap/css/bootstrap.css">
+
+<!-- Animate css -->
+<link rel="stylesheet" href="/css/animate.css">
+
+<!-- Custom Style css -->
+<link rel="stylesheet" href="/css/hover.css">
+<link rel="stylesheet" href="{{"/assets/style.css" | relative_url}}">
+<link rel="stylesheet" href="/css/responsive.css">
+
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<script>window.html5 || document.write('<script src="js/vendor/html5shiv.js"><\/script>')
+</script>
+<![endif]-->
+
+<!-- jQuery JS -->
+<script src="/js/jquery-1.11.1.min.js"></script>
+
+{% unless jekyll.environment == "production" %}
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+{% endunless %}

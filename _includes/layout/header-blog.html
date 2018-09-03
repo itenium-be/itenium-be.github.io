@@ -1,0 +1,30 @@
+<!-- Syntax highlighting for code blocks -->
+<!-- Keuze1: -->
+<!--<link rel="stylesheet"href="/vendor/highlightjs/obsidian.css">-->
+<link rel="stylesheet"href="/vendor/highlightjs/obsidian-customized.css">
+<!-- Keuze2: -->
+<!--<link rel="stylesheet"href="/vendor/highlightjs/darcula.css">-->
+<!-- Keuze3: heeft minder kleuronderscheidingen -->
+<!--<link rel="stylesheet"href="/vendor/highlightjs/androidstudio.css">-->
+
+
+<script src="/vendor/highlightjs/highlight.pack.js"></script>
+
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
+
+<script>
+$(function() {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/blog/search.json',
+    // searchResultTemplate: '<li><a href="{url}">{title}</a></li>',
+    searchResultTemplate: '<div class="media">' +
+        '<div class="media-left"><a href="{url}"><img class="media-object" src="{img}"></a></div>' +
+        '<div class="media-body"><h3 class="media-heading"><a href="{url}">{title}</a></h3><p>{date}</p></div></div>',
+    fuzzy: false,
+  });
+});
+</script>

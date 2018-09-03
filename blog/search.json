@@ -1,0 +1,18 @@
+---
+layout: null
+---
+[
+  {% for post in site.posts %}
+    {
+      "title"    : "{{ post.title | escape }}",
+      "desc"     : "{{ post.desc | escape | strip_newlines }}",
+      "category" : "{{ post.categories }}",
+      "tags"     : "{{ post.tags | join: ', ' }}",
+      "url"      : "{{ site.baseurl }}{{ post.url }}",
+      "date"     : "{{ post.date | date: "%b %-d, %Y" }}",
+      "series"   : "{{ post.series }}",
+      "img"      : "{{ 'assets/' | append: post.img | absolute_url }}",
+      "content"  : {{ post.content | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]
