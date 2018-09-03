@@ -5,3 +5,16 @@ categories:
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
+
+
+tags:
+  powershell: icon-shell
+  net: icon-csharp
+  javascript: icon-javascript
+  autohotkey: fa fa-key
+  git: icon-git
+  windows: fa fa-windows
+  excel: fa fa-file-excel-o
+  testing: fa fa-diamond
+  tutorial: fa fa-cogs
+  "cheat-sheet": fa fa-bookmark
