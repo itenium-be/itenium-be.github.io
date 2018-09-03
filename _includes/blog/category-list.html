@@ -6,7 +6,9 @@
         <ul>
             {% for cat in site.categories %}
                 <a href="/blog/cats/#{{ cat | first }}" class="list-group-item">
-                    {{ cat | first }}
+                    {% assign catName = cat | first | strip %}
+                    <i class="{{ site.data.blog.categories[catName] }}" style="margin-right: 8px; color: #E84801"></i>
+                    {{ catName }}
                     <span class="pull-right">({{ cat | last | size }})</span>
                 </a>
             {% endfor %}
