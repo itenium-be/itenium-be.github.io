@@ -2,13 +2,15 @@ itenium
 =======
 
 FREELANCE:  
-- freelance: put each job on a separat page
-- freelance: put details of Kim below
 - freelance: add general itenium info
 - freelance: "deel deze vacature"?
 - freelance winforms: locations: add all already used locations distinct as dropdown options
 - freelance winforms: add an auto updater?
 - itenium contact form: should add field for adding a CV document directly?
+- detail page: return to all jobs button
+
+front page: next to jobs button also a freelance button (slider)
+add link to freelance jobs from jobs page
 
 - normalize font color, background-color, ...
 
