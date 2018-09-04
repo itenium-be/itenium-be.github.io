@@ -1,0 +1,16 @@
+---
+layout: null
+---
+{% assign jobs = site.data.freelance | where: "published", true %}
+[
+  {% for job in jobs %}
+    {
+      "id"       : "{{ job.id }}",
+      "title"    : "{{ job.title | escape | strip }}",
+      "location" : "{{ job.location }}",
+      "url"      : "{% include freelance/freelance-url.html job=job %}",
+      "date"     : "{{ job.date | date: "%b %-d, %Y" }}",
+      "desc"     : {{ job.description | jsonify }}
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

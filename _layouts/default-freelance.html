@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    {% include layout/meta.html %}
+
+    {% include layout/header-common.html %}
+
+    {% include layout/header-freelance.html %}
+</head>
+<body>
+
+  <div class="loader"></div>
+
+  {{ content }}
+
+  {% include footer.html onIndex=layout.onIndex %}
+</body>
+</html>

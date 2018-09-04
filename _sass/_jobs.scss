@@ -136,3 +136,33 @@
         }
     }
 }
+
+.freelance-search-results {
+    h3 {
+        font-size: 20px;
+        margin-top: 7px;
+    }
+
+    i {
+        margin-left: 6px;
+        margin-right: 6px;
+    }
+
+    a:link,
+    a:visited {
+        color: black;
+    }
+
+    a:hover {
+        color: black;
+        text-decoration: underline !important;
+    }
+
+    a:active {
+        color: black;
+    }
+
+    small {
+        margin-left: 6px;
+    }
+}

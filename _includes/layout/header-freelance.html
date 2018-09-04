@@ -1,0 +1,13 @@
+<script src="{{ site.baseurl }}/js/simple-jekyll-search.min.js"></script>
+
+<script>
+$(function() {
+  var sjs = SimpleJekyllSearch({
+    searchInput: document.getElementById('search-input'),
+    resultsContainer: document.getElementById('results-container'),
+    json: '{{ site.baseurl }}/pages/freelance.json',
+    searchResultTemplate: '<h3><i class="fa fa-angle-double-right"></i><a href="{url}">{title}</a><small>({location})</small></h3>',
+    fuzzy: false,
+  });
+});
+</script>
