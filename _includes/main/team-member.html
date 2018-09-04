@@ -1,23 +1,22 @@
-<div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-    <div class="grid" style="max-width: 300px; margin: auto">
-        <figure class="effect-duke" style="max-width: 300px">
-            <img class="img-responsive" src="{{ include.member.image }}" alt="img09">
-            <figcaption>
-                <div class="icon-holder">
-                    <ul>
-                        <li><a href="mailto:{{ include.member.email }}"><i class="fa fa-envelope"></i></a></li>
-                        <li><a href="{{ include.member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="{{ include.member.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
-                    </ul>
-                </div>
-            </figcaption>
-        </figure>
-    </div>
-    <div class="team-designation">
-        <p>{{ include.member.name }}</p>
-        <span>Managing Partner</span>
-        <span style="white-space: nowrap">{{ include.member.title }}</span>
-        <span>{{ include.member.email }}</span>
-        <span>{{ include.member.phone }}</span>
-    </div>
+{% assign maxWidth = 300 %}
+<div class="grid" style="max-width: {{maxWidth}}px; margin: auto">
+    <figure class="effect-duke" style="max-width: {{maxWidth}}px">
+        <img class="img-responsive" src="{{ include.member.image }}">
+        <figcaption>
+            <div class="icon-holder">
+                <ul>
+                    <li><a href="mailto:{{ include.member.email }}"><i class="fa fa-envelope"></i></a></li>
+                    <li><a href="{{ include.member.linkedin }}" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li><a href="{{ include.member.github }}" target="_blank"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </figcaption>
+    </figure>
+</div>
+<div class="team-designation">
+    <p>{{ include.member.name }}</p>
+    <span>{{ include.member.role }}</span>
+    <span style="white-space: nowrap">{{ include.member.title }}</span>
+    <span>{{ include.member.email }}</span>
+    <span>{{ include.member.phone }}</span>
 </div>

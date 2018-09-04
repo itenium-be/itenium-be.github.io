@@ -1,21 +1,27 @@
 ---
-layout: default
+layout: default-blog
 permalink: /freelance/
 ---
 <div class="main">
     {% include header.html %}
     {% include blog/big-header.html title="Freelance Jobs" subTitle="Technical skills are, as much as communication skills, the founding building blocks for any succesful project" %}
 
-    <section id="jobs" class="jobs">
+    <section id="jobs" class="blog-sidebar">
         <div class="container">
             <div class="row">
-                <div class="col-md-12 job-content">
-                    <h1>Freelance Jobs</h1>
+                <div class="col-md-6 blog-content">
                     {% for freelanceJob in site.data.freelance %}
-                    {% unless freelanceJob.deleted %}
-                    {% include freelance-job.html job=freelanceJob %}
-                    {% endunless %}
+                        {% unless freelanceJob.deleted %}
+                            {% include freelance/freelance-job.html job=freelanceJob %}
+                        {% endunless %}
                     {% endfor %}
+                </div>
+
+                <div class="wow zoomIn col-md-6">
+                    {% include freelance/recruiters.html %}
+                </div>
+                <div class="wow zoomIn col-md-6">
+                    {% include freelance/why-itenium.html %}
                 </div>
             </div>
         </div>

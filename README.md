@@ -1,6 +1,27 @@
 itenium
 =======
 
+FREELANCE:  
+- freelance: put each job on a separat page
+- freelance: put details of Kim below
+- freelance: add general itenium info
+- freelance: "deel deze vacature"?
+- freelance winforms: locations: add all already used locations distinct as dropdown options
+- freelance winforms: add an auto updater?
+- itenium contact form: should add field for adding a CV document directly?
+
+- normalize font color, background-color, ...
+
+once freelance job is deleted:
+https://rubygems.org/gems/jekyll-redirect-from
+--> redirect to freelance jobs overview
+
+
+Like: https://axxes.com/job-detail/back-end-developer/oost-vlaanderen/14005597-f09e-e811-80ff-00155d66dc8d/
+
+
+
+
 ## Flow
 
 ```powershell

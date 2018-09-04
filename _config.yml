@@ -29,7 +29,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://itenium.be" # the base hostname & protocol for your site, e.g. https://example.com
 
 feature_flags:
-  freelance_jobs: false
+  freelance_jobs: true
   internal_jobs: true
 
 btw: BE0687800967
@@ -43,6 +43,7 @@ google_analytics: UA-107324319-1
 twitter_username: itenium_be
 github_username: itenium-be
 linkedin_company: itenium
+instagram: itenium
 
 github_data_url: https://github.com/itenium-be/blog-posts/blob/master
 

@@ -8,7 +8,11 @@
         <div class="row">
             <div class="col-md-12 col-md-offset-3">
                 {% for member in site.data.teamMembers %}
-                {% include main/team-member.html member=member %}
+                    {% if member.onIndex %}
+                        <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
+                            {% include main/team-member.html member=member %}
+                        </div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div><!-- row -->

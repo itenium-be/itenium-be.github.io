@@ -1,0 +1,15 @@
+{% assign job = include.job %}
+<div style="float: right">
+    {% capture jobUrl %}freelance/{{ job.id }}/{{ job.title | downcase | replace: "c#", "csharp" | slugify: 'ascii' }}{% endcapture %}
+    <a href="{{ jobUrl | relative_url }}" class="open-post-button">
+        <button class="btn">read more</button>
+    </a>
+</div>
+
+<h2>
+    {{ job.title }}
+    <br>
+    <small>Region {{ job.location }}</small>
+</h2>
+
+<hr>
