@@ -142,6 +142,10 @@
     h3 {
         font-size: 20px;
         margin-top: 7px;
+
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 
     i {

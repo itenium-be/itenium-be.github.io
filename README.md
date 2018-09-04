@@ -83,7 +83,7 @@ Kramdown
 
 ```md
 # Images:
-![My helpful screenshot]({{ site.url }}/assets/screenshot.jpg)
+![My helpful screenshot]({{ site.url }}/assets/blog-images/screenshot.jpg)
 
 
 # Links:
