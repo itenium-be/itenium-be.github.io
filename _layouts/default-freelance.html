@@ -14,7 +14,31 @@
 
   <div class="loader"></div>
 
-  {{ content }}
+  <div class="main">
+      {% include header.html %}
+      {% assign title = page.title | default: "Freelance Jobs" %}
+      {% assign subTitle = page.subTitle | default: "Technical skills are, as much as communication skills, the founding building blocks for any succesful project" %}
+      {% include blog/big-header.html title=title subTitle=subTitle %}
+
+      <section id="jobs" class="blog-sidebar">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-7 blog-content">
+                      {{ content }}
+                  </div>
+                  <div class="wow zoomIn col-md-5">
+                      {% include freelance/freelance-search.html %}
+                  </div>
+                  <div class="wow zoomIn col-md-5">
+                      {% include freelance/recruiters.html %}
+                  </div>
+                  <div class="wow zoomIn col-md-5">
+                      {% include freelance/why-itenium.html %}
+                  </div>
+              </div>
+          </div>
+      </section>
+  </div>
 
   {% include footer.html onIndex=layout.onIndex %}
 </body>
