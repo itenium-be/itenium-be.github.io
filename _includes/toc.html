@@ -1,20 +1,7 @@
 {% if include.html contains '<h' %}
 <div class="blog-sidebar sidebar">
     <div class="sidebar-heading">
-        {% if include.toc.icon contains "icon-" %}
-            <i class="{{ include.toc.icon }}"></i>
-        {% else %}
-            <i class="fa fa-{{ include.toc.icon | default: 'file-text' }}"></i>
-        {% endif %}
-
-        {{ include.toc.title }}
-        {% include components/edit-post.html %}
-    </div>
-
-    <div style="line-height: 16px; margin-top: 6px">{{ page.desc }}</div>
-
-    <div style="margin-top: 5px">
-        <img class="img-responsive" src="{{ 'assets/' | append: page.img | absolute_url }}" style="border: 1px solid rgb(215, 215, 215)" title="{{ page.imgdesc }}" />
+        Table Of Contents
     </div>
 
     <div class="toc__menu">

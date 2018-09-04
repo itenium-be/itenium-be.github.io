@@ -10,6 +10,8 @@ layout: default-blog
                 {% include blog/entry-full.html post=page %}
             </div>
             <div class="col-xs-12 col-sm-12 col-md-4">
+                {% include blog/post-side-intro.html html=content toc=page.toc %}
+
                 {% include toc.html html=content toc=page.toc %}
 
                 {% include blog/post-series.html %}
