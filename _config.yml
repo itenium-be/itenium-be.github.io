@@ -19,7 +19,9 @@ meta-keywords: .NET, JavaScript, Consultancy, Software Development, Angular, Typ
 name: itenium
 email: info@itenium.be
 jobemail: jobs@itenium.be
-address: Linde 11, 1840 Londerzeel
+address:
+  maatschappelijk: Linde 11, 1840 Londerzeel
+  office: Mechelsesteenweg 200, 2860 Sint-Katelijne-Waver
 tel: +32 477 54 89 57
 description: > # this means to ignore newlines until "baseurl:"
   We're here for all your software consultancy needs.
@@ -28,6 +30,7 @@ url: "https://itenium.be" # the base hostname & protocol for your site, e.g. htt
 
 feature_flags:
   freelance_jobs: false
+  internal_jobs: true
 
 btw: BE0687800967
 
@@ -40,9 +43,6 @@ google_analytics: UA-107324319-1
 twitter_username: itenium_be
 github_username: itenium-be
 linkedin_company: itenium
-
-# Display links to the jobs page?
-display_jobs: true
 
 github_data_url: https://github.com/itenium-be/blog-posts/blob/master
 
