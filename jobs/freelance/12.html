@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/12/systeembeheerder
+id: 12
+title: "Systeembeheerder "
+subTitle: Region Hasselt
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}

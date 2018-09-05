@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/3/backend-developer-met-kennis-van-python-en-c
+id: 3
+title: "Backend developer met kennis van Python en C"
+subTitle: Region Gent
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
