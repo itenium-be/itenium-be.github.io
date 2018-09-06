@@ -1,14 +1,16 @@
 {% assign job = include.job %}
-<div style="float: right">
-    <a href="{% include freelance/freelance-url.html job=job %}" class="open-post-button">
-        <button class="btn">read more</button>
-    </a>
+<div class="job-listing-item">
+    <div style="float: right">
+        <button class="btn" title="Read more">
+            <i class="fa fa-angle-double-right"></i>
+        </button>
+    </div>
+
+    <h2>
+        {{ job.title }}
+        <br>
+        <small>Region {{ job.location }}</small>
+    </h2>
 </div>
 
-<h2>
-    {{ job.title }}
-    <br>
-    <small>Regio {{ job.location }}</small>
-</h2>
-
-<hr>
+<hr class="job-listing-item-sep">

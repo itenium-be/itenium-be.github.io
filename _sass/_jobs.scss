@@ -140,8 +140,25 @@
 
 .jobs-listing {
     border: 1px solid #dddddd;
-    padding-top: 15px;
+    padding: 0;
     margin-bottom: 8px;
+
+    .job-listing-item {
+        h2 {
+            text-transform: none;
+        }
+
+         cursor: pointer;
+         padding: 15px;
+    }
+
+    .job-listing-item:hover {
+        background-color: #F8F8F8;
+    }
+
+    .job-listing-item-sep {
+        margin: 0;
+    }
 }
 
 .freelance-search-results {

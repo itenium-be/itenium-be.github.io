@@ -17,36 +17,47 @@ title: itenium | .NET & JavaScript Consultancy
 meta-description: Your partner for .NET and JavaScript software development
 meta-keywords: .NET, JavaScript, Consultancy, Software Development, Angular, Typescript, Belgium, België
 name: itenium
-email: info@itenium.be
-jobemail: jobs@itenium.be
-address:
-  maatschappelijk: Linde 11, 1840 Londerzeel
-  office: Mechelsesteenweg 200, 2860 Sint-Katelijne-Waver
-tel: +32 15 79 46 89
 description: > # this means to ignore newlines until "baseurl:"
   We're here for all your software consultancy needs.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://itenium.be" # the base hostname & protocol for your site, e.g. https://example.com
 
+
 feature_flags:
   freelance_jobs: true
   internal_jobs: true
 
-btw: BE0687800967
+# Our infos
+email:
+  general: info@itenium.be
+  jobs: jobs@itenium.be
+  freelance: freelance@itenium.be
+  invoices: invoice@itenium.be
+  requests: it-request@itenium.be
 
+address:
+  maatschappelijk: Linde 11, 1840 Londerzeel
+  office: Mechelsesteenweg 200, 2860 Sint-Katelijne-Waver
+
+tel: +32 15 79 46 89
+
+btw: BE0687800967
 bank: BE84 7370 4817 1859
 bic: KREDBEBB
 bank_name: KBC
 paritair_comite: PC200
 
+
+# Social
 google_analytics: UA-107324319-1
 twitter_username: itenium_be
 github_username: itenium-be
 linkedin_company: itenium
 instagram: itenium
 
-github_data_url: https://github.com/itenium-be/blog-posts/blob/master
 
+# Blog
+github_data_url: https://github.com/itenium-be/blog-posts/blob/master
 collections:
   posts:
     output: true
@@ -55,7 +66,7 @@ collections:
 # Build settings
 markdown: kramdown
 
-# highlighter: none
+# highlighter: We've implemented highlightjs manually
 kramdown:
   syntax_highlighter_opts:
     disable : true

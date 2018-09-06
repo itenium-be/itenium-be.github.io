@@ -3,7 +3,7 @@
         <div class="sidebar">
             <div class="list-group" style="margin-bottom: 4px">
                 <div class="sidebar-heading">
-                    <a href="{{ member.linkedin }}" style="float: right">
+                    <a href="{{ member.linkedin }}" style="float: right" title="LinkedIn">
                         <i class="fa fa-2x fa-linkedin"></i>
                     </a>
 
@@ -22,8 +22,13 @@
                     <br>
 
                     <a href="tel:{{ member.phone | replace: ' ', '' }}">
-                        <i class="fa fa-phone"></i>
+                        <i class="fa fa-mobile" style="margin-right: 6px"></i>
                         <span>{{ member.phone }}</span>
+                    </a>
+                    <span style="margin-right: 3px">|</span>
+                    <a href="tel:{{ member.skype | replace: ' ', '' }}">
+                        <i class="fa fa-phone" style="margin-right: 6px"></i>
+                        {{ member.skype }}
                     </a>
                 </div>
             </div>

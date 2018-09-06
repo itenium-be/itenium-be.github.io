@@ -3,7 +3,8 @@ layout: default-freelance
 permalink: /freelance/
 ---
 
-{% for freelanceJob in site.data.freelance %}
+{% assign allJobs = site.data.freelance | sort:"date" | reverse %}
+{% for freelanceJob in allJobs %}
     {% unless freelanceJob.deleted %}
         {% include freelance/freelance-job.html job=freelanceJob %}
     {% endunless %}
