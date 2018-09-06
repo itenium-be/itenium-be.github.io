@@ -127,7 +127,6 @@
     margin-top: 8px;
     text-align: center;
     font-size: 18px;
-    white-space: nowrap;
 
     a {
         margin-right: 14px;
@@ -144,12 +143,19 @@
     margin-bottom: 8px;
 
     .job-listing-item {
+        display: block;
+        width: 100%;
+
         h2 {
             text-transform: none;
         }
 
          cursor: pointer;
          padding: 15px;
+
+         button {
+            float: right;
+         }
     }
 
     .job-listing-item:hover {
@@ -159,7 +165,31 @@
     .job-listing-item-sep {
         margin: 0;
     }
+
+
+    .freelace-job-full {
+        padding: 10px;
+        color: #A6A6A6 !important;
+
+        ul {
+            list-style-position: inside;
+        }
+
+        h1, h2, h3, h4 {
+            color: black;
+        }
+    }
 }
+
+.return-to-all-jobs {
+    position: absolute;
+    margin-top: -61px;
+    left: 10px;
+    padding: 6px;
+    border: 1px solid #261B17;
+    background-color: #281E19;
+}
+
 
 .freelance-search-results {
     h3 {
