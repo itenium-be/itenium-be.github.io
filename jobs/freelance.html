@@ -5,7 +5,7 @@ permalink: /freelance/
 
 {% assign allJobs = site.data.freelance | sort:"date" | reverse %}
 {% for freelanceJob in allJobs %}
-    {% unless freelanceJob.deleted %}
+    {% if freelanceJob.published %}
         {% include freelance/freelance-job.html job=freelanceJob %}
-    {% endunless %}
+    {% endif %}
 {% endfor %}

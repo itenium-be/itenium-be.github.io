@@ -1,5 +1,5 @@
 {% assign job = include.job %}
-<div class="job-listing-item">
+<div class="job-listing-item" onclick="javascript:window.location='{% include freelance/freelance-url.html job=job %}'">
     <div style="float: right">
         <button class="btn" title="Read more">
             <i class="fa fa-angle-double-right"></i>
