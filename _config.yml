@@ -22,7 +22,7 @@ jobemail: jobs@itenium.be
 address:
   maatschappelijk: Linde 11, 1840 Londerzeel
   office: Mechelsesteenweg 200, 2860 Sint-Katelijne-Waver
-tel: +32 477 54 89 57
+tel: +32 15 79 46 89
 description: > # this means to ignore newlines until "baseurl:"
   We're here for all your software consultancy needs.
 baseurl: "" # the subpath of your site, e.g. /blog
