@@ -169,14 +169,34 @@
 
     .freelace-job-full {
         padding: 10px;
-        color: #A6A6A6 !important;
+
+        $jobs-color: #A6A6A6;
+        color: $jobs-color !important;
+        p {
+            color: $jobs-color !important;
+        }
+
+        table {
+            margin: -10px;
+        }
 
         ul {
             list-style-position: inside;
+            margin-bottom: 12px;
+            margin-right: 12px;
+            margin-top: 12px;
+
+            li {
+                margin-left: 24px !important;
+            }
         }
 
         h1, h2, h3, h4 {
             color: black;
+        }
+
+        b span {
+            font-weight: bolder;
         }
     }
 }

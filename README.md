@@ -1,7 +1,6 @@
 itenium
 =======
 
-FREELANCE:  
 - freelance: "deel deze vacature"?
 - freelance winforms: add an auto updater?
 - itenium contact form: should add field for adding a CV document directly?
@@ -11,6 +10,8 @@ add link to freelance jobs from jobs page
 
 - normalize font color, background-color, ...
 --> in app: only h1's, remove font family and size
+
+search: cloud with locations
 
 
 once freelance job is deleted:
