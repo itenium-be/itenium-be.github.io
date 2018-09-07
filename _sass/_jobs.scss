@@ -170,14 +170,36 @@
     .freelace-job-full {
         padding: 10px;
 
-        $jobs-color: #A6A6A6;
+        $jobs-color: black; // #A6A6A6
+        $jobs-font: 'Roboto Condensed', sans-serif;
         color: $jobs-color !important;
-        p {
+        p, span {
             color: $jobs-color !important;
+            font-family: $jobs-font !important;
+            margin-left: 0 !important;
+            font-size: 12pt !important;
+        }
+        li {
+            color: $jobs-color !important;
+            font-family: $jobs-font !important;
+        }
+
+        i {
+            font-style: normal !important;
+        }
+
+        td {
+            // color: $jobs-color !important;
+            font-family: $jobs-font !important;
         }
 
         table {
             margin: -10px;
+            width: 100% !important;
+
+            td {
+                padding: 8px !important;
+            }
         }
 
         ul {
@@ -195,7 +217,7 @@
             color: black;
         }
 
-        b span {
+        strong, strong span, b, b span {
             font-weight: bolder;
         }
     }
