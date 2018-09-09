@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/26/network-engineer
+id: 26
+title: "Network Engineer"
+subTitle: Region Zuid West-Vlaanderen 
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
