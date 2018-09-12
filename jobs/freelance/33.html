@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/33/agile-scrum-master
+id: 33
+title: "Agile Scrum master "
+subTitle: Region Oost-Vlaanderen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
