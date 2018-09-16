@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/36/analyst-with-technical-background
+id: 36
+title: "Analyst with technical background"
+subTitle: Region Gent
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
