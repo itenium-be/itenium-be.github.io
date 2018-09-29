@@ -41,7 +41,10 @@
                     <i class="flaticon-home78"></i>
                 </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                    <p class="footer-heading">recent posts</p>
+                    <p class="footer-heading">
+                        recent posts
+                        {% include components/icon-rss.html %}
+                    </p>
                     <ul class="footerblog">
                         {% include blog/recent-posts-footer.html %}
                     </ul>
