@@ -1,6 +1,6 @@
 title: who we are
 sub: |
-    We are a team of passionate, highly motivated and dedicated .NET consultants
+    We are a team of passionate, highly motivated and dedicated IT consultants
     with a strong focus on improving ourselves while loving what we do.
 
 section1:
@@ -20,7 +20,7 @@ section3:
     header: Projects
     fa: fa fa-code-fork
     label: >
-        Interesting projects in .NET, Javascript, Angular, React, ..
+        Interesting projects in .NET, Java, Javascript, Angular, React, ..
 
 section4:
     header: Customers
