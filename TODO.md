@@ -1,14 +1,14 @@
 ﻿TODO stuff
 ==========
 
-- Linked in follow button zetten(kijk naar elevate-it)
+- itenium contact form: should add field for adding a CV document directly
 
-- add target blank to all external media sites. (so also when hovering over our pictures)
+- Linked in follow button zetten(kijk naar elevate-it)
 
 - #about => wanneer op de about link geklikt wordt verdwijnt de header menu, op mobile. Werkt wel bij andere links
  => added branch for feature/static-menu-navbar-for-about-section which fixes this bug but introduces new one.
 
-- icoon maken(zie huidig browser tablad icoon)
+- fav icoon maken (zie huidig browser tablad icoon)
 
 
 Op termijn
@@ -21,12 +21,11 @@ Jobs page:
 - what others said about working for/with itenium
 - Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
 
-TECHNOLOGIES:
-add jasmine icon?
-RxJs icon?
-webpack, vagrant, docker, gulp, yarn?
-
-- smaller pages should load faster: don't need all the cruft on jobs/blog/...
+Freelance page:  
+- once freelance job is deleted: https://rubygems.org/gems/jekyll-redirect-from
+--> redirect to freelance jobs overview (https://help.github.com/articles/redirects-on-github-pages/)
+- search: cloud with locations
+- freelance: "deel deze vacature"?
 
 - op jobs en blog page horizontal rule(met oranje icoontje) terug adden onder heading. Wel opletten bij jobs dat de subheading text er dan niet weer overkomt.
 
@@ -38,7 +37,7 @@ Splash
 
 
 Al dan niet doen. Nog over nadenken
-==================================
+===================================
 Our people : enjoy working here.
 
 The core of our business. We like them to be happy and well-trained => flemish english, belachlijk voor english native speakers.
@@ -47,7 +46,7 @@ Our people : enjoy working here & get all the training they want
 
 
 Non Issues
-==================================
+==========
 Jekyll bug wanneer je lokaal draait want doet zich niet voor op www.itenium.be: In Chrome, the splash screen displays some white background (other browsers always display the background image completely)
 => zit er al in van 1 vd eerste commits(8f20e51344d8b98b2aa37223fee9666d5ad3a7ed). In chrome worden de afbeeldingen meerdere keren geladen, en ik denk bij de knippering dat er dus een nieuwe afbeedling wordt geladen.
 Bij andere browsers of de originele templ. niet.

@@ -1,29 +1,6 @@
 itenium
 =======
 
-- freelance: "deel deze vacature"?
-- freelance winforms: add an auto updater?
-- itenium contact form: should add field for adding a CV document directly?
-
-front page: next to jobs button also a freelance button (slider)
-add link to freelance jobs from jobs page
-
-- normalize font color, background-color, ...
---> in app: only h1's, remove font family and size
-
-search: cloud with locations
-
-
-once freelance job is deleted:
-https://rubygems.org/gems/jekyll-redirect-from
---> redirect to freelance jobs overview
-
-
-Like: https://axxes.com/job-detail/back-end-developer/oost-vlaanderen/14005597-f09e-e811-80ff-00155d66dc8d/
-
-
-
-
 ## Flow
 
 ```powershell
