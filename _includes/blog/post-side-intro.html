@@ -10,7 +10,11 @@
         {% include components/edit-post.html %}
     </div>
 
-    <div style="line-height: 16px; margin-top: 6px">{{ page.desc }}</div>
+    {% assign blogExcerpt = post.content | split:'<!--more-->' | first | strip_html | strip %}
+    {% assign blogDesc = page.desc | strip_html | strip %}
+    {% if blogDesc != blogExcerpt %}
+        <div style="line-height: 16px; margin-top: 6px">{{ page.desc }}</div>
+    {% endif %}
 
     <div style="margin-top: 5px; margin-bottom: 8px">
         <img class="img-responsive" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgdesc }}" />
