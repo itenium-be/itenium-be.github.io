@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/45/team-agile-coach
+id: 45
+title: "Team/Agile Coach"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
