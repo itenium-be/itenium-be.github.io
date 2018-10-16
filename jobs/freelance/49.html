@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/49/junior-data-scientist
+id: 49
+title: "Junior Data Scientist"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
