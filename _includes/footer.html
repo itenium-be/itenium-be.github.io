@@ -1,6 +1,6 @@
 <!-- footer -->
 <footer>
-    <div class="footer-wrapper section-padding">
+    <div class="footer-wrapper section-padding" style="padding-bottom: 60px">
         <div class="container">
             <div class="row">
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
@@ -8,12 +8,25 @@
                         <span class="white">it</span>
                         <span class="dark-orange">enium</span>
                 </div>
-                    <p class="footer-content">{{ site.description }}</p>
+                <!--
+                Replaced this with the office image (+ changed padding-bottom: 60px)
+                <p class="footer-content">
+                    {{ site.description }}
+                </p>
+                -->
+
+                <p style="max-width: 240px; margin-top: 30px; margin-bottom: 0">
+                    <img class="img-rounded img-responsive" src="{{ 'img/office.jpg' | absolute_url }}" />
+                </p>
+
+
                 </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
                 <div class="wow zoomIn col-xs-12 col-sm-3 col-md-3">
                     <p class="footer-heading">link</p>
                     {% include menus.html footermenu=true onIndex=layout.onIndex %}
                 </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+
+
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
                     <p class="footer-heading">find us</p>
                     <ul class="footercontact">
