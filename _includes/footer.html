@@ -29,6 +29,10 @@
                             {% include components/icon-linkedin.html company=site.linkedin_company %}
                             <span style="margin-left: -5px">LinkedIn:</span><a href="https://sg.linkedin.com/company/{{ site.linkedin_company }}"> {{ site.linkedin_company }}</a>
                         </li>
+                        <li>
+                            {% include components/icon-instagram.html username=site.instagram %}
+                            <span style="margin-left: -5px">Instagram:</span><a href="https://instagram.com/{{ site.instagram }}"> {{ site.instagram }}</a>
+                        </li>
                         <li style="margin-left: -4px;">
                             <i class="fa fa-bank"></i>
                             <span style="margin-left: -5px">Bank:</span> {{ site.bank }}
