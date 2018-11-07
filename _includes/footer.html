@@ -3,34 +3,30 @@
     <div class="footer-wrapper section-padding" style="padding-bottom: 60px">
         <div class="container">
             <div class="row">
-                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                    <div class="logo">
-                        <span class="white">it</span>
-                        <span class="dark-orange">enium</span>
-                </div>
-                <!--
-                Replaced this with the office image (+ changed padding-bottom: 60px)
-                <p class="footer-content">
-                    {{ site.description }}
-                </p>
-                -->
 
-                <p style="max-width: 240px; margin-top: 30px; margin-bottom: 0">
-                    <img class="img-rounded img-responsive" src="{{ 'img/office.jpg' | absolute_url }}" />
-                </p>
-
-
-                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
-                <div class="wow zoomIn col-xs-12 col-sm-3 col-md-3">
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-2">
                     <p class="footer-heading">link</p>
                     {% include menus.html footermenu=true onIndex=layout.onIndex %}
-                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                </div>
+
 
 
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
+                    <p class="footer-heading">
+                        recent posts
+                        {% include components/icon-rss.html %}
+                    </p>
+                    <ul class="footerblog">
+                        {% include blog/recent-posts-footer.html %}
+                    </ul>
+                </div>
+
+
+
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
                     <p class="footer-heading">find us</p>
                     <ul class="footercontact">
-                        <li><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address.office }}</li>
+                        <li style="max-width: 280px;"><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address.office }}</li>
                         <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel | replace: ' ', '' }}"> {{ site.tel }}</a></li>
                         <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email.general }}"> {{ site.email.general }}</a></li>
                         <li><i class="flaticon-world91"></i><span>web:</span><a href="{{ site.url }}"> {{ site.url }}</a></li>
@@ -56,16 +52,30 @@
                         </li>
                     </ul>
                     <i class="flaticon-home78"></i>
-                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                </div>
+
+
+
+
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
-                    <p class="footer-heading">
-                        recent posts
-                        {% include components/icon-rss.html %}
+                    <div class="logo">
+                        <span class="white">it</span>
+                        <span class="dark-orange">enium</span>
+                    </div>
+
+                    <!--
+                    Replaced this with the office image (+ changed padding-bottom: 60px)
+                    <p class="footer-content">
+                        {{ site.description }}
                     </p>
-                    <ul class="footerblog">
-                        {% include blog/recent-posts-footer.html %}
-                    </ul>
-                </div><!-- /.col-xs-12 .col-sm-3 .col-md-3 -->
+                    -->
+
+                    <p style="max-width: 240px; margin-top: 30px; margin-bottom: 0">
+                        <img class="img-rounded img-responsive" src="{{ 'img/office.jpg' | absolute_url }}" />
+                    </p>
+                </div>
+
+
             </div> <!-- /.row -->
         </div> <!-- /.container -->
     </div>
