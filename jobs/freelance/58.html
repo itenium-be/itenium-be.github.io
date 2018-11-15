@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/58/net-developer
+id: 58
+title: ".Net developer"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
