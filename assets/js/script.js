@@ -4,11 +4,11 @@ jQuery(function ($) {
 
     // -------------------------------------------------------------
 
-    if (!localStorage.getItem('cookieNoticeKilled')) {
+    if (!localStorage.getItem('cookieNoticeKilled2')) {
         $('.cookie-notice').show();
 
         $('#cookie-notice-kill').click(function() {
-            localStorage.setItem('cookieNoticeKilled', true);
+            localStorage.setItem('cookieNoticeKilled2', true);
             $('.cookie-notice').hide();
         });
     }

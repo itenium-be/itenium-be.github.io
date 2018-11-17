@@ -15,7 +15,7 @@ require("sendgrid-php/sendgrid-php.php");
 
 $from = new SendGrid\Email($_POST["name"], $_POST["email"]);
 $subject = "Contact Request - " . $_POST["company"] . " : " . $_POST["subject"];
-$to = new SendGrid\Email("Itenium", "info@itenium.be");
+$to = new SendGrid\Email("itenium", "info@itenium.be");
 $content = new SendGrid\Content("text/plain", $_POST["message"]);
 $mail = new SendGrid\Mail($from, $subject, $to, $content);
 
