@@ -2,7 +2,8 @@
   onIndex: true
   role: Managing Partner
   image: /img/team/steven.jpg
-  title: Technical expert (±8 yrs exp)
+  title: Technical expert
+  experienceFrom: 2010
   email: steven.robijns@itenium.be
   phone: +32 477 54 89 57
   linkedin: https://www.linkedin.com/in/stevenrobijns
@@ -12,7 +13,8 @@
   onIndex: true
   role: Managing Partner
   image: /img/team/wouter.jpg
-  title: Solution Architect (±13 yrs exp)
+  title: Tech Lead
+  experienceFrom: 2005
   email: wouter.van.schandevijl@itenium.be
   phone: +32 476 40 35 02
   linkedin: https://www.linkedin.com/in/woutervanschandevijl/

@@ -16,7 +16,10 @@
 <div class="team-designation">
     <p>{{ include.member.name }}</p>
     <span>{{ include.member.role }}</span>
-    <span style="white-space: nowrap">{{ include.member.title }}</span>
+    <span style="white-space: nowrap">
+        {{ include.member.title }}
+        (±{{ (site.time | date: '%Y') | minus: include.member.experienceFrom }} yrs exp)
+    </span>
     <span>{{ include.member.email }}</span>
     <span>{{ include.member.phone }}</span>
 </div>
