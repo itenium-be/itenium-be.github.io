@@ -1,0 +1,19 @@
+---
+layout: default-freelance
+permalink: /freelance/12/systeembeheerder
+id: 12
+title: "Systeembeheerder "
+subTitle: Region Hasselt
+---
+
+<div style="padding: 8px">
+    <h1>This opportunity is no longer vacant</h1>
+    <h2>Check these recently added opportunities:</h2>
+</div>
+
+{% assign allJobs = site.data.freelance | sort:"date" | reverse | slice: 0, 7 %}
+{% for freelanceJob in allJobs %}
+    {% if freelanceJob.published %}
+        {% include freelance/freelance-job.html job=freelanceJob %}
+    {% endif %}
+{% endfor %}
