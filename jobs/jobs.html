@@ -9,7 +9,8 @@ permalink: /jobs/
     <section id="jobs" class="jobs">
         <div class="container">
             <div class="row">
-                {% include job.html job=site.data.jobs.jobs %}
+                {% assign job = site.data.jobs.jobs | first %}
+                {% include job.html job=job %}
             </div>
         </div>
     </section>

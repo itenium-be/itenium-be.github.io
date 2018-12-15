@@ -44,21 +44,48 @@ xp:
 
 
 jobs:
-  title: Medior Frontend Developer
-  xp: medior
-  type: dev
-  techs:
-    - JavaScript and TypeScript
-    - SASS, SCSS or Post-CSS
-    - Angular, React or Vue.js
-    - Bootstrap or Foundation
-    - Jasmine, Mocha or Jest
-    - NodeJS and Express
-    - Bluebird or RxJS
-    - socket.io, superagent and Redux
-    - Babel, Webpack or Gulp
-    - UX Design Guidelines
-    - SQL or No-SQL database(s)
-    - Design Patterns and Dependency Injection
-    - Scrum and Kanban
-    - DevOps and Continuous Integration
+  - title: Medior Frontend Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got experience with
+        techs:
+          - JavaScript and TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - Bootstrap or Foundation
+          - Jasmine, Mocha or Jest
+          - NodeJS and Express
+          - Bluebird or RxJS
+          - socket.io, superagent and Redux
+          - Babel, Webpack or Gulp
+      - title: ... and perhaps also with
+        techs:
+          - UX Design Guidelines
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+
+  - title: Medior Full Stack .NET Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+      - title: Got backend experience with
+        techs:
+          - .NET Core
+          - EntityFramework
+          - ASP.NET WebApi and REST
+          - LINQ, Generics and async/await
+          - Unit Testing
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration

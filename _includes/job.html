@@ -10,8 +10,10 @@
         {% endif %}
     </small>
 
+
     {% assign jobInfo = meta.types | where: "type", job.type | first %}
     {{ jobInfo.yourProfile }}
+
 
     <h2 class="job-title" style="margin-top: 25px">Do you</h2>
     <ul>
@@ -20,16 +22,17 @@
         {% endfor %}
     </ul>
 
-    <h2 class="job-title">
-        Got experience
-        <br>
-        <small>… or eager to build experience in these cutting edge technologies?</small>
-    </h2>
-    <ul>
-        {% for tech in job.techs %}
-            <li>{{ tech }}</li>
-        {% endfor %}
-    </ul>
+
+    {% for techGroup in job.techs %}
+        <h2 class="job-title">{{ techGroup.title }}</h2>
+        <ul>
+            {% for tech in techGroup.techs %}
+                <li>{{ tech }}</li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+    <div>… or eager to build experience in these cutting edge technologies?</div>
+
 
     <h2 class="job-title">Are you</h2>
     <ul>
@@ -57,12 +60,15 @@
         </div>
     </div>
 
+
     <h2 class="job-title">Interested?</h2>
     <div style="font-size: 17px; margin-left: 21px;">
         <div><i class="flaticon-email21 small-flaticon"></i><a href="mailto:{{ site.email.jobs }}"> {{ site.email.jobs }}</a></div>
         <div><i class="flaticon-phone16 small-flaticon"></i><a href="tel:{{ site.tel | replace: ' ', '' }}"> {{ site.tel }}</a></div>
     </div>
 </div>
+
+
 
 <div class="col-md-5" style="margin-top: -25px">
     <div class="jobs-sidebar">
