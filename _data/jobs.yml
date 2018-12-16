@@ -1,1 +1,91 @@
 title: jobs
+
+types:
+  - type: dev
+    yourProfile: >
+      We are looking for a passionate and talented developer with a drive to keep on learning and improving his/her skills.
+
+doYou:
+  - have the drive to keep on learning?
+  - like to be a part of a young, dynamic group of people who share the same values?
+  - feel responsible for what you deliver?
+  - choose quality over quantity?
+  - have the dedication to bring quality and professionalism to our customers?
+  - want to be assisted by the best technical people (20+ yrs exp.) to boost your development and career?
+  - want to learn the latest technologies to keep your passion sparked?
+  - speak Dutch with a profound knowledge of English?
+
+areYou:
+  - not afraid to ask questions or can we convince you not to be?
+  - capable of working independently?
+  - communicative and a teamplayer?
+
+ourOffer:
+  - Competitive salary
+  - Company car with fuel card
+  - High-end laptop
+  - Mobile phone
+  - 32 holidays (12 ADV)
+  - Hospital & Group insurance
+  - Meal vouchers
+
+ourEdge:
+  - Personal coaching by our competence center
+  - Career plans and accompanying training
+  - Fun teambuilding activities
+
+
+xp:
+  - type: medior
+    desc: 2-5 years experience
+    extra: (or verifiable passion – for example with an active Github account)
+  - type: senior
+    desc: 5+ years experience
+
+
+jobs:
+  - title: Medior Frontend Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got experience with
+        techs:
+          - JavaScript and TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - Bootstrap or Foundation
+          - Jasmine, Mocha or Jest
+          - NodeJS and Express
+          - Bluebird or RxJS
+          - socket.io, superagent and Redux
+          - Babel, Webpack or Gulp
+      - title: ... and perhaps also with
+        techs:
+          - UX Design Guidelines
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+
+  - title: Medior Full Stack .NET Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+      - title: Got backend experience with
+        techs:
+          - .NET Core
+          - EntityFramework
+          - ASP.NET WebApi and REST
+          - LINQ, Generics and async/await
+          - Unit Testing
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
