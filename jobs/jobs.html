@@ -71,6 +71,27 @@ permalink: /jobs/
                 {% include job-link.html job=job %}
             </div>
 
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", "senior-frontend" | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", "senior-dotnet" | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", "senior-java" | first %}
+                {% include job-link.html job=job %}
+            </div>
+        </div>
+
+        <div class="row jobs-row">
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", "senior-fullstack" | first %}
+                {% include job-link.html job=job %}
+            </div>
         </div>
     </div>
 </div>

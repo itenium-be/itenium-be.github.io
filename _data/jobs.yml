@@ -247,6 +247,105 @@ jobs:
           - WebApi or Spring
           - EntityFramework or Hibernate
 
+  - id: senior-frontend
+    title: Senior Frontend Developer
+    xp: senior
+    type: dev
+    techs:
+      - title: Got experience with
+        learn: true
+        techs:
+          - JavaScript and TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - Bootstrap or Foundation
+          - Jasmine, Mocha or Jest
+          - NodeJS and Express
+          - Bluebird or RxJS
+          - socket.io, superagent and Redux
+          - Babel, Webpack or Gulp
+      - title: ... and perhaps also with
+        techs:
+          - UX Design Guidelines
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
 
+  - id: senior-dotnet
+    title: Senior Full Stack .NET Developer
+    xp: senior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - RxJS and Redux
+      - title: Got backend experience with
+        learn: true
+        techs:
+          - .NET Core
+          - EntityFramework
+          - ASP.NET WebApi and REST
+          - LINQ, Generics and async/await
+          - Unit Testing
+          - AWS or Azure
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
 
+  - id: senior-fullstack
+    title: Senior Full Stack Developer
+    xp: senior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - RxJS and Redux
+      - title: Got backend experience with either
+        learn: true
+        techs:
+          - "NodeJS: Express, npm, Webpack, ..."
+          - "PHP: Laravel, Composer, Doctrine, ..."
+          - "Python: Django, pip, ..."
+          - AWS or Azure
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+          - Unit Testing
 
+  - id: senior-java
+    title: Senior Full Stack Java Developer
+    xp: senior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+          - RxJS and Redux
+      - title: Got backend experience with
+        learn: true
+        techs:
+          - Java 11 and Android
+          - Hibernate and Spring
+          - Generics and Lambdas
+          - Unit Testing
+          - AWS or Azure
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
