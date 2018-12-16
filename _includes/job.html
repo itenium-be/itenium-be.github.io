@@ -1,6 +1,6 @@
 {% assign meta = site.data.jobs %}
 {% assign job = include.job %}
-<div class="col-md-7 job-content">
+<div class="job-content">
     <h1>{{ job.title }}</h1>
     {% assign xp = meta.xp | where: "type", job.xp | first %}
     <small>
@@ -12,7 +12,9 @@
         {% else %}
             {{ job.xpDesc }}
         {% endif %}
-        <span style="text-transform: none">{{ job.xpExtra }}</span>
+        <span style="text-transform: none">
+            {{ job.xpExtra }}
+        </span>
     </small>
 
 

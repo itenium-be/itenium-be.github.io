@@ -150,7 +150,10 @@
         -webkit-box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.2);
         box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
         border-radius: 50px;
-        max-width: 250px;
+        width: 250px;
+        margin: auto;
+        margin-bottom: 25px;
+        min-height: 120px;
         cursor: pointer;
 
         a {
