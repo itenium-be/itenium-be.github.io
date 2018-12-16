@@ -4,6 +4,20 @@ types:
   - type: dev
     yourProfile: >
       We are looking for a passionate and talented developer with a drive to keep on learning and improving his/her skills.
+    learn: >
+      … or eager to build experience in these cutting edge technologies?
+  - type: tester
+    yourProfile: >
+      We are looking for a passionate and talented tester with a drive to keep on learning and improving his/her skills.
+    learn: >
+      … or an eagerness to build and expand your knowledge of these testing knowledge objectives and techniques.
+  - type: devops
+    yourProfile: >
+      We are looking for a passionate and talented developer/engineer with a drive to keep on learning and improving his/her skills.
+  - type: support
+    yourProfile: >
+      We are looking for a passionate and talented support engineer with a drive to keep on learning and improving his/her skills.
+
 
 doYou:
   - have the drive to keep on learning?
@@ -44,12 +58,13 @@ xp:
 
 
 jobs:
-  - id: 1
+  - id: medior-frontend
     title: Medior Frontend Developer
     xp: medior
     type: dev
     techs:
       - title: Got experience with
+        learn: true
         techs:
           - JavaScript and TypeScript
           - SASS, SCSS or Post-CSS
@@ -68,7 +83,7 @@ jobs:
           - Scrum and Kanban
           - DevOps and Continuous Integration
 
-  - id: 2
+  - id: medior-dotnet
     title: Medior Full Stack .NET Developer
     xp: medior
     type: dev
@@ -79,6 +94,7 @@ jobs:
           - SASS, SCSS or Post-CSS
           - Angular, React or Vue.js
       - title: Got backend experience with
+        learn: true
         techs:
           - .NET Core
           - EntityFramework
@@ -92,7 +108,7 @@ jobs:
           - Scrum and Kanban
           - DevOps and Continuous Integration
 
-  - id: 3
+  - id: medior-fullstack
     title: Medior Full Stack Developer
     xp: medior
     type: dev
@@ -103,6 +119,7 @@ jobs:
           - SASS, SCSS or Post-CSS
           - Angular, React or Vue.js
       - title: Got backend experience with either
+        learn: true
         techs:
           - "NodeJS: Express, npm, Webpack, ..."
           - "PHP: Laravel, Composer, Doctrine, ..."
@@ -115,7 +132,7 @@ jobs:
           - DevOps and Continuous Integration
           - Unit Testing
 
-  - id: 4
+  - id: medior-java
     title: Medior Full Stack Java Developer
     xp: medior
     type: dev
@@ -126,6 +143,7 @@ jobs:
           - SASS, SCSS or Post-CSS
           - Angular, React or Vue.js
       - title: Got backend experience with
+        learn: true
         techs:
           - Java 11 and Android
           - Hibernate and Spring
@@ -136,3 +154,99 @@ jobs:
           - Design Patterns and Dependency Injection
           - Scrum and Kanban
           - DevOps and Continuous Integration
+
+  - id: test-engineer
+    title: Test Engineer
+    xpDesc: 2+ years experience
+    type: tester
+    techs:
+      - title: Knowledge
+        learn: true
+        techs:
+          - Traceability and Test Matrixes
+          - V-Model
+          - Equivalence partitioning & boundary value analysis
+          - White box and black box testing
+          - Selenium, Katalon or Ranorex
+      - title: Career plan
+        subtitle: To grow into a role as
+        techs:
+          - Test Automation Engineer
+          - Security Tester
+          - Test Manager
+          - Tester-Analyst
+
+  - id: devops-engineer
+    title: DevOps Engineer
+    xpDesc: 2+ years experience
+    type: devops
+    techs:
+      - title: Got development experience with
+        techs:
+          - JavaScript
+          - .NET or Java
+          - SQL Server or Oracle
+          - PowerShell, Python or bash
+          - Scrum
+      - title: Got operations experience with
+        techs:
+          -  Docker or Kubernetes
+          -  Azure or AWS
+          -  Puppet, Chef or DSC
+          -  Windows or Linux
+          -  Continuous Integration
+
+  - id: linux-engineer
+    title: Linux Engineer
+    xpDesc: 1+ year experience
+    type: linux
+    techs:
+      - techs:
+          - Debian or CentOS or ...
+          - Apache / Nginx
+          - Puppet / Chef / Ansible
+          - Bash, Python, Perl or PowerShell Core
+          - Databases (Mysql, Postgres, MariaDb, ...)
+          - Network protocols (TCP, HTTP, SMTP, DNS, ...)
+
+  - id: support-engineer
+    title: Support Engineer
+    xpDesc: 1+ year experience.
+    xpExtra: Trilingual (NL, FR, EN).
+    type: support
+    techs:
+      - title: Got experience with
+        techs:
+          - Microsoft Windows Server
+          - Windows and Office or Linux
+          - Exchange Server and Active Directory
+          - Backup & Restore, Printers, Shares
+          - DNS, Firewalls, Routers
+      - title: And optionally also with
+        techs:
+          - Virtualisation
+          - SQL Server or Oracle
+          - Azure or AWS
+          - PowerShell or bash
+
+  - id: scrum-master
+    title: Scrum Master
+    xpDesc: 1+ year experience.
+    xpExtra: 50% ScrumMaster, 50% Development.
+    type: dev
+    techs:
+      - title: Got experience with
+        techs:
+          - Scrum, XP and Kanban
+          - SAFe or LeSS
+          - Coaching & Facilitating
+          - Squads & Tribes
+      - title: And also with
+        techs:
+          - .NET or Java
+          - WebApi or Spring
+          - EntityFramework or Hibernate
+
+
+
+

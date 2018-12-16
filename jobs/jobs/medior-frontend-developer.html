@@ -3,5 +3,5 @@ layout: default-job
 permalink: /jobs/medior-frontend-developer
 ---
 
-{% assign job = site.data.jobs.jobs | where: "id", 1 | first %}
+{% assign job = site.data.jobs.jobs | where: "id", "medior-frontend" | first %}
 {% include job.html job=job %}

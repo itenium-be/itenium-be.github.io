@@ -4,15 +4,20 @@
     <h1>{{ job.title }}</h1>
     {% assign xp = meta.xp | where: "type", job.xp | first %}
     <small>
-        {{ xp.desc }}
-        {% if xp.extra %}
-            <span style="text-transform: none">{{ xp.extra }}</span>
+        {% if xp %}
+            {{ xp.desc }}
+            {% if xp.extra %}
+                <span style="text-transform: none">{{ xp.extra }}</span>
+            {% endif %}
+        {% else %}
+            {{ job.xpDesc }}
         {% endif %}
+        <span style="text-transform: none">{{ job.xpExtra }}</span>
     </small>
 
 
     {% assign jobInfo = meta.types | where: "type", job.type | first %}
-    {{ jobInfo.yourProfile }}
+    <div style="margin-top: 15px; margin-bottom: -8px">{{ jobInfo.yourProfile }}</div>
 
 
     <h2 class="job-title" style="margin-top: 25px">Do you</h2>
@@ -23,15 +28,22 @@
     </ul>
 
 
+    <h2 class="job-title">Technologies</h2>
     {% for techGroup in job.techs %}
-        <h2 class="job-title">{{ techGroup.title }}</h2>
+        <h3 class="job-subtitle">{{ techGroup.title }}</h3>
+        {% if techGroup.subtitle %}
+            <div>{{ techGroup.subtitle }}</div>
+        {% endif %}
         <ul>
             {% for tech in techGroup.techs %}
                 <li>{{ tech }}</li>
             {% endfor %}
         </ul>
+        {% if techGroup.learn %}
+            <div style="margin-top: 8px">{{ jobInfo.learn }}</div>
+        {% endif %}
     {% endfor %}
-    <div>… or eager to build experience in these cutting edge technologies?</div>
+
 
 
     <h2 class="job-title">Are you</h2>

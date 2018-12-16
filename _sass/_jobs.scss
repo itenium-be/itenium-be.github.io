@@ -116,6 +116,11 @@
     margin-bottom: 25px;
 }
 
+.job-subtitle {
+    font-weight: bold;
+    margin-top: 12px;
+}
+
 
 .jobs-header {
     &.jobs-body {
@@ -123,6 +128,10 @@
 
         .job-title, .job-post a {
             color: black;
+        }
+
+        .jobs-row {
+            margin-bottom: 40px;
         }
     }
 
@@ -137,8 +146,8 @@
         padding: 15px;
         text-align: center;
         color: white;
-        -moz-box-shadow: 3px 3px 0px rgba(153, 153, 153, 0.2);
-        -webkit-box-shadow: 5px 5px 0px rgba(153, 153, 153, 0.2);
+        -moz-box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.2);
+        -webkit-box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.2);
         box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
         border-radius: 50px;
         max-width: 250px;
@@ -157,6 +166,7 @@
 
     h2 {
         color: #E74700;
+        margin-bottom: 15px;
     }
 
     span {

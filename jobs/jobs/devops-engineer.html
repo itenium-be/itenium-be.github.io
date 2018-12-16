@@ -1,0 +1,7 @@
+---
+layout: default-job
+permalink: /jobs/devops-engineer
+---
+
+{% assign job = site.data.jobs.jobs | where: "id", "devops-engineer" | first %}
+{% include job.html job=job %}
