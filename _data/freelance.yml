@@ -13,7 +13,6 @@
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
   unpublishdate: 2018-10-03T00:00:00.0000000+02:00
-  published: true
   slug: full-stack-java-javascript-web-developer
 - id: 3
   title: Backend developer met kennis van Python en C
@@ -46,7 +45,6 @@
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
   unpublishdate: 2018-10-03T00:00:00.0000000+02:00
-  published: true
   slug: full-stack-net-developer
 - id: 7
   title: '.NET Core developer (C#) '
@@ -55,7 +53,6 @@
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
   unpublishdate: 2018-10-03T00:00:00.0000000+02:00
-  published: true
   slug: -net-core-developer-c-
 - id: 8
   title: Medior .net developer
@@ -64,7 +61,6 @@
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
   unpublishdate: 2018-10-03T00:00:00.0000000+02:00
-  published: true
   slug: medior-net-developer
 - id: 9
   title: Linux System Engineer
@@ -89,7 +85,6 @@
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
   unpublishdate: 2018-10-03T00:00:00.0000000+02:00
-  published: true
   slug: technical-expert-infrastructure-iam
 - id: 12
   title: 'Systeembeheerder '
@@ -110,10 +105,10 @@
 - id: 14
   title: Business Intelligence Consultant
   location: Brussel
-  description: "\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt\"><span style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; LINE-HEIGHT: 107%'><?xml:namespace \r\nprefix = \"o\" ns = \"urn:schemas-microsoft-com:office:office\" \r\n/><o:p>&nbsp;</o:p></span><b><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Business \r\nIntelligence Consultant <o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Location<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Belgium \r\n- Brussels<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Sector<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Government<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Duration<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>about \r\n22 weeks<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Start \r\ndate<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>03/09/2018<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Description<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>We \r\nare looking for an experience BI expert.&nbsp;<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>The \r\nproject goal is building from scratch a new Datawarehouse taking into account \r\nthe business needs in reporting and data analysis but also the IT specific Micro \r\nservices architecture.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>This \r\nexpert shall work with a small team and therefore needs to be flexible and multi \r\ntalented to communicate either with developer, business expert and top \r\nmanagement of the...<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>His/her \r\nskills shall alow him/her to design and build the new \r\nsystem.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Domains \r\nof expertise<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>IT \r\nand Digital<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Roles<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>BI \r\nexpert&nbsp;7&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Skills<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Business \r\nObject / BO&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Cognos&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>Methodologies<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US'>IT \r\nBalanced Scorecard&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE'>Languages<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: white; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: normal\"><b><span style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; LETTER-SPACING: 0.25pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE'>Dutch<span style=\"mso-spacerun: yes\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><span style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; LETTER-SPACING: 0.25pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE'>advanced<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt\"><span style='FONT-SIZE: 12pt; FONT-FAMILY: \"Segoe UI\",sans-serif; LINE-HEIGHT: 107%'><o:p>&nbsp;</o:p></span></p>\r\n<p>&nbsp;</p>"
+  description: "<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt\"><span style='line-height: 107%; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\"><?xml:namespace \r\nprefix = \"o\" ns = \"urn:schemas-microsoft-com:office:office\" \r\n/><o:p>&nbsp;</o:p></span><b><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Business \r\nIntelligence Consultant <o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Location<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Belgium \r\n- Brussels<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Sector<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Government<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Duration<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">about \r\n22 weeks<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 5.25pt; LINE-HEIGHT: 12pt\"><b><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Start \r\ndate<o:p></o:p></span></b></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 0pt; LINE-HEIGHT: 15pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">03/09/2018<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Description<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">We \r\nare looking for an experience BI expert.&nbsp;<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">The \r\nproject goal is building from scratch a new Datawarehouse taking into account \r\nthe business needs in reporting and data analysis but also the IT specific Micro \r\nservices architecture.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 15pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">This \r\nexpert shall work with a small team and therefore needs to be flexible and multi \r\ntalented to communicate either with developer, business expert and top \r\nmanagement of the...<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: normal\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">His/her \r\nskills shall alow him/her to design and build the new \r\nsystem.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Domains \r\nof expertise<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">IT \r\nand Digital<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Roles<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">BI \r\nexpert&nbsp;7&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Skills<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Business \r\nObject / BO&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: #dedede; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Cognos&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Methodologies<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span lang=\"EN-US\" style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; mso-ansi-language: EN-US; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">IT \r\nBalanced Scorecard&nbsp;0&nbsp;y.<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: 12pt\"><span style='mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Languages<o:p></o:p></span></p>\r\n<p class=\"MsoNormal\" style=\"BACKGROUND: white; MARGIN: 0cm 0cm 8pt; LINE-HEIGHT: normal\"><b><span style='letter-spacing: 0.25pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">Dutch<span style=\"mso-spacerun: yes\">&nbsp;&nbsp;&nbsp;&nbsp; </span></span></b><span style='letter-spacing: 0.25pt; mso-fareast-font-family: \"Times New Roman\"; mso-fareast-language: NL-BE; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\">advanced<b><o:p></o:p></b></span></p>\r\n<p class=\"MsoNormal\" style=\"MARGIN: 0cm 0cm 8pt\"><span style='line-height: 107%; font-size: small' segoe=\"\" ui\",sans-serif\"=\"\"><o:p>&nbsp;</o:p></span></p>\r\n<p>&nbsp;</p>"
   username: KimElBoubsi
   date: 2018-09-03T00:00:00.0000000+02:00
-  unpublishdate: 2018-10-03T00:00:00.0000000+02:00
+  unpublishdate: 2019-01-17T00:00:00.0000000
   published: true
   slug: business-intelligence-consultant
 - id: 15
@@ -131,7 +126,6 @@
   username: KimElBoubsi
   date: 2018-09-06T00:00:00.0000000+02:00
   unpublishdate: 2018-10-06T00:00:00.0000000+02:00
-  published: true
   slug: web-developer
 - id: 17
   title: 'Web Master '
@@ -140,7 +134,6 @@
   username: KimElBoubsi
   date: 2018-09-06T00:00:00.0000000+02:00
   unpublishdate: 2018-10-06T00:00:00.0000000+02:00
-  published: true
   slug: web-master
 - id: 18
   title: Web Developer
@@ -173,7 +166,6 @@
   username: KimElBoubsi
   date: 2018-09-06T00:00:00.0000000+02:00
   unpublishdate: 2018-10-06T00:00:00.0000000+02:00
-  published: true
   slug: infrastructuur-project-managers
 - id: 22
   title: Senior Java developers
@@ -182,7 +174,6 @@
   username: KimElBoubsi
   date: 2018-09-09T00:00:00.0000000+02:00
   unpublishdate: 2018-10-09T00:00:00.0000000+02:00
-  published: true
   slug: senior-java-developers
 - id: 23
   title: 'Developpeur senior .NET - (Front-End) '
@@ -215,7 +206,6 @@
   username: KimElBoubsi
   date: 2018-09-09T00:00:00.0000000+02:00
   unpublishdate: 2018-10-09T00:00:00.0000000+02:00
-  published: true
   slug: network-engineer
 - id: 27
   title: Netwerk Beheerder
@@ -232,7 +222,6 @@
   username: KimElBoubsi
   date: 2018-09-09T00:00:00.0000000+02:00
   unpublishdate: 2018-10-09T00:00:00.0000000+02:00
-  published: true
   slug: senior-network-engineer
 - id: 29
   title: Technisch Coördinator
@@ -241,7 +230,6 @@
   username: KimElBoubsi
   date: 2018-09-09T00:00:00.0000000+02:00
   unpublishdate: 2018-10-09T00:00:00.0000000+02:00
-  published: true
   slug: technisch-coordinator
 - id: 30
   title: Junior .Net developer
@@ -250,7 +238,6 @@
   username: KimElBoubsi
   date: 2018-09-10T00:00:00.0000000+02:00
   unpublishdate: 2018-10-10T00:00:00.0000000+02:00
-  published: true
   slug: junior-net-developer
 - id: 31
   title: Medior/Senior .NET developer
@@ -259,7 +246,6 @@
   username: KimElBoubsi
   date: 2018-09-10T00:00:00.0000000+02:00
   unpublishdate: 2018-10-10T00:00:00.0000000+02:00
-  published: true
   slug: medior-senior-net-developer
 - id: 32
   title: 'Analist Programmeur RPG '
@@ -284,7 +270,6 @@
   username: KimElBoubsi
   date: 2018-09-16T00:00:00.0000000+02:00
   unpublishdate: 2018-10-16T00:00:00.0000000+02:00
-  published: true
   slug: -net-developer
 - id: 35
   title: Support  & maintenance .Net ontwikkelaar
@@ -293,7 +278,6 @@
   username: KimElBoubsi
   date: 2018-09-16T00:00:00.0000000+02:00
   unpublishdate: 2018-10-16T00:00:00.0000000+02:00
-  published: true
   slug: support-maintenance-net-ontwikkelaar
 - id: 36
   title: Analyst with technical background
@@ -302,7 +286,6 @@
   username: KimElBoubsi
   date: 2018-09-16T00:00:00.0000000+02:00
   unpublishdate: 2018-10-16T00:00:00.0000000+02:00
-  published: true
   slug: analyst-with-technical-background
 - id: 37
   title: Functional Analyst
@@ -327,7 +310,6 @@
   username: KimElBoubsi
   date: 2018-09-19T00:00:00.0000000+02:00
   unpublishdate: 2018-10-19T00:00:00.0000000+02:00
-  published: true
   slug: technical-consultant-office-365-rollout
 - id: 40
   title: System Engineer VMware
@@ -336,7 +318,6 @@
   username: KimElBoubsi
   date: 2018-09-21T14:37:19.7913294+02:00
   unpublishdate: 2018-10-21T14:37:19.7913294+02:00
-  published: true
   slug: system-engineer-vmware
 - id: 41
   title: 'Project Manager/Scrum Manager '
@@ -345,7 +326,6 @@
   username: KimElBoubsi
   date: 2018-09-25T15:19:21.9254470+02:00
   unpublishdate: 2018-10-25T15:19:21.9254470+02:00
-  published: true
   slug: project-manager-scrum-manager
 - id: 42
   title: Service Coördinator Transitie ondersteuning
@@ -354,7 +334,6 @@
   username: KimElBoubsi
   date: 2018-09-25T19:10:49.4596287+02:00
   unpublishdate: 2018-10-25T19:10:49.4596287+02:00
-  published: true
   slug: service-coordinator-transitie-ondersteuning
 - id: 43
   title: Systeembeheerder
@@ -371,7 +350,6 @@
   username: KimElBoubsi
   date: 2018-10-10T14:36:29.3907564+02:00
   unpublishdate: 2018-11-10T14:36:29.3907564+01:00
-  published: true
   slug: bi-developer-dba
 - id: 45
   title: Team/Agile Coach
@@ -396,7 +374,6 @@
   username: KimElBoubsi
   date: 2018-10-14T13:23:52.7754029+02:00
   unpublishdate: 2018-11-14T13:23:52.7754029+01:00
-  published: true
   slug: netwerkbeheerder
 - id: 48
   title: Junior / medior Service Delivery Manager - Brussel
@@ -405,7 +382,6 @@
   username: KimElBoubsi
   date: 2018-10-15T16:05:35.9173520+02:00
   unpublishdate: 2018-11-15T16:05:35.9173520+01:00
-  published: true
   slug: junior-medior-service-delivery-manager-brussel
 - id: 49
   title: Junior Data Scientist
@@ -414,7 +390,6 @@
   username: KimElBoubsi
   date: 2018-10-16T09:37:51.5593278+02:00
   unpublishdate: 2018-11-16T09:37:51.5593278+01:00
-  published: true
   slug: junior-data-scientist
 - id: 50
   title: Senior React Developer
@@ -423,7 +398,6 @@
   username: KimElBoubsi
   date: 2018-10-19T09:05:38.4129833+02:00
   unpublishdate: 2018-11-19T09:05:38.4129833+01:00
-  published: true
   slug: senior-react-developer
 - id: 51
   title: PMO
@@ -432,7 +406,6 @@
   username: KimElBoubsi
   date: 2018-10-23T11:26:25.0643853+02:00
   unpublishdate: 2018-11-23T11:26:25.0643853+01:00
-  published: true
   slug: pmo
 - id: 52
   title: Junior Java developer
@@ -441,7 +414,6 @@
   username: KimElBoubsi
   date: 2018-10-25T12:44:32.7330218+02:00
   unpublishdate: 2018-11-25T12:44:32.7330218+01:00
-  published: true
   slug: junior-java-developer
 - id: 53
   title: 'Senior full stack JS developer '
@@ -450,7 +422,6 @@
   username: KimElBoubsi
   date: 2018-11-06T12:59:42.1791455+01:00
   unpublishdate: 2018-12-06T12:59:42.1791455+01:00
-  published: true
   slug: senior-full-stack-js-developer
 - id: 54
   title: 'Project Manager/Scrum Manager '
@@ -459,7 +430,6 @@
   username: KimElBoubsi
   date: 2018-11-07T11:26:09.4524365+01:00
   unpublishdate: 2018-12-07T11:26:09.4524365+01:00
-  published: true
   slug: project-manager-scrum-manager
 - id: 55
   title: Senior Network Architect and design
@@ -468,7 +438,6 @@
   username: KimElBoubsi
   date: 2018-11-08T11:38:32.4826521+01:00
   unpublishdate: 2018-12-08T11:38:32.4826521+01:00
-  published: true
   slug: senior-network-architect-and-design
 - id: 56
   title: Amazon webservice + linux/unix automation consultant
@@ -477,7 +446,6 @@
   username: KimElBoubsi
   date: 2018-11-11T19:59:00.6955070+01:00
   unpublishdate: 2018-12-11T19:59:00.6955070+01:00
-  published: true
   slug: amazon-webservice-linux-unix-automation-consultant
 - id: 57
   title: Junior Automated test engineer
@@ -486,7 +454,6 @@
   username: KimElBoubsi
   date: 2018-11-15T12:40:57.1946199+01:00
   unpublishdate: 2018-12-15T12:40:57.1946199+01:00
-  published: true
   slug: junior-automated-test-engineer
 - id: 58
   title: .Net developer
@@ -495,7 +462,6 @@
   username: KimElBoubsi
   date: 2018-11-15T16:51:30.9895976+01:00
   unpublishdate: 2018-12-15T16:51:30.9895976+01:00
-  published: true
   slug: net-developer
 - id: 59
   title: 'Fullstack .NET developer   '
@@ -504,7 +470,6 @@
   username: KimElBoubsi
   date: 2018-11-15T17:01:09.0130689+01:00
   unpublishdate: 2018-12-15T17:01:09.0130689+01:00
-  published: true
   slug: fullstack-net-developer
 - id: 60
   title: SQL Server Expert
@@ -540,6 +505,7 @@
   username: KimElBoubsi
   date: 2018-12-10T13:58:32.6553131+01:00
   unpublishdate: 2019-01-10T13:58:32.6553131+01:00
+  published: true
   slug: senior-web-developer
 - id: 64
   title: Senior Webdeveloper
