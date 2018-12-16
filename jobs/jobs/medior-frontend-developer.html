@@ -1,0 +1,7 @@
+---
+layout: default-job
+permalink: /jobs/medior-frontend-developer
+---
+
+{% assign job = site.data.jobs.jobs | where: "id", 1 | first %}
+{% include job.html job=job %}

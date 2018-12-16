@@ -1,6 +1,9 @@
 itenium
 =======
 
+- freelance: "deel deze vacature"? --> zie ook email Kim
+
+
 ## Flow
 
 ```powershell

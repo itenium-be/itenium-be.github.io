@@ -1,0 +1,11 @@
+{% assign meta = site.data.jobs %}
+{% assign job = include.job %}
+{% assign xp = meta.xp | where: "type", job.xp | first %}
+
+<div class="job-post">
+    <a href="/jobs/{{ job.title | downcase | replace: ' ', '-' | replace: '.net', 'dotnet' }}">
+        <h2>{{ job.title }}</h2>
+        <br>
+        <span>{{ xp.desc }}</span>
+    </a>
+</div>

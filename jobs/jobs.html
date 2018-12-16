@@ -4,14 +4,64 @@ permalink: /jobs/
 ---
 <div class="main">
     {% include header.html %}
-    {% include blog/big-header.html title="Jobs" subTitle="Technical skills are, as much as communication skills, the founding building blocks for any succesful project" %}
 
-    <section id="jobs" class="jobs">
+    <section class="blog-header jobs-header" style="padding: 35px 0 75px">
         <div class="container">
             <div class="row">
-                {% assign job = site.data.jobs.jobs | first %}
-                {% include job.html job=job %}
+                <div class="col-xs-12 text-center">
+                    <h1 class="job-title">jobs @ itenium</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6-12 col-md-3">
+                    {% assign job = site.data.jobs.jobs | where: "id", 1 | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-6-12 col-md-3">
+                    {% assign job = site.data.jobs.jobs | where: "id", 2 | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-6-12 col-md-3">
+                    {% assign job = site.data.jobs.jobs | where: "id", 4 | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-6-12 col-md-3">
+                    {% assign job = site.data.jobs.jobs | where: "id", 3 | first %}
+                    {% include job-link.html job=job %}
+                </div>
             </div>
         </div>
     </section>
+
+    <div class="container jobs-header jobs-body" style="display: none">
+        <div class="row">
+            <div class="col-xs-12 text-center">
+                <h1 class="job-title">more jobs @ itenium</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", 1 | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", 2 | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", 4 | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-6-12 col-md-3">
+                {% assign job = site.data.jobs.jobs | where: "id", 3 | first %}
+                {% include job-link.html job=job %}
+            </div>
+        </div>
+    </div>
 </div>

@@ -44,7 +44,8 @@ xp:
 
 
 jobs:
-  - title: Medior Frontend Developer
+  - id: 1
+    title: Medior Frontend Developer
     xp: medior
     type: dev
     techs:
@@ -67,7 +68,8 @@ jobs:
           - Scrum and Kanban
           - DevOps and Continuous Integration
 
-  - title: Medior Full Stack .NET Developer
+  - id: 2
+    title: Medior Full Stack .NET Developer
     xp: medior
     type: dev
     techs:
@@ -84,6 +86,51 @@ jobs:
           - LINQ, Generics and async/await
           - Unit Testing
       - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+
+  - id: 3
+    title: Medior Full Stack Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+      - title: Got backend experience with either
+        techs:
+          - "NodeJS: Express, npm, Webpack, ..."
+          - "PHP: Laravel, Composer, Doctrine, ..."
+          - "Python: Django, pip, ..."
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+          - Unit Testing
+
+  - id: 4
+    title: Medior Full Stack Java Developer
+    xp: medior
+    type: dev
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - JavaScript or TypeScript
+          - SASS, SCSS or Post-CSS
+          - Angular, React or Vue.js
+      - title: Got backend experience with
+        techs:
+          - Java 11 and Android
+          - Hibernate and Spring
+          - Generics and Lambdas
+          - Unit Testing
         techs:
           - SQL or No-SQL database(s)
           - Design Patterns and Dependency Injection

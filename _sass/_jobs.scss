@@ -117,6 +117,55 @@
 }
 
 
+.jobs-header {
+    &.jobs-body {
+        margin-bottom: 45px;
+
+        .job-title, .job-post a {
+            color: black;
+        }
+    }
+
+    .job-title {
+        color: white;
+        padding-bottom: 25px;
+        text-transform: none;
+    }
+
+    .job-post {
+        border: 1px solid #dddddd;
+        padding: 15px;
+        text-align: center;
+        color: white;
+        -moz-box-shadow: 3px 3px 0px rgba(153, 153, 153, 0.2);
+        -webkit-box-shadow: 5px 5px 0px rgba(153, 153, 153, 0.2);
+        box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
+        border-radius: 50px;
+        max-width: 250px;
+        cursor: pointer;
+
+        a {
+            color: white;
+        }
+
+        &:hover {
+            -webkit-transform: scale(0.95);
+            -ms-transform: scale(0.95);
+            transform: scale(0.95);
+        }
+    }
+
+    h2 {
+        color: #E74700;
+    }
+
+    span {
+        font-style: italic;
+    }
+}
+
+
+
 
 
 /*------------------------------------------
