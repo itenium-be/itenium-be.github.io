@@ -1,6 +1,6 @@
 {% assign meta = site.data.jobs %}
 {% assign job = include.job %}
-<div class="job-content">
+<div class="job-content col-md-7">
     <h1>{{ job.title }}</h1>
     {% assign xp = meta.xp | where: "type", job.xp | first %}
     <small>
@@ -57,22 +57,18 @@
 
 
     <h2 class="job-title">Our offer</h2>
-    <div class="row">
-        <div class="col-md-6">
-            <ul>
-                {% for offer in meta.ourOffer %}
-                    <li>{{ offer }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-        <div class="col-md-6">
-            <ul>
-                {% for edge in meta.ourEdge %}
-                    <li>{{ edge }}</li>
-                {% endfor %}
-            </ul>
-        </div>
-    </div>
+    <ul>
+        {% for offer in meta.ourOffer %}
+            <li>{{ offer }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3 style="font-weight: bold; margin-top: 20px;">Our edge over generic consultancies</h3>
+    <ul>
+        {% for edge in meta.ourEdge %}
+            <li>{{ edge }}</li>
+        {% endfor %}
+    </ul>
 
 
     <h2 class="job-title">Interested?</h2>
