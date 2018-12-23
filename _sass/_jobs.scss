@@ -249,6 +249,10 @@
             font-family: $jobs-font !important;
         }
 
+        li p, li div {
+            display: inline;
+        }
+
         i {
             font-style: normal !important;
         }
