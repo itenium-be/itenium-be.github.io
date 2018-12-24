@@ -53,7 +53,9 @@ onIndex: true
     <!--include intro/our-latest-works.html-->
 
     <!-- OUR TEAM -->
-    {% include main/our-team.html %}
+    {% if site.data.teamMembers.displayOnIndex %}
+        {% include main/our-team.html %}
+    {% endif %}
 
     <!-- COUNTING -->
      <!--include intro/counting.html -->

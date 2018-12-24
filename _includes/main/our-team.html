@@ -7,7 +7,7 @@
         </div><!-- row -->
         <div class="row">
             <div class="col-md-12 col-md-offset-3">
-                {% for member in site.data.teamMembers %}
+                {% for member in site.data.teamMembers.members %}
                     {% if member.onIndex %}
                         <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3">
                             {% include main/team-member.html member=member %}
