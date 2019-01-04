@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/77/oracle-dba
+id: 77
+title: " Oracle DBA"
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
