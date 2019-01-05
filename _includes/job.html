@@ -4,6 +4,9 @@
     <h1>{{ job.title }}</h1>
     {% assign xp = meta.xp | where: "type", job.xp | first %}
     <small>
+        {% unless job.xpSupressLanguage %}
+            {{ meta.dutchOnly }}
+        {% endunless %}
         {% if xp %}
             {{ xp.desc }}
             {% if xp.extra %}

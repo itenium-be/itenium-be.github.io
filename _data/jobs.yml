@@ -49,13 +49,14 @@ ourEdge:
   - Career plans and accompanying training
   - Fun teambuilding activities
 
+dutchOnly: Native Dutch speaking.
 
 xp:
   - type: medior
-    desc: 2-5 years experience
+    desc: 2-5 years experience.
     extra: (or verifiable passion – for example with an active Github account)
   - type: senior
-    desc: 5+ years experience
+    desc: 5+ years experience.
 
 
 jobs:
@@ -158,7 +159,7 @@ jobs:
 
   - id: test-engineer
     title: Test Engineer
-    xpDesc: 2+ years experience
+    xpDesc: 2+ years experience.
     type: tester
     techs:
       - title: Knowledge
@@ -179,7 +180,7 @@ jobs:
 
   - id: devops-engineer
     title: DevOps Engineer
-    xpDesc: 2+ years experience
+    xpDesc: 2+ years experience.
     type: devops
     techs:
       - title: Got development experience with
@@ -199,7 +200,7 @@ jobs:
 
   - id: linux-engineer
     title: Linux Engineer
-    xpDesc: 1+ year experience
+    xpDesc: 1+ year experience.
     type: linux
     techs:
       - techs:
@@ -214,6 +215,7 @@ jobs:
     title: Support Engineer
     xpDesc: 1+ year experience.
     xpExtra: Trilingual (NL, FR, EN).
+    xpSupressLanguage: true
     type: support
     techs:
       - title: Got experience with
