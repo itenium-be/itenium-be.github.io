@@ -30,10 +30,11 @@ feature_flags:
 # Our infos
 email:
   general: info@itenium.be
+  purchase: purchase@itenium.be
   invoices: invoice@itenium.be
   fleet: fleet@itenium.be
   gdpr: privacy@itenium.be
-
+  
   # Payroll/consultant candidate CVs (from consultant):
   jobs: jobs@itenium.be
   # Payroll/consultant candidate CVs (from partner):
