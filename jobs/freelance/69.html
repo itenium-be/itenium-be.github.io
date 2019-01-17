@@ -6,5 +6,14 @@ title: "Senior Datacenter Network Engineer"
 subTitle: Region Brussel
 ---
 
-{% assign job = site.data.freelance | where: "id", page.id | first %}
-{% include freelance/freelance-full.html job=job %}
+<div style="padding: 8px">
+    <h1>This opportunity is no longer vacant</h1>
+    <h2>Check these recently added opportunities:</h2>
+</div>
+
+{% assign allJobs = site.data.freelance | sort:"date" | reverse | slice: 0, 7 %}
+{% for freelanceJob in allJobs %}
+    {% if freelanceJob.published %}
+        {% include freelance/freelance-job.html job=freelanceJob %}
+    {% endif %}
+{% endfor %}

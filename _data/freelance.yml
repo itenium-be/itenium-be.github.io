@@ -549,7 +549,6 @@
   username: KimElBoubsi
   date: 2018-12-16T17:31:36.7970284+01:00
   unpublishdate: 2019-01-16T17:31:36.7970284+01:00
-  published: true
   slug: senior-datacenter-network-engineer
 - id: 70
   title: Data Engineer Service
@@ -658,3 +657,12 @@
   unpublishdate: 2019-02-15T13:53:21.8559998+01:00
   published: true
   slug: senior-backend-net-developer
+- id: 82
+  title: Technisch Project Coordinator (Netwerking)
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"><span style=\"font-family: Times New Roman\"><b style=\"mso-bidi-font-weight: normal;\"><span style=\"font-family: Calibri\"><span style=\"font-family: Times New Roman\"><b style=\"mso-bidi-font-weight: normal;\"><span style=\"font-family: Calibri\">Description:</span></b></span><span style=\"font-family: Times New Roman\"> \r\n</span></span></b></span></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Versterking IAAS \r\nProject</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Omschrijving opdracht met \r\ncontext: </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Planning opvolgen van \r\nDatacenter migratie </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Planning Netwerking / \r\nServers / Storage Resources </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Validatie van Roadmap / \r\nProcedures </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Stakeholders \r\nCommunicaties </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Administratie bijhouden \r\ndie met deze opdracht gepaard gaat</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><b style=\"mso-bidi-font-weight: normal;\"><span style=\"font-family: Calibri\">&nbsp;</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><b style=\"mso-bidi-font-weight: normal;\"><span style=\"font-family: Calibri\">Technical skills:</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Verwachte skills en \r\nervaring: </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Netwerk technische \r\nachtergrond (L2/L3) </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Sterk in planning \r\n</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Gedreven \r\npersoon</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-01-17T13:44:46.9055268+01:00
+  unpublishdate: 2019-02-16T13:44:46.9055268+01:00
+  published: true
+  slug: technisch-project-coordinator-netwerking
