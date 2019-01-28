@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/84/support-engineer
+id: 84
+title: "Support Engineer"
+subTitle: Region Gent
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
