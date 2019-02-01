@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport"content=" width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- <link rel="stylesheet"href="https://itenium.be/assets/vendor/highlightjs/obsidian-customized.css">
+    <script src="https://itenium.be/assets/vendor/highlightjs/highlight.pack.js"></script> -->
+    <title>Autohotkey Use Case: Logging into a form</title>
+  </head>
+  <body>
+    <!-- <script>hljs.initHighlightingOnLoad();</script> -->
+
+
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="https://itenium.be">itenium</a>
+    </nav>
+
+    <div class="container" style="padding-top: 20px;">
+      <h1 style="margin-bottom: 16px">Fill in an entire form with just a few keystrokes</h1>
+      <div class="row" style="margin-bottom: 16px">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-body">
+              <form>
+                <div class="form-group">
+                  <label>Email</label>
+                  <input type="email" class="form-control" autofocus />
+                </div>
+                <div class="form-group">
+                  <label>Password</label>
+                  <input type="password" class="form-control" />
+                </div>
+                <div class="form-group form-check">
+                  <input type="checkbox" class="form-check-input" />
+                  <label class="form-check-label">Remain logged in</label>
+                </div>
+                <button type="button" class="btn btn-primary" onclick="alert('Form Submitted')">Login</button>
+                <button type="reset" class="btn btn-default">Clear</button>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <b>Autohotkey script to submit the form by pressing <em>lma</em>:</b>
+          <div class="card" style="margin-bottom: 25px">
+            <div class="card-body">
+              <code>
+                # Press "lma" to fill in the form
+                <br>
+                :*:lma::admin@mega-app.com{tab}my_super_secret_pwd{tab}{space}{tab}{enter}
+              </code>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-body">
+              <b>Step by step:</b> <a href="TODO: put link here when published">itenium blog post</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Installing the script</h5>
+              <p class="card-text">
+                <ul>
+                  <li>Download and install <a href="https://www.autohotkey.com/download/">Autohotkey</a> (Pick Autohotkey 1.1)</li>
+                  <li>Create a file with the extension <b>ahk</b></li>
+                  <li>Paste the Autohotkey code from above in the file</li>
+                  <li>Double click your newly created file to activate the hotstring</li>
+                  <li>Press <b>lma</b> while the cursor is in the email input on this page</li>
+                  <li>Tadaam!</li>
+                </ul>
+
+                <p>
+                  To start your Autohotkey hotstrings with Windows put a file shortcut in your startup folder.
+                  <br>To get to this directory:
+                </p>
+                <code>
+                  Windows + E
+                  <br>
+                  Control + L
+                  <br>
+                  shell:startup
+                </code>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </body>
+</html>
