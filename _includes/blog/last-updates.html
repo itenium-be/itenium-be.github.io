@@ -1,0 +1,33 @@
+<div class="blog-sidebar sidebar">
+    <div class="sidebar-heading">
+        last updates
+    </div>
+
+    {% assign updatedPosts = '' | split: '' %}
+    {% for post in site.posts %}
+        {% if post.updates %}
+            {% assign updatedPosts = updatedPosts | push: post %}
+        {% endif %}
+    {% endfor %}
+
+    {% assign posts = updatedPosts | sort:"lastUpdate" | reverse | slice: 0, 6 %}
+    {% for post in posts %}
+        <div class="media">
+            <div class="media-left">
+                <a href="{{ post.url | relative_url }}">
+                    <img class="media-object img-thumbnail" src="{{ 'assets/blog-images/' | append: post.img | absolute_url }}" title="{{ post.imgdesc }}">
+                </a>
+            </div>
+            <div class="media-body">
+                <h3 class="media-heading">
+                    <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                </h3>
+                {% assign lastUpdate = post.updates | last %}
+                <p>
+                    Last update on {{ lastUpdate.date | date: "%b %-d, %Y" }}
+                    <br>{{ lastUpdate.desc }}
+                </p>
+            </div>
+        </div>
+    {% endfor %}
+</div>

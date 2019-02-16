@@ -9,17 +9,26 @@ permalink: /blog/
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-12 col-md-8">
-                    {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 5 %}
+                    {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 8 %}
                     {% for post in posts %}
                         {% include blog/entry-excerpt.html post=post %}
                     {% endfor %}
                 </div>
                 <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
                     {% include blog/search.html %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
+                    {% include blog/last-updates.html %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
                     {% include blog/category-list.html %}
-                    {% include blog/recent-posts-sidebar.html %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
                     {% include blog/tag-cloud.html %}
                 </div>
+                <!-- <div class="wow zoomIn col-xs-12 col-sm-12 col-md-4">
+                    include blog/recent-posts-sidebar.html
+                </div> -->
             </div>
         </div>
     </section>

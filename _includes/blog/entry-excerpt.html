@@ -16,14 +16,19 @@
             </div>
             -->
         </div>
-        <div class="col-xs-2 col-sm-3 col-md-2 hidden-xs">
-            <div class="blog-date">
+        <div class="col-sm-3 col-md-3 hidden-xs">
+            <img style="margin-top: 10px" class="img-responsive img-thumbnail" src="{{ 'assets/blog-images/' | append: post.img | absolute_url }}" title="{{ post.imgdesc }}" />
+
+            <!-- <div class="blog-date">
                 <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
-            </div>
+            </div> -->
         </div>
-        <div class="col-xs-12 col-sm-9 col-md-10">
-            <h1><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h1>
-            <p class="visible-xs"><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
+        <div class="col-xs-12 col-sm-9 col-md-9">
+            <h1 style="margin-bottom: 10px">
+                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <p>{{ post.date | date: "%-d" }} {{ post.date | date: "%b %Y" }}</p>
+            </h1>
+
             <div class="contents">
                 {{ post.content | split:'<!--more-->' | first }}
             </div>
