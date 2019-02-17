@@ -10,13 +10,24 @@
         {% include components/edit-post.html %}
     </div>
 
+
     {% assign blogExcerpt = post.content | split:'<!--more-->' | first | strip_html | strip %}
     {% assign blogDesc = page.desc | strip_html | strip %}
     {% if blogDesc != blogExcerpt %}
         <div style="line-height: 16px; margin-top: 6px">{{ page.desc }}</div>
     {% endif %}
 
+
     <div style="margin-top: 5px; margin-bottom: 8px">
         <img class="img-responsive" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgdesc }}" />
     </div>
+
+
+    <!-- contains '```autohotkey' didn't work -->
+    {% if post.content contains 'autohotkey' and post.title != 'Autohotkey DynaRun' %}
+        <small style="display: block; line-height: 16px; margin: 6px 0">
+            This post contains Autohotkey scripts, test them from within your browser with the
+            <a href="{% post_url 2019-02-17-autohotkey-dyna-run %}">Autohotkey DynaRun script</a>.
+        </smlall>
+    {% endif %}
 </div>
