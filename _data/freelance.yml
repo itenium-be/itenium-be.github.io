@@ -645,7 +645,6 @@
   username: KimElBoubsi
   date: 2019-01-16T13:53:21.8559998+01:00
   unpublishdate: 2019-02-15T13:53:21.8559998+01:00
-  published: true
   slug: senior-backend-net-developer
 - id: 82
   title: Technisch Project Coordinator (Netwerking)
@@ -654,7 +653,6 @@
   username: KimElBoubsi
   date: 2019-01-17T13:44:46.9055268+01:00
   unpublishdate: 2019-02-16T13:44:46.9055268+01:00
-  published: true
   slug: technisch-project-coordinator-netwerking
 - id: 83
   title: 'Front-end developer '
@@ -663,7 +661,6 @@
   username: KimElBoubsi
   date: 2019-01-18T20:31:41.2143142+01:00
   unpublishdate: 2019-02-17T20:31:41.2143142+01:00
-  published: true
   slug: front-end-developer
 - id: 84
   title: Support Engineer
@@ -710,3 +707,17 @@
   unpublishdate: 2019-03-13T18:51:52.6231392+01:00
   published: true
   slug: senior-front-end-developer
+- id: 89
+  title: 'Full stack .NET Core Developer '
+  location: ''
+  description: >2-
+
+
+    <p><br></p>
+
+    <p><br></p>
+  username: KimElBoubsi
+  date: 2019-02-18T10:45:24.3846457+01:00
+  unpublishdate: 2019-03-20T10:45:24.3846457+01:00
+  published: true
+  slug: full-stack-net-core-developer
