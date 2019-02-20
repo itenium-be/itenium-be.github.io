@@ -344,6 +344,10 @@ table.table-excel {
     display: none;
 }
 
+.toc__menu li>ul li>ul li {
+    padding-left: 2rem;
+}
+
 @media (min-width: 48em) {
     .toc__menu li>ul li {
         display:block;
