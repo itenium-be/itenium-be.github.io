@@ -18,3 +18,5 @@ tags:
   testing: fa fa-diamond
   tutorial: fa fa-cogs
   "cheat-sheet": fa fa-bookmark
+  angular: icon-angular
+  sql: icon-mssql
