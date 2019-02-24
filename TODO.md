@@ -22,8 +22,6 @@ Jobs page:
 - Gericht naar de employee: Afstand tot bedrijf? Interessant, uitdagend project, nieuwe technologieën?
 
 Freelance page:  
-- once freelance job is deleted: https://rubygems.org/gems/jekyll-redirect-from
---> redirect to freelance jobs overview (https://help.github.com/articles/redirects-on-github-pages/)
 - search: cloud with locations
 - freelance: "deel deze vacature"?
 

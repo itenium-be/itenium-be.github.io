@@ -1,9 +1,6 @@
 itenium
 =======
 
-- freelance: "deel deze vacature"? --> zie ook email Kim
-
-
 ## Flow
 
 ```powershell
@@ -41,23 +38,26 @@ git pull --recurse-submodules
 
 ## ContactForm
 
-See `_contact` folder.
+See `_contact` folder.  
+**Currently disabled (https issue)**
 
 ## Jekyll
 
-Github pages supported plugins:  
-https://pages.github.com/versions/
+[Github pages supported plugins](https://pages.github.com/versions)
+
 
 Plugins that might be added later:  
+- [Html::Proofer](https://github.com/gjtorikian/html-proofer): Check for 404 links.
 - [jekyll-gist][jekyll-gist]
 - [jemoji][jemoji]
 - [jekyll-compose][jekyll-compose]
-- https://github.com/bdesham/inline_highlight
+- [inline_highlight](https://github.com/bdesham/inline_highlight)
 
 Liquid
 ------
-https://help.shopify.com/themes/liquid
-https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
+
+[Shopify: Liquid themes](https://help.shopify.com/themes/liquid)
+[Shopify: Liquid for Designers](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
 
 
 Kramdown
@@ -69,7 +69,6 @@ Kramdown
 
 
 # Links:
-```
 [description][link-slug]
 [link-slug]: https://github.com
 
