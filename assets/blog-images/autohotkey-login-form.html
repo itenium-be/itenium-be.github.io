@@ -16,7 +16,7 @@
       <a class="navbar-brand" href="https://itenium.be">itenium</a>
     </nav>
 
-    <div class="container" style="padding-top: 20px;">
+    <div class="container" style="padding-top: 20px; padding-bottom: 20px;">
       <h1 style="margin-bottom: 16px">Fill in an entire form with just a few keystrokes</h1>
       <div class="row" style="margin-bottom: 16px">
         <div class="col-md-3">
@@ -65,8 +65,10 @@
         <div class="col-sm-12">
           <div class="card">
             <div class="card-body">
+              <!-- This block exists three times: autohotkey-dyna-run.md, autohotkey-use-case.md and autohotkey-login-form.html -->
+              <!-- ATTN: Some slight variations in install instructions!-->
               <h5 class="card-title">Installing the script</h5>
-              <p class="card-text">
+              <div class="card-text">
                 <ul>
                   <li>Download and install <a href="https://www.autohotkey.com/download/">Autohotkey</a> (Pick Autohotkey 1.1)</li>
                   <li>Create a file with the extension <b>ahk</b></li>
@@ -87,7 +89,17 @@
                   <br>
                   shell:startup
                 </code>
-              </p>
+
+                <br>
+                <br>
+                Usually something like:
+                <br>
+                <code>
+                C:\Users\your_user_name\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+                <br>
+                your_user_name: $env:USERNAME (PS1) or %USERNAME% (CMD)
+                </code>
+              </div>
             </div>
           </div>
         </div>
