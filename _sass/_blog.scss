@@ -57,7 +57,7 @@ table.table-margin {
     margin-bottom: 15px;
     border-collapse: collapse;
     display: block;
-    overflow: auto
+    overflow: auto;
 
     th {
         font-weight: 600;
@@ -71,12 +71,15 @@ table.table-margin {
     tr {
         background-color: #fff;
         border-top: 1px solid #c6cbd1;
+
+        &:nth-child(even) {
+            background-color: #f6f8fa;
+        }
     }
 
-    tr:nth-child(2n) {
+    thead tr {
         background-color: #f6f8fa;
     }
-
 }
 
 table.table-code {
@@ -85,6 +88,10 @@ table.table-code {
 
     th:first, table td:first {
         width: 50%;
+    }
+
+    td b {
+        font-weight: 600;
     }
 }
 
@@ -547,7 +554,7 @@ table.table-excel {
   }
 
   code {
-    background-color: mix(#fff, $notice-color, 95%)
+    background-color: mix(#fff, $notice-color, 95%);
   }
 
   ul {

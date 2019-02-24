@@ -49,6 +49,14 @@ code {
   padding: 1px 5px;
 }
 
+a code {
+  color: #337ab7;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
 .cookie-notice {
   display: none;
   position: fixed;
