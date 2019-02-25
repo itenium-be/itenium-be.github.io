@@ -1,3 +1,8 @@
+# ICONS LOADED
+# - Do not prefix with fa to use font-awewome: https://fontawesome.com/icons
+# - Any from: http://fizzed.com/oss/font-mfizz
+# - Site has also loaded: https://itenium.be/vendor/flat-icon/flaticon.html
+
 categories:
   javascript: icon-javascript
   dotnet: icon-csharp

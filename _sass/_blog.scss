@@ -53,7 +53,7 @@ kbd {
 }
 
 
-table.table-margin {
+table.table-base {
     margin-bottom: 15px;
     border-collapse: collapse;
     display: block;
@@ -83,7 +83,7 @@ table.table-margin {
 }
 
 table.table-code {
-    @extend .table-margin;
+    @extend .table-base;
     width: 100%;
 
     th:first, table td:first {
