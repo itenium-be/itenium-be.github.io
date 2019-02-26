@@ -103,6 +103,7 @@ theme: minima
 gems:
   - jekyll-feed
   - jekyll-paginate
+  - jemoji # https://github.com/jekyll/jemoji
 #  - jekyll-redirect-from
 exclude:
   - Gemfile
