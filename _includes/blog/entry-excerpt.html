@@ -32,6 +32,13 @@
             <div class="contents">
                 {{ post.content | split:'<!--more-->' | first }}
             </div>
+
+            <div class="cat-links" style="display: inline; font-size: 16px;">
+                <a href="/blog/cats/#{{ post.categories }}">{{ post.categories }}</a>
+            </div>
+            {% include blog/tag-list.html tags=post.tags prefix=false %}
+
+
             <a href="{{ post.url | relative_url }}" class="open-post-button">
                 <button class="btn">read more</button>
             </a>
