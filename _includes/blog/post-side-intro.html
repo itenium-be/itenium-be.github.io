@@ -1,4 +1,4 @@
-<div class="blog-sidebar sidebar">
+<div class="blog-sidebar sidebar" style="max-width: 392px">
     <div class="sidebar-heading">
         {% if include.toc.icon contains "icon-" %}
             <i class="{{ include.toc.icon }}"></i>
@@ -18,7 +18,7 @@
 
 
     <div style="margin-top: 5px; margin-bottom: 8px">
-        <img class="img-responsive" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgdesc }}" />
+        <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgdesc }}" />
     </div>
 
 
