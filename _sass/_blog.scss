@@ -11,7 +11,7 @@ pre {
     margin-bottom: 15px;
 }
 
-.blog-content {
+.blog-content:not(.pagination-content) {
     ul {
         list-style-type: unset;
 
