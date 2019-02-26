@@ -91,9 +91,13 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 
+paginate: 8
+paginate_path: /blog/page:num/
+
 theme: minima
 gems:
   - jekyll-feed
+  - jekyll-paginate
 #  - jekyll-redirect-from
 exclude:
   - Gemfile

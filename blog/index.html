@@ -1,0 +1,54 @@
+---
+layout: default-blog
+---
+<div class="main">
+    {% include header.html context="blog" %}
+    {% include blog/big-header.html title="all blog posts" %}
+    <section class="blog-sidebar">
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-8">
+                    {% include blog/search.html %}
+
+                    <!-- {% assign posts = site.posts | sort:"date" | reverse | slice: 0, 8 %} -->
+                    {% assign posts = paginator.posts %}
+                    {% for post in posts %}
+                        {% include blog/entry-excerpt.html post=post %}
+                    {% endfor %}
+
+
+                    <!-- Pagination links -->
+                    <div class="pagination">
+                      {% if paginator.previous_page %}
+                        <a href="{{ paginator.previous_page_path }}" class="previous">
+                          Previous
+                        </a>
+                      {% else %}
+                        <span class="previous">Previous</span>
+                      {% endif %}
+                      <span class="page_number ">
+                        Page: {{ paginator.page }} of {{ paginator.total_pages }}
+                      </span>
+                      {% if paginator.next_page %}
+                        <a href="{{ paginator.next_page_path }}" class="next">Next</a>
+                      {% else %}
+                        <span class="next ">Next</span>
+                      {% endif %}
+                    </div>
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
+                    {% include blog/last-updates.html %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
+                    {% include blog/category-list.html %}
+                </div>
+                <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
+                    {% include blog/tag-cloud.html %}
+                </div>
+                <!-- <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
+                    include blog/recent-posts-sidebar.html
+                </div> -->
+            </div>
+        </div>
+    </section>
+</div>
