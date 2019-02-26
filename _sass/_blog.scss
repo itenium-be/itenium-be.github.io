@@ -11,28 +11,44 @@ pre {
     margin-bottom: 15px;
 }
 
+.blog-content {
+    ul {
+        list-style-type: unset;
 
-.blog-content .contents h1 {
-    font-size: 32px;
-    text-transform: none;
-    margin-top: 20px;
-    margin-bottom: 7px;
+        li {
+            margin-left: 25px;
+        }
+    }
+
+    .contents {
+        > ul {
+            margin-bottom: 18px;
+        }
+
+        h1 {
+            font-size: 32px;
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 7px;
+        }
+
+        h2 {
+            font-size: 20px;
+            text-transform: none;
+            margin-top: 20px;
+            margin-bottom: 7px;
+            letter-spacing: unset;
+        }
+
+        h3 {
+            font-size: 18px;
+            text-transform: none;
+            margin-top: 15px;
+            margin-bottom: 7px;
+        }
+    }
 }
 
-.blog-content .contents h2 {
-    font-size: 20px;
-    text-transform: none;
-    margin-top: 20px;
-    margin-bottom: 7px;
-    letter-spacing: unset;
-}
-
-.blog-content .contents h3 {
-    font-size: 18px;
-    text-transform: none;
-    margin-top: 15px;
-    margin-bottom: 7px;
-}
 
 
 
@@ -119,16 +135,6 @@ table.table-excel {
         background-color: #089DE3;
     }
 }
-
-
-.blog-content ul {
-    list-style-type: unset;
-}
-
-.blog-content ul li {
-    margin-left: 25px;
-}
-
 
 
 
