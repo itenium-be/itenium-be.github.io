@@ -104,6 +104,7 @@ gems:
   - jekyll-feed
   - jekyll-paginate
   - jemoji # https://github.com/jekyll/jemoji
+  - jekyll-gist # https://github.com/jekyll/jekyll-gist
 #  - jekyll-redirect-from
 exclude:
   - Gemfile
