@@ -91,10 +91,15 @@ kramdown:
   syntax_highlighter_opts:
     disable : true
 
+# https://github.com/jekyll/jekyll-paginate
 paginate: 8
 paginate_path: /blog/page:num/
 
+# https://github.com/jekyll/minima
+# bundle show minima
 theme: minima
+
+# https://pages.github.com/versions/
 gems:
   - jekyll-feed
   - jekyll-paginate
