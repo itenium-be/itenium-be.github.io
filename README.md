@@ -64,14 +64,6 @@ Kramdown
 --------
 
 ```md
-# Images:
-![My helpful screenshot]({{ site.url }}/assets/blog-images/screenshot.jpg)
-
-
-# Links:
-[description][link-slug]
-[link-slug]: https://github.com
-
 {% highlight ruby linenos %}
 {% endhighlight %}
 
