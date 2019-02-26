@@ -368,6 +368,78 @@ table.table-excel {
 
 
 
+
+/*===============================================================
+                         Blog pagination
+================================================================*/
+
+$pagination-background: #e7e7e7;
+
+.blog-content .pagination-lg > li > a,
+.pagination-lg > li > span {
+    padding: 9px 16px;
+    color: #6b6b6b;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    background: $pagination-background;
+    border: none;
+    margin: 0 1px;
+}
+
+.blog-content .container-fluid .pagination-lg > li > a,
+.blog-content .container-fluid .pagination-lg > li > span {
+    margin: 0 -1px 0 0 ;
+}
+
+.blog-content.pagination-content .container-fluid .row {
+    padding: 0px;
+}
+
+.pagination-lg > li:first-child > a,
+.pagination-lg > li:first-child > span,
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+    border-radius: 0px;
+    margin: 0 1px 0 0;
+    text-transform: capitalize;
+}
+
+.pagination-lg > li:last-child > a,
+.pagination-lg > li:last-child > span {
+    margin: 0 0 0 1px;
+}
+
+.blog-content .container-fluid .pagination-lg > li:last-child > a,
+.blog-content .container-fluid .pagination-lg > li:last-child > span {
+    margin: 0 0 0 -1px;
+}
+
+.pagination-lg > li:first-child > a > span,
+.pagination-lg > li:last-child > a > span {
+    font-size: 20px ;
+    line-height: 10px;
+    position: relative;
+    top: 2px;
+}
+
+.pagination > li > a:hover,
+.pagination > li > span:hover,
+.pagination > li > a:focus,
+.pagination > li > span:focus {
+    background: darken($pagination-background, 10%);
+    color: #ffffff;
+}
+
+.pagination > li > a.active {
+    background-color: darken($pagination-background, 5%);
+    cursor: default;
+}
+
+
+.blog-content.pagination-content {
+    padding: 0px;
+}
+
 /*===============================================================
                          Blog Sidebar
 ================================================================*/

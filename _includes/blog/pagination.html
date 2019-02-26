@@ -1,0 +1,45 @@
+<div class="blog-content pagination-content">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="wow zoomIn col-xs-12 col-sm-10 col-sm-offset-2">
+                <nav>
+                    <ul class="pagination pagination-lg">
+                        {% if paginator.previous_page %}
+                            <li>
+                                <a href="{{ paginator.previous_page_path }}" aria-label="Previous">
+                                    <span aria-hidden="true">&larr; </span><small class="hidden-xs">previous</small>
+                                </a>
+                            </li>
+                        {% endif %}
+
+
+                        {% for page in (1..paginator.total_pages) %}
+                            <li>
+                            {% if page == paginator.page %}
+                              <a class="active" javascript="void(0);">{{ page }}</a>
+                            {% elsif page == 1 %}
+                              <a href="{{ paginator.previous_page_path | relative_url }}">
+                                {{ page }}
+                              </a>
+                            {% else %}
+                              <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">
+                                {{ page }}
+                              </a>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+
+
+                        {% if paginator.next_page %}
+                        <li>
+                            <a href="{{ paginator.next_page_path }}" aria-label="Next">
+                                <small class="hidden-xs">next</small><span aria-hidden="true"> &rarr;</span>
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+</div>
