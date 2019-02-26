@@ -105,7 +105,8 @@ gems:
   - jekyll-paginate
   - jemoji # https://github.com/jekyll/jemoji
   - jekyll-gist # https://github.com/jekyll/jekyll-gist
-#  - jekyll-redirect-from
+  - jekyll-avatar # https://github.com/benbalter/jekyll-avatar
+#  - jekyll-redirect-from # https://github.com/jekyll/jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
