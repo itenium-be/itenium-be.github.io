@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/96/office-365-engineer
+id: 96
+title: "Office 365 Engineer"
+subTitle: Region Machelen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
