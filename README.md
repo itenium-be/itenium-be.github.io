@@ -45,13 +45,10 @@ See `_contact` folder.
 
 [Github pages supported plugins](https://pages.github.com/versions)
 
-
 Plugins that might be added later:  
 - [Html::Proofer](https://github.com/gjtorikian/html-proofer): Check for 404 links.
-- [jekyll-gist][jekyll-gist]
-- [jemoji][jemoji]
-- [jekyll-compose][jekyll-compose]
-- [inline_highlight](https://github.com/bdesham/inline_highlight)
+- [jekyll-compose](https://github.com/jekyll/jekyll-compose)
+
 
 Liquid
 ------
@@ -77,7 +74,3 @@ Kramdown
 	{% endif %}
 {% endfor %}
 ```
-
-[jekyll-gist]: https://github.com/jekyll/jekyll-gist
-[jemoji]: https://github.com/jekyll/jemoji
-[jekyll-compose]: https://github.com/jekyll/jekyll-compose
