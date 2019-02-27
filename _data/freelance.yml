@@ -669,7 +669,6 @@
   username: KimElBoubsi
   date: 2019-01-28T10:22:15.7572439+01:00
   unpublishdate: 2019-02-27T10:22:15.7572439+01:00
-  published: true
   slug: support-engineer
 - id: 85
   title: Senior Java Developer
@@ -784,3 +783,12 @@
   unpublishdate: 2019-03-28T17:23:18.6749601+01:00
   published: true
   slug: office-365-engineer
+- id: 97
+  title: Solution Manager
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><b><span style=\"font-family: Calibri\">Description</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Het inhuren van een externe \r\nprojectleider ter uitvoering van ict projecten.<br style=\"mso-special-character: line-break;\"><br style=\"mso-special-character: line-break;\"></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Binnen deze projecten zal \r\nde externe projectleider, in nauwe samenwerking met een andere projectleider, de \r\nvolgende taken uitvoeren: </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">● Opstellen van \r\nprojectaanpak en planning</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">● Projectcoördinatie- en \r\nrapportering volgens afspraken (klant) projectwerking </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">● Aansturen interne / \r\nexterne medewerkers en kerngebruikers </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">● Organiseren van het \r\nvereiste interne overleg en met de klant</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">● Organiseren van de \r\nacceptatie en verspreiding van de projectresultaten &nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-02-27T10:23:28.2862433+01:00
+  unpublishdate: 2019-03-29T10:23:28.2862433+01:00
+  published: true
+  slug: solution-manager
