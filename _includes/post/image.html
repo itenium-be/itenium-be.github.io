@@ -1,0 +1,7 @@
+<figure class="imagewrapper" style="max-width: {{ include.maxWidth }}">
+    <img src="/assets/blog-images/{{ include.file }}" alt="{{ include.alt }}" title="{{ include.title }}" class="img-responsive">
+
+    {% if include.desc %}
+    <figcaption>{{ include.desc }}</figcaption>
+    {% endif %}
+</figure>
