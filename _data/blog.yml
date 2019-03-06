@@ -25,3 +25,5 @@ tags:
   "cheat-sheet": fa fa-bookmark
   angular: icon-angular
   sql: icon-mssql
+  "war-story": fa fa-lightbulb-o
+  product: fa fa-money

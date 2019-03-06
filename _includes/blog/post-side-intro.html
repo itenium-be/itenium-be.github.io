@@ -17,9 +17,22 @@
     {% endif %}
 
 
-    <div style="margin-top: 5px; margin-bottom: 8px">
-        <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgdesc }}" />
-    </div>
+    <figure style="margin-top: 5px; margin-bottom: 8px" class="imagewrapper">
+        {% if page.imgurl %}
+            <a href="{{ page.imgurl }}">
+        {% endif %}
+
+        <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgtitle }}" />
+
+        {% if page.imgurl %}
+            </a>
+        {% endif %}
+
+
+        {% if page.imgdesc %}
+            <figcaption>{{ page.imgdesc }}</figcaption>
+        {% endif %}
+    </figure>
 
 
     <!-- contains '```autohotkey' didn't work -->
