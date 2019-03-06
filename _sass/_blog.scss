@@ -12,6 +12,22 @@ pre {
 }
 
 .blog-content:not(.pagination-content) {
+    .anchorjs-link {
+        transition: all .25s linear;
+        color: #AAAAAA !important;
+    }
+
+    .anchorjs-link:hover {
+        color: #FF5231 !important;
+    }
+
+    .contents {
+        *:hover > .anchorjs-link {
+            margin-left: -1.125em !important;
+        }
+    }
+
+
     ul {
         list-style-type: unset;
 

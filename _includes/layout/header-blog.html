@@ -9,6 +9,7 @@
 
 
 <script src="/assets/vendor/highlightjs/highlight.pack.js"></script>
+<script src="/assets/vendor/anchor.min.js"></script>
 
 <script>hljs.initHighlightingOnLoad();</script>
 
@@ -24,7 +25,19 @@ $(function() {
     searchResultTemplate: '<div class="media">' +
         '<div class="media-left"><a href="{url}"><img class="media-object" src="{img}"></a></div>' +
         '<div class="media-body"><h3 class="media-heading"><a href="{url}">{title}</a></h3><p>{date}</p></div></div>',
-    fuzzy: false,
+    fuzzy: false
   });
 });
+</script>
+
+
+<script>
+    // https://www.bryanbraun.com/anchorjs/
+    $(function() {
+        anchors.options.placement = 'left';
+        anchors.add('.blog-content .contents h1, .blog-content .contents h2, .blog-content .contents h3');
+
+        anchors.options.placement = 'right';
+        anchors.add('.blog-content .blog-title');
+    });
 </script>
