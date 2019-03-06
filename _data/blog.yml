@@ -27,3 +27,6 @@ tags:
   sql: icon-mssql
   "war-story": fa fa-lightbulb-o
   product: fa fa-money
+  debugging: fa fa-bug
+  meta: fa fa-tag
+  regex: icon-script
