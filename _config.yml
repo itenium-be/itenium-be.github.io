@@ -31,20 +31,26 @@ feature_flags:
 email:
   general: info@itenium.be
   purchase: purchase@itenium.be
-  invoices: invoice@itenium.be
-  fleet: fleet@itenium.be
   gdpr: privacy@itenium.be
 
-  # Payroll/consultant candidate CVs (from consultant):
-  jobs: jobs@itenium.be
+  # For Consultants
+  timesheets: timesheet@itenium.be
+  fleet: fleet@itenium.be
+  onkosten-kmvergoeding: expenses@itenium.be
+
+  # For Partners
+  invoices: invoice@itenium.be
+  # Jobs from partners
+  requests: it-request@itenium.be
   # Payroll/consultant candidate CVs (from partner):
   jobs-partners: cv@itenium.be
   # Freelance candidate CVs (from freelancer/partner)
   freelance: freelance@itenium.be
-  # Jobs from partners
-  requests: it-request@itenium.be
 
-  # VA
+  # Payroll/consultant candidate CVs (from consultant):
+  jobs: jobs@itenium.be
+
+  # For Bullhorn
   crm-vacancy: vacancy@itenium.be
   crm-contact: contact@itenium.be
   crm-company: company@itenium.be
