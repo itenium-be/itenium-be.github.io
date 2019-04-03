@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/105/pmo-admin-service
+id: 105
+title: "PMO Admin Service."
+subTitle: Region 
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
