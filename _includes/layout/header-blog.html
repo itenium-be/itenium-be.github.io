@@ -37,9 +37,18 @@ $(function() {
     // https://www.bryanbraun.com/anchorjs/
     $(function() {
         anchors.options.placement = 'left';
-        anchors.add('.blog-content .contents h1, .blog-content .contents h2, .blog-content .contents h3');
+        anchors.add('.blog-content .contents h1, .blog-content .contents h2, .blog-content .contents h3, .blog-content .contents h4');
 
         anchors.options.placement = 'right';
         anchors.add('.blog-content .blog-title');
     });
 </script>
+
+
+<!-- OpenGraphProtocol http://ogp.me/ -->
+<meta property="og:title" content="{{ page.title | escape }}" />
+<meta property="og:type" content="" />
+<meta property="og:url" content="{{ page.url | absolute_url }}" />
+<meta property="og:image" content="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" />
+<!-- <meta property="og:image" content="{{ page.imgurl | absolute_url }}" /> -->
+<meta property="og:description" content="{{ page.desc }}" />
