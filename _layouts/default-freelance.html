@@ -38,6 +38,11 @@
                   <div class="wow zoomIn col-md-5">
                       {% include freelance/freelance-search.html %}
                   </div>
+                  {% if page.id %}
+                      <div class="wow zoomIn col-md-5">
+                          {% include freelance/freelance-share.html %}
+                      </div>
+                  {% endif %}
                   <div class="wow zoomIn col-md-5">
                       {% include freelance/recruiters.html %}
                   </div>

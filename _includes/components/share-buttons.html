@@ -1,0 +1,58 @@
+{% assign title = page.title | append: ' - ' | append: page.subTitle %}
+{% assign url = page.url | absolute_url %}
+
+
+
+<div class="share-buttons">
+    <!-- <a href="https://www.facebook.com/sharer/sharer.php?u={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Facebook">
+        <i class="fa fa-facebook-official share-button"> facebook</i>
+    </a> -->
+
+    <!-- <a  href="https://twitter.com/intent/tweet?text={{ title }}&url={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Twitter" >
+        <i class="fa fa-twitter share-button"> twitter</i>
+    </a> -->
+
+    <!-- <a href="https://plus.google.com/share?url={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Google+">
+        <i class="fa fa-google-plus share-button"> google</i>
+    </a> -->
+
+    <!-- <a href="https://www.pinterest.com/pin/create/button/?url={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Pinterest">
+        <i class="fa fa-pinterest-p share-button"> pinterest</i>
+    </a> -->
+
+    <!-- <a href="https://www.tumblr.com/share/link?url={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Tumblr">
+        <i class="fa fa-tumblr share-button"> tumblr</i>
+    </a> -->
+
+    <!-- <a href="http://www.reddit.com/submit?url={{ url }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=900,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on Reddit">
+        <i class="fa fa-reddit-alien share-button"> reddit</i>
+    </a> -->
+
+    <!-- <a href="http://www.linkedin.com/shareArticle?mini=true&url=https://stackoverflow.com/questions/10713542/how-to-make-custom-linkedin-share-button/10737122&title=How%20to%20make%20custom%20linkedin%20share%20button&summary=some%20summary%20if%20you%20want&source=stackoverflow.com">
+        zeifgubzejkbzekfjb
+    </a> -->
+
+    <!-- <a href="https://www.linkedin.com/cws/share?url={{ url }}&title={{ title }}&summary={{ page.description }}&source={{ site.title }}" -->
+    <a href="https://www.linkedin.com/shareArticle?mini=true&title=test&url={{ url }}&title={{ title }}"
+        onclick="window.open(this.href, 'pop-up', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;"
+        title="Share on LinkedIn">
+        <i class="fa fa-linkedin share-button"> linkedin</i>
+    </a>
+
+    <a href="mailto:?subject={{ title }}&amp;body=Check this out {{ url }}"
+        title="Share via Email">
+        <i class="fa fa-envelope share-button"> email</i>
+    </a>
+</div>
