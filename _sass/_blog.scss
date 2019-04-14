@@ -156,6 +156,12 @@ table.table-code {
     }
 }
 
+.no-wrap-first-column {
+  td:first-child {
+    white-space: nowrap;
+  }
+}
+
 
 table.table-excel {
     width: 100%;
