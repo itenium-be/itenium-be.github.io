@@ -2,7 +2,7 @@
     <div class="sidebar-heading">
         {% if include.toc.icon contains "icon-" %}
             <i class="{{ include.toc.icon }}"></i>
-        {% else %}
+        {% elsif include.toc.icon %}
             <i class="fa fa-{{ include.toc.icon | default: 'file-text' }}"></i>
         {% endif %}
 
