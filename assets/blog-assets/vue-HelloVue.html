@@ -1,0 +1,103 @@
+<html>
+  <head>
+    <script src="https://unpkg.com/vue@2.6.6/dist/vue.js"></script>
+    <link href="./vue-style.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet">
+    <title>Hello Vue</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="nav-bar"><h1>Hello Vue</h1></div>
+      <div class="product">
+        <div class="product-image">
+          <img :src="image">
+        </div>
+
+        <div class="product-info">
+          <!-- Computed Properties -->
+          <h1>{{ title }}</h1>
+
+
+          <div>
+            <p v-if="inventory > 10">In Stock</p>
+            <p v-else-if="inventory">Almost sold out</p>
+            <p v-else>Out of Stock</p>
+          </div>
+
+
+          <button
+            v-on:click="cart++; inventory--"
+            :disabled="!inventory"
+            :class="{'add-to-cart': true, disabledButton: inventory ? false : true}"
+          >
+            Add to Cart
+          </button>
+
+          <div class="cart">
+            {{cart}}
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+
+          <!-- Loops -->
+          <div v-for="(variant, index) in variants.filter(x => !x.soldOut)"
+              :key="variant.id"
+              class="color-box"
+              :class="{active: selectedVariantIndex === index}"
+              :style="{backgroundColor: variant.color}"
+              @mouseover="setSelectedVariant(variant, index)"
+          ></div>
+        </div>
+
+        <!-- Can use Math, Date directly inside the templates -->
+        <small>Rendered on: {{ new Date().toGMTString() }} <br><br></small>
+      </div>
+    </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+  const vm = new Vue({
+    el: '#app',
+    data: {
+      product: 'Socks',
+      selectedVariantIndex: 0,
+      variants: [
+        {id: 1, color: 'green'},
+        {id: 2, color: 'blue'},
+        {id: 3, color: 'red', soldOut: true},
+      ],
+      inventory: 3,
+      cart: 0
+    },
+    methods: {
+      setSelectedVariant(variant, index) {
+        console.log('hover', index, variant);
+        this.selectedVariantIndex = index;
+      }
+    },
+    computed: {
+      title() {
+        // Return values are cached
+        return this.product.toUpperCase();
+      },
+      image() {
+        const color = this.variants[this.selectedVariantIndex].color;
+        return `./vue-socks-${color}.jpg`;
+      }
+    }
+  });
+  console.log('Modify data directly from the console with `vm.product = "Shoes";`');
+</script>
