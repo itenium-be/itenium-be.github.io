@@ -1,4 +1,12 @@
-<section class="blog-header section-padding">
+{% if include.bigimg %}
+    {% assign bigimg = 'assets/blog-images/' | append: include.bigimg.url | absolute_url %}
+    {% assign bigimg = "background-image: url('" | append: bigimg | append: "')" %}
+{% endif %}
+
+<!-- Defaults to: "../img/blog-background.jpg" (_blog.scss) -->
+<!-- Dimensions: 1400x262px -->
+
+<section class="blog-header section-padding" style="{{ bigimg }}">
     <div class="container">
         <div class="row">
             <div class="col-xs-12 text-center">
