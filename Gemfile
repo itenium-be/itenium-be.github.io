@@ -25,7 +25,7 @@ group :jekyll_plugins do
    gem "jemoji", "~> 0.10.2"
    gem "jekyll-gist", "~> 1.5.0"
    gem "jekyll-avatar", "~> 0.6.0"
-   # gem "jekyll-redirect-from"
+   gem "jekyll-redirect-from"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem

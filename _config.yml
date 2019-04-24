@@ -106,13 +106,13 @@ paginate_path: /blog/page:num/
 theme: minima
 
 # https://pages.github.com/versions/
-gems:
+plugins:
   - jekyll-feed
   - jekyll-paginate
   - jemoji # https://github.com/jekyll/jemoji
   - jekyll-gist # https://github.com/jekyll/jekyll-gist
   - jekyll-avatar # https://github.com/benbalter/jekyll-avatar
-#  - jekyll-redirect-from # https://github.com/jekyll/jekyll-redirect-from
+  - jekyll-redirect-from # https://github.com/jekyll/jekyll-redirect-from
 exclude:
   - Gemfile
   - Gemfile.lock
