@@ -7,7 +7,7 @@
         <div class="media">
             <div class="media-left">
                 <a href="{{ post.url | relative_url }}">
-                    <img class="media-object" src="{{ 'assets/blog-images/' | append: post.img | absolute_url }}">
+                    <img class="media-object" src="{{ 'assets/blog-images/' | append: post.img.url | absolute_url }}">
                 </a>
             </div>
             <div class="media-body">

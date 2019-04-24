@@ -49,6 +49,6 @@ $(function() {
 <meta property="og:title" content="{{ page.title | escape }}" />
 <meta property="og:type" content="" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
-<meta property="og:image" content="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" />
-<!-- <meta property="og:image" content="{{ page.imgurl | absolute_url }}" /> -->
+<meta property="og:image" content="{{ 'assets/blog-images/' | append: page.img.url | absolute_url }}" />
+<!-- <meta property="og:image" content="{{ page.img.url | absolute_url }}" /> -->
 <meta property="og:description" content="{{ page.desc }}" />

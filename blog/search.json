@@ -14,7 +14,7 @@ desc: "Posts with tag 'meta' are not included in search results (create a new po
   "url": "{{ site.baseurl }}{{ post.url }}",
   "date": "{{ post.date | date: "%b %-d, %Y" }}",
   "series": "{{ post.series }}",
-  "img": "{{ 'assets/blog-images/' | append: post.img | absolute_url }}",
+  "img": "{{ 'assets/blog-images/' | append: post.img.url | absolute_url }}",
   "content": {{ post.content | jsonify }}
 } {% unless forloop.last or metaCheck == "meta" %},{% endunless %}
 {% endunless %}

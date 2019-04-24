@@ -18,19 +18,19 @@
 
 
     <figure style="margin-top: 5px; margin-bottom: 8px" class="imagewrapper">
-        {% if page.imgurl %}
-            <a href="{{ page.imgurl }}">
+        {% if page.img.origin %}
+            <a href="{{ page.img.origin }}">
         {% endif %}
 
-        <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img | absolute_url }}" title="{{ page.imgtitle }}" />
+        <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img.url | absolute_url }}" title="{{ page.img.title }}" />
 
-        {% if page.imgurl %}
+        {% if page.img.origin %}
             </a>
         {% endif %}
 
 
-        {% if page.imgdesc %}
-            <figcaption>{{ page.imgdesc }}</figcaption>
+        {% if page.img.desc %}
+            <figcaption>{{ page.img.desc }}</figcaption>
         {% endif %}
     </figure>
 
