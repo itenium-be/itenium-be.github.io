@@ -16,7 +16,7 @@ jQuery(function ($) {
 
     // -------------------------------------------------------------
 
-    //Initiat WOW JS
+    //Initiate WOW JS
     new WOW().init();
     //scroll arrow bottom
 
@@ -40,6 +40,14 @@ jQuery(function ($) {
 
 
     // -------------------------------------------------------------
+
+    // Testimonials "read more" links
+    $('.testimonial-show-full').click(function(e) {
+        var item = $(this).parent().parent();
+        $('.excerpt', item).hide();
+        $('.full', item).show();
+        e.preventDefault();
+    });
 
     //---------------------------------------------------------------
 
@@ -103,7 +111,7 @@ $(window).scroll(function(){
 // owl
 
     // -------------------------------------------------------------
-    // testimonail carosel
+    // testimonial carousel
     // -------------------------------------------------------------
 
     (function () {

@@ -1,0 +1,25 @@
+<div class="sidebar">
+    <div class="list-group" style="margin-bottom: 4px">
+        <div class="sidebar-heading">
+            Testimonial
+        </div>
+
+        <div class="freelance-testimonial">
+            {% assign testimonials = site.data.testimonials | where: "type", "freelancer" %}
+            {% assign random = site.time | date: "%s" | modulo: testimonials.size %}
+            {% assign testimonial = testimonials[random] %}
+
+
+            <p class="excerpt">
+                {{ testimonial.excerpt }}
+                <!-- Buttons bound in script.js -->
+                <a href="#" class="testimonial-show-full">read more</a>
+            </p>
+            <p class="full" style="display: none">{{ testimonial.desc }}</p>
+            <div class="name">
+                <span class="pull-right">— {{ testimonial.name }}</span>
+            </div>
+
+        </div>
+    </div>
+</div>

@@ -1,0 +1,44 @@
+- name: Kristof
+  excerpt: >
+    De itenium-developers zijn steeds enorm enthousiast en beschikken
+    over de mindset om er onmiddellijk tegenaan te gaan.
+  desc: >
+    Goede developers vinden is niet makkelijk.
+    Om ons eigen team aan te vullen, doen we vaak een beroep op itenium.
+    Steven en Kim spelen kort op de bal en denken pro-actief mee voor oplossingen.
+    Daarnaast zijn de itenium-developers steeds enorm enthousiast en beschikken ze
+    over de mindset om er onmiddellijk tegenaan te gaan.
+  img: img/testimonials/goca.png
+  type: client
+
+
+- name: Heleen
+  excerpt: >
+    As someone taking their first project as a freelancer I couldn't have been more lucky than
+    getting started with itenium. Their experience and willingness to help was a great relief to me.
+  desc: >
+    When I got into contact with the folks at itenium, I was not that interested in leaving
+    my former employer. I would only leave for a project that met all my desired criteria,
+    of which there were many. I figured I wouldn't hear back, at least not for a while.
+    A week later I had my first interview, three weeks later I signed a contract. It's not
+    always easy to find a good project, but they found one for me. They took into account the
+    experience and type of project I was looking for specifically and found a great fit for me.
+    As someone taking their first project as a freelancer I couldn't have been more lucky than
+    getting started with itenium. Their experience and willingness to help was a great relief to me.
+  img: img/testimonials/heleen.png
+  type: freelancer
+
+
+- name: Dan
+  excerpt: >
+    In a business of faceless middlemen, this was truly an honest and hands-on approach.
+    Itenium helped me launch my career to the next level, thanks guys!
+  desc: >
+    Itenium didn't flinch when I requested a dream job, a well paid challenge with modern technology
+    and minimal commute time. Being true-bred software developers themselves, they can instinctively
+    sense what's a good opportunity and what's not. They delivered insight into the job market, offered
+    choice and advice based on experience, and always paid on time. What more can you expect, in a business
+    of faceless middlemen, this was truly an honest and hands-on approach. Itenium helped me launch my
+    career to the next level, thanks guys!
+  img: img/testimonials/dan.jpg
+  type: freelancer
