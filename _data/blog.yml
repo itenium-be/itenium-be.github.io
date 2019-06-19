@@ -8,6 +8,7 @@ categories:
   dotnet: icon-csharp
   productivity: fa fa-superpowers
   dev-setup: fa fa-cogs
+  design: fa fa-object-group
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
@@ -33,3 +34,4 @@ tags:
   regex: icon-script
   tech-talk: fa fa-certificate
   pragmatic-tips: fa fa-trophy
+  fun: fa fa-gamepad

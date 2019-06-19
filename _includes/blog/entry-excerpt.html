@@ -22,7 +22,10 @@
         </div>
         <div class="col-xs-12 col-sm-9 col-md-9">
             <h1 style="margin-bottom: 10px">
-                <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+                <a href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                    <small>{{ post.subTitle | escape }}</small>
+                </a>
                 <p>{{ post.date | date: "%-d" }} {{ post.date | date: "%b %Y" }}</p>
             </h1>
 
