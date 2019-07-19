@@ -11,7 +11,7 @@
         {% endif %}
     {% endfor %}
 
-    {% assign posts = updatedPosts | sort:"lastUpdate" | reverse | slice: 0, 6 %}
+    {% assign posts = updatedPosts | sort:"last_modified_at" | reverse | slice: 0, 6 %}
     {% for post in posts %}
         <div class="media">
             <div class="media-left">
