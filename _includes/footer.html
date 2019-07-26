@@ -35,8 +35,12 @@
                             <span style="margin-left: -5px">Twitter:</span><a href="https://twitter.com/{{ site.twitter_username }}"> {{ site.twitter_username }}</a>
                         </li>
                         <li>
+                            {% include components/icon-github.html username=site.github_username %}
+                            <span style="margin-left: 4px">Github:</span><a href="https://github.com/{{ site.github_username }}"> {{ site.github_username }}</a>
+                        </li>
+                        <li>
                             {% include components/icon-linkedin.html company=site.linkedin_company %}
-                            <span style="margin-left: -5px">LinkedIn:</span><a href="https://sg.linkedin.com/company/{{ site.linkedin_company }}"> {{ site.linkedin_company }}</a>
+                            <span style="margin-left: -5px;">LinkedIn:</span><a href="https://sg.linkedin.com/company/{{ site.linkedin_company }}"> {{ site.linkedin_company }}</a>
                         </li>
                         <li>
                             {% include components/icon-instagram.html username=site.instagram %}
