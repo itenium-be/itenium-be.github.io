@@ -874,7 +874,6 @@
   username: KimElBoubsi
   date: 2019-04-08T09:06:46.7140450+02:00
   unpublishdate: 2019-07-14T00:00:00.0000000+02:00
-  published: true
   slug: project-manager
 - id: 110
   title: Network engineer
@@ -883,7 +882,6 @@
   username: KimElBoubsi
   date: 2019-04-09T10:57:34.6718568+02:00
   unpublishdate: 2019-07-14T00:00:00.0000000+02:00
-  published: true
   slug: network-engineer
 - id: 111
   title: Netwerk Architect
@@ -892,7 +890,6 @@
   username: KimElBoubsi
   date: 2019-04-17T10:50:11.3513382+02:00
   unpublishdate: 2019-07-14T00:00:00.0000000+02:00
-  published: true
   slug: netwerk-architect
 - id: 112
   title: Business Analyst
@@ -901,7 +898,6 @@
   username: KimElBoubsi
   date: 2019-04-23T12:17:00.9026534+02:00
   unpublishdate: 2019-07-14T00:00:00.0000000+02:00
-  published: true
   slug: business-analyst
 - id: 113
   title: Functional Analyst/Tester
@@ -910,7 +906,6 @@
   username: KimElBoubsi
   date: 2019-04-29T11:08:10.6185101+02:00
   unpublishdate: 2019-07-14T00:00:00.0000000+02:00
-  published: true
   slug: functional-analyst-tester
 - id: 114
   title: Senior Proces Analist
@@ -927,7 +922,6 @@
   username: KimElBoubsi
   date: 2019-05-27T14:31:29.1373691+02:00
   unpublishdate: 2019-06-26T14:31:29.1373691+02:00
-  published: true
   slug: senior-application-engineer
 - id: 116
   title: Medior Business Analist
@@ -936,7 +930,6 @@
   username: KimElBoubsi
   date: 2019-06-13T11:28:06.4327672+02:00
   unpublishdate: 2019-07-13T11:28:06.4327672+02:00
-  published: true
   slug: medior-business-analist
 - id: 117
   title: Senior .Net developer
@@ -945,7 +938,6 @@
   username: KimElBoubsi
   date: 2019-06-20T10:43:04.4965516+02:00
   unpublishdate: 2019-07-20T10:43:04.4965516+02:00
-  published: true
   slug: senior-net-developer
 - id: 118
   title: Product Owner
@@ -954,5 +946,13 @@
   username: KimElBoubsi
   date: 2019-06-26T08:50:12.9977246+02:00
   unpublishdate: 2019-07-26T08:50:12.9977246+02:00
-  published: true
   slug: product-owner
+- id: 119
+  title: System engineer
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Omschrijving</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor een strak \r\nbaseline beheer van de werkstations, in nauwe samenwerking met ICT Gebruikers \r\nInfrastructuur (GI).</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je werkt aan een \r\ngeautomatiseerd beheer van de clients, zowel (virtuele en fysieke) werkstations, \r\nmobiele devices, printers en andere randapparatuur.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor upgrades en \r\n(beveiligings)patches van het operating system en de algemene \r\nbasissoftware.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je houdt de IT client \r\nhardware up to date met de laatste firmware en drivers.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor het \r\nuitwerken en ontwikkelen van installatie routines van nieuwe en bestaande \r\nondersteunde toepassingen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je levert de nodige \r\nondersteuning voor opzet van test en acceptatie omgevingen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent nauw betrokken in \r\nhet releaseproces van de toepassingen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je geeft technisch advies \r\nbij de selectie van nieuwe software en hardware.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je werkt als uitvoerder \r\nof als coördinator mee aan infrastructuur- en \r\ntoepassingsprojecten.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je test, analyseert en \r\nintroduceert nieuwe technologieën.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je waakt over de \r\nkwaliteit en performantie door actieve en pro-actieve ingrepen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je doet aan \r\nkwaliteitscontrole en je brengt verbeteringen aan.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor de nodige \r\ndocumentatie.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je deelt je kennis met je \r\ncollega's.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor een \r\nadministratieve opvolging van de uitgevoerde werken.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je volgt incidenten en \r\nwerkorders correct op.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Technische \r\ncontext</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent in het bezit van \r\neen bachelor informatica of je bent gelijkwaardig door ervaring.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je hebt 5 jaar ervaring \r\nin een ICT omgeving.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je hebt een uitstekende \r\ntechnische kennis van de verschillende Microsoft gebaseerde desktop operating \r\nsystems.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je hebt een uitstekende \r\nkennis van scripting en programmeren met o.a. vbscript, Powershell, \r\n…</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je hebt ervaring in het \r\ngeautomatiseerd beheren van werkstations en randapparatuur in een middelgroot \r\nnetwerk.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent vertrouwd met \r\nActive Directory en Group policies.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Ervaring met SCCM 2012, \r\nCitrix Xenapp, VDI en Intune zijn sterke pluspunten.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Kennis van netwerken en \r\nsecurity is een pluspunt. Begrippen als firewall, routing, tcp/ip, proxy, DNS en \r\nDHCP zijn je niet vreemd.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Kennis van \r\nziekenhuisinformatica en de medische sector is een bijkomende \r\ntroef.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Sterk in het oplossen van \r\nproblemen en in de omgang met klanten.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Business \r\ncontext</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent zeer nauwgezet en \r\nkwaliteitsgericht en je beschouwt het als een uitdaging om op de meest \r\nperformante wijze processen te automatiseren en te structureren.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je kan in team werken aan \r\neen gemeenschappelijk objectgeoriënteerde beheersproject.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent klantgericht en \r\nservicegeoriënteerd en streeft naar samenwerking en integratie, van zowel mensen \r\nals machines en IT-systemen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent gedreven, \r\ndynamisch en stressbestendig.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent een uitstekende \r\ntroubleshooter.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent assertief en \r\novertuigend, maar zeker ook diplomatisch en een echte \r\nteamplayer.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je neemt graag \r\nverantwoordelijkheden en je bent in staat zelfstandig en probleemoplossend te \r\nwerken.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je stelt je flexibel op \r\n(avond/weekendwerk, wacht, aanwezigheid op diverse ziekenhuis sites, \r\n...)</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je staat communicatief \r\nsterk, zowel mondeling als schriftelijk.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je werkt graag \r\nprojectmatig en kan op een constructieve en professionele manier samenwerken met \r\ncollega's doorheen de organisatie.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent sterk in het \r\ndocumenteren van taken, procedures, processen en projecten.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je kan de zaken \r\nconceptueel uitdenken en beschikt over een stevige dosis analyse- en \r\nsynthesevaardigheden.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je werkt \r\nresultaatsgericht en kostenbewust, maar je houdt ook rekening met \r\nrisico’s.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je gaat strikt om met het \r\nberoepsgeheim en deontologie is voor jou een evidentie.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Respect en \r\nverantwoordelijkheid vind je belangrijke waarden in je werk.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Bijkomende job \r\ninformatie</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Als Systeembeheerder GIDA \r\nben je verantwoordelijk voor het installeren, beheren en ondersteunen van de \r\nbackoffice client infrastructuur van de klant.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je bent mede \r\nverantwoordelijk voor het identificeren en organiseren van alle activiteiten die \r\nnodig zijn voor een optimale ondersteuning van de ICT client \r\nomgeving.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">• Je zorgt voor een zeer \r\nkostenefficiënte manier om de ICT werkplekken van de klant te beheren en \r\nonderhouden.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Gevraagd</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare ervaring met KiXtart: Medior ( 1,00 jaar )</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare ervaring met PowerShell: Senior ( 3,00 jaar )</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare ervaring met SCCM 2012, Citrix Xenapp, VDI en \r\nIntune</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare ervaring met SCCM/Software deployment: Senior ( 3,00 jaar \r\n)</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare kennis met AD / Group Policies</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare kennis Windows OS: Senior ( 3,00 jaar )</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">•<span style=\"mso-tab-count: 1;\">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; \r\n</span>Aantoonbare ervaring in de systemen in kwestie: Senior ( 3,00 jaar \r\n)</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-08-07T16:26:42.0929495+02:00
+  unpublishdate: 2019-09-06T16:26:42.0929495+02:00
+  published: true
+  slug: system-engineer
