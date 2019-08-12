@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/123/team-coach
+id: 123
+title: "Team Coach "
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
