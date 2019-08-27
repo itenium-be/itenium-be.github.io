@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/126/junior-allround-ict-consultant
+id: 126
+title: "Junior allround ICT consultant"
+subTitle: Region Zaventem
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
