@@ -954,7 +954,6 @@
   username: KimElBoubsi
   date: 2019-08-07T16:26:42.0929495+02:00
   unpublishdate: 2019-09-06T16:26:42.0929495+02:00
-  published: true
   slug: system-engineer
 - id: 120
   title: Linux System Engineer
@@ -963,7 +962,6 @@
   username: KimElBoubsi
   date: 2019-08-09T11:00:06.4620657+02:00
   unpublishdate: 2019-09-08T11:00:06.4620657+02:00
-  published: true
   slug: linux-system-engineer
 - id: 121
   title: Full-Stack Java/JavaScript web developer
@@ -972,7 +970,6 @@
   username: KimElBoubsi
   date: 2019-08-09T11:19:14.2397072+02:00
   unpublishdate: 2019-09-08T11:19:14.2397072+02:00
-  published: true
   slug: full-stack-java-javascript-web-developer
 - id: 122
   title: 'Cloud System Engineer '
@@ -981,7 +978,6 @@
   username: KimElBoubsi
   date: 2019-08-09T12:07:42.6738575+02:00
   unpublishdate: 2019-09-08T12:07:42.6738575+02:00
-  published: true
   slug: cloud-system-engineer
 - id: 123
   title: 'Team Coach '
@@ -990,7 +986,6 @@
   username: KimElBoubsi
   date: 2019-08-12T14:52:56.2387273+02:00
   unpublishdate: 2019-09-11T14:52:56.2387273+02:00
-  published: true
   slug: team-coach
 - id: 124
   title: Front-end developer
@@ -1046,3 +1041,12 @@
   unpublishdate: 2019-10-06T11:06:27.4377539+02:00
   published: true
   slug: scrum-master
+- id: 130
+  title: 'Network Engineer  '
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p><strong><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt; mso-ansi-language: EN-US;'>Network \r\nEngineer&nbsp;</span></strong><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt; mso-ansi-language: EN-US;'> \r\n<br> The position will be based in Antwerp, starting on&nbsp;ASAP&nbsp;\r\n until&nbsp;31/12/2019 +</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt; mso-ansi-language: EN-US;'><br></span><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>Responsibilities:</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>• \r\nImplementatie van Netwerk Projecten / Site Migraties<br>• Remote Sites Support \r\n(DMVPN / MPLS / Site2Site)<br>• Afhandelen van dagelijkse aanvragen en \r\nincidenten, troubleshooting<br>• Aanmaken Firewall Rules<br>• Aanmaken van \r\nprocedures en documentatie</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>Binnen de\r\n divisie IT Services staat het team Netwerken in voor een stabiele\r\n IT-infrastructuur. Netwerk-engineers zorgen voor een verdere uitbouw van dit\r\n netwerk om te voldoen aan de noden van de business en andere IT-afdelingen\r\n waarbij steeds de security van dit netwerk wordt gegarandeerd.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>Binnen het\r\n team zijn we momenteel op zoek naar een collega om het operationele gedeelte te\r\n (bege)leiden. Hierbij zijn een CCNA denkniveau aangevuld met degelijke\r\n Checkpoint firewall en F5 kennis een must. Ook een goede kennis van TCP/IP is\r\n vereist.<br> Naast het operationele zal je na verloop van tijd ook \r\nondersteunend meewerken in verschillende projecten en draag je bij tot de \r\nkennisverhoging van de ondersteunende diensten.<br style=\"mso-special-character: line-break;\"><br style=\"mso-special-character: line-break;\"></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>Je \r\ntakenpakket bestaat uit:</span></b><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'><br>\r\n - Operationele 2nd line support voor incidenten, problems en changes.<br> - 3de \r\nlijnsondersteuning (expertise-kennis), oplossen complexe problemen.<br> - \r\nOverdracht naar technische teams en documentatie van de oplossingen.<br> - \r\nInvullen van point-of-contact rol voor incidenten die dringende aandacht nodig \r\nhebben.<br> - Meehelpen bij uitvoering van verschillende projecten op netwerk \r\ngebied.<br> - Verdere optimalisatie huidige omgeving ter ondersteuning van de \r\nbusiness<br> - Administratie van lopende projecten bijhouden . (&lt;10% van je \r\ntijd)</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'>Technical \r\nSkills:</span></b><span style='font-family: \"Segoe UI\",sans-serif; font-size: 11pt;'><br>• \r\nStateful Firewall management (Checkpoint)<br>• Cisco Switching / Routering, ISE, \r\nWLC<br>• Gedreven persoon die zaken zelf oppakt<br>• Communicatief en \r\nzelfstandig</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-09-12T15:21:05.3266306+02:00
+  unpublishdate: 2019-10-12T15:21:05.3266306+02:00
+  published: true
+  slug: network-engineer
