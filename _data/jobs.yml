@@ -348,6 +348,7 @@ jobs:
           - Generics and Lambdas
           - Unit Testing
           - AWS or Azure
+      - title: And also with
         techs:
           - SQL or No-SQL database(s)
           - Design Patterns and Dependency Injection
