@@ -1098,3 +1098,12 @@
   unpublishdate: 2019-11-09T11:55:50.0250799+01:00
   published: true
   slug: it-procurement-and-financial-assistant
+- id: 137
+  title: 'Node.js backend developer '
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span><span style=\"font-family: Times New Roman\"><span style='font-family: \"Segoe UI\",sans-serif;'>Jij hebt kennis van:<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>- \r\nNode.js development op senior niveau <br> - Test Driven Development mbv Mocha en \r\nJest <br> - MongoDB en PostgreSQL database <br> - Authenticatie mechanismen \r\nOauth, SAML, JWT <br> - RabbitMQ <br> - Service Oriented Architecture, API \r\ndesign en API gateways zoals Kong <br> - Container based applicaties obv Docker \r\nvia Rancher en OpenShift <br> - JIRA, Bitbucket, Git, Bamboo </span></span><span style=\"font-family: Times New Roman\"> </span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'><br></span></p>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Node.js\r\n backend developer </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>- \r\nBen je een communicatieve team player <br> - Ga je graag de uitdaging aan om \r\norganisaties te helpen met de integratie van systemen <br> - Heb je een \r\nproactieve houding<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>- Ben je \r\nbereid om je kennis uit te breiden<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>- Ben je bereid om je kennis te \r\ndelen<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>- Heb je kennis van veel \r\ngebruikte standaarden</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-10-10T11:56:40.7184995+02:00
+  unpublishdate: 2019-11-09T11:56:40.7184995+01:00
+  published: true
+  slug: node-js-backend-developer
