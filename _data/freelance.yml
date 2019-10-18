@@ -1058,7 +1058,6 @@
   username: KimElBoubsi
   date: 2019-09-18T14:26:19.4833311+02:00
   unpublishdate: 2019-10-18T14:26:19.4833311+02:00
-  published: true
   slug: junior-application-owner
 - id: 133
   title: .Net developer
@@ -1123,3 +1122,12 @@
   unpublishdate: 2019-11-16T14:50:22.5856564+01:00
   published: true
   slug: devops-engineer
+- id: 140
+  title: 'MS Dynamics AX Expert/Developer '
+  location: ''
+  description: "\r\n<p>Function <br>&nbsp;<br>The MS Dynamics AX Expert/Developer will reinforce the \r\nApplication Development &amp; Software team, in which he/she will be responsible \r\nfor supporting and building interactive, innovative applications for our Field \r\nService Management and ERP solutions, using the latest Microsoft technologies. \r\nThe role is based in Vilvoorde.&nbsp; <br>&nbsp;<br>As our AX Expert/Developer, \r\nyou… <br>• have short daily stand-ups with your colleagues (fellow Developers, \r\nTesters, Technical Expert and Functional Architect) to ensure the timely \r\nprogression of the work <br>• act as a technical reference for functional \r\nconsultants, project managers and business development <br>• apply your \r\nexpertise to deliver and evaluate high quality development work <br>• document \r\nyour work in a structured and transparent way <br>• take initiative to propose \r\nimprovements • report status of projects/developments to PM/PMO <br>• Interact \r\nwith infrastructure department regarding requirements (sandbox, servers, license \r\nactivations,...) <br>&nbsp;<br>Your profile <br>&nbsp;<br>Our ideal candidate… \r\n<br>• has experience in OO programming (C++, C#, Java, .net …) <br>• has \r\nexperience with JavaScript, Dynamics CRM, SQL server&nbsp; <br>• has experience \r\nwith integration software/Interfaces <br>• has experience with Testing cycles \r\n(Unit testing, Business Acceptance testing, Integration testing, E2E testing, \r\nperformance testing, …) <br>• is able to work Agile (Scrum)&nbsp; <br>• is a \r\npragmatic thinker oriented towards finding solutions <br>• is willing to \r\ncontinually learn and be challenged <br>• is a quality driven, result oriented \r\nteam player <br>• has oral &amp; written communication skills in Dutch and/or \r\nFrench and/or English </p>\r\n<p><br></p>"
+  username: KimElBoubsi
+  date: 2019-10-18T15:11:33.1119772+02:00
+  unpublishdate: 2019-11-17T15:11:33.1119772+01:00
+  published: true
+  slug: ms-dynamics-ax-expert-developer
