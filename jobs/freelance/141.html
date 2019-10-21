@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/141/project-manager
+id: 141
+title: "Project Manager"
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
