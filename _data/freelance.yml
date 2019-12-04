@@ -1066,7 +1066,6 @@
   username: KimElBoubsi
   date: 2019-09-25T10:49:01.7867425+02:00
   unpublishdate: 2019-10-25T10:49:01.7867425+02:00
-  published: true
   slug: net-developer
 - id: 134
   title: Junior Web analist/tester
@@ -1075,7 +1074,6 @@
   username: KimElBoubsi
   date: 2019-10-01T10:51:36.1698322+02:00
   unpublishdate: 2019-10-31T10:51:36.1698322+01:00
-  published: true
   slug: junior-web-analist-tester
 - id: 135
   title: Network Engineer
@@ -1084,7 +1082,6 @@
   username: KimElBoubsi
   date: 2019-10-01T15:47:32.1470074+02:00
   unpublishdate: 2019-10-31T15:47:32.1470074+01:00
-  published: true
   slug: network-engineer
 - id: 136
   title: IT Procurement and financial assistant
@@ -1093,7 +1090,6 @@
   username: KimElBoubsi
   date: 2019-10-10T11:55:50.0250799+02:00
   unpublishdate: 2019-11-09T11:55:50.0250799+01:00
-  published: true
   slug: it-procurement-and-financial-assistant
 - id: 137
   title: 'Node.js backend developer '
@@ -1102,7 +1098,6 @@
   username: KimElBoubsi
   date: 2019-10-10T11:56:40.7184995+02:00
   unpublishdate: 2019-11-09T11:56:40.7184995+01:00
-  published: true
   slug: node-js-backend-developer
 - id: 138
   title: VmWare Expert
@@ -1111,7 +1106,6 @@
   username: KimElBoubsi
   date: 2019-10-16T09:01:42.4696820+02:00
   unpublishdate: 2019-11-15T09:01:42.4696820+01:00
-  published: true
   slug: vmware-expert
 - id: 139
   title: Devops Engineer
@@ -1120,7 +1114,6 @@
   username: KimElBoubsi
   date: 2019-10-17T14:50:22.5856564+02:00
   unpublishdate: 2019-11-16T14:50:22.5856564+01:00
-  published: true
   slug: devops-engineer
 - id: 140
   title: 'MS Dynamics AX Expert/Developer '
@@ -1129,7 +1122,6 @@
   username: KimElBoubsi
   date: 2019-10-18T15:11:33.1119772+02:00
   unpublishdate: 2019-11-17T15:11:33.1119772+01:00
-  published: true
   slug: ms-dynamics-ax-expert-developer
 - id: 141
   title: Project Manager
@@ -1138,7 +1130,6 @@
   username: KimElBoubsi
   date: 2019-10-21T15:01:56.5365949+02:00
   unpublishdate: 2019-11-20T15:01:56.5365949+01:00
-  published: true
   slug: project-manager
 - id: 142
   title: Java developer
@@ -1147,5 +1138,13 @@
   username: KimElBoubsi
   date: 2019-10-21T16:50:25.5990993+02:00
   unpublishdate: 2019-11-20T16:50:25.5990993+01:00
-  published: true
   slug: java-developer
+- id: 143
+  title: Medior Front-end developer
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Medior\r\n Front-end developer</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Locatie:\r\n Antwerpen </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Duur:<span style=\"mso-spacerun: yes;\">&nbsp;&nbsp; </span>tot eind 2020, met reële \r\nmogelijkheid tot verlenging</span></p><span style=\"font-family: Times New Roman\">\r\n<p style=\"margin: 0cm 0cm 8pt;\"><br></p><span style=\"font-family: Times New Roman\"></span><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Functie: \r\n</span></b></span><span style=\"font-family: Times New Roman\"> </span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe helpt bij de uitbouw van de web- en ondersteunende applicaties van onze \r\ntitelsites. <br>• Je creëert complexe applicaties, die de motor vormen van een \r\ndigitale omschakeling van de hele organisatie.<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>• \r\nJe maakt deel uit van een divers team vol energie. <br>• Je bouwt kwalitatieve \r\ncode, steeds met oog voor de business waarde. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Technische Skills: \r\n</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe hebt&gt; 4 jaar ontwikkelervaring in Front-end technologieën <br>• Je hebt \r\nruime ervaring in de volledige development lifecycle <br>• Je hebt ruime \r\nervaring met object georiënteerde analyse, design, inclusief kennis van design \r\npatronen <br>• Je hebt kennis van version control, voornamelijk GIT. <br>• Je \r\nhebt grondige kennis van refactoring en build management, waaronder Webpack 4 \r\n&amp; Rollupjs</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Je \r\nhebt ervaring met ES2017, React, CSS-in-JS en compositie. <br>• Voor jou is het \r\nniet alleen HTML schrijven, maar ook nadenken over de semantiek. <br>• Je hebt \r\nervaring met het bouwen van mobiele en responsive web applicaties met\r\n cross-browser support. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><b style=\"mso-bidi-font-weight: normal;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Profiel: </span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'><br><span style=\"mso-spacerun: yes;\">&nbsp;</span>• Je bent trots op je uitstekende kennis\r\n van HTML, CSS en JavaScript. <br>• Je leeft en werkt volgens de principes van \r\nAgile development. <br>• Je bent proactief, beschikt over sterke \r\ncommunicatievaardigheden en je denkt probleem oplossend. <br>• Je bent het \r\ngewoon om samen te werken met product owners, backend developers en designers. \r\n<br>• Je bent een uitstekende teamspeler met zin voor initiatief, steeds op zoek \r\nom betere code te schrijven en hoge kwaliteit op te leveren.<br><span style=\"mso-spacerun: yes;\">&nbsp;</span>• \r\nJe bent actief geïnteresseerd in de nieuwste technologieën en \r\nontwikkelingen.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2019-12-04T21:24:49.7833185+01:00
+  unpublishdate: 2020-01-03T21:24:49.7833185+01:00
+  published: true
+  slug: medior-front-end-developer
