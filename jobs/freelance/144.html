@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/144/cc
+id: 144
+title: "Cc"
+subTitle: Region 
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
