@@ -23,7 +23,7 @@
                 <h3 class="media-heading" style="padding-top: 0">
                     <a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
                 </h3>
-                {% assign lastUpdate = post.updates | last %}
+                {% assign lastUpdate = post.updates | first %}
                 <p>
                     Last update on {{ lastUpdate.date | date: "%b %-d, %Y" }}
                     <br>{{ lastUpdate.desc }}

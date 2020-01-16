@@ -20,7 +20,7 @@
             {% endif %}
 
             {% if post.updates %}
-                {% assign lastUpdate = post.updates | last %}
+                {% assign lastUpdate = post.updates | first %}
                 •
                 last updated on
 
