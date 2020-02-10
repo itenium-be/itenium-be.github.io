@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/157/junior-tester
+id: 157
+title: "Junior Tester"
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
