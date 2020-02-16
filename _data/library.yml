@@ -1,0 +1,488 @@
+categories:
+  - key: best-practices
+    desc: "Coding Standards & Best Practices"
+  - key: agile
+    desc: "Agile"
+  - key: ui
+    desc: "User Interface & Interaction Design"
+  - key: web
+    desc: "WEB"
+  - key: design
+    desc: "Design & Architecture"
+  - key: testing
+    desc: "Testing"
+  - key: cli
+    desc: "CLI"
+  - key: dotnet
+    desc: ".NET"
+  - key: languages
+    desc: "Programming Languages"
+  - key: project-management
+    desc: "Project Management"
+  - key: soft
+    desc: "Soft Skills"
+  - key: other
+    desc: "Other"
+
+# ATTN: There is no check if the book.cat actually exists!
+
+# Missing books:
+# Jawad: The Pragmatic Programmers
+# Heleen: Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules (Jeff Johnson)
+# Yentl? Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
+# Heleen? The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity (Alan Cooper)
+# ??? The Mythical Man – Month: Essays on Software Engineering (Frederick P. Brooks Jr.)
+
+
+# To buy
+# Don't Make Me Think! A Common Sense Approach to Web Usability (Steve Krug)
+# Peopleware: Productive Projects and Teams (Tom DeMarco, Tim Lister) ---> New version available!
+
+
+# Template
+#   - title: ""
+#     author: ""
+#     year:
+#     cat: ""
+#     amazon: ""
+#     owner: Wouter
+#     hasUpdate: true
+#     irrelevant: true
+
+
+books:
+  - title: "Design Patterns: Elements of Reusable Object-Oriented Software"
+    author: "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides"
+    year: 1994
+    cat: "design"
+    amazon: "https://www.amazon.com/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612"
+    owner: Wouter
+  - title: "The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity"
+    author: "Alan Cooper"
+    year: 2004
+    cat: "ui"
+    amazon: "https://www.amazon.com/Inmates-Are-Running-Asylum-Products/dp/0672326140"
+    owner: Wouter
+  - title: "The Mythical Man-Month: Essays on Software Engineering, Anniversary Edition"
+    author: "Frederick P. Brooks Jr."
+    year: 1995
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Mythical-Man-Month-Software-Engineering-Anniversary/dp/0201835959"
+    owner: Wouter
+  - title: "Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules"
+    author: "Jeff Johnson"
+    year: 2010
+    cat: "ui"
+    amazon: "https://www.amazon.com/Designing-Mind-Simple-Understanding-Interface/dp/012375030X"
+    owner: Wouter
+  - title: "The Complete Software Developer's Career Guide"
+    author: "John Sonmez"
+    year: 2017
+    cat: "other"
+    amazon: "https://www.amazon.com/Complete-Software-Developers-Career-Guide/dp/B078J67VNF"
+    owner: Wouter
+  - title: "Leadership and Self-Deception: Getting out of the Box 2nd"
+    author: "The Arbinger Institute"
+    year: 2011
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Leadership-Self-Deception-Getting-out-second/dp/0935722181"
+    owner: Wouter
+  - title: "Zen and the Art of Motorcycle Maintenance: An Inquiry Into Values"
+    author: "Robert M Pirsig"
+    year: 2005
+    cat: "other"
+    amazon: "https://www.amazon.com/Zen-Art-Motorcycle-Maintenance-Inquiry/dp/0060839872"
+    owner: Wouter
+  - title: "Kanban: Successful Evolutionary Change for Your Technology Business"
+    author: "David J. Anderson"
+    year: 2010
+    cat: "agile"
+    amazon: "https://www.amazon.com/Kanban-Successful-Evolutionary-Technology-Business/dp/0984521402"
+    owner: Wouter
+  - title: "Talk Like Ted"
+    author: "Carmine Gallo"
+    year: 2015
+    cat: "soft"
+    amazon: "https://www.amazon.com/Talk-Like-TED-Public-Speaking-Secrets/dp/1250061539"
+    owner: Wouter
+  - title: "The Design of the UNIX Operating System"
+    author: "Maurice J. Bach"
+    year: 1986
+    cat: "design"
+    amazon: "https://www.amazon.com/Design-UNIX-Operating-System/dp/0132017997"
+    owner: Wouter
+  - title: "The Soul of A New Machine"
+    author: "Tracy Kidder"
+    year: 2000
+    cat: "other"
+    amazon: "https://www.amazon.com/Soul-New-Machine-Tracy-Kidder/dp/0316491977"
+    owner: Wouter
+  - title: "UML Distilled: A Brief Guide to the Standard Object Modeling Language"
+    author: "Martin Fowler"
+    year: 2004
+    cat: "design"
+    amazon: "https://www.amazon.com/UML-Distilled-Standard-Modeling-Language/dp/0321193687"
+    owner: Wouter
+  - title: "Implementing Domain-Driven Design"
+    author: "Vaughn Vernon"
+    year: 2013
+    cat: "design"
+    amazon: "https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577"
+    owner: Wouter
+  - title: "Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions"
+    author: "Gregor Hohpe, Bobby Woolf"
+    year: 2004
+    cat: "design"
+    amazon: "https://www.amazon.com/Enterprise-Integration-Patterns-Designing-Deploying/dp/0321200683"
+    owner: Wouter
+  - title: "An Introduction to Statistical Learning: with Applications in R"
+    author: "Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshira"
+    year: 2017
+    cat: "other"
+    amazon: "https://www.amazon.com/Introduction-Statistical-Learning-Applications-Statistics/dp/1461471370"
+    owner: Wouter
+  - title: "Secrets of the JavaScript Ninja"
+    author: "John Resig, Bear Bibeault"
+    year: 2013
+    cat: "web"
+    amazon: "https://www.amazon.com/Secrets-of-the-JavaScript-Ninja/dp/B07HXSCRYK"
+    owner: Wouter
+  - title: "Pattern Hatching: Design Patterns Applied"
+    author: "John M. Vlissides"
+    year: 1998
+    cat: "design"
+    amazon: "https://www.amazon.com/Pattern-Hatching-Design-Patterns-Applied/dp/0201432935"
+    owner: Wouter
+  - title: "Facts and Fallacies of Software Engineering"
+    author: "Robert L. Glass Glass"
+    year: 2002
+    cat: "agile"
+    amazon: "https://www.amazon.com/Facts-Fallacies-Software-Engineering-Robert/dp/0321117425"
+    owner: Wouter
+  - title: "Agile Retrospectives: Making Good Teams Great"
+    author: "Esther Derby"
+    year: 2006
+    cat: "agile"
+    amazon: "https://www.amazon.com/Agile-Retrospectives-Making-Teams-Great/dp/0977616649"
+    owner: Wouter
+  - title: "C++ Primer"
+    author: "Stanley B. Lippman, Josée Lajoie, Barbara E. Moo"
+    year: 2012
+    cat: "languages"
+    amazon: "https://www.amazon.com/Primer-5th-Stanley-B-Lippman/dp/0321714113"
+    owner: Wouter
+  - title: "Pattern-Oriented Software Architecture Volume 1: A System of Patterns"
+    author: "Frank Buschmann, Regine Meunier, Hans Rohnert, Peter Sommerlad, Michael Stal"
+    year: 1996
+    cat: "design"
+    amazon: "https://www.amazon.com/Pattern-Oriented-Software-Architecture-System-Patterns/dp/0471958697"
+    owner: Wouter
+  - title: "The Five Dysfunctions of a Team: A Leadership Fable"
+    author: "Patrick Lencioni"
+    year: 2002
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Five-Dysfunctions-Team-Leadership-Fable/dp/0787960756"
+    owner: Wouter
+  - title: "The Toyota Way: 14 Management Principles from the World's Greatest Manufacturer"
+    author: "Jeffrey Liker"
+    year: 2004
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Toyota-Way-Management-Principles-Manufacturer/dp/0071392319"
+    owner: Wouter
+  - title: "Software Estimation: Demystifying the Black Art"
+    author: "Steve McConnell"
+    year: 2006
+    cat: "best-practices"
+    amazon: "https://www.amazon.com/Software-Estimation-Demystifying-Developer-Practices/dp/0735605351"
+    owner: Wouter
+  - title: "Code: The Hidden Language of Computer Hardware and Software"
+    author: "Charles Petzold"
+    year: 2000
+    cat: "design"
+    amazon: "https://www.amazon.com/Code-Language-Computer-Hardware-Software/dp/0735611319"
+    owner: Wouter
+  - title: "Fluent Python: Clear, Concise, and Effective Programming"
+    author: "Luciano Ramalho"
+    year: 2015
+    cat: "languages"
+    amazon: "https://www.amazon.com/Fluent-Python-Concise-Effective-Programming/dp/1491946008"
+    owner: Wouter
+  - title: "Mastering Regular Expressions"
+    author: "Jeffrey E. F. Friedl"
+    year: 2006
+    cat: "languages"
+    amazon: "https://www.amazon.com/Mastering-Regular-Expressions-Jeffrey-Friedl/dp/0596528124"
+    owner: Wouter
+  - title: "The Book of F#: Breaking Free with Managed Functional Programming"
+    author: "Dave Fancher"
+    year: 2014
+    cat: "languages"
+    amazon: "https://www.amazon.com/Book-Breaking-Managed-Functional-Programming/dp/1593275528"
+    owner: Wouter
+  - title: "The Pragmatic Programmer: From Journeyman to Master"
+    author: "Andrew Hunt, David Thomas"
+    year: 1999
+    cat: "best-practices"
+    amazon: "https://www.amazon.com/Pragmatic-Programmer-Journeyman-Master/dp/020161622X"
+    owner: Wouter
+  - title: "Renegades of the Empire: How Three Software Warriors Started a Revolution Behind the Walls of Fortress Microsoft"
+    author: "Michael Drummond"
+    year: 1999
+    cat: "other"
+    amazon: "https://www.amazon.com/Renegades-Empire-Software-Revolution-Microsoft/dp/0609604163"
+    owner: Wouter
+  - title: "Pattern-Oriented Software Architecture Volume 2: Patterns for Concurrent and Networked Objects"
+    author: "Douglas Schmidt, Michael Stal, Hans Rohnert, Frank Buschmann"
+    year: 2000
+    cat: "design"
+    amazon: "https://www.amazon.com/Pattern-Oriented-Software-Architecture-Concurrent-Networked/dp/0471606952"
+    owner: Wouter
+  - title: "Coders at Work: Reflections on the Craft of Programming"
+    author: "Peter Seibel"
+    year: 2009
+    cat: "other"
+    amazon: "https://www.amazon.com/Coders-Work-Reflections-Craft-Programming/dp/1430219483"
+    owner: Wouter
+  - title: "Domain-Specific Languages"
+    author: "Martin Fowler"
+    year: 2011
+    cat: "design"
+    amazon: "https://www.amazon.com/Domain-Specific-Languages-Addison-Wesley-Signature-Fowler-ebook/dp/B003ZUYJ3G"
+    owner: Wouter
+  - title: "The Design of Everyday Things"
+    author: "Don Norman"
+    year: 2013
+    cat: "ui"
+    amazon: "https://www.amazon.com/Design-Everyday-Things-Revised-Expanded/dp/0465050654"
+    owner: Wouter
+  - title: "The Algorithm Design Manual"
+    author: "Steven S Skiena"
+    year: 2011
+    cat: "design"
+    amazon: "https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693"
+    owner: Wouter
+  - title: "Concrete Mathematics: A Foundation for Computer Science"
+    author: "Oren Patashnik"
+    year: 1994
+    cat: "other"
+    amazon: "https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science-ebook/dp/B07C2HMZQR"
+    owner: Wouter
+  - title: "CSS3: The Missing Manual"
+    author: "David Sawyer McFarland"
+    year: 2013
+    cat: "web"
+    amazon: "https://www.amazon.com/CSS3-Missing-David-Sawyer-McFarland/dp/1449325947"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Refactoring: Improving the Design of Existing Code"
+    author: "Martin Fowler"
+    year: 1999
+    cat: "design"
+    amazon: "https://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Domain-Driven Design: Tackling Complexity in the Heart of Software"
+    author: "Eric Evans"
+    year: 2003
+    cat: "design"
+    amazon: "https://www.amazon.com/Domain-Driven-Design-Tackling-Complexity-Software/dp/0321125215"
+    owner: Wouter
+  - title: "C# in Depth"
+    author: "Jon Skeet"
+    year: 2010
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/C-Depth-Second-Jon-Skeet/dp/1935182471"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Applying UML And Patterns: An Introduction to Object-Oriented Analysis and Design and Iterative Development"
+    author: "Craig Larman"
+    year: 2004
+    cat: "agile"
+    amazon: "https://www.amazon.com/Applying-UML-Patterns-Introduction-Object-Oriented/dp/0131489062"
+    owner: Wouter
+  - title: "Clean Code: A Handbook of Agile Software Craftsmanship"
+    author: "Robert C. Martin"
+    year: 2008
+    cat: "agile"
+    amazon: "https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882"
+    owner: Wouter
+  - title: "Pragmatic Thinking and Learning: Refactor Your Wetware"
+    author: "Andy Hunt"
+    year: 2008
+    cat: "other"
+    amazon: "https://www.amazon.com/Pragmatic-Thinking-Learning-Refactor-Programmers/dp/1934356050"
+    owner: Wouter
+  - title: "NHibernate in Action"
+    author: "Pierre Henri Kuaté, et al"
+    year: 2009
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/NHibernate-Action-Pierre-Henri-Kuat%C3%A9/dp/1932394923"
+    owner: Wouter
+    irrelevant: true
+  - title: "Effective C# (Covers C# 4.0): 50 Specific Ways to Improve Your C#"
+    author: "Bill Wagner"
+    year: 2010
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/Effective-Covers-4-0-Specific-Development/dp/0321658701"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Smart and Gets Things Done: Joel Spolsky's Concise Guide to Finding the Best Technical Talent"
+    author: "Joel Spolsky"
+    year: 2007
+    cat: "other"
+    amazon: "https://www.amazon.com/Smart-Gets-Things-Done-Technical/dp/1590598385"
+    owner: Wouter
+  - title: "Microsoft .NET - Architecting Applications for the Enterprise"
+    author: "Dino Esposito"
+    year: 2014
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/Microsoft-NET-Architecting-Applications-Enterprise/dp/0735685355"
+    owner: Wouter
+  - title: "Extreme Programming Explained: Embrace Change"
+    author: "Kent Beck"
+    year: 2004
+    cat: "agile"
+    amazon: "https://www.amazon.com/Extreme-Programming-Explained-Embrace-Change/dp/0321278658"
+    owner: Wouter
+  - title: "The Art of Unit Testing: with examples in C#"
+    author: "Roy Osherove"
+    year: 2013
+    cat: "testing"
+    amazon: "https://www.amazon.com/Art-Unit-Testing-examples/dp/1617290890"
+    owner: Wouter
+  - title: "The Clean Coder: A Code of Conduct for Professional Programmers"
+    author: "Robert Martin"
+    year: 2011
+    cat: "soft"
+    amazon: "https://www.amazon.com/Clean-Coder-Conduct-Professional-Programmers/dp/0137081073"
+    owner: Wouter
+  - title: "Working Effectively with Legacy Code"
+    author: "Michael Feathers"
+    year: 2004
+    cat: "testing"
+    amazon: "https://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052"
+    owner: Wouter
+  - title: "Patterns of Enterprise Application Architecture"
+    author: "Martin Fowler"
+    year: 2002
+    cat: "design"
+    amazon: "https://www.amazon.com/Patterns-Enterprise-Application-Architecture-Martin/dp/0321127420"
+    owner: Wouter
+  - title: "Cracking the Coding Interview: 150 Programming Questions and Solutions"
+    author: "Gayle Laakmann McDowell"
+    year: 2011
+    cat: "other"
+    amazon: "https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/098478280X"
+    owner: Wouter
+  - title: "The Passionate Programmer: Creating a Remarkable Career in Software Development"
+    author: "Chad Fowler"
+    year: 2011
+    cat: "other"
+    amazon: "https://www.amazon.com/Passionate-Programmer-Remarkable-Development-Pragmatic-ebook/dp/B00AYQNR5U"
+    owner: Wouter
+  - title: "JavaScript: The Good Parts"
+    author: "Douglas Crockford "
+    year: 2008
+    cat: "web"
+    amazon: "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742"
+    owner: Wouter
+  - title: "Test Driven Development: By Example"
+    author: "Kent Beck"
+    year: 2002
+    cat: "testing"
+    amazon: "https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530"
+    owner: Wouter
+  - title: "Pro ASP.NET MVC 4"
+    author: "Adam Freeman"
+    year: 2013
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/Pro-ASP-NET-MVC-Adam-Freeman/dp/1430242361"
+    owner: Wouter
+    irrelevant: true
+  - title: "Programming Entity Framework: Building Data Centric Apps with the ADO.NET Entity Framework"
+    author: "Julia Lerman"
+    year: 2010
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/Programming-Entity-Framework-Building-Centric/dp/0596807260"
+    owner: Wouter
+    irrelevant: true
+  - title: "Agile Principles, Patterns, and Practices in C#"
+    author: "Robert C. Martin, Micah Martin"
+    year: 2006
+    cat: "agile"
+    amazon: "https://www.amazon.com/Agile-Principles-Patterns-Practices-C/dp/0131857258"
+    owner: Wouter
+  - title: "JavaScript: The Definitive Guide"
+    author: "David Flanagan"
+    year: 1998
+    cat: "web"
+    amazon: "https://www.amazon.com/JavaScript-Definitive-Guide-David-Flanagan/dp/1565923928"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Analysis Patterns: Reusable Object Models"
+    author: "Martin Fowler"
+    year: 1996
+    cat: "design"
+    amazon: "https://www.amazon.com/Analysis-Patterns-Reusable-Object-Models/dp/0201895420"
+    owner: Wouter
+  - title: "Programming Pearls"
+    author: "Jon Bentley"
+    year: 1999
+    cat: "other"
+    amazon: "https://www.amazon.com/Programming-Pearls-2nd-Jon-Bentley/dp/0201657880"
+    owner: Wouter
+  - title: "The Linux Command Line: A Complete Introduction"
+    author: "William E. Shotts Jr."
+    year: 2012
+    cat: "cli"
+    amazon: "https://www.amazon.com/Linux-Command-Line-Complete-Introduction/dp/1593273894"
+    owner: Wouter
+  - title: "Learn Windows PowerShell in a Month of Lunches"
+    author: "Donald W. Jones, Jeffrey Hicks"
+    year: 2016
+    cat: "cli"
+    amazon: "https://www.amazon.com/Learn-Windows-PowerShell-Month-Lunches/dp/1617294160"
+    owner: Wouter
+  - title: "How to win Friends & Influence People"
+    author: "Dale Carnegie"
+    year: 2011
+    cat: "soft"
+    amazon: "https://www.amazon.com/How-win-Friends-Influence-People/dp/8189297813"
+    owner: Wouter
+  - title: "Professional .NET Framework 2.0"
+    author: "Joe Duffy"
+    year: 2006
+    cat: "donet"
+    amazon: "https://www.amazon.com/Professional-NET-Framework-2-0-Programmer-ebook/dp/B001DJ0J5S"
+    owner: Wouter
+  - title: "CLR via C#"
+    author: "Jeffrey Richter"
+    year: 2010
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/CLR-via-C-Developer-Reference/dp/0735627045"
+    owner: Wouter
+    hasUpdate: true
+  - title: "Code Complete: a practical handbook of software construction"
+    author: "Steve McConnell"
+    year: 2004
+    cat: "best-practices"
+    amazon: "https://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670"
+    owner: Wouter
+  - title: "Compilers: Principles, Techniques, and Tools"
+    author: "Alfred V. Aho, Monica S. Lam, et al."
+    year: 2006
+    cat: "design"
+    amazon: "https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811"
+    owner: Wouter
+  - title: "Programming WCF Services: Mastering WCF and the Azure AppFabric Service Bus"
+    author: "Juval Lowy"
+    year: 2010
+    cat: "dotnet"
+    amazon: "https://www.amazon.com/Programming-WCF-Services-Mastering-AppFabric/dp/0596805489"
+    owner: Wouter
+  - title: "Concurrent Programming on Windows"
+    author: "Joe Duffy"
+    year: 2008
+    cat: "design"
+    amazon: "https://www.amazon.com/Concurrent-Programming-Windows-Joe-Duffy/dp/032143482X"
+    owner: Wouter
