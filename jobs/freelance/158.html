@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/158/business-analyst
+id: 158
+title: "Business Analyst"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
