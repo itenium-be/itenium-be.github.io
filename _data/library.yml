@@ -32,11 +32,13 @@ categories:
 # Yentl? Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
 # Heleen? The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity (Alan Cooper)
 # ??? The Mythical Man – Month: Essays on Software Engineering (Frederick P. Brooks Jr.)
+# Agile Software Estimation - ???
 
 
 # To buy
 # Don't Make Me Think! A Common Sense Approach to Web Usability (Steve Krug)
 # Peopleware: Productive Projects and Teams (Tom DeMarco, Tim Lister) ---> New version available!
+# C# in Depth (Jon Skeet), CLR via C# ---> New version available!
 
 
 # Template
@@ -128,7 +130,7 @@ books:
     year: 2013
     cat: "design"
     amazon: "https://www.amazon.com/Implementing-Domain-Driven-Design-Vaughn-Vernon/dp/0321834577"
-    owner: Wouter
+    owner: ["Wouter", "Steven"]
   - title: "Enterprise Integration Patterns: Designing, Building, and Deploying Messaging Solutions"
     author: "Gregor Hohpe, Bobby Woolf"
     year: 2004
@@ -486,3 +488,9 @@ books:
     cat: "design"
     amazon: "https://www.amazon.com/Concurrent-Programming-Windows-Joe-Duffy/dp/032143482X"
     owner: Wouter
+  - title: "Applying Domain-Driven Design and Patterns: With Examples in C# and .NET"
+    author: "Jimmy Nilsson"
+    year: 2006
+    cat: "design"
+    amazon: "https://www.amazon.com/Applying-Domain-Driven-Design-Patterns-Jun-2006/dp/B010BERGEC"
+    owner: Steven
