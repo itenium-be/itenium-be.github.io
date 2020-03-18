@@ -1234,7 +1234,6 @@
   username: KimElBoubsi
   date: 2020-02-03T16:54:16.1008493+01:00
   unpublishdate: 2020-03-04T16:54:16.1008493+01:00
-  published: true
   slug: webdeveloper
 - id: 155
   title: Hands on Agile Project Manager
@@ -1243,7 +1242,6 @@
   username: KimElBoubsi
   date: 2020-02-10T09:16:44.2141806+01:00
   unpublishdate: 2020-03-11T09:16:44.2141806+01:00
-  published: true
   slug: hands-on-agile-project-manager
 - id: 156
   title: 'Network Security Expert '
@@ -1252,7 +1250,6 @@
   username: KimElBoubsi
   date: 2020-02-10T12:17:31.2127451+01:00
   unpublishdate: 2020-03-11T12:17:31.2127451+01:00
-  published: true
   slug: network-security-expert
 - id: 157
   title: Junior Tester
@@ -1261,7 +1258,6 @@
   username: KimElBoubsi
   date: 2020-02-10T12:19:15.9838240+01:00
   unpublishdate: 2020-03-11T12:19:15.9838240+01:00
-  published: true
   slug: junior-tester
 - id: 158
   title: Business Analyst
@@ -1272,3 +1268,12 @@
   unpublishdate: 2020-03-18T13:25:36.8552846+01:00
   published: true
   slug: business-analyst
+- id: 159
+  title: Functioneel Analist
+  location: Zaventem
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"><span style=\"font-family: Calibri\"><span style=\"font-family: Times New Roman\"><span style=\"font-family: Calibri\">Voor in regio Zaventem zoeken we dringend een Functioneel \r\nAnlayst/developer met enkele jaren ervaring.</span></span><span style=\"font-family: Times New Roman\"> \r\n</span></span></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Asap te starten , contract \r\ninitieel voor 6 maanden met grote kans op verlenging.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"mso-fareast-language: EN-US;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">De nadruk ligt eerder op iemand met een technische achtergrond \r\ndie functioneel kan denken.&nbsp; </span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Onder technische achtergrond wordt dan verstaan kennis van \r\njavascript, Google Blockley, XML , ….</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Onze klant heeft momenteel een tool Opti Q waarin ze checklijsten \r\naan het maken zijn voor technische keuringen (deze tool kan het best vergeleken \r\nworden met een mindmap eigenlijk).&nbsp;&nbsp;&nbsp; Binnen die tool wordt er \r\ngebruik gemaakt van Google Blockly als manier om te \r\nprogrammeren.</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black; font-size: 12pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">De hoofdtaak is er voor te \r\nzorgen dat de checklijsten enerzijds werken zoals het hoort én er voor zorgen \r\ndat de koppeling met het achterliggende Microsoft Dynamics systeem \r\ngebeurd.&nbsp; Dit is extra programmatie in deze checklijsten (met dezelfde \r\ntool) én het opstellen van 'data connectors' tussen de checklijst en Microsoft \r\nDynamics om uiteindelijk te komen tot het eindverslag/rapport.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black; font-size: 12pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Ook dient er ondersteuning geboden te worden aan de technical \r\nmanagers die de lijsten maken. </span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Er komt ook een stukje testing bij en het begeleiden van de \r\ninspecteurs in die testen</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Ook contact met Opti Q zelf rond vb functionliteiten die \r\nontbreken behoort ook tot de taken</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Grote troef is dat je snel met iets nieuws (zoals Opti Q ) weg \r\nkan zijn alsook enige assertiviteit om je weg te zoeken </span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black;\"><span style=\"font-family: Calibri\">Het is dus veel hands on zonder business analyse (gebeurt door \r\niemand anders), wel met een klein stukje technische analyse.&nbsp; \r\n</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"color: black; font-size: 12pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"background: yellow; color: black; mso-highlight: yellow;\"><span style=\"font-family: Calibri\">Belangrijk is onmiddellijke beschikbaarheid en goed Frans \r\nbegrijpen en spreken.</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"background: yellow; color: black; mso-highlight: yellow;\"><span style=\"font-family: Calibri\">Nadruk ook op een communicatief persoon met team \r\nspirit!</span></span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-03-18T08:30:03.1988299+01:00
+  unpublishdate: 2020-04-17T08:30:03.1988299+02:00
+  published: true
+  slug: functioneel-analist
