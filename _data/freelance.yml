@@ -1266,7 +1266,6 @@
   username: KimElBoubsi
   date: 2020-02-17T13:25:36.8552846+01:00
   unpublishdate: 2020-03-18T13:25:36.8552846+01:00
-  published: true
   slug: business-analyst
 - id: 159
   title: Functioneel Analist
@@ -1277,3 +1276,12 @@
   unpublishdate: 2020-04-17T08:30:03.1988299+02:00
   published: true
   slug: functioneel-analist
+- id: 160
+  title: .Net
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Times New Roman\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'>Gevraagde \r\ncompetenties</span></span><span style=\"font-family: Times New Roman\"> </span></p>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'><span style=\"mso-spacerun: yes;\">&nbsp;</span>- Door een jarenlange samenwerking \r\nhebben we een reeks projecten ontwikkeld waar vandaag nog steeds grote of kleine \r\naanpassingen gevraagd wordt. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'>Qua \r\ntechnologie volgt dit meestal de .NET lijn maar deze is ondertussen geëvolueerd. \r\n</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'>Om \r\nvlot te functioneren verwachten we een kennis van VB.NET/SQLserver/ASP.NET &amp; \r\nWinForms. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'>Voor \r\nde nieuwe projecten werken we met Core2/PostgreSQL/Angular 6. Via Atlassian \r\nsuite worden projecten gestuurd en uiteindelijk in productie gesteld. Kennis van \r\nCordoba, grunt, NodeJS en versies plaatsen van iOS apps </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'>- \r\nBereidheid om in deze 2 omgevingen te werken met een zeker enthousiasme wordt \r\ngevraagd.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 14pt;'><span style=\"mso-spacerun: yes;\">&nbsp;</span>- Business inzicht is belangrijk om zo \r\nde noden van de klant te begrijpen en efficiënt te werken Gevraagd arbeidsregime \r\nVoltijds of af te spreken op basis van concrete behoeften.</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-04-16T11:55:56.9822301+02:00
+  unpublishdate: 2020-05-16T11:55:56.9822301+02:00
+  published: true
+  slug: net
