@@ -1282,7 +1282,6 @@
   username: KimElBoubsi
   date: 2020-04-16T11:55:56.9822301+02:00
   unpublishdate: 2020-05-16T11:55:56.9822301+02:00
-  published: true
   slug: net
 - id: 161
   title: .Net developer
@@ -1291,7 +1290,6 @@
   username: KimElBoubsi
   date: 2020-05-05T18:24:07.7849063+02:00
   unpublishdate: 2020-06-04T18:24:07.7849063+02:00
-  published: true
   slug: net-developer
 - id: 162
   title: Cloud Architect
@@ -1300,7 +1298,6 @@
   username: KimElBoubsi
   date: 2020-05-10T11:51:37.2387143+02:00
   unpublishdate: 2020-06-09T11:51:37.2387143+02:00
-  published: true
   slug: cloud-architect
 - id: 163
   title: Medior/senior  .NET-developer
@@ -1309,5 +1306,13 @@
   username: KimElBoubsi
   date: 2020-05-10T12:03:30.9728424+02:00
   unpublishdate: 2020-06-09T12:03:30.9728424+02:00
-  published: true
   slug: medior-senior-net-developer
+- id: 164
+  title: Azure Architect
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Wij zoeken een Azure \r\nArchitect voor een langdurige opdracht in Antwerpen</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Start: ASAP</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Duurtijd: \r\n31/12/2020</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\"><br></span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\">Taalkennis: Nederlands en Engels</span></span></p><span style=\"font-family: Times New Roman\">\r\n<p style=\"margin: 0cm 0cm 0pt;\"><br></p><span style=\"font-family: Times New Roman\"></span><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\">We are setting up a Hybrid Integration Platform (HIP) to allow \r\ncurators of valuable business data to provide this data to our community of \r\nconsumers.<br><br> Ease of use of the platform and reusability for our providers \r\nas well as for our consumers is of paramount importance.<br> We are looking for \r\na hands-on software architect with knowledge of the following technologies:<br>• \r\nAzure App Gateway<br>• Azure API Management<br>• Azure App Services<br>• Azure \r\nEventGrid<br>• API development based on the Microsoft Asp.Net Core \r\nframework<br>• Containerization (Docker)<br>• Azure DevOps (GIT, repositories, \r\npipelines)<br>• OpenAPI specification<br>• Knowledge of Logic Apps and Azure \r\nService Bus is an asset</span></span></span><span style=\"font-family: Times New Roman\"> \r\n</span>\r\n<p><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\">About you:<br>• You have a good understanding of APIs and their \r\nposition in the world of integration.<br>• You see creating and documenting \r\ndesign &amp; development guidelines as a vital part of your job<br>• Good \r\ncommunication skills<br>• The ability to deal with different stakeholders, which \r\nmight have different speeds, maturity and requirements to make use of the \r\nPlatform.<br>• Affinity with project management<br>• An understanding of the \r\nconception of reusable platforms and frameworks</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\">Languages:<br>• English<br>• Dutch is an \r\nasset</span></span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-06-11T13:59:17.1431910+02:00
+  unpublishdate: 2020-07-11T13:59:17.1431910+02:00
+  published: true
+  slug: azure-architect
