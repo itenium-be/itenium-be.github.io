@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/171/devops
+id: 171
+title: "Devops"
+subTitle: Region Diegem
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
