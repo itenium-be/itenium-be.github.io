@@ -208,6 +208,16 @@ table.table-excel {
 }
 
 .blog-content.excerpt {
+    h1 {
+        .subtitle {
+            text-transform: none;
+            font-size: 18px;
+        }
+
+        .date-published {
+            font-size: 14px;
+        }
+    }
 
     .hide-from-excerpt {
         display: none;
