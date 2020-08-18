@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/176/it-project-manager
+id: 176
+title: "IT Project Manager "
+subTitle: Region Mechelen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
