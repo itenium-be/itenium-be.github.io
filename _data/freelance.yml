@@ -1416,3 +1416,12 @@
   unpublishdate: 2020-09-17T16:29:11.4842990+02:00
   published: true
   slug: it-project-manager
+- id: 177
+  title: Project Manager
+  location: Genk
+  description: ''
+  username: KimElBoubsi
+  date: 2020-08-18T16:42:05.0861788+02:00
+  unpublishdate: 2020-09-17T16:42:05.0861788+02:00
+  published: true
+  slug: project-manager
