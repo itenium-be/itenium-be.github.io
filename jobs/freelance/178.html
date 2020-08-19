@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/178/system-engineer-it-analyst
+id: 178
+title: "System engineer/IT Analyst"
+subTitle: Region Beerse
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
