@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/179/senior-frontend-developer
+id: 179
+title: "Senior Frontend Developer"
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
