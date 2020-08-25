@@ -1386,7 +1386,6 @@
   username: KimElBoubsi
   date: 2020-07-22T13:55:16.4647796+02:00
   unpublishdate: 2020-08-21T13:55:16.4647796+02:00
-  published: true
   slug: digital-transformation-architect
 - id: 174
   title: IT Business analist/ Functioneel analist.
@@ -1395,7 +1394,6 @@
   username: KimElBoubsi
   date: 2020-07-22T15:15:25.3153504+02:00
   unpublishdate: 2020-08-21T15:15:25.3153504+02:00
-  published: true
   slug: it-business-analist-functioneel-analist
 - id: 175
   title: 'Senior .Net Full Stack Developer '
@@ -1404,7 +1402,6 @@
   username: KimElBoubsi
   date: 2020-07-22T15:27:16.4689951+02:00
   unpublishdate: 2020-08-21T15:27:16.4689951+02:00
-  published: true
   slug: senior-net-full-stack-developer
 - id: 176
   title: 'IT Project Manager '
@@ -1450,3 +1447,12 @@
   unpublishdate: 2020-09-19T13:06:51.2820120+02:00
   published: true
   slug: java-developer
+- id: 181
+  title: 'Senior BI Consultant '
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"><span style=\"font-family: Calibri\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>Senior \r\nBI Consultant </span></span></span><span style=\"font-family: Times New Roman\"> </span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>De \r\nopdracht Context en voorwerp beschikt over een stedelijk Datawarehouse waarin \r\nmeerdere functionele domeinen van de verschillende organisaties zijn opgenomen. \r\nWij zijn op zoek naar een BI consultant voor de verdere uitbouw van het \r\nBI-platform voor volgende opdrachten : </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>● \r\nanalyse en design van nieuwe rapporteringsbehoeften</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'><span style=\"mso-spacerun: yes;\">&nbsp;</span>● uitwerken van een technische \r\nanalysevoorstel </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>● \r\nde ontwikkeling van ETL met MS SSIS 2012 &amp; Pentaho Data Integration \r\n(Kettle)</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'><span style=\"mso-spacerun: yes;\">&nbsp;</span>● framework ontwikkeling in IBM Cognos \r\n11 </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>● \r\nde ontwikkeling van rapporteringbehoeften (bvb. dashboards en Cognos active \r\nreports) in IBM Cognos 11 </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>● \r\nondersteuning en coaching van eindgebruikers</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'><span style=\"mso-spacerun: yes;\">&nbsp;</span>De opdracht bestaat uit zowel backend \r\nals frontend ontwikkeling. De ETL wordt met MS SSIS 2012 en Pentaho Data \r\nIntegration (Kettle) ontwikkeld. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>De \r\nontwikkeling van de rapporteringbehoeften (rapporten, dashboards, active \r\nreports,...) en het opzetten van het framework gebeurt in IBM Cognos. \r\n</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>De \r\nomschreven opdrachten betreffen steeds vermoedelijke hoeveelheden. <br> Ze \r\nkunnen uitgebreid of verminderd worden overeenkomstig de noden van het bestuur \r\nen binnen het kader van dit bestek. <br> De mandagen worden afgeroepen per \r\norder. <br> De orders zijn, afhankelijk van de uit te voeren opdrachten, niet \r\naltijd doorlopend en/of aane</span><span style=\"font-family: Calibri\">ensluitend.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>Gevraagde \r\ncompetenties <br> We zijn op zoek naar een senior BI consultant die ons team kan \r\nvervoegen. De kandidaat moet zeer zelfstandig BI-opdrachten van analyse tot\r\n rapportontwikkeling kunnen uitvoeren. <br> Doorgedreven kennis van MS SSIS en \r\nPentaho Data Integration voor de ETL-ontwikkeling en van Cognos Framework \r\nManager en Report Studio voor de ontwikkeling van de rapporten is een \r\nnoodzaak</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>De \r\nmedewerker stemt zowel af met de eindklant voor het inventariseren van der \r\nrapporteringsbehoeften als met de domein specialist van voor de technische \r\nrealisaties. Kennisdeling op eigen initiatief en een vlotte communicatie zijn \r\nhierbij nodig.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='line-height: 107%; font-family: \"Segoe UI\",sans-serif; font-size: 12pt;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Niveau: senior \r\nCompetenties: <br> ● Microsoft SQL-server - minimum 3 jaar <br>● Microsoft SSIS \r\n2012 - minimum 3 jaar <br> ● PostgreSQL - minimum 3 jaar <br> ● Pentaho Data \r\nIntegration (Kettle) - minimum 3 jaar <br> ● IBM Cognos 11 (Report Studio) \r\nuitgebreide ervaring met complexe rapportering, active reports en dashboards - \r\nminimum 3 jaar <br> ● IBM Cognos 11 (Framework Manager) - minimum 3 jaar <br> ● \r\nErvaring met functionele en technische BI-analyses <br> ● Perfecte mondelinge en \r\nschriftelijke kennis van het Nederlands</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style=\"font-family: Calibri\">Verwachte aanvang van de \r\nopdracht: oktober 2020</span></p><span style=\"font-family: Times New Roman\"></span><span style=\"font-family: Times New Roman\"> \r\n</span>"
+  username: KimElBoubsi
+  date: 2020-08-25T09:16:23.4942414+02:00
+  unpublishdate: 2020-09-24T09:16:23.4942414+02:00
+  published: true
+  slug: senior-bi-consultant
