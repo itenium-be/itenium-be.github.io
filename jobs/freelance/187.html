@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/187/support-engineer
+id: 187
+title: "Support Engineer"
+subTitle: Region Vilvoorde
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
