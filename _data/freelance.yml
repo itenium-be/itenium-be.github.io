@@ -1442,7 +1442,6 @@
   username: KimElBoubsi
   date: 2020-08-20T13:06:51.2820120+02:00
   unpublishdate: 2020-09-19T13:06:51.2820120+02:00
-  published: true
   slug: java-developer
 - id: 181
   title: 'Senior BI Consultant '
@@ -1507,3 +1506,12 @@
   unpublishdate: 2020-10-18T16:21:15.2614579+02:00
   published: true
   slug: support-engineer
+- id: 188
+  title: Cloud Engineer
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"><span style=\"font-family: Calibri\">Je gaat aan de slag op het \r\nhoofdkantoor binnen de afdeling Infrastructuur &amp; Operations Services (IOS). \r\nDeze directie staat binnen in voor de centrale en overkoepelende aansturing van \r\nde technische implementatie, opvolging en beheer van de infrastructuur en \r\nnetwerkcomponenten.</span></span><span style=\"font-family: Times New Roman\"> </span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Wat ga je \r\ndoen?</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">Als Cloud Engineer ben je \r\nverantwoordelijk voor het opzetten, beheren en integreren van de Cloud &amp; \r\ninfrastructuurservices. Dit doe je binnen de afdeling IOS en in samenwerking met \r\nde leveranciers. <br> De services moeten beantwoorden aan onze kwalitatieve \r\neisen op basis van SLA’s, rekening houdend met de visie, kwaliteitsnormen en \r\nrichtlijnen van de ICT-infrastructuur. Je komt terecht in het team van \r\ninfrastructuur samen met architecten, security, technische coördinatoren en \r\nexperts.</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Minimum 3-4 jaar ervaring \r\nin een gelijkaardige functie in Cloud Azure, en aantal jaren ervaring in \r\nallround infrastructrure.;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Een allround kennis van \r\nCloud: Azure, Office 365, AWS en bijbehorende security aspecten;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span lang=\"EN-US\" style=\"mso-ansi-language: EN-US;\"><span style=\"font-family: Calibri\">• Diepgaande kennis in één of meerdere thema’s zoals: Azure Cloud \r\n/ Powershell en MSDevops/ Office 365 / Hybride omgevingen / Skype for \r\nBusiness<span style=\"mso-spacerun: yes;\">&nbsp; </span>/ Unified Communications \r\n/ Surface Hubs / Microsoft Intune / Anywhere 365 / Exchange / SQL Server / MS \r\nStack / …</span></span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">• Samenwerking met en in \r\nAgile &amp; SAFe teams/concepten;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-09-21T16:50:16.0553570+02:00
+  unpublishdate: 2020-10-21T16:50:16.0553570+02:00
+  published: true
+  slug: cloud-engineer
