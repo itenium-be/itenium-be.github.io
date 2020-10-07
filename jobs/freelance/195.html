@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/195/product-owner
+id: 195
+title: "Product Owner"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
