@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/203/uniface-analist-developer
+id: 203
+title: "Uniface analist/developer"
+subTitle: Region Mechelen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
