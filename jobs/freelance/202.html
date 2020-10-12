@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/202/medior-senior-java-developer
+id: 202
+title: "Medior/Senior Java developer "
+subTitle: Region Beerse
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
