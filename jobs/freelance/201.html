@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/201/full-stack-nodejs-react-developer
+id: 201
+title: "Full Stack NodeJS/React Developer"
+subTitle: Region Berchem
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
