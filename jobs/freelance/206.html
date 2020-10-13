@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/206/test-automation-specialist
+id: 206
+title: "Test Automation Specialist "
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
