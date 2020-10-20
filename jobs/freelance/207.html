@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/207/react-developer
+id: 207
+title: "React Developer"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
