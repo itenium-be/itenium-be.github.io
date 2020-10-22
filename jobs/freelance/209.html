@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/209/cloud-engineer
+id: 209
+title: "Cloud Engineer"
+subTitle: Region Brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
