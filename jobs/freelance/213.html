@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/213/medior-business-analyst
+id: 213
+title: "Medior Business Analyst "
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
