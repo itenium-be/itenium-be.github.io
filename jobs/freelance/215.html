@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/215/lead-front-end-developer-profiel
+id: 215
+title: "Lead front-end developer profiel."
+subTitle: Region brussel
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
