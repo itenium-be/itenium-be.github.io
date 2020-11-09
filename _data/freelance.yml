@@ -1562,7 +1562,6 @@
   username: KimElBoubsi
   date: 2020-10-07T15:18:49.9818525+02:00
   unpublishdate: 2020-11-06T15:18:49.9818525+01:00
-  published: true
   slug: product-owner
 - id: 196
   title: Senior .Net developer
@@ -1571,7 +1570,6 @@
   username: KimElBoubsi
   date: 2020-10-09T14:37:31.3272222+02:00
   unpublishdate: 2020-11-08T14:37:31.3272222+01:00
-  published: true
   slug: senior-net-developer
 - id: 197
   title: Senior Agile Business Analist
@@ -1744,3 +1742,12 @@
   unpublishdate: 2020-12-02T09:48:48.7553750+01:00
   published: true
   slug: lead-front-end-developer-profiel
+- id: 216
+  title: BI Engineer
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>BI \r\nEngineer</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Deze\r\n functie situeert zich te Antwerpen voor de afdeling, die verantwoordelijk is\r\n voor de producten van onze klant, op web en app, en daarnaast ook instaat voor\r\n alles rond conversie, redactiewerking en big data. Je vervoegt het Business\r\n Intelligence (BI) team dat instaat voor onderhoudt, implementatie en verdere\r\n ontwikkeling van bestaande Microsoft BI oplossingen. Wie we nodig hebben, <span style=\"mso-spacerun: yes;\">&nbsp;</span>is een klantgerichte, communicatieve\r\n enthousiasteling met een can-do attitude. Iemand die snel noden capteert en het\r\n fijn vindt om anderen vooruit te helpen. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;Wat\r\n de job inhoudt? </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 8pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>Je \r\nwerkt samen met een team van ervaren BI engineers en gaat op zoek naar de beste\r\n oplossingen voor hun klanten. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe verzamelt de rapporteringsvereisten voor onze klanten en werkt analyses uit, \r\nin nauw overleg met de eindgebruikers. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe past onderliggende tabulaire modellen en ETL flows aan. Wat op je CV staat, \r\n&nbsp;is belangrijk, maar niet het enige waar we naar kijken.&nbsp; \r\n</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe hebt minstens een bachelordiploma en ervaring met het vertalen van klantnoden \r\nnaar functionele analyses.&nbsp; </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe bent flexibel en leergiering en hebt een gezonde teamgeest.&nbsp; \r\n</span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe beschikt over een up-to-date kennis inzake BI architectuur en\r\n oplossingen.&nbsp; </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nen hebt ervaring met SQL Server Integration Services 2017, SQL Server Analysis \r\nServices 2017 en DAX. </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe spreekt vloeiend Nederlands en Engels.&nbsp; </span></p><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 0pt;\"><span style='font-family: \"Segoe UI\",sans-serif;'>• \r\nJe koestert de agile waarden en een agile mindset.</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-11-09T09:04:25.7258016+01:00
+  unpublishdate: 2020-12-09T09:04:25.7258016+01:00
+  published: true
+  slug: bi-engineer
