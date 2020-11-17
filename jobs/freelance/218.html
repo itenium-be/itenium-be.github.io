@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/218/junior-project-manager
+id: 218
+title: "Junior Project Manager"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}

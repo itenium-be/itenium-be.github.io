@@ -1578,7 +1578,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:03:10.8411801+02:00
   unpublishdate: 2020-11-11T14:03:10.8411801+01:00
-  published: true
   slug: senior-agile-business-analist
 - id: 198
   title: Test Analyst
@@ -1587,7 +1586,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:19:51.6707947+02:00
   unpublishdate: 2020-11-11T14:19:51.6707947+01:00
-  published: true
   slug: test-analyst
 - id: 199
   title: Scrum Master
@@ -1596,7 +1594,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:22:15.3035413+02:00
   unpublishdate: 2020-11-11T14:22:15.3035413+01:00
-  published: true
   slug: scrum-master
 - id: 200
   title: IT Operator
@@ -1605,7 +1602,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:26:58.2529704+02:00
   unpublishdate: 2020-11-11T14:26:58.2529704+01:00
-  published: true
   slug: it-operator
 - id: 201
   title: Full Stack NodeJS/React Developer
@@ -1614,7 +1610,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:29:13.9907780+02:00
   unpublishdate: 2020-11-11T14:29:13.9907780+01:00
-  published: true
   slug: full-stack-nodejs-react-developer
 - id: 202
   title: 'Medior/Senior Java developer '
@@ -1623,7 +1618,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:30:19.6072739+02:00
   unpublishdate: 2020-11-11T14:30:19.6072739+01:00
-  published: true
   slug: medior-senior-java-developer
 - id: 203
   title: Uniface analist/developer
@@ -1632,7 +1626,6 @@
   username: KimElBoubsi
   date: 2020-10-12T14:33:39.7488890+02:00
   unpublishdate: 2020-11-11T14:33:39.7488890+01:00
-  published: true
   slug: uniface-analist-developer
 - id: 204
   title: Functional Analysts
@@ -1641,7 +1634,6 @@
   username: KimElBoubsi
   date: 2020-10-12T15:25:31.7700416+02:00
   unpublishdate: 2020-11-11T15:25:31.7700416+01:00
-  published: true
   slug: functional-analysts
 - id: 205
   title: Drupal Developer
@@ -1650,7 +1642,6 @@
   username: KimElBoubsi
   date: 2020-10-13T09:11:43.4018039+02:00
   unpublishdate: 2020-11-12T09:11:43.4018039+01:00
-  published: true
   slug: drupal-developer
 - id: 206
   title: 'Test Automation Specialist '
@@ -1659,7 +1650,6 @@
   username: KimElBoubsi
   date: 2020-10-13T14:22:49.4985181+02:00
   unpublishdate: 2020-11-12T14:22:49.4985181+01:00
-  published: true
   slug: test-automation-specialist
 - id: 207
   title: React Developer
@@ -1760,3 +1750,12 @@
   unpublishdate: 2020-12-09T10:56:10.8229134+01:00
   published: true
   slug: bi-engineer
+- id: 218
+  title: Junior Project Manager
+  location: Antwerpen
+  description: "<span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 10pt; -ms-text-autospace:;\"><b><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US;'>Junior\r\n Project Manager </span></b><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US;'><br></span><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-language: NL-BE;'>Location:\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n Antwerp<br>Start:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;\r\n asap<br> Duration:\r\n&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;\r\n1 year,&nbsp; with real chances to extension<br></span><b><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US;'><br></span></b><b><span style='font-family: \"Segoe UI\",sans-serif;'>JOB DESCRIPTION</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<ul style=\"list-style-type: disc; direction: ltr;\">\r\n  <li style=\"color: rgb(0, 0, 0); font-size: 11pt; font-style: normal; font-weight: normal;\">\r\n  <p style=\"color: rgb(0, 0, 0); line-height: normal; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;\"><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Definition\r\n   of the scope of the project in the project brief &amp; PID with the team, \r\n  PO’s and business stakeholders</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Create \r\n  and maintain the project plan</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Execute \r\n  the project according to the plan and propose proactively mitigations in case \r\n  of</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Follow \r\n  up on budget, scope and deliverables</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Report \r\n  on a regular base to the project stakeholders via standardized reports and \r\n  plannings</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Risk \r\n  and issue management</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Coordinate\r\n   project communications</span></p>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto;'><span style='font-family: \"Segoe UI\",sans-serif;'>&nbsp;</span></p></li></ul><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 10pt; -ms-text-autospace:;\"><b><span style='font-family: \"Segoe UI\",sans-serif;'>PROFILE</span></b></p><span style=\"font-family: Times New Roman\"></span>\r\n<ul style=\"list-style-type: disc; direction: ltr;\">\r\n  <li style=\"color: rgb(0, 0, 0); font-size: 11pt; font-style: normal; font-weight: normal;\">\r\n  <p style=\"color: rgb(0, 0, 0); line-height: normal; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;\"><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  have a first experience working on IT related project</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  are passionate about project management and achieving \r\ndeadlines</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  have basic knowledge about project management</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Knowledge \r\n  of the following is a plus</span></p>\r\n  <ul style=\"list-style-type: circle;\">\r\n    <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n    <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level2 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Project\r\n     management methodology (prince2)</span></p></li>\r\n    <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n    <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level2 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>MS \r\n    Project, Jira</span></p></li></ul></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  have a cultural openness and adaptability, and you have high communication \r\n  &amp; analytical skills</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  are polyvalent and proactive from nature and dares to speak up</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  are fluent in English and Dutch</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Knowledge \r\n  or experience of risk management</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>Strong\r\n   organizational and communication skills</span></p></li>\r\n  <li style='color: rgb(0, 0, 0); font-family: \"Segoe UI\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal;'>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto; mso-list: l0 level1 lfo1;'><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US; mso-fareast-font-family: \"Times New Roman\";'>You \r\n  have Agile project management way of working</span></p>\r\n  <p style='color: rgb(0, 0, 0); line-height: normal; font-family: \"Calibri\",sans-serif; font-size: 11pt; font-style: normal; font-weight: normal; margin-top: 0cm; margin-bottom: 0pt; -ms-text-autospace:; mso-add-space: auto;'><b><span lang=\"EN-US\" style='font-family: \"Segoe UI\",sans-serif; mso-ansi-language: EN-US;'><br style=\"mso-special-character: line-break;\"><br style=\"mso-special-character: line-break;\"></span></b></p></li></ul><span style=\"font-family: Times New Roman\"></span>\r\n<p style=\"margin: 0cm 0cm 10pt;\"><span style=\"font-family: Calibri\">&nbsp;</span></p><span style=\"font-family: Times New Roman\"></span>"
+  username: KimElBoubsi
+  date: 2020-11-17T09:09:03.9615769+01:00
+  unpublishdate: 2020-12-17T09:09:03.9615769+01:00
+  published: true
+  slug: junior-project-manager
