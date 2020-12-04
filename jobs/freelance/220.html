@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/220/it-service-desk-medewerke
+id: 220
+title: "IT Service Desk Medewerke"
+subTitle: Region Gent
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
