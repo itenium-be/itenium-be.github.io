@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/225/junior-medior-sharepoint-consultant
+id: 225
+title: "Junior/medior sharepoint consultant "
+subTitle: Region Zaventem
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
