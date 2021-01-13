@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/226/functional-analyst
+id: 226
+title: "Functional Analyst"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
