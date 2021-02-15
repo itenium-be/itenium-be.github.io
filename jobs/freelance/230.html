@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/230/junior-medior-full-stack-developer
+id: 230
+title: "Junior/medior Full-stack developer"
+subTitle: Region Antwerpen
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}
