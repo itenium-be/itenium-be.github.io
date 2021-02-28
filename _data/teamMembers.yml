@@ -9,6 +9,8 @@ members:
     experienceFrom: 2010
     email: steven.robijns@itenium.be
     phone: +32 477 54 89 57
+    phone-2: +32 470 12 68 10
+    skype: +32 15 79 46 89
     linkedin: https://www.linkedin.com/in/stevenrobijns
     github: https://github.com/stevenrobijns
 
@@ -22,15 +24,3 @@ members:
     phone: +32 476 40 35 02
     linkedin: https://www.linkedin.com/in/woutervanschandevijl/
     github: https://github.com/Laoujin
-
-  - name: Kim El Boubsi
-    onIndex: false
-    onFreelance: true
-    role: Resource Manager
-    image: /img/team/kim.jpg?2
-    title:
-    email: kim.el.boubsi@itenium.be
-    phone: +32 470 12 68 10
-    phone-old: +32 483 50 97 94
-    skype: +32 15 79 46 89
-    linkedin: https://www.linkedin.com/in/kimelboubsi/
