@@ -137,7 +137,6 @@
     }
 
     .job-title {
-        color: white;
         padding-bottom: 25px;
         text-transform: none;
     }
@@ -146,7 +145,7 @@
         border: 1px solid #dddddd;
         padding: 15px;
         text-align: center;
-        color: white;
+        color: black;
         -moz-box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.2);
         -webkit-box-shadow: 1px 1px 0px rgba(153, 153, 153, 0.2);
         box-shadow: 1px 1px 0px rgba(255, 255, 255, 0.2);
@@ -158,7 +157,7 @@
         cursor: pointer;
 
         a {
-            color: white;
+            color: black;
         }
 
         &:hover {

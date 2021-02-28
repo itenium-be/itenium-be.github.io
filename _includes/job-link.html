@@ -2,6 +2,7 @@
 {% assign job = include.job %}
 {% assign xp = meta.xp | where: "type", job.xp | first %}
 
+{% if job.active %}
 <a href="/jobs/{{ job.title | downcase | replace: ' ', '-' | replace: '.net', 'dotnet' }}">
     <div class="job-post">
         <h2>{{ job.title }}</h2>
@@ -13,3 +14,4 @@
         <div><small>{{ meta.locations }}</small></div>
     </div>
 </a>
+{% endif %}

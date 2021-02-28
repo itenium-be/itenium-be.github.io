@@ -18,6 +18,10 @@ types:
   - type: support
     yourProfile: >
       We are looking for a passionate and talented support engineer with a drive to keep on learning and improving his/her skills.
+  - type: fa
+    yourProfile: >
+      We are looking for a passionate functional analyst with a drive to learn the business and improve his/her skills.
+
 
 
 doYou:
@@ -56,7 +60,7 @@ xp:
     desc: 2-5 years experience.
     extra: (or verifiable passion – for example with an active Github account)
   - type: senior
-    desc: 5+ years experience.
+    desc: 3+ years experience.
 
 
 jobs:
@@ -64,6 +68,7 @@ jobs:
     title: Medior Frontend Developer
     xp: medior
     type: dev
+    active: false
     techs:
       - title: Got experience with
         learn: true
@@ -89,6 +94,7 @@ jobs:
     title: Medior Full Stack .NET Developer
     xp: medior
     type: dev
+    active: false
     techs:
       - title: Got frontend experience with
         techs:
@@ -114,6 +120,7 @@ jobs:
     title: Medior Full Stack Developer
     xp: medior
     type: dev
+    active: false
     techs:
       - title: Got frontend experience with
         techs:
@@ -138,6 +145,7 @@ jobs:
     title: Medior Full Stack Java Developer
     xp: medior
     type: dev
+    active: false
     techs:
       - title: Got frontend experience with
         techs:
@@ -162,6 +170,7 @@ jobs:
     title: Test Engineer
     xpDesc: 2+ years experience.
     type: tester
+    active: true
     techs:
       - title: Knowledge
         learn: true
@@ -179,10 +188,30 @@ jobs:
           - Test Manager
           - Tester-Analyst
 
+  - id: functional-analyst
+    title: Functional Analyst
+    xpDesc: 2+ years experience.
+    type: fa
+    active: true
+    techs:
+      - title: Knowledge
+        techs:
+          - UML
+          - Domain Modelling
+          - SQL
+          - Scrum
+      - title: Personality
+        techs:
+          - A Problem Solver
+          - Solution Oriented
+          - A Bridge Creator
+          - Flexible and Stress Resistant
+
   - id: devops-engineer
     title: DevOps Engineer
     xpDesc: 2+ years experience.
     type: devops
+    active: false
     techs:
       - title: Got development experience with
         techs:
@@ -203,6 +232,7 @@ jobs:
     title: Linux Engineer
     xpDesc: 1+ year experience.
     type: linux
+    active: false
     techs:
       - techs:
           - Debian or CentOS or ...
@@ -218,6 +248,7 @@ jobs:
     xpExtra: Trilingual (NL, FR, EN).
     xpSupressLanguage: true
     type: support
+    active: false
     techs:
       - title: Got experience with
         techs:
@@ -238,6 +269,7 @@ jobs:
     xpDesc: 1+ year experience.
     xpExtra: 50% ScrumMaster, 50% Development.
     type: dev
+    active: false
     techs:
       - title: Got experience with
         techs:
@@ -255,6 +287,7 @@ jobs:
     title: Senior Frontend Developer
     xp: senior
     type: dev
+    active: false
     techs:
       - title: Got experience with
         learn: true
@@ -280,6 +313,7 @@ jobs:
     title: Senior Full Stack .NET Developer
     xp: senior
     type: dev
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -307,6 +341,7 @@ jobs:
     title: Senior Full Stack Developer
     xp: senior
     type: dev
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -333,6 +368,7 @@ jobs:
     title: Senior Full Stack Java Developer
     xp: senior
     type: dev
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
