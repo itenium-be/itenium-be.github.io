@@ -167,7 +167,7 @@ jobs:
 
   - id: test-engineer
     title: Test Engineer
-    xpDesc: 2+ years experience.
+    xp: senior
     type: tester
     active: true
     techs:
