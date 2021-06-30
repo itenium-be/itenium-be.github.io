@@ -189,9 +189,9 @@ jobs:
 
   - id: functional-analyst
     title: Functional Analyst
-    xpDesc: 2+ years experience.
+    xp: senior
     type: fa
-    active: true
+    active: true<
     techs:
       - title: Knowledge
         techs:
@@ -283,7 +283,7 @@ jobs:
           - EntityFramework or Hibernate
 
   - id: senior-frontend
-    title: Senior Frontend Developer
+    title: Frontend Developer
     xp: senior
     type: dev
     active: false
@@ -309,7 +309,7 @@ jobs:
           - DevOps and Continuous Integration
 
   - id: senior-dotnet
-    title: Senior Full Stack .NET Developer
+    title: Full Stack .NET Developer
     xp: senior
     type: dev
     active: true
@@ -337,7 +337,7 @@ jobs:
           - DevOps and Continuous Integration
 
   - id: senior-fullstack
-    title: Senior Full Stack Developer
+    title: Full Stack Developer
     xp: senior
     type: dev
     active: true
@@ -364,7 +364,7 @@ jobs:
           - Unit Testing
 
   - id: senior-java
-    title: Senior Full Stack Java Developer
+    title: Full Stack Java Developer
     xp: senior
     type: dev
     active: true
