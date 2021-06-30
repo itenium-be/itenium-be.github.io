@@ -210,7 +210,7 @@ jobs:
     title: DevOps Engineer
     xpDesc: 2+ years experience.
     type: devops
-    active: true
+    active: false
     techs:
       - title: Got development experience with
         techs:
@@ -231,7 +231,7 @@ jobs:
     title: Linux Engineer
     xpDesc: 1+ year experience.
     type: linux
-    active: true
+    active: false
     techs:
       - techs:
           - Debian or CentOS or ...
@@ -247,7 +247,7 @@ jobs:
     xpExtra: Trilingual (NL, FR, EN).
     xpSupressLanguage: true
     type: support
-    active: true
+    active: false
     techs:
       - title: Got experience with
         techs:
@@ -268,7 +268,7 @@ jobs:
     xpDesc: 1+ year experience.
     xpExtra: 50% ScrumMaster, 50% Development.
     type: dev
-    active: true
+    active: false
     techs:
       - title: Got experience with
         techs:
