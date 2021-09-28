@@ -1,0 +1,148 @@
+---
+layout: default-job
+permalink: /jobs/account-manager
+---
+
+{% assign job = site.data.jobs.jobs | where: "id", "account-manager" | first %}
+{% assign meta = site.data.jobs %}
+
+<div class="job-content col-md-7">
+    <h1>Account Manager - Vlaanderen/Brussel</h1>
+
+    <h2 class="job-title" style="margin-top: 25px">Over ons</h2>
+    <p>
+        Itenium is een IT-Consultancy bedrijf met een sterke focus op kwaliteit waarin mensen centraal staan. We groeien snel en
+        willen ons merk verder in de markt zetten. Daarom zijn we op zoek naar iemand met de nodige ervaring die samen met ons
+        het bedrijf naar ‘the next level’ wil brengen.
+    </p>
+
+    <h2 class="job-title" style="margin-top: 25px">Jouw functie</h2>
+    <p>
+        Je staat in voor het creëren, beheren en uitbouwen van langetermijnrelaties met klanten & partners en helpt hen met het
+        detecteren en vervullen van hun behoeften.
+    </p>
+    <p>
+        Variatie schrikt jou niet af: account management van verschillende stakeholders, lead generatie, inside sales, outside
+        sales, contact & afstemmen met consultants, een event organiseren, een beetje HR, inspringen voor collega’s, ontwikkelen
+        klantencampagnes, enz.
+    </p>
+
+
+    <h2 class="job-title" style="margin-top: 25px">Jouw profiel</h2>
+    <p>
+        We zoeken iemand die graag werkt in een leuke en dynamische omgeving. Een omgeving met een goede mix van fun &
+        professionaliteit. Om bij itenium te werken moet je een sterke, vastberaden creatieve mindset hebben, aandacht voor
+        details en strategisch inzicht in je aanpak om langetermijnrelaties met klanten en partners op te bouwen en te
+        verstevigen.
+    </p>
+
+
+    <h3 style="margin-top: 15px; font-weight: bold">Jouw vaardigheden</h3>
+    <ul>
+        {% for skill in job.skills %}
+            <li>{{ skill }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2 class="job-title">Jouw track record</h2>
+    <ul>
+        {% for trackRecord in job.trackRecord %}
+            <li>{{ trackRecord }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2 class="job-title">Pluspunten</h2>
+    <ul>
+        {% for plus in job.plus %}
+            <li>{{ plus }}</li>
+        {% endfor %}
+    </ul>
+
+    <h2 class="job-title">Ons aanbod</h2>
+    <ul>
+        {% for offer in job.ourOffer %}
+            <li>{{ offer }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3 style="font-weight: bold; margin-top: 20px; margin-bottom: 10px">Our edge over generic consultancies</h3>
+    <ul>
+        {% for edge in meta.ourEdge %}
+            <li>{{ edge }}</li>
+        {% endfor %}
+    </ul>
+
+
+    <h2 class="job-title">Interested?</h2>
+    <div style="font-size: 17px; margin-left: 21px;">
+        <div><i class="flaticon-email21 small-flaticon"></i><a href="mailto:{{ site.email.jobs }}"> {{ site.email.jobs }}</a></div>
+        <div><i class="flaticon-phone16 small-flaticon"></i><a href="tel:{{ site.tel | replace: ' ', '' }}"> {{ site.tel }}</a></div>
+    </div>
+</div>
+
+
+
+<div class="col-md-5" style="margin-top: -25px">
+    <div class="jobs-sidebar">
+        <i class="fa fa-building-o fa-2x"></i>
+        <div class="sidebar-content">
+            We aim to be a young, dynamic company with a drive to keep learning and having fun in the process.
+        </div>
+    </div>
+
+    <div class="jobs-sidebar">
+        <i class="fa fa-superpowers fa-2x"></i>
+        <div class="sidebar-heading">
+            Developers
+        </div>
+        <div class="sidebar-content">
+            People are the core of our business.
+            <br>
+            Investing in them is only natural.
+        </div>
+    </div>
+
+
+    <div class="jobs-sidebar">
+        <i class="fa fa-graduation-cap fa-2x"></i>
+        <div class="sidebar-heading">
+            Continuous improvement
+        </div>
+        <div class="sidebar-subheading">
+            Our mission is to facilitate your learning trajectory.
+        </div>
+
+        <div class="sidebar-content">
+            <dd>You desire training?</dd>
+            <dt>You get training.</dt>
+            <br>
+            <dd>You'd like Pluralsight access?</dd>
+            <dt>Access, you get.</dt>
+            <br>
+            <dd>You want a book?</dd>
+            <dt><a href="/library">The library at your disposal.</a></dt>
+        </div>
+    </div>
+
+
+    <div class="jobs-sidebar">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa fa-sitemap fa-stack-1x"></i>
+            <i class="fa fa-ban fa-stack-2x"></i>
+        </span>
+        <div class="sidebar-heading">
+            Culture
+        </div>
+        <div class="sidebar-subheading">
+            What makes us special?
+        </div>
+        <div class="sidebar-content">
+            A cozy group of open-minded IT enthusiasts having fun together.
+            We achieve this with technical sessions, bootcamps &amp; team events.
+            <br>
+            Only through self-criticism and iteration can we improve ourselves.
+            <br>
+            A profound professionalism and dedication towards our customers.
+        </div>
+    </div>
+</div>

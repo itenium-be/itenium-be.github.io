@@ -63,6 +63,45 @@ xp:
 
 
 jobs:
+  - id: account-manager
+    title: "Account Manager"
+    active: true
+    skills:
+      - Perfect Nederlandstalig
+      - Je bent een initiatiefnemer & self-motivator
+      - Je gaat geen uitdaging uit de weg, kan de ‘extra mile’ gaan en hebt een winnaarsmentaliteit
+      - Je krijgt energie van nieuwe contacten en commerciële successen
+      - Je hebt interesse in mensen en technologie
+      - Je weet wanneer je de juiste persoon voor je hebt om een vacature in te vullen
+      - Je bent een interessante gesprekspartner voor iedereen die met je praat
+      - Je bent een goede luisteraar en communicator
+      - Je vindt snel oplossingen en bent er steeds naar op zoek
+      - Je bent gedisciplineerd
+      - Je krijgt ‘the job done’ wat ze ook aan jou vragen en weet wat prioritair is
+      - Je gaat vooruit en het is soms moeilijk om je bij te houden
+      - Je staat steeds open om bij te leren en bent een ‘quick learner’
+      - Je brengt negotiaties tot een goed einde en kan het hoofd koel te houden
+      - Je bent sociaal, extravert en kan een ruimte vullen met jouw aanwezigheid
+    trackRecord:
+      - Je behaalde een hoger diploma in Sales of Bedrijfskunde of gelijkwaardig door ervaring.
+      - Ervaring met lead generatie, hunting, farming, enz.
+      - Je hebt een ervaring opgebouwd in B2B business development of services (consultative selling)
+      - Je hebt een aantoonbaar track record van succesvolle deals en je kent de markt, de trends en de concurrenten
+      - Je bent een geweldige netwerker en bereid om communities van stakeholders te ontwikkelen en te onderhouden
+    plus:
+      - Een bestaand netwerk is een sterke plus
+      - Affiniteit met talent sourcing & IT is een plus
+      - Frans is een plus
+    ourOffer:
+      - Een leuke groep collega’s gedreven door passie en resultaten
+      - Competitief loon (vast + variabel)
+      - Bedrijfswagen met tankkaart
+      - High-end laptop
+      - GSM-toestel
+      - 26 verlofdagen (6 ADV)
+      - Hospitalisatie- en groepsverzekering
+      - Maaltijd- en ecocheques
+
   - id: medior-frontend
     title: Medior Frontend Developer
     xp: medior

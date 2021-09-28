@@ -33,13 +33,18 @@ permalink: /jobs/
 
     <div class="container jobs-header jobs-body" style="margin-top: 0px;">
         <div class="row jobs-row">
-            <div class="col-xs-12 col-sm-6 col-md-4 col-md-offset-2">
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 {% assign job = site.data.jobs.jobs | where: "id", "functional-analyst" | first %}
                 {% include job-link.html job=job %}
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
                 {% assign job = site.data.jobs.jobs | where: "id", "test-engineer" | first %}
+                {% include job-link.html job=job %}
+            </div>
+
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                {% assign job = site.data.jobs.jobs | where: "id", "account-manager" | first %}
                 {% include job-link.html job=job %}
             </div>
         </div>
