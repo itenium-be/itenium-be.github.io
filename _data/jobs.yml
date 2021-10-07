@@ -65,6 +65,8 @@ xp:
 jobs:
   - id: account-manager
     title: "Account Manager"
+    xp: other
+    xpDesc: "&nbsp;"
     active: true
     skills:
       - Perfect Nederlandstalig
