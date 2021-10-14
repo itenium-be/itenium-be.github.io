@@ -32,19 +32,19 @@
             }else{
                 $('#exampleInputMessage').removeClass("validation");
             }
-            
+
             // If there is no validation error, next to process the mail function
             if(error == false){
                // Disable submit button just after the form processed 1st time successfully.
-                
+
                 $('#send_message').attr({'enabled' : 'enable', 'value' : 'Sending...' });
-                
+
 				/* Post Ajax function of jQuery to get all the data from the submission of the form as soon as the form sends the values to email.php*/
-                $.post("http://www.insight8.be/itenium-mail-processor/itenium-contact-form-processor.php", $("#contact_form").serialize(),function(result){
+                $.post("https://855mifztwi.execute-api.us-east-2.amazonaws.com/default/itenium-contact-us", $("#contact_form").serialize(),function(result){
                     //Check the result set from email.php file.
                     if(result == '202'){
                         //If the email is sent successfully, remove the submit button
-                         
+
                          $('#send_message').attr({'enabled' : 'enable', 'value' : 'send' });
                         //Display the success message
                         $('#mail_success').fadeIn(500);
@@ -56,5 +56,5 @@
                     }
                 });
             }
-        });    
+        });
     });
