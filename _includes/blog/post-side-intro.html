@@ -7,6 +7,12 @@
         {% endif %}
 
         {{ include.toc.title }}
+
+        <div style="float: right">
+            <a href="" style="cursor: pointer" data-url="{{ post.url | escape }}" class="blog-favourite">
+                <i class="fa fa-star-o"></i>
+            </a>
+        </div>
     </div>
 
 

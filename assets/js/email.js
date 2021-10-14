@@ -58,3 +58,31 @@
             }
         });
     });
+
+
+
+$(function() {
+    $('.blog-favourite').click(function(e) {
+        e.preventDefault();
+
+        const url = $(this).data('url');
+
+        const icon = $('i', this);
+        var starred;
+        if (icon.hasClass('fa-star-o')) {
+            starred = true;
+            icon.removeClass('fa-star-o');
+            icon.addClass('fa-star');
+        } else {
+            starred = false;
+            icon.addClass('fa-star-o');
+            icon.removeClass('fa-star');
+        }
+
+        $.post("???/itenium-blog-star", {url, starred}, function(result) {
+            console.log('Star sent!');
+        });
+
+        return false;
+    });
+});
