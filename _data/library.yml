@@ -27,12 +27,9 @@ categories:
 # ATTN: There is no check if the book.cat actually exists!
 
 # Missing books:
-# Jawad: The Pragmatic Programmers
-# Heleen: Designing with the Mind in Mind: Simple Guide to Understanding User Interface Design Rules (Jeff Johnson)
 # Yentl? Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
-# Heleen? The Inmates Are Running the Asylum: Why High Tech Products Drive Us Crazy and How to Restore the Sanity (Alan Cooper)
-# ??? The Mythical Man – Month: Essays on Software Engineering (Frederick P. Brooks Jr.)
-# Agile Software Estimation - ???
+# Thijs The Mythical Man – Month: Essays on Software Engineering (Frederick P. Brooks Jr.)
+
 
 
 # To buy
@@ -494,3 +491,9 @@ books:
     cat: "design"
     amazon: "https://www.amazon.com/Applying-Domain-Driven-Design-Patterns-Jun-2006/dp/B010BERGEC"
     owner: Steven
+  - title: "Clean Architecture: A Craftsman's Guide to Software Structure and Design"
+    author: "Robert C. Martin"
+    year: 2017
+    cat: "design"
+    amazon: "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164"
+    owner: Wouter
