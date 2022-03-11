@@ -108,8 +108,8 @@ paginate_path: /blog/page:num/
 theme: minima
 
 # https://pages.github.com/versions/
+#   - jekyll-feed # https://github.com/jekyll/jekyll-feed
 plugins:
-  - jekyll-feed
   - jekyll-paginate
   - jemoji # https://github.com/jekyll/jemoji
   - jekyll-gist # https://github.com/jekyll/jekyll-gist

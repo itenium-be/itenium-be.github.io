@@ -1,22 +1,22 @@
  $(document).ready(function(){
         $('#send_message').click(function(e){
-            
+
             // Stop form submission & check the validation
             e.preventDefault();
-            
+
             // Variable declaration
             var error = false;
-            
+
             var email = $('#exampleInputEmail').val();
             var subject = $('#exampleInputSubject').val();
             var message = $('#exampleInputMessage').val();
-            
-         	
+
+
             if(email.length == 0 || email.indexOf('@') == '-1'){
                 var error = true;
                 // $('#email_error').fadeIn(500);
                 $('#exampleInputEmail').addClass("validation");
-                
+
             }else{
                 $('#exampleInputEmail').removeClass("validation");
             }
