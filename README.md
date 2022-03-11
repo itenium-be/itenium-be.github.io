@@ -1,6 +1,13 @@
 itenium
 =======
 
+
+Slow (re)build???
+bundle exec jekyll serve -I
+https://talk.jekyllrb.com/t/exclude-jekyll-feed-in-development-environment/2681/4
+
+
+
 ## Flow
 
 ```powershell
