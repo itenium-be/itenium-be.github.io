@@ -26,16 +26,10 @@ categories:
 
 # ATTN: There is no check if the book.cat actually exists!
 
-# Missing books:
-# Yentl? Design Patterns: Elements of Reusable Object-Oriented Software (Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides)
-# Thijs The Mythical Man – Month: Essays on Software Engineering (Frederick P. Brooks Jr.)
-
-
-
-# To buy
+# To buy:
 # Don't Make Me Think! A Common Sense Approach to Web Usability (Steve Krug)
-# Peopleware: Productive Projects and Teams (Tom DeMarco, Tim Lister) ---> New version available!
-# C# in Depth (Jon Skeet), CLR via C# ---> New version available!
+# Peopleware Productive Projects and Teams: Productive Projects and Teams (Tom DeMarco, Tim Lister) ---> New version available!
+# C# in Depth (Jon Skeet), CLR via C# ---Tom DeMarco & Timothy Lister> New version available!
 
 
 # Template
@@ -261,7 +255,7 @@ books:
     amazon: "https://www.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693"
     owner: Wouter
   - title: "Concrete Mathematics: A Foundation for Computer Science"
-    author: "Oren Patashnik"
+    author: "Ronald Graham, Donald Knuth, Oren Patashnik"
     year: 1994
     cat: "other"
     amazon: "https://www.amazon.com/Concrete-Mathematics-Foundation-Computer-Science-ebook/dp/B07C2HMZQR"
@@ -385,7 +379,7 @@ books:
     cat: "web"
     amazon: "https://www.amazon.com/JavaScript-Good-Parts-Douglas-Crockford/dp/0596517742"
     owner: Wouter
-  - title: "Test Driven Development: By Example"
+  - title: "Test-Driven Development: By Example"
     author: "Kent Beck"
     year: 2002
     cat: "testing"
@@ -496,4 +490,22 @@ books:
     year: 2017
     cat: "design"
     amazon: "https://www.amazon.com/Clean-Architecture-Craftsmans-Software-Structure/dp/0134494164"
+    owner: Wouter
+  - title: "Peopleware Productive Projects and Teams"
+    author: "Tom DeMarco & Timothy Lister"
+    year: 1999
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Peopleware-Productive-Projects-and-Teams/dp/B09WDSRT9C/"
+    owner: Wouter
+  - title: "Agile Estimating and Planning"
+    author: "Mike Cohn"
+    year: 2005
+    cat: "agile"
+    amazon: "https://www.amazon.com/Agile-Estimating-Planning-Mike-Cohn/dp/0131479415/"
+    owner: Wouter
+  - title: "Waltzing with Bears"
+    author: "Tom DeMarco & Timothy Lister"
+    year: 2003
+    cat: "project-management"
+    amazon: "https://www.amazon.com/Waltzing-Bears-Managing-Software-Projects/dp/0932633609/"
     owner: Wouter
