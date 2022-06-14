@@ -509,3 +509,9 @@ books:
     cat: "project-management"
     amazon: "https://www.amazon.com/Waltzing-Bears-Managing-Software-Projects/dp/0932633609/"
     owner: Wouter
+  - title: "Clean Craftsmanship: Disciplines, Standards, and Ethics"
+    author: "Robert C. Martin"
+    year: 2021
+    cat: "best-practices"
+    amazon: "https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X"
+    owner: itenium
