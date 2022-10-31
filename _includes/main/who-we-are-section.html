@@ -1,7 +1,13 @@
 {% assign section = include.section %}
 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-3 text-center">
     <div class="icon-circle">
-        <i class="{{ section.fa }}"></i>
+        {% if section.link %}
+            <a href="{{ section.link }}" title="Explore" tag="Explore our events">
+                <i class="{{ section.fa }}"></i>
+            </a>
+        {% else %}
+            <i class="{{ section.fa }}"></i>
+        {% endif %}
     </div>
     <div class="who-we-are-content text-center">
         <h2>{{ section.header }}</h2>

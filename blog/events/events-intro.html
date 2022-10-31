@@ -1,0 +1,36 @@
+---
+layout: default-blog
+permalink: /events
+---
+
+<div class="main">
+    {% include header.html context="blog" %}
+
+    <div class="events-container container">
+        <div class="row">
+            <div class="col-xs-4 col-text">
+                <img src="/assets/events/logo-itenium.png">
+                <h1>Tech Events</h1>
+
+                <h2>Honing our <span class="highlight">skills</span></h2>
+
+                <button type="button" class="btn btn-secondary" onclick="javascript:location.href='/events/timeline'">
+                    Explore
+                </button>
+
+                <div class="coming-up">
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <!-- TODO: This is hard coded! -->
+                        <li>Git Deep Dive</li>
+                        <li>Storytelling</li>
+                        <li>Ethereum and Smart Contracts</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-xs-8 col-img">
+                <img src="/assets/events/events-intro.png">
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,210 @@
+// colors
+$TechEvent: #abc4ff;
+$TechEventText: #edf2fb;
+$Bootcamp: #1d8cf8;
+$BootcampText: #1d8cf8;
+$FrontendTrack: #ffc09f;
+$FrontendTrackText: #ffee93;
+$ArchitectureTrack: #00bf9a;
+$ArchitectureTrackText: #00bf9a;
+$FunEvent: #ff8d72;
+$FunEventText: #ff8d72;
+$CloudTrack: #fd5d93;
+$CloudTrackText: #fd5d93;
+
+$HandsOn: #4BC298;
+$HandsOnBorder: white;
+$Theoretical: #E05073;
+$TheoreticalBorder: #A43853;
+$CodeShow: blue;
+$CodeShowBorder: blue;
+
+$Introduction: #4CB5D3;
+$Intermediate: #9167E3;
+$Expert: black;
+
+// timeline variables
+$body-bg: #1e1e2f;
+$timeline-before-bg : #222a42;
+$timeline-body-bg: #27293d;
+$timeline-body-round: 3px;
+$timeline-body-shadow: 1px 3px 9px rgba(0, 0, 0, .1);
+
+.main-timeline {
+    background: $body-bg;
+}
+
+.timeline-container {
+    max-width: 650px;
+    margin: 50px auto;
+    background: $body-bg;
+    letter-spacing: 1px;
+
+    p {
+        font-weight: 300;
+        line-height: 1.5;
+        font-size: 14px;
+        opacity: .8;
+    }
+
+    // timeline style
+    .timeline {
+        position: relative;
+        padding-left: 4rem;
+        margin: 0 0 0 30px;
+        color: white;
+
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 4px;
+            height: 100%;
+            background: $timeline-body-bg;
+        }
+
+        .timeline-container {
+            position: relative;
+            margin-bottom: 2.5rem;
+
+            .timeline-icon {
+                position: absolute;
+                left: -79px;
+                top: 4px;
+                width: 50px;
+                height: 50px;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 2rem;
+                // background: $secondary;
+
+                i {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                }
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 50%;
+                }
+            }
+
+            .timeline-body {
+                background: $timeline-body-bg;
+                border-radius: $timeline-body-round;
+                padding: 20px 20px 15px;
+                box-shadow: $timeline-body-shadow;
+
+                &:before {
+                    content: '';
+                    background: inherit;
+                    width: 20px;
+                    height: 20px;
+                    display: block;
+                    position: absolute;
+                    left: -10px;
+                    transform: rotate(45deg);
+                    border-radius: 0 0 0 2px;
+                }
+
+                .badge-content {
+                    &.Hands-On {
+                        background-color: $HandsOn;
+                        border: 2px solid $HandsOnBorder !important;
+                    }
+                    &.Theoretical {
+                        background-color: $Theoretical;
+                        border: 2px solid $TheoreticalBorder !important;
+                    }
+                    &.Code-Show {
+                        background-color: $CodeShow;
+                        border: 2px solid $CodeShowBorder !important;
+                    }
+                }
+
+                .badge-level {
+                    &.Introduction {
+                        background-color: $Introduction;
+                        // border: 2px solid $IntroductionBorder !important;
+                    }
+
+                    &.Intermediate {
+                        background-color: $Intermediate;
+                        // border: 2px solid $IntermediateBorder !important;
+                    }
+
+                    &.Expert {
+                        background-color: $Expert;
+                        // border: 2px solid $ExpertBorder !important;
+                    }
+                }
+
+                .timeline-title {
+                    margin-bottom: 1.4rem;
+
+                    .badge {
+                        // background: $secondary;
+                        padding: 4px 8px;
+                        border-radius: 3px;
+                        font-size: 12px;
+                        font-weight: bold;
+                    }
+                }
+
+                .timeline-subtitle {
+                    font-weight: 300;
+                    font-style: italic;
+                    opacity: .4;
+                    margin-top: 16px;
+                    font-size: 11px;
+                }
+            }
+
+            &.TechEvent {
+                .badge-track, .timeline-icon {
+                    background: $TechEvent !important;
+                    color: $TechEventText !important;
+                }
+            }
+
+            &.FrontendTrack {
+                .badge-track, .timeline-icon {
+                    background: $FrontendTrack !important;
+                    color: $FrontendTrackText !important;
+                }
+            }
+
+            &.ArchitectureTrack {
+                .badge-track, .timeline-icon {
+                    background: $ArchitectureTrack !important;
+                    color: $ArchitectureTrackText !important;
+                }
+            }
+
+            &.FunEvent {
+                .badge-track, .timeline-icon {
+                    background: $FunEvent !important;
+                    color: $FunEventText !important;
+                }
+            }
+
+            &.CloudTrack {
+                .badge-track, .timeline-icon {
+                    background: $CloudTrack !important;
+                    color: $CloudTrackText !important;
+                }
+            }
+
+            &.Bootcamp {
+                .badge-track, .timeline-icon {
+                    background: $Bootcamp !important;
+                    color: $BootcampText !important;
+                }
+            }
+        }
+    }
+}

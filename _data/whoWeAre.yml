@@ -13,6 +13,7 @@ section1:
 section2:
     header: Events
     fa: fa fa-code
+    link: /events
     label: >
         Technical sessions, bootcamps and team events
 
