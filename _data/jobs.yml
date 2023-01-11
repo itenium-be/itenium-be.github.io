@@ -63,6 +63,32 @@ xp:
 
 
 jobs:
+  - id: hr-officer-office-manager
+    title: "HR officer / Office Manager"
+    xp: other
+    xpDesc: "&nbsp;"
+    active: true
+    skills:
+      - Has an HR and office management background
+      - Works accurately with an eye to detail
+      - Works in an autonomous way
+      - Is resourceful
+      - Has experience organizing events
+      - Is an effective communicator, values integrity and approachability
+      - Has experience with hiring and onboarding employees
+      - Loves variation and can assist where needed
+    plus:
+      - Speak French in addition to Dutch and English who are a must
+      -  Be able to scan CVs for quality
+    ourOffer:
+      - Competitive salary
+      - Attractive benefits package
+      - Mobile phone and laptop
+      - Meal vouchers
+      - Eco Vouchers
+      - Hospital & Group insurance
+      - 26 holidays (6 ADV)
+
   - id: account-manager
     title: "Account Manager"
     xp: other
