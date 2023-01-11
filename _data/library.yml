@@ -515,3 +515,9 @@ books:
     cat: "best-practices"
     amazon: "https://www.amazon.com/Clean-Craftsmanship-Disciplines-Standards-Ethics/dp/013691571X"
     owner: itenium
+  - title: "Microservices Patterns: With Examples in Java"
+    author: "Chris Richardson"
+    year: 2019
+    cat: "best-practices"
+    amazon: "https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543"
+    owner: itenium
