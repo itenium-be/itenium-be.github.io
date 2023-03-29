@@ -1,0 +1,23 @@
+{% if page.package-versions %}
+<div class="blog-sidebar sidebar" style="padding-bottom: 14px;">
+    <div class="sidebar-heading">
+        Package Versions
+        <i class="fa fa-info-circle" style="float: right; color: cornflowerblue; font-size: 28px" title="Package versions used for this post and in the accompying code on Github"></i>
+    </div>
+    <div style="margin-top: 8px">
+        {% assign packageInfos = site.data.blog.packages %}
+        {% for package in page.package-versions %}
+            {% assign packageInfo = packageInfos | where: "package", package.package | first %}
+            {% if packageInfo %}
+                {% assign desc = 'v' | append: package.version %}
+                {% include github-stars.html url=packageInfo.git desc=desc %}
+            {% else %}
+                <p>
+                    {{ package.package }}: v{{ package.version }}
+                    <br>
+                </p>
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+{% endif %}

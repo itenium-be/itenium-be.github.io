@@ -12,6 +12,8 @@ layout: default-blog
             <div class="col-xs-12 col-sm-12 col-md-4">
                 {% include blog/post-side-intro.html html=content toc=page.toc %}
 
+                {% include blog/package-versions.html %}
+
                 {% include toc.html html=content toc=page.toc %}
 
                 {% include blog/post-series.html %}
