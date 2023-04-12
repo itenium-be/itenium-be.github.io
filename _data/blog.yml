@@ -41,6 +41,8 @@ packages:
     git: nsubstitute/NSubstitute
   - package: Moq
     git: moq/moq4
+  - package: vaadin
+    git: vaadin/flow
 
 
 tags:
@@ -64,3 +66,4 @@ tags:
   tech-talk: fa fa-certificate
   pragmatic-tips: fa fa-trophy
   fun: fa fa-gamepad
+  java: icon-java
