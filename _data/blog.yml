@@ -9,9 +9,38 @@ categories:
   productivity: fa fa-superpowers
   dev-setup: fa fa-cogs
   design: fa fa-object-group
+  trends: fa fa-binoculars
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
+
+packages:
+  - package: jest
+    git: facebook/jest
+  - package: jasmine
+    git: jasmine/jasmine
+  - package: robocode
+    git: robo-code/robocode
+  - package: husky
+    git: typicode/husky
+  - package: vscode
+    git: microsoft/vscode
+  - package: moment
+    git: moment/moment
+  - package: angular
+    git: angular/angular
+  - package: ava
+    git: avajs/ava
+  - package: proxyquire
+    git: thlorenz/proxyquire
+  - package: vue
+    git: vuejs/vue
+  - package: EPPlus
+    git: JanKallman/EPPlus
+  - package: NSubstitute
+    git: nsubstitute/NSubstitute
+  - package: Moq
+    git: moq/moq4
 
 
 tags:
