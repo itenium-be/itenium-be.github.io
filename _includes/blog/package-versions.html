@@ -9,8 +9,14 @@
         {% for package in page.package-versions %}
             {% assign packageInfo = packageInfos | where: "package", package.package | first %}
             {% if packageInfo %}
-                {% assign desc = 'v' | append: package.version %}
-                {% include github-stars.html url=packageInfo.git desc=desc %}
+                {% if package.version %}
+                    {% assign desc = 'v' | append: package.version %}
+                {% else %}
+                    {% assign desc = '' %}
+                {% endif %}
+                <div>
+                    {% include github-stars.html url=packageInfo.git desc=desc %}
+                </div>
             {% else %}
                 <p>
                     {{ package.package }}: v{{ package.version }}
