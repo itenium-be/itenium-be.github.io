@@ -44,7 +44,6 @@ packages:
   - package: vaadin
     git: vaadin/flow
 
-
 tags:
   powershell: icon-shell
   net: icon-csharp
