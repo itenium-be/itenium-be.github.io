@@ -48,6 +48,18 @@ packages:
     git: dotnet/maui
   - package: xamarin
     git: xamarin/Xamarin.Forms
+  - package: recharts
+    git: recharts/recharts
+  - package: visx
+    git: airbnb/visx
+  - package: nivo
+    git: plouc/nivo
+  - package: victory
+    git: FormidableLabs/victory
+  - package: react-vis
+    git: uber/react-vis
+  - package: react-chartjs-2
+    git: reactchartjs/react-chartjs-2
 
 
 tags:
@@ -71,3 +83,4 @@ tags:
   tech-talk: fa fa-certificate
   pragmatic-tips: fa fa-trophy
   fun: fa fa-gamepad
+  react: fa-react
