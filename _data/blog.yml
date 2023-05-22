@@ -60,7 +60,8 @@ packages:
     git: uber/react-vis
   - package: react-chartjs-2
     git: reactchartjs/react-chartjs-2
-
+  - package: react
+    git: facebook/react
 
 tags:
   powershell: icon-shell
@@ -83,4 +84,4 @@ tags:
   tech-talk: fa fa-certificate
   pragmatic-tips: fa fa-trophy
   fun: fa fa-gamepad
-  react: fa-react
+  react: icon-reactjs
