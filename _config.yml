@@ -62,6 +62,11 @@ email:
 address:
   maatschappelijk: Pilatusveld 7, 1840 Londerzeel
   office: Mechelsesteenweg 200, 2860 Sint-Katelijne-Waver
+  office:
+    street: Mechelsesteenweg 200
+    locality: Sint-Katelijne-Waver
+    postalCode: 2860
+    region: Vlaanderen
   googleMaps: https://www.google.com/maps/place/itenium/@51.0499162,4.5108556,17z/data=!3m1!4b1!4m5!3m4!1s0x0:0x28e71d05f3564159!8m2!3d51.0499162!4d4.5130443
 
 tel: +32 15 79 46 89

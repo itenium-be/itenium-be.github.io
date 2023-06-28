@@ -2,6 +2,48 @@
 {% assign job = include.job %}
 <div class="job-content col-md-7">
     <h1>{{ job.title }}</h1>
+    <script type="application/ld+json">
+    {
+        "@context" : "https://schema.org/",
+        "@type" : "JobPosting",
+        "title" : "Software Engineer",
+        "description" : "<p>{{ job.title }}</p>",
+        "identifier": {
+            "@type": "PropertyValue",
+            "name": "itenium",
+            "value": "{{ job.id }}"
+        },
+        "datePosted" : "2023-06-20",
+        "employmentType" : "FULL_TIME",
+        "hiringOrganization" : {
+            "@type" : "Organization",
+            "name" : "itenium",
+            "sameAs" : "https://itenium.be",
+            "logo" : "https://itenium.be/assets/itenium-logo.png"
+        },
+        "jobLocation": {
+            "@type": "Place",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "{{ site.address.office.street }}",
+                "addressLocality": "{{ site.address.office.locality }}",
+                "addressRegion": "{{ site.address.office.region }}",
+                "postalCode": "{{ site.address.office.postalCode }}",
+                "addressCountry": "BE"
+            }
+        },
+        "baseSalary": {
+            "@type": "MonetaryAmount",
+            "currency": "EUR",
+            "value": {
+                "@type": "QuantitativeValue",
+                "value": 40.00,
+                "unitText": "HOUR"
+            }
+        }
+    }
+    </script>
+
     {% assign xp = meta.xp | where: "type", job.xp | first %}
     <small>
         {% unless job.xpSupressLanguage %}
