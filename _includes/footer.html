@@ -27,7 +27,9 @@
                 <div class="wow zoomIn col-xs-12 col-sm-6 col-md-4">
                     <p class="footer-heading">find us</p>
                     <ul class="footercontact">
-                        <li style="max-width: 280px;"><i class="flaticon-mainpage"></i><span>address:</span> {{ site.address.office }}</li>
+                        <li style="max-width: 280px;"><i class="flaticon-mainpage"></i><span>address:</span>
+                            {{ site.address.office.street }}, {{ site.address.office.postalCode }} {{ site.address.office.locality }}
+                        </li>
                         <li><i class="flaticon-phone16"></i><span>phone:</span><a href="tel:{{ site.tel | replace: ' ', '' }}"> {{ site.tel }}</a></li>
                         <li><i class="flaticon-email21"></i><span>e-mail:</span><a href="mailto:{{ site.email.general }}"> {{ site.email.general }}</a></li>
                         <li><i class="flaticon-world91"></i><span>web:</span><a href="{{ site.url }}"> {{ site.url }}</a></li>
