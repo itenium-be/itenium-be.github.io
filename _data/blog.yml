@@ -11,6 +11,7 @@ categories:
   design: fa fa-object-group
   trends: fa fa-binoculars
   java: icon-java
+  security: fa fa-lock
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
@@ -85,3 +86,4 @@ tags:
   pragmatic-tips: fa fa-trophy
   fun: fa fa-gamepad
   react: icon-reactjs
+  hacking: fa fa-unlock-alt
