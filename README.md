@@ -13,7 +13,7 @@ https://talk.jekyllrb.com/t/exclude-jekyll-feed-in-development-environment/2681/
 ```powershell
 # setup:
 # install chocolatey
-cinst ruby ruby2.devkit /y
+choco install ruby ruby2.devkit /y
 gem install jekyll bundler
 bundle install
 
