@@ -11,20 +11,20 @@ section1:
         We like them to be happy and well-trained
 
 section2:
-    header: Events
-    fa: fa fa-code
-    link: /events
-    label: >
-        Technical sessions, bootcamps and team events
-
-section3:
     header: Projects
     fa: fa fa-code-fork
     label: >
         Interesting projects in .NET, Java, Javascript, Angular, React, ..
 
-section4:
+section3:
     header: Customers
     fa: fa fa-globe
     label: >
         A strong focus on quality, professionalism and dedication
+
+section4:
+    header: Events
+    fa: fa fa-code actionable
+    link: /events
+    label: >
+        Technical sessions, bootcamps and team events
