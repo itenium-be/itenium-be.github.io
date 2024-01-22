@@ -628,17 +628,19 @@ border-color    : rgba(232, 71, 0, 0.8);
 .who-we-are-content{
     padding-top         : 60px;
 }
+
 section.who-we-are .col-lg-12{
     margin-bottom       : 50px;
 }
-section.who-we-are .col-md-3 .fa.actionable{
+
+section.who-we-are .col-md-3 .fa{
     font-size           : 25px;
-    color               : $dark-orange;
+    color               : #606577;
     margin              : 0 auto;
     height              : 90px;
     width               : 90px;
     border-radius       : 50%;
-    border              :2px solid $dark-orange;
+    border              :2px solid #606577;
     line-height         : 80px;
     -webkit-transition  : all  ease-in-out 0.35s;
     -moz-transition     : all  ease-in-out 0.35s;
@@ -646,14 +648,18 @@ section.who-we-are .col-md-3 .fa.actionable{
     -ms-transition      : all  ease-in-out 0.35s;
     transition          : all  ease-in-out 0.20s,background-color ease-in-out 0.05s;
 }
+
+section.who-we-are .col-md-3 .fa.actionable{
+    color               : $dark-orange;
+    border              :2px solid $dark-orange;
+}
+
 section.who-we-are .col-md-3 i:before{
     margin-left         : 0px;
     font-size           : 40px;
 }
 
-
-section.who-we-are .col-md-3 .fa:hover{
-
+section.who-we-are .col-md-3 .fa.actionable:hover{
     background-color        : $dark-orange;
     color                   : #fff;
     border                  : 1px solid #e84711;
