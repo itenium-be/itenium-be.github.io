@@ -15,6 +15,8 @@ categories:
     desc: "CLI"
   - key: dotnet
     desc: ".NET"
+  - key: java
+    desc: "Java"
   - key: languages
     desc: "Programming Languages"
   - key: project-management
@@ -520,4 +522,16 @@ books:
     year: 2019
     cat: "best-practices"
     amazon: "https://www.amazon.com/Microservices-Patterns-examples-Chris-Richardson/dp/1617294543"
+    owner: itenium
+  - title: "Effective Java"
+    author: "Bloch Joshua"
+    year: 2018
+    cat: "java"
+    amazon: "https://www.amazon.nl/dp/0134685997?psc=1&ref=ppx_yo2ov_dt_b_product_details"
+    owner: itenium
+  - title: "DVA-C02: AWS Certified Developer Associate: Volume 1"
+    author: "IP Specialist"
+    year: 2023
+    cat: "other"
+    amazon: "https://www.amazon.nl/dp/B0BW2GVYCH?psc=1&ref=ppx_yo2ov_dt_b_product_details"
     owner: itenium
