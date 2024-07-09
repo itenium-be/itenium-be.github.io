@@ -1,0 +1,7 @@
+{% assign url = include.url %}
+{% assign brand = include.brand %}
+{% if url and url != "" %}
+    <a href="{{url}}" title="View on {{include.name}}">
+        <i class="{{ brand }}"></i>
+    </a>
+{% endif %}

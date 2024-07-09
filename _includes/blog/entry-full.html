@@ -2,7 +2,9 @@
 <div class="blog-content">
     <div class="row">
         <div class="wow col-md-12">
-            <h2 class="blog-title">{{ post.title }}</h2>
+            <h2 class="blog-title">
+                {{ post.title }}
+            </h2>
             posted in <a href="/blog/cats/#{{post.categories}}">{{ post.categories }}</a>
 
 
@@ -13,9 +15,19 @@
             </time>
 
             {% if post.author %}
-                •
+                &nbsp;•&nbsp;
                 <span itemprop="author" itemscope itemtype="http://schema.org/Person">
                     by <span itemprop="name">{{ post.author }}</span>
+                </span>
+            {% endif %}
+
+            {% if post.socials %}
+                &nbsp;•&nbsp;
+                <span class="blog-socials">
+                    {% include blog/blog-social.html url=post.socials.linkedin brand="fa fa-linkedin" name="LinkedIn" %}
+                    {% include blog/blog-social.html url=post.socials.instagram brand="fa fa-instagram" name="Instagram" %}
+                    {% include blog/blog-social.html url=post.socials.twitter brand="fa fa-twitter" name="X" %}
+                    {% include blog/blog-social.html url=post.socials.facebook brand="fa fa-facebook" name="Facebook" %}
                 </span>
             {% endif %}
 
