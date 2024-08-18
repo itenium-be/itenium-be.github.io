@@ -12,6 +12,7 @@ categories:
   trends: fa fa-binoculars
   java: icon-java
   security: fa fa-lock
+  docker: icon-docker
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
@@ -89,3 +90,4 @@ tags:
   hacking: fa fa-unlock-alt
   book-review: fa fa-book
   synology: fa fa-server
+  mongo: icon-mongodb
