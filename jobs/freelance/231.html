@@ -1,0 +1,10 @@
+---
+layout: default-freelance
+permalink: /freelance/231/test-lead
+id: 231
+title: "Test Lead"
+subTitle: Region  Vilvoorde, Vlaams Brabant
+---
+
+{% assign job = site.data.freelance | where: "id", page.id | first %}
+{% include freelance/freelance-full.html job=job %}

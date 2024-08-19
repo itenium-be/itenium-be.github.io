@@ -1794,7 +1794,6 @@
   username: KimElBoubsi
   date: 2021-01-10T16:04:32.5353681+01:00
   unpublishdate: 2021-03-11T00:00:00.0000000+01:00
-  published: true
   slug: product-owner
 - id: 225
   title: 'Junior/medior sharepoint consultant '
@@ -1803,7 +1802,6 @@
   username: KimElBoubsi
   date: 2021-01-13T10:58:44.4146236+01:00
   unpublishdate: 2021-03-14T00:00:00.0000000+01:00
-  published: true
   slug: junior-medior-sharepoint-consultant
 - id: 226
   title: Functional Analyst
@@ -1812,7 +1810,6 @@
   username: KimElBoubsi
   date: 2021-01-13T16:14:13.8946728+01:00
   unpublishdate: 2021-03-14T00:00:00.0000000+01:00
-  published: true
   slug: functional-analyst
 - id: 227
   title: 'QA Engineer '
@@ -1821,7 +1818,6 @@
   username: KimElBoubsi
   date: 2021-01-22T15:17:41.8989818+01:00
   unpublishdate: 2021-03-23T00:00:00.0000000+01:00
-  published: true
   slug: qa-engineer
 - id: 228
   title: Functional Analyst
@@ -1830,7 +1826,6 @@
   username: KimElBoubsi
   date: 2021-01-26T16:04:27.3258400+01:00
   unpublishdate: 2021-03-27T00:00:00.0000000+01:00
-  published: true
   slug: functional-analyst
 - id: 229
   title: Cloud OPS Engineer Infrastructuur (Azure)
@@ -1839,7 +1834,6 @@
   username: KimElBoubsi
   date: 2021-01-29T11:21:22.7789493+01:00
   unpublishdate: 2021-03-30T00:00:00.0000000+02:00
-  published: true
   slug: cloud-ops-engineer-infrastructuur-azure
 - id: 230
   title: Junior/medior Full-stack developer
@@ -1848,5 +1842,13 @@
   username: KimElBoubsi
   date: 2021-02-15T16:24:44.3550313+01:00
   unpublishdate: 2021-04-16T00:00:00.0000000+02:00
-  published: true
   slug: junior-medior-full-stack-developer
+- id: 231
+  title: Test Lead
+  location: ' Vilvoorde, Vlaams Brabant'
+  description: "\r\n<p><strong>Job Description</strong></p>\r\n<p>Macadam Europe is looking for an experienced Test Lead/Tester to help us \r\nensure our quality and reliability. In this role you will work in a Scrum team \r\nand lead several projects. You will assess software quality by designing and \r\nimplementing tests, debugging and defining corrective actions. As a Test Lead, \r\nyou play a crucial role in our company's product development process. You ensure \r\nthat products are thoroughly tested before launch and meet customer needs. In \r\naddition, you will monitor all stages of software development to identify and \r\nresolve failures to ensure quality standards are met.</p>\r\n<p><strong>Who are you.</strong></p>\r\n<ul>\r\n  <li>You have an eye for detail and a commitment to perfection.</li>\r\n  <li>You have a passion for testing and believe you can make a big \r\n  difference.</li>\r\n  <li>You have leadership skills and can motivate and guide a team.</li>\r\n  <li>You can collaborate efficiently in a team, share knowledge and learn from \r\n  others.</li>\r\n  <li>You understand Agile/Scrum methodology and the role of QA within it.</li>\r\n  <li>You have an analytical mind with problem solving skills.</li>\r\n  <li>You have extensive knowledge of software QA methodologies, tools and \r\n  processes.</li>\r\n  <li>You have good knowledge of SQL and scripting.</li>\r\n  <li>You have hands-on experience with automated testing tools or are highly \r\n  motivated to learn.</li>\r\n  <li>You can write clear, concise and comprehensive test plans and test \r\n  cases.</li>\r\n  <li>You are fluent in Dutch, English and French.</li>\r\n  <li>Knowledge of REST, SOAP, SpecFlow, C#, Ruby, Capybara and Jira XRAY is a \r\n  plus.</li></ul>\r\n<p><br><strong>What your workday will entail:</strong></p>\r\n<ul>\r\n  <li>Develop comprehensive and well-structured test plans and test cases that \r\n  simulate realistic scenarios and identify potential bugs.</li>\r\n  <li>Estimate, prioritize, plan and coordinate testing activities.</li>\r\n  <li>Use both manual and automated testing techniques to verify the quality of \r\n  software products.</li>\r\n  <li>When problems arise during testing, use debugging and troubleshooting \r\n  skills to identify the cause of the problem and work with developers to \r\n  resolve it.</li>\r\n  <li>Identify, log, thoroughly document and track bugs.</li>\r\n  <li>Perform thorough regression testing.</li>\r\n  <li>Work closely with developers, product managers and other stakeholders to \r\n  ensure software products meet quality standards and requirements.</li>\r\n  <li>Documenting test plans, test cases and test results, as well as creating \r\n  manuals and user guides to ensure software products are easy to use.</li>\r\n  <li>Monitor performance statistics to identify areas where software products \r\n  can be improved and make recommendations to developers and other \r\n  stakeholders.</li>\r\n  <li>Support the business in their acceptance testing.</li>\r\n  <li>Keeping abreast of new testing tools and testing strategies to ensure that \r\n  the best tools and techniques are used to test software applications.</li></ul>\r\n<p><strong>Practical Information</strong></p>\r\n<ul>\r\n  <li>Location: Vilvoorde, Vlaams Brabant</li>\r\n  <li>Remote: 40%</li>\r\n  <li>Start: ASAP</li>\r\n  <li>Experience: Senior/Expert<br></li></ul>"
+  username: kyledolero
+  date: 2024-08-19T16:26:11.0234998+02:00
+  unpublishdate: 2024-09-15T00:00:00.0000000
+  published: true
+  slug: test-lead
