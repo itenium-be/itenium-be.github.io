@@ -206,7 +206,7 @@ jobs:
           - Scrum and Kanban
           - DevOps and Continuous Integration
 
-  - id: test-engineer
+  - id: automation-test-engineer
     title: Automation Test Engineer
     xp: senior
     type: tester
