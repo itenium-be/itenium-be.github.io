@@ -213,7 +213,6 @@ jobs:
     active: true
     techs:
       - title: Knowledge
-        learn: true
         techs:
           - Traceability and Test Matrixes
           - V-Model
