@@ -207,26 +207,26 @@ jobs:
           - DevOps and Continuous Integration
 
   - id: automation-test-engineer
-  title: Automation Test Engineer
-  xp: senior
-  type: tester
-  active: true
-  techs:
-    - title: Knowledge
-      learn: true
-      techs:
-        - Traceability and Test Matrixes
-        - V-Model
-        - Equivalence partitioning & boundary value analysis
-        - White box and black box testing
-        - Selenium, Katalon or Ranorex
-    - title: Career plan
-      subtitle: To grow into a role as
-      techs:
-        - Test Automation Engineer
-        - Security Tester
-        - Test Manager
-        - Tester-Analyst
+    title: Automation Test Engineer
+    xp: senior
+    type: tester
+    active: true
+    techs:
+      - title: Knowledge
+        learn: true
+        techs:
+          - Traceability and Test Matrixes
+          - V-Model
+          - Equivalence partitioning & boundary value analysis
+          - White box and black box testing
+          - Selenium, Katalon or Ranorex
+      - title: Career plan
+        subtitle: To grow into a role as
+        techs:
+          - Test Automation Engineer
+          - Security Tester
+          - Test Manager
+          - Tester-Analyst
 
 
   - id: functional-analyst
