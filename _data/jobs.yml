@@ -221,6 +221,7 @@ jobs:
           - White box and black box testing
           - Selenium, Katalon or Ranorex
       - title: Career Plan
+        subtitle: To grow into a role as
         techs:
           - Test Automation Enhgineer
           - Security Tester
