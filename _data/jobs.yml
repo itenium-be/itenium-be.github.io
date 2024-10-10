@@ -228,7 +228,6 @@ jobs:
           - Test Manager
           - Tester-Analyst
 
-
   - id: functional-analyst
     title: Functional Analyst
     xp: senior
