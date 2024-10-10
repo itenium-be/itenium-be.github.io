@@ -56,10 +56,10 @@ dutchOnly: Native Dutch speaking.
 
 xp:
   - type: medior
-    desc: 2-5 years experience.
+    desc: 5-8 years experience.
     extra: (or verifiable passion – for example with an active Github account)
   - type: senior
-    desc: 3+ years experience.
+    desc: 5+ years experience (+8 preferred).
 
 
 jobs:
@@ -207,7 +207,7 @@ jobs:
           - DevOps and Continuous Integration
 
   - id: test-engineer
-    title: Test Engineer
+    title: Automation Test Engineer
     xp: senior
     type: tester
     active: true
@@ -232,7 +232,7 @@ jobs:
     title: Functional Analyst
     xp: senior
     type: fa
-    active: true<
+    active: true
     techs:
       - title: Knowledge
         techs:
@@ -381,7 +381,7 @@ jobs:
     title: Full Stack Developer
     xp: senior
     type: dev
-    active: true
+    active: false
     techs:
       - title: Got frontend experience with
         techs:
