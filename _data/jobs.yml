@@ -414,10 +414,10 @@ jobs:
     techs:
       - title: Got frontend experience with
         techs:
-          - JavaScript or TypeScript
-          - SASS, SCSS or Post-CSS
-          - Angular, React or Vue.js
+          - Angular, React or Vue.js 
+          - JavaScript or TypeScript 
           - RxJS and Redux
+          - SASS, SCSS or Post-CSS 
       - title: Got backend experience with
         learn: true
         techs:
