@@ -45,7 +45,7 @@ ourOffer:
   - Mobile phone
   - 32 holidays (12 ADV)
   - Hospital & Group insurance
-  - Meal vouchers
+  - Meal vouchers & Ecocheques
 
 ourEdge:
   - Personal coaching by our competence center
@@ -164,9 +164,10 @@ jobs:
     techs:
       - title: Got frontend experience with
         techs:
-          - JavaScript or TypeScript
-          - SASS, SCSS or Post-CSS
           - Angular, React or Vue.js
+          - JavaScript or TypeScript
+          - RxJS and Redux
+          - SASS, SCSS or Post-CSS
       - title: Got backend experience with either
         learn: true
         techs:
@@ -176,7 +177,7 @@ jobs:
       - title: And also with
         techs:
           - SQL or No-SQL database(s)
-          - Design Patterns and Dependency Injection
+          - Design Patterns
           - Scrum and Kanban
           - DevOps and Continuous Integration
           - Unit Testing
@@ -195,7 +196,7 @@ jobs:
       - title: Got backend experience with
         learn: true
         techs:
-          - Java 11 and Android
+          - Java 11 and Android-Nice to have
           - Hibernate and Spring
           - Generics and Lambdas
           - Unit Testing
@@ -419,7 +420,7 @@ jobs:
       - title: Got backend experience with
         learn: true
         techs:
-          - Java 11 and Android
+          - Java 11 and Android-Nice to have
           - Hibernate and Spring
           - Generics and Lambdas
           - Unit Testing
