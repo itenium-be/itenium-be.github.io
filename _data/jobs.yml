@@ -196,7 +196,7 @@ jobs:
       - title: Got backend experience with
         learn: true
         techs:
-          - Java 11 and Android-Nice to have
+          - Java 8+ and Android-Nice to have
           - Hibernate and Spring
           - Generics and Lambdas
           - Unit Testing
@@ -420,7 +420,7 @@ jobs:
       - title: Got backend experience with
         learn: true
         techs:
-          - Java 11 and Android-Nice to have
+          - Java 8+ and Android-Nice to have
           - Hibernate and Spring
           - Generics and Lambdas
           - Unit Testing
