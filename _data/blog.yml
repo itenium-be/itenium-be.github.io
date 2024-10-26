@@ -13,6 +13,7 @@ categories:
   java: icon-java
   security: fa fa-lock
   docker: icon-docker
+  databases: fa fa-database
 
 # fa fa-battery-full / fa fa-battery-three-quarters
 # fa fa-bolt / fa fa-cogs / fa fa-line-chart
@@ -64,6 +65,9 @@ packages:
     git: reactchartjs/react-chartjs-2
   - package: react
     git: facebook/react
+  - package: EntityFramework
+    git: dotnet/efcore
+
 
 tags:
   powershell: icon-shell
