@@ -14,7 +14,7 @@
             -->
         </div>
         <div class="col-sm-3 col-md-3 hidden-xs">
-            <img style="margin-top: 10px" class="img-responsive img-thumbnail" src="{{ 'assets/blog-images/' | append: post.img.url | absolute_url }}" title="{{ post.img.desc }}" />
+            <img style="margin-top: 10px" class="img-responsive img-thumbnail" src="{{ 'assets/blog-images/' | append: post.img.url | absolute_url }}" title="{{ post.img.desc }}" alt="{{ post.img.desc | default: page.img.prompt }}" />
 
             <!-- <div class="blog-date">
                 <p><span>{{ post.date | date: "%-d" }}</span> {{ post.date | date: "%b %Y" }}</p>
