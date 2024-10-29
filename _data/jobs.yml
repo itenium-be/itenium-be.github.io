@@ -21,6 +21,9 @@ types:
   - type: fa
     yourProfile: >
       We are looking for a passionate functional analyst with a drive to learn the business and improve his/her skills.
+  - type: hr
+    yourProfile: >
+      We are looking for a passionate sourcer & recruitment specialist with a drive to learn the business and improve his/her skills.
 
 
 
@@ -432,3 +435,44 @@ jobs:
           - Design Patterns and Dependency Injection
           - Scrum and Kanban
           - DevOps and Continuous Integration
+
+  - id: recruitment-specialist
+    title: Sourcer & Recruitment Specialist
+    xp: medior
+    type: hr
+    active: true
+    beschrijving:
+     Bij Itenium staan mensen centraal in ons succes. We groeien snel als IT-consultancybedrijf 
+     en zetten ons merk krachtig in de markt. Als Sourcer & Recruitment Specialist bouw je aan duurzame 
+     relaties met IT-professionals, waarbij je verder kijkt dan alleen het cv. Je dagen zijn dynamisch – van 
+     het sourcen van talent via verschillende kanalen, tot prescreening, het organiseren van evenementen en 
+     het ondersteunen van marketingcampagnes.
+
+    vereisten:
+    - title: Wat maakt jou de perfecte match?
+      vereisten:
+        - Communicatief sterk: je luistert goed en ontdekt wat mensen drijft.
+        - Zelfstarter en proactief: geen uitdaging is te groot voor jou.
+        - Sterk in technologie en mensenkennis: inzicht in technische vaardigheden en motivatie.
+        - Winnaarsmentaliteit: je krijgt de job gedaan, hoe complex ook.
+        - Creatief & strategisch denker: je ziet recruitment als een kans om echt waarde toe te voegen.
+
+    - title: Must-have ervaring
+      vereisten:
+        - Bachelor diploma of gelijkwaardig door ervaring.
+        - Minstens een eerste ervaring in recruitment.
+        - Trackrecord van succesvolle aanwervingen binnen de IT-sector is een plus.
+
+    voordelen:
+    - Competitief salaris met aantrekkelijke variabele beloningen.
+    - Bedrijfswagen en tankkaart, high-end laptop en gsm.
+    - 26 verlofdagen, hospitalisatie- en groepsverzekering, maaltijd- en ecocheques.
+
+    techs:
+    - title: Werkervaring met
+      techs:
+        - LinkedIn Recruiter, Seamless.ai of soortgelijke sourcingtools
+        - Outbound recruitment strategieën
+        - Organisatie van recruitment evenementen
+        - Ondersteuning van employer branding en marketingactiviteiten
+
