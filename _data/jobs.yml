@@ -21,6 +21,9 @@ types:
   - type: fa
     yourProfile: >
       We are looking for a passionate functional analyst with a drive to learn the business and improve his/her skills.
+  - type: recruiter
+    yourProfile: >
+      We are looking for a passionate sourcer & recruitment specialist with a drive to learn the business and improve his/her skills.
 
 
 
@@ -410,6 +413,33 @@ jobs:
     title: Full Stack Java Developer
     xp: senior
     type: dev
+    active: true
+    techs:
+      - title: Got frontend experience with
+        techs:
+          - Angular, React or Vue.js 
+          - JavaScript or TypeScript 
+          - RxJS and Redux
+          - SASS, SCSS or Post-CSS 
+      - title: Got backend experience with
+        learn: true
+        techs:
+          - Java 8+ and Android-Nice to have
+          - Hibernate and Spring
+          - Generics and Lambdas
+          - Unit Testing
+          - AWS or Azure
+      - title: And also with
+        techs:
+          - SQL or No-SQL database(s)
+          - Design Patterns and Dependency Injection
+          - Scrum and Kanban
+          - DevOps and Continuous Integration
+
+  - id: seniot-sourcer
+    title: Sourcer & Recruitment Specialist
+    xp: senior
+    type: recruiter
     active: true
     techs:
       - title: Got frontend experience with
