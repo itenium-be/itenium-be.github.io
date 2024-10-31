@@ -44,6 +44,11 @@ permalink: /jobs/
             </div>
             
             <div class="col-xs-12 col-sm-6 col-md-4">
+                {% assign job = site.data.jobs.jobs | where: "id", "sourcer-&-recruitment-specialist" | first %}
+                {% include job-link.html job=job %}
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-4">
                 <a href="/jobs/business-developer-account-manager">
                     <div class="job-post">
                         <h2>Business Developer &nbsp; Account Manager</h2>
