@@ -3,5 +3,5 @@ layout: default-job
 permalink: /jobs/recruitment-specialist
 ---
 
-{% assign job = site.data.jobs.jobs | where: "id", "recruitment-specialist" | first %}
+{% assign job = site.data.jobs.jobs | where: "id", "sourcer-&-recruitment-specialist" | first %}
 {% include job.html job=job %}
