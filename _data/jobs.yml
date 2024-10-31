@@ -436,8 +436,8 @@ jobs:
           - Scrum and Kanban
           - DevOps and Continuous Integration
 
-  - id: recruitment-specialist
-    title: Sourcer & Recruitment Specialist
+  - id: sourcer-and-recruitment-specialist
+    title: Sourcer and Recruitment Specialist
     xp: medior
     type: hr
     active: true
