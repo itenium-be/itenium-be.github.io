@@ -55,3 +55,12 @@ permalink: /jobs/
         </div>
     </div>
 </div>
+
+            <!-- New Recruitment Specialist Job -->
+            <div class="col-xs-12 col-sm-6 col-md-4">
+                {% assign job = site.data.jobs.jobs | where: "id", "recruitment-specialist" | first %}
+                {% include job-link.html job=job %}
+            </div>
+        </div>
+    </div>
+</div>
