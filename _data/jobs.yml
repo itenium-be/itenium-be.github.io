@@ -59,8 +59,7 @@ dutchOnly: Native Dutch speaking.
 
 xp:
   - type: medior
-    desc: 5-8 years experience.
-    extra: (or verifiable passion – for example with an active Github account)
+    desc: 5 years experience.
   - type: senior
     desc: 5+ years experience.
 
@@ -469,8 +468,8 @@ jobs:
     - 26 verlofdagen, hospitalisatie- en groepsverzekering, maaltijd- en ecocheques.
 
     techs:
-    - title: Werkervaring met
+    - title: Experience
       techs:
         - LinkedIn Recruiter, Seamless.ai or similar sourcingtools
         - Outbound recruitment strategies
-        - Organisatie of recruitment events
+        - Organisation of recruitment events
