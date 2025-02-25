@@ -67,6 +67,18 @@ packages:
     git: facebook/react
   - package: EntityFramework
     git: dotnet/efcore
+  - package: "@reduxjs/toolkit"
+    git: reduxjs/redux-toolkit
+  - package: immer
+    git: "immerjs/immer"
+  - package: redux
+    git: reduxjs/redux
+  - package: redux-thunk
+    git: reduxjs/redux-thunk
+  - package: react-redux
+    git: reduxjs/react-redux
+  - package: reselect
+    git: reduxjs/reselect
 
 
 tags:
