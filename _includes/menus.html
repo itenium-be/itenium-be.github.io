@@ -11,8 +11,8 @@
         <li><a {{dataScroll}} data-options='{ "easing": "easeInQuad" }' href="{{urlPrefix}}#services">services</a></li>
         <!-- <li><a {{dataScroll}} data-options='{ "easing": "easeInQuad" }' href="{{urlPrefix}}#team">team</a></li> -->
         <li><a href="/blog">blog</a></li>
-        <li><a href="/jobs">jobs</a></li>
-        {% if site.feature_flags.freelance_jobs %}<li><a href="/freelance">freelance</a></li>{% endif %}
+        <!-- <li><a href="/jobs">jobs</a></li> -->
+        {% if site.feature_flags.freelance_jobs %}<li><a href="/vacancies">vacancies</a></li>{% endif %}
         <li><a {{dataScroll}} data-options='{ "easing": "easeInQuad" }' href="{{urlPrefix}}#contact">contact</a></li>
     </ul>
 
@@ -23,8 +23,8 @@
         <li><a class="page-scroll" href="{{urlPrefix}}#services">services</a></li>
         <!-- <li><a class="page-scroll" href="{{urlPrefix}}#team">team</a></li> -->
         <li><a class="page-scroll" href="/blog">Blog</a></li>
-        <li><a class="page-scroll" href="/jobs">Jobs</a></li>
-        {% if site.feature_flags.freelance_jobs %}<li><a class="page-scroll" href="/freelance">Freelance</a></li>{% endif %}
+        <!-- <li><a class="page-scroll" href="/jobs">Jobs</a></li> -->
+        {% if site.feature_flags.freelance_jobs %}<li><a class="page-scroll" href="/vacancies">Vacancies</a></li>{% endif %}
         <li><a class="page-scroll" href="{{urlPrefix}}#contact">Contact</a></li>
         <!-- Search Block -->
         <!--
@@ -50,7 +50,7 @@
             <!-- <li><a href="{{urlPrefix}}#team">team</a></li> -->
             <li><a href="/blog">blog</a></li>
             <li><a href="/jobs">jobs</a></li>
-            {% if site.feature_flags.freelance_jobs %}<li><a href="/freelance">freelance</a></li>{% endif %}
+            {% if site.feature_flags.freelance_jobs %}<li><a href="/vacancies">vacancies</a></li>{% endif %}
             <li><a href="{{urlPrefix}}#contact">contact</a></li>
         </ul>
     </nav>
