@@ -45,7 +45,7 @@ email:
   # Payroll/consultant candidate CVs (from partner):
   jobs-partners: cv@itenium.be
   # Freelance candidate CVs (from freelancer/partner)
-  freelance: vacancies@itenium.be
+  freelance: freelance@itenium.be
 
   # Payroll/consultant candidate CVs (from consultant):
   jobs: jobs@itenium.be
