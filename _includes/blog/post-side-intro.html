@@ -25,15 +25,15 @@
 
 
     <figure style="margin-top: 5px; margin-bottom: 8px" class="imagewrapper">
-        {% if page.img.origin and page.img.origin != "Midjourney" %}
+        {% if page.img.origin %}{% unless page.img.prompt %}
             <a href="{{ page.img.origin }}">
-        {% endif %}
+        {% endunless %}{% endif %}
 
         <img style="max-width: 100%" class="img-rounded" src="{{ 'assets/blog-images/' | append: page.img.url | absolute_url }}" title="{{ page.img.title }}" alt="{{ page.img.title | default: page.img.desc | default: page.img.prompt }}" />
 
-        {% if page.img.origin and page.img.origin != "Midjourney" %}
+        {% if page.img.origin %}{% unless page.img.prompt %}
             </a>
-        {% endif %}
+        {% endunless %}{% endif %}
 
 
         {% if page.img.desc %}
