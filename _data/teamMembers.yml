@@ -24,3 +24,13 @@ members:
     phone: +32 476 40 35 02
     linkedin: https://www.linkedin.com/in/woutervanschandevijl/
     github: https://github.com/Laoujin
+
+  - name: Jelle Muijzelaar
+    onIndex: false
+    onFreelance: true
+    role: Resource Manager
+    image: /img/team/jelle.jpeg
+    title:
+    email: jelle.muijzelaar@itenium.be
+    phone: +32 470 95 76 39
+    linkedin: https://www.linkedin.com/in/jelle-muijzelaar-79783121/
