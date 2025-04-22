@@ -3,6 +3,19 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
+
+{% if include.provideMeta %}
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="itenium.be">
+<meta property="og:title" content="{{ site.title }}">
+<meta property="og:description" content="{{ page.excerpt | default: site.meta-description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta property="og:url" content="https://itenium.be">
+<meta property="og:image" itemprop="image" content="https://itenium.be/assets/itenium.png">
+<meta property="og:image:width" content="143">
+<meta property="og:image:height" content="30">
+<meta property="og:image:type" content="image/png">
+{% endif %}
+
 <meta name="description" content="{{ page.excerpt | default: site.meta-description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 <meta name="keywords" content="{{ site.meta-keywords | strip_html | normalize_whitespace | escape }}">
 

@@ -12,10 +12,16 @@ $(function() {
 });
 </script>
 
-<!-- OpenGraphProtocol http://ogp.me/ -->
 <meta property="og:title" content="{{ page.title | escape }}" />
-<meta property="og:type" content="" />
+<meta property="og:type" content="job.posting" />
 <meta property="og:url" content="{{ page.url | absolute_url }}" />
-<!-- <meta property="og:image" content="https://itenium.be/img/footer-logo.png" /> -->
-<meta property="og:image" content="{{ 'img/footer-logo.png' | absolute_url }}" />
-<meta property="og:description" content="" />
+<meta property="og:description" content="{{ site.meta-description }}" />
+<meta property="og:image" itemprop="image" content="https://itenium.be/assets/itenium.png">
+<meta property="og:image:width" content="143">
+<meta property="og:image:height" content="30">
+<meta property="og:image:type" content="image/png">
+
+<meta property="og:job:title" content="{{ page.title | escape }}" />
+<meta property="og:job:location" content="{{ page.subTitle | replace: 'Region ', '' }}" />
+<meta property="og:job:company" content="itenium" />
+<meta property="og:job:company:website" content="https://itenium.be" />
