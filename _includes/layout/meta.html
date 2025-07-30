@@ -22,22 +22,7 @@
 <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
 
-{% if jekyll.environment == 'production' and site.google_analytics %}
 {% include components/google-analytics.html %}
-{% endif %}
-
-
-{% if jekyll.environment == 'production' %}
-<!-- Google Tag Manager -->
-<script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-5FL9FPC9');
-</script>
-<!-- End Google Tag Manager -->
-{% endif %}
 
 <meta name="google-site-verification" content="CR6jNNEzT9Ae22Ce5tjJjS4KIM-GEwCNPuNAYHqwQ0k" />
 
