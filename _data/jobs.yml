@@ -473,3 +473,38 @@ jobs:
         - LinkedIn Recruiter, Seamless.ai or similar sourcingtools
         - Outbound recruitment strategies
         - Organisation of recruitment events
+
+  - id: data-engineer
+    title: Data Engineer
+    xp: senior
+    type: dev
+    active: true
+    techs:
+      - title: Responsibilities
+        techs:
+          - Build and maintain scalable, efficient ETL/ELT pipelines
+          - Optimize data lakes and warehouses for performance and quality
+          - Design robust data models for analytics and machine learning
+          - Collaborate with analysts, scientists, and stakeholders
+          - Automate data workflows and contribute to CI/CD pipelines
+      - title: You have experience with
+        techs:
+          - 5+ years in data engineering or a related role
+          - Strong SQL and Python
+          - Azure, AWS, or GCP
+          - Azure Data Factory, Databricks, Spark or Kafka
+          - Data lakes and warehousing (e.g., ADLS, Snowflake, BigQuery)
+          - Data modeling and DevOps concepts
+          - Client-facing communication and stakeholder collaboration
+      - title: Nice to have
+        techs:
+          - Power BI or similar visualization tools
+          - Exposure to machine learning or AI workflows
+          - Relevant certifications (Azure Data Engineer, Databricks, etc.)
+      - title: What we offer
+        techs:
+          - Challenging, impactful data projects with top-tier clients
+          - Ongoing training and certification support
+          - Competitive salary with flexible benefits
+          - Hybrid and flexible work options
+          - Warm and collaborative company culture
