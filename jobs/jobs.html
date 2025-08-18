@@ -49,13 +49,8 @@ permalink: /jobs/
             </div>
 
             <div class="col-xs-12 col-sm-6 col-md-4">
-                <a href="/jobs/account-manager-it-consulting">
-                    <div class="job-post">
-                        <h2>Account Manager IT Consulting</h2>
-                        <span>2+ years experience.</span>
-                        <div><small>Flanders / Brussel</small></div>
-                    </div>
-                </a>
+                {% assign job = site.data.jobs.jobs | where: "id", "account-manager" | first %}
+                {% include job-link.html job=job %}
             </div>
         </div>
         
