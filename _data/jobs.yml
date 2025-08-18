@@ -65,7 +65,7 @@ xp:
 
 
 jobs:
-  - id: account-manager
+  - id: account-manager-it-consulting
     title: "Account Manager IT Consulting"
     xp: "2+ jaar"
     xpDesc: "Ervaring in B2B business development binnen IT-consulting of software development"
