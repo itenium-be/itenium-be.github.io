@@ -66,45 +66,36 @@ xp:
 
 jobs:
   - id: account-manager
-    title: "Account Manager"
-    xp: other
-    xpDesc: "&nbsp;"
+    title: "Account Manager IT Consulting"
+    xp: "2+ jaar"
+    xpDesc: "Ervaring in B2B business development binnen IT-consulting of software development"
     active: true
     skills:
-      - Perfect Nederlandstalig
-      - Je bent een initiatiefnemer & self-motivator
-      - Je gaat geen uitdaging uit de weg, kan de ‘extra mile’ gaan en hebt een winnaarsmentaliteit
-      - Je krijgt energie van nieuwe contacten en commerciële successen
-      - Je hebt interesse in mensen en technologie
-      - Je weet wanneer je de juiste persoon voor je hebt om een vacature in te vullen
-      - Je bent een interessante gesprekspartner voor iedereen die met je praat
-      - Je bent een goede luisteraar en communicator
-      - Je vindt snel oplossingen en bent er steeds naar op zoek
-      - Je bent gedisciplineerd
-      - Je krijgt ‘the job done’ wat ze ook aan jou vragen en weet wat prioritair is
-      - Je gaat vooruit en het is soms moeilijk om je bij te houden
-      - Je staat steeds open om bij te leren en bent een ‘quick learner’
-      - Je brengt negotiaties tot een goed einde en kan het hoofd koel te houden
-      - Je bent sociaal, extravert en kan een ruimte vullen met jouw aanwezigheid
+       - Je hebt minstens 2 jaar ervaring in B2B business development binnen IT-consulting of software development
+       - Ervaring met talent sourcing of rekrutering is een plus
+       - Je hebt een netwerk in de IT-wereld of bent in staat er snel één op te bouwen
+       - Je bent ondernemend, resultaatgericht en hebt een sterke commerciële drive
+       - Je luistert, adviseert en zoekt samen met de klant naar de beste oplossing (consultative selling)
+  trackRecord:
     trackRecord:
-      - Je behaalde een hoger diploma in Sales of Bedrijfskunde of gelijkwaardig door ervaring.
-      - Ervaring met lead generatie, hunting, farming, enz.
-      - Je hebt een ervaring opgebouwd in B2B business development of services (consultative selling)
-      - Je hebt een aantoonbaar track record van succesvolle deals en je kent de markt, de trends en de concurrenten
-      - Je bent een geweldige netwerker en bereid om communities van stakeholders te ontwikkelen en te onderhouden
+      - Je bouwde een klantenportefeuille uit met focus op langetermijnrelaties
+      - Je werkte samen met interne recruiters en accountmanagers om de juiste consultant te plaatsen
+      - Je identificeerde opportuniteiten bij scale-ups, middelgrote en grote bedrijven
+      - Je zette prospectiecampagnes op via telefoon, LinkedIn en andere kanalen
+      - Je onderhandelde contracten en sloot succesvolle deals
     plus:
       - Een bestaand netwerk is een sterke plus
       - Affiniteit met talent sourcing & IT is een plus
       - Frans is een plus
     ourOffer:
-      - Een leuke groep collega’s gedreven door passie en resultaten
-      - Competitief loon (vast + variabel)
-      - Bedrijfswagen met tankkaart
-      - High-end laptop
-      - GSM-toestel
-      - 26 verlofdagen (6 ADV)
-      - Hospitalisatie- en groepsverzekering
+      - Competitief brutoloon met variabele vergoedingen
+      - Premium bedrijfswagen met tankkaart
+      - Uitgebreid verzekeringspakket (hospitalisatie, ambulant én tandverzekering)
       - Maaltijd- en ecocheques
+      - 26 verlofdagen (6 ADV)
+      - Autonomie en directe impact op onze groei
+      - Een dynamische en uitdagende werkomgeving
+      - Fun! Drinks, lunches en teambuildings (skydiven, familiedag in de Efteling, …)
 
   - id: medior-frontend
     title: Medior Frontend Developer
