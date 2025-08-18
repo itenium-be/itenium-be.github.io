@@ -65,36 +65,36 @@ xp:
 
 
 jobs:
-  - id: account-manager-it-consulting
-    title: "Account Manager IT Consulting"
-    xp: "2+ jaar"
-    xpDesc: "Ervaring in B2B business development binnen IT-consulting of software development"
-    active: true
-    skills:
-       - Je hebt minstens 2 jaar ervaring in B2B business development binnen IT-consulting of software development
-       - Ervaring met talent sourcing of rekrutering is een plus
-       - Je hebt een netwerk in de IT-wereld of bent in staat er snel één op te bouwen
-       - Je bent ondernemend, resultaatgericht en hebt een sterke commerciële drive
-       - Je luistert, adviseert en zoekt samen met de klant naar de beste oplossing (consultative selling)
-    trackRecord:
-      - Je bouwde een klantenportefeuille uit met focus op langetermijnrelaties
-      - Je werkte samen met interne recruiters en accountmanagers om de juiste consultant te plaatsen
-      - Je identificeerde opportuniteiten bij scale-ups, middelgrote en grote bedrijven
-      - Je zette prospectiecampagnes op via telefoon, LinkedIn en andere kanalen
-      - Je onderhandelde contracten en sloot succesvolle deals
-    plus:
-      - Een bestaand netwerk is een sterke plus
-      - Affiniteit met talent sourcing & IT is een plus
-      - Frans is een plus
-    ourOffer:
-      - Competitief brutoloon met variabele vergoedingen
-      - Premium bedrijfswagen met tankkaart
-      - Uitgebreid verzekeringspakket (hospitalisatie, ambulant én tandverzekering)
-      - Maaltijd- en ecocheques
-      - 26 verlofdagen (6 ADV)
-      - Autonomie en directe impact op onze groei
-      - Een dynamische en uitdagende werkomgeving
-      - Fun! Drinks, lunches en teambuildings (skydiven, familiedag in de Efteling, etc.)
+  - id: account-manager
+  title: "Account Manager IT Consulting"
+  xp: "2+ jaar"
+  xpDesc: "Ervaring in B2B business development binnen IT-consulting of software development"
+  active: true
+  skills:
+    - Je hebt minstens 2 jaar ervaring in B2B business development binnen IT-consulting of software development
+    - Ervaring met talent sourcing of rekrutering is een plus
+    - Je hebt een netwerk in de IT-wereld of bent in staat er snel één op te bouwen
+    - Je bent ondernemend, resultaatgericht en hebt een sterke commerciële drive
+    - Je luistert, adviseert en zoekt samen met de klant naar de beste oplossing (consultative selling)
+  trackRecord:
+    - Je bouwde een klantenportefeuille uit met focus op langetermijnrelaties
+    - Je werkte samen met interne recruiters en accountmanagers om de juiste consultant te plaatsen
+    - Je identificeerde opportuniteiten bij scale-ups, middelgrote en grote bedrijven
+    - Je zette prospectiecampagnes op via telefoon, LinkedIn en andere kanalen
+    - Je onderhandelde contracten en sloot succesvolle deals
+  plus:
+    - Een bestaand netwerk is een sterke plus
+    - Affiniteit met talent sourcing & IT is een plus
+    - Frans is een plus
+  ourOffer:
+    - Competitief brutoloon met variabele vergoedingen
+    - Premium bedrijfswagen met tankkaart
+    - Uitgebreid verzekeringspakket (hospitalisatie, ambulant én tandverzekering)
+    - Maaltijd- en ecocheques
+    - 26 verlofdagen (6 ADV)
+    - Autonomie en directe impact op onze groei
+    - Een dynamische en uitdagende werkomgeving
+    - Fun! Drinks, lunches en teambuildings (skydiven, familiedag in de Efteling, etc.)
 
   - id: medior-frontend
     title: Medior Frontend Developer
