@@ -68,7 +68,7 @@ jobs:
   - id: account-manager
     title: "Account Manager IT Consulting"
     xp: "2+ jaar"
-    xpDesc: "Ervaring in B2B business development binnen IT-consulting of software development"
+    xpDesc: "2+ years experience."
     active: true
     skills:
       - Je hebt minstens 2 jaar ervaring in B2B business development binnen IT-consulting of software development
