@@ -4,7 +4,7 @@
 
 {% if job.active %}
 <a href="/jobs/{{ job.title | downcase | replace: ' ', '-' | replace: '.net', 'dotnet' }}">
-    <div class="job-post">
+    <div class="job-post {{ job.extraClass }}">
         <h2>{{ job.title }}</h2>
         {% if xp %}
             <span>{{ xp.desc }}</span>
