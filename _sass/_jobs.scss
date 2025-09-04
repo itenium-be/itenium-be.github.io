@@ -167,6 +167,16 @@
         }
     }
 
+    .highlight-job {
+        background: linear-gradient(135deg, #ff6b35 0%, #f7931e 50%, #ff4757 100%);
+    }
+
+    .highlight-job > span {
+        background: rgba(0, 0, 0, 0.2);
+        padding: 5px 10px;
+        border-radius: 8px;
+    }
+
     h2 {
         color: #E74700;
         margin-bottom: 15px;

@@ -2,9 +2,11 @@
 {% assign job = include.job %}
 {% assign xp = meta.xp | where: "type", job.xp | first %}
 
+<!-- There is CSS for: include.extraClass="highlight-job" -->
+
 {% if job.active %}
 <a href="/jobs/{{ job.title | downcase | replace: ' ', '-' | replace: '.net', 'dotnet' }}">
-    <div class="job-post">
+    <div class="job-post {{ include.extraClass }}">
         <h2>{{ job.title }}</h2>
         {% if xp %}
             <span>{{ xp.desc }}</span>
