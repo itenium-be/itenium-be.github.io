@@ -79,7 +79,8 @@ packages:
     git: reduxjs/react-redux
   - package: reselect
     git: reduxjs/reselect
-
+  - package: ClosedXML
+    git: ClosedXML/ClosedXML
 
 tags:
   powershell: icon-shell
