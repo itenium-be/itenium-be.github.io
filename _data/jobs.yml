@@ -100,7 +100,7 @@ jobs:
     title: Medior Frontend Developer
     xp: medior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got experience with
         learn: true
@@ -126,7 +126,7 @@ jobs:
     title: Medior Full Stack .NET Developer
     xp: medior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -152,7 +152,7 @@ jobs:
     title: Medior Full Stack Developer
     xp: medior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -178,7 +178,7 @@ jobs:
     title: Medior Full Stack Java Developer
     xp: medior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -204,7 +204,7 @@ jobs:
     title: Automation Test Engineer
     xp: senior
     type: tester
-    active: false
+    active: true
     techs:
       - title: Knowledge
         learn: true
@@ -245,7 +245,7 @@ jobs:
     title: DevOps Engineer
     xpDesc: 2+ years experience.
     type: devops
-    active: false
+    active: true
     techs:
       - title: Got development experience with
         techs:
@@ -266,7 +266,7 @@ jobs:
     title: Linux Engineer
     xpDesc: 1+ year experience.
     type: linux
-    active: false
+    active: true
     techs:
       - techs:
           - Debian or CentOS or ...
@@ -282,7 +282,7 @@ jobs:
     xpExtra: Trilingual (NL, FR, EN).
     xpSupressLanguage: true
     type: support
-    active: false
+    active: true
     techs:
       - title: Got experience with
         techs:
@@ -303,7 +303,7 @@ jobs:
     xpDesc: 1+ year experience.
     xpExtra: 50% ScrumMaster, 50% Development.
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got experience with
         techs:
@@ -321,7 +321,7 @@ jobs:
     title: Frontend Developer
     xp: senior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got experience with
         learn: true
@@ -375,7 +375,7 @@ jobs:
     title: Full Stack Developer
     xp: senior
     type: dev
-    active: false
+    active: true
     techs:
       - title: Got frontend experience with
         techs:
@@ -499,12 +499,12 @@ jobs:
           - Hybrid and flexible work options
           - Warm and collaborative company culture
 
-- id: data-analist
-  title: Data Analist
-  xp: senior
-  type: dev
-  active: false
-  techs:
+  - id: data-analist
+    title: Data Analist
+    xp: senior
+    type: dev
+    active: true
+    techs:
     - title: Responsibilities
       techs:
         - Analyseren van cross-domein bedrijfsprocessen en vertalen naar duidelijke, geïntegreerde datavraagstukken.
@@ -529,12 +529,12 @@ jobs:
         - Kennis van ETL/ELT-processen of moderne data-integratietools.
         - Blootstelling aan cloudplatforms (Azure, AWS, GCP).
         - Ervaring met A/B-testen of statistische modellering.
-        - Relevante certificeringen (Microsoft Certified: Data Analyst Associate).
-        - Kennis van moderne Data Architecturen:
-          - Notebook-omgevingen zoals Jupyter Hub of Databricks.
-          - Datavault (Linstedt).
-          - Datalakes: Parquet, Spark of Dask.
-          - Lakehouse-concepten: Apache Iceberg, DeltaLake of Hudi.
+        - "Relevante certificeringen (Microsoft Certified: Data Analyst Associate)."
+        - "Kennis van moderne Data Architecturen:<ul>"
+        - Notebook-omgevingen zoals Jupyter Hub of Databricks.
+        - Datavault (Linstedt).
+        - "Datalakes: Parquet, Spark of Dask."
+        - "Lakehouse-concepten: Apache Iceberg, DeltaLake of Hudi.</ul>"
 
     - title: What we offer
       techs:
@@ -544,5 +544,3 @@ jobs:
         - Competitief salaris en flexibele voordelen.
         - Hybride en flexibele werkopties.
         - Warm en samenwerkend bedrijfscultuur.
-
-

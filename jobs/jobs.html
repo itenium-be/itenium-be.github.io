@@ -24,7 +24,22 @@ permalink: /jobs/
                 </div>
 
                 <div class="col-xs-12 col-sm-6 col-md-4">
-                    {% assign job = site.data.jobs.jobs | where: "id", "senior-fullstack" | first %}
+                    {% assign job = site.data.jobs.jobs | where: "id", "account-manager" | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    {% assign job = site.data.jobs.jobs | where: "id", "functional-analyst" | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    {% assign job = site.data.jobs.jobs | where: "id", "data-engineer" | first %}
+                    {% include job-link.html job=job %}
+                </div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    {% assign job = site.data.jobs.jobs | where: "id", "data-analist" | first %}
                     {% include job-link.html job=job %}
                 </div>
 
@@ -32,33 +47,21 @@ permalink: /jobs/
                     {% assign job = site.data.jobs.jobs | where: "id", "sourcer-and-recruitment-specialist" | first %}
                     {% include job-link.html job=job %}
                 </div>
+
+                {% comment %}
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    {% assign job = site.data.jobs.jobs | where: "id", "automation-test-engineer" | first %}
+                    {% include job-link.html job=job %}
+                </div>
+                {% endcomment %}
+
+                {% comment %}
+                <div class="col-xs-12 col-sm-6 col-md-4">
+                    {% assign job = site.data.jobs.jobs | where: "id", "senior-fullstack" | first %}
+                    {% include job-link.html job=job %}
+                </div>
+                {% endcomment %}
             </div>
         </div>
     </section>
-
-    <div class="container jobs-header jobs-body" style="margin-top: 0px;">
-        <div class="row jobs-row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                {% assign job = site.data.jobs.jobs | where: "id", "functional-analyst" | first %}
-                {% include job-link.html job=job %}
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                {% assign job = site.data.jobs.jobs | where: "id", "automation-test-engineer" | first %}
-                {% include job-link.html job=job %}
-            </div>
-
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                {% assign job = site.data.jobs.jobs | where: "id", "account-manager" | first %}
-                {% include job-link.html job=job %}
-            </div>
-        </div>
-
-        <div class="row jobs-row">
-            <div class="col-xs-12 col-sm-6 col-md-4">
-                {% assign job = site.data.jobs.jobs | where: "id", "data-engineer" | first %}
-                {% include job-link.html job=job %}
-            </div>
-        </div>
-    </div>
 </div>
