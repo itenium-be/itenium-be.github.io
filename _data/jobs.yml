@@ -498,3 +498,51 @@ jobs:
           - Competitive salary with flexible benefits
           - Hybrid and flexible work options
           - Warm and collaborative company culture
+
+- id: data-analist
+  title: Data Analist
+  xp: senior
+  type: dev
+  active: false
+  techs:
+    - title: Responsibilities
+      techs:
+        - Analyseren van cross-domein bedrijfsprocessen en vertalen naar duidelijke, geïntegreerde datavraagstukken.
+        - Ontwerpen, bouwen en onderhouden van intuïtieve dashboards en rapporten (Power BI/Tableau) ter ondersteuning van organisatiebrede besluitvorming.
+        - Uitvoeren van diepgaande data-exploratie om trends, patronen en optimalisatiekansen te identificeren die domein overstijgend zijn.
+        - Samenwerken met stakeholders om de rapportagebehoeften te verzamelen en te specificeren.
+        - Monitoren van datakwaliteit en zorgen voor de consistentie van de rapportagegegevens.
+
+    - title: You have experience with
+      techs:
+        - 3+ jaar ervaring in data-analyse, Business Intelligence of vergelijkbare rol.
+        - Zeer sterke SQL-vaardigheden voor data-extractie en manipulatie.
+        - Uitgebreide ervaring met een toonaangevende BI-tool (Power BI of Tableau).
+        - Inzicht en ervaring in gelaagde data warehouse architecturen.
+        - Diepgaande kennis van datawarehouse concepten zoals Snowflaking, Slowly Changing Dimensions en dimensionele modellering (Kimball/Inmon).
+        - Sterke analytische en probleemoplossende vaardigheden.
+        - Native Dutch speaking en professionele kennis van Engels.
+
+    - title: Nice to have
+      techs:
+        - Ervaring met programmeertalen zoals Python of R.
+        - Kennis van ETL/ELT-processen of moderne data-integratietools.
+        - Blootstelling aan cloudplatforms (Azure, AWS, GCP).
+        - Ervaring met A/B-testen of statistische modellering.
+        - Relevante certificeringen (Microsoft Certified: Data Analyst Associate).
+        - Kennis van moderne Data Architecturen:
+          - Notebook-omgevingen zoals Jupyter Hub of Databricks.
+          - Datavault (Linstedt).
+          - Datalakes: Parquet, Spark of Dask.
+          - Lakehouse-concepten: Apache Iceberg, DeltaLake of Hudi.
+
+    - title: What we offer
+      techs:
+        - Impactvolle data-analyse projecten over de gehele organisatie.
+        - Mogelijkheid om te leren van ervaren specialisten en je carrière te versnellen.
+        - Ongoing training en ondersteuning voor certificeringen.
+        - Competitief salaris en flexibele voordelen.
+        - Hybride en flexibele werkopties.
+        - Warm en samenwerkend bedrijfscultuur.
+
+
