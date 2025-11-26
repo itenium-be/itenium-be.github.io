@@ -204,7 +204,7 @@ jobs:
     title: Automation Test Engineer
     xp: senior
     type: tester
-    active: true
+    active: false
     techs:
       - title: Knowledge
         learn: true
