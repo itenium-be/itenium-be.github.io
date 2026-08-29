@@ -1,0 +1,67 @@
+---
+import type {Project} from '../data/projects'
+import ProjectCard from './ProjectCard.astro'
+
+type Props = {
+  id: string
+  title: string
+  intro: string
+  projects: Project[]
+}
+
+const {id, title, intro, projects} = Astro.props
+---
+
+<section id={id}>
+  <header>
+    <h2>{title}</h2>
+    <p>{intro}</p>
+  </header>
+
+  <div class="grid">
+    {projects.map((project) => <ProjectCard project={project} />)}
+  </div>
+</section>
+
+<style>
+  section {
+    margin-top: 72px;
+  }
+
+  header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid var(--line);
+  }
+
+  h2 {
+    font-size: 1.55rem;
+  }
+
+  h2::before {
+    content: '';
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    border-radius: 2px;
+    background: var(--accent);
+    margin-right: 11px;
+    vertical-align: middle;
+  }
+
+  header p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.92rem;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 22px;
+  }
+</style>

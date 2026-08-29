@@ -1,0 +1,185 @@
+---
+import Base from '../layouts/Base.astro'
+import BlogTile from '../components/BlogTile.astro'
+import Section from '../components/Section.astro'
+import {projects, sections} from '../data/projects'
+
+const title = 'itenium dev — tools we built and use'
+const description =
+  'The developer tooling itenium builds: QR codes, PDF surgery, Slack memes, SQL training, AutoHotkey scripts and more.'
+---
+
+<Base title={title} description={description}>
+  <header class="hero">
+    <div class="hero-art"></div>
+
+    <div class="wrap hero-inner">
+      <a class="brand" href="https://itenium.be" target="_blank" rel="noopener">
+        <img
+          src="https://itenium.be/wp-content/uploads/2025/11/logo-itenium.svg"
+          alt="itenium"
+          width="132"
+          height="32"
+        />
+        <span>dev</span>
+      </a>
+
+      <h1>Tools we built<br />because we needed them</h1>
+      <p class="lede">
+        Everything here came out of a real itch at itenium: a talk to give, a PDF to split, a
+        notification worth noticing. All of it is open source.
+      </p>
+
+      <nav class="jump">
+        {sections.map((section) => <a href={`#${section.id}`}>{section.title}</a>)}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <BlogTile />
+
+    {
+      sections.map((section) => (
+        <Section
+          id={section.id}
+          title={section.title}
+          intro={section.intro}
+          projects={projects.filter((project) => project.category === section.id)}
+        />
+      ))
+    }
+  </main>
+
+  <footer>
+    <div class="wrap foot-inner">
+      <p>Built at <a href="https://itenium.be" target="_blank" rel="noopener">itenium</a></p>
+      <p>
+        <a href="https://github.com/itenium-be" target="_blank" rel="noopener">github.com/itenium-be</a>
+      </p>
+    </div>
+  </footer>
+</Base>
+
+<style>
+  .hero {
+    position: relative;
+    padding: 84px 0 76px;
+    border-bottom: 1px solid var(--line);
+    overflow: hidden;
+  }
+
+  .hero-art {
+    position: absolute;
+    inset: 0;
+    background:
+      radial-gradient(60% 90% at 78% 12%, rgba(231, 130, 0, 0.2), transparent 68%),
+      radial-gradient(48% 70% at 8% 92%, rgba(110, 188, 165, 0.14), transparent 70%),
+      url('/img/hero.webp') center / cover no-repeat;
+    opacity: 0.92;
+    z-index: 0;
+  }
+
+  .hero-art::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(
+      100deg,
+      var(--ground) 24%,
+      rgba(26, 24, 23, 0.86) 52%,
+      rgba(26, 24, 23, 0.55) 100%
+    );
+  }
+
+  .hero-inner {
+    position: relative;
+    z-index: 1;
+  }
+
+  .brand {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 10px;
+    text-decoration: none;
+    margin-bottom: 34px;
+  }
+
+  .brand img {
+    display: block;
+  }
+
+  .brand span {
+    font-family: var(--font-mono);
+    font-size: 1rem;
+    color: var(--accent);
+  }
+
+  h1 {
+    font-size: clamp(2.3rem, 5.6vw, 3.9rem);
+    max-width: 16ch;
+  }
+
+  .lede {
+    margin: 20px 0 0;
+    max-width: 56ch;
+    font-size: 1.06rem;
+    color: rgba(252, 252, 252, 0.76);
+  }
+
+  .jump {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 32px;
+  }
+
+  .jump a {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: rgba(252, 252, 252, 0.8);
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    padding: 7px 15px;
+    transition:
+      border-color 0.18s ease,
+      color 0.18s ease;
+  }
+
+  .jump a:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+  }
+
+  main {
+    padding-bottom: 96px;
+  }
+
+  footer {
+    border-top: 1px solid var(--line);
+    padding: 30px 0;
+  }
+
+  .foot-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+    color: var(--muted);
+    font-size: 0.86rem;
+  }
+
+  .foot-inner p {
+    margin: 0;
+  }
+
+  .foot-inner a {
+    color: var(--accent);
+    text-decoration: none;
+  }
+
+  .foot-inner a:hover {
+    text-decoration: underline;
+  }
+</style>

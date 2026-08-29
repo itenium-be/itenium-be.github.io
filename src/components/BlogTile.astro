@@ -1,0 +1,61 @@
+---
+---
+
+<a class="tile" href="https://itenium.be/blog" target="_blank" rel="noopener">
+  <div class="text">
+    <span class="eyebrow">Writing</span>
+    <h2>The itenium blog</h2>
+    <p>Behind-the-scenes and deep tech insights. Most of the tools below started as a post here.</p>
+  </div>
+  <span class="cta">itenium.be/blog &rarr;</span>
+</a>
+
+<style>
+  .tile {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 28px;
+    flex-wrap: wrap;
+    margin-top: 56px;
+    padding: 28px 32px;
+    background: linear-gradient(115deg, var(--surface), rgba(231, 130, 0, 0.09));
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: var(--radius);
+    text-decoration: none;
+    transition: border-color 0.18s ease;
+  }
+
+  .tile:hover {
+    border-color: rgba(231, 130, 0, 0.5);
+    border-left-color: var(--accent);
+  }
+
+  .eyebrow {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  h2 {
+    font-size: 1.5rem;
+    margin: 6px 0 8px;
+  }
+
+  .text p {
+    margin: 0;
+    color: rgba(252, 252, 252, 0.72);
+    font-size: 0.94rem;
+    max-width: 60ch;
+  }
+
+  .cta {
+    font-family: var(--font-mono);
+    font-size: 0.86rem;
+    color: var(--accent);
+    white-space: nowrap;
+  }
+</style>
