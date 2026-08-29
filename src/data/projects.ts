@@ -44,13 +44,13 @@ export const projects: Project[] = [
   },
   {
     slug: 'pdfmerge',
-    name: 'PdfMerge',
+    name: 'PDF Workbench',
     pitch: 'Merge, reorder and split PDFs in the browser. No upload, no backend',
     category: 'use',
-    hrefLabel: 'Coming soon',
+    href: 'https://itenium-be.github.io/PdfMerge/',
+    hrefLabel: 'Open',
     github: 'https://github.com/itenium-be/PdfMerge',
     tags: ['TypeScript', 'Browser'],
-    status: 'wip',
   },
   {
     slug: 'starify-links',
