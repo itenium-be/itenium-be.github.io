@@ -1,5 +1,6 @@
 ---
 import Base from '../layouts/Base.astro'
+import GithubGlyph from '../components/GithubGlyph.astro'
 import BlogTile from '../components/BlogTile.astro'
 import Section from '../components/Section.astro'
 import {projects, sections} from '../data/projects'
@@ -24,11 +25,8 @@ const description =
         <span>dev</span>
       </a>
 
-      <h1>Tools we built<br />because we needed them</h1>
-      <p class="lede">
-        Everything here came out of a real itch at itenium: a talk to give, a PDF to split, a
-        notification worth noticing. All of it is open source.
-      </p>
+      <h1>Tools we built</h1>
+      <p class="lede">Free and open-source tooling by itenium.</p>
 
       <nav class="jump">
         {sections.map((section) => <a href={`#${section.id}`}>{section.title}</a>)}
@@ -53,10 +51,19 @@ const description =
 
   <footer>
     <div class="wrap foot-inner">
-      <p>Built at <a href="https://itenium.be" target="_blank" rel="noopener">itenium</a></p>
-      <p>
-        <a href="https://github.com/itenium-be" target="_blank" rel="noopener">github.com/itenium-be</a>
-      </p>
+      <a class="built" href="https://itenium.be" target="_blank" rel="noopener">
+        <span>Built at</span>
+        <img
+          src="https://itenium.be/wp-content/uploads/2025/11/logo-itenium.svg"
+          alt="itenium"
+          width="74"
+          height="18"
+        />
+      </a>
+      <a class="source" href="https://github.com/itenium-be" target="_blank" rel="noopener">
+        <GithubGlyph size={16} />
+        <span>Source</span>
+      </a>
     </div>
   </footer>
 </Base>
@@ -163,23 +170,34 @@ const description =
 
   .foot-inner {
     display: flex;
-    justify-content: space-between;
-    gap: 16px;
+    align-items: center;
+    gap: 14px;
     flex-wrap: wrap;
     color: var(--muted);
-    font-size: 0.86rem;
+    font-size: 0.79rem;
   }
 
-  .foot-inner p {
-    margin: 0;
-  }
-
-  .foot-inner a {
-    color: var(--accent);
+  .built,
+  .source {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
     text-decoration: none;
+    color: var(--muted);
+    transition: color 0.18s ease;
   }
 
-  .foot-inner a:hover {
-    text-decoration: underline;
+  .built:hover,
+  .source:hover {
+    color: var(--text);
+  }
+
+  .built img {
+    height: 18px;
+    width: auto;
+  }
+
+  .source {
+    margin-left: auto;
   }
 </style>
