@@ -7,14 +7,17 @@ keeps the set matching the hero.
 ## The sref
 
 ```
---sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+--sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
-That UUID is the job id of the generated hero, taken from the tail of its
-filename in `midjourney-raw/` (gitignored). Midjourney blocks direct fetches of
-its CDN, so this link cannot be checked from a terminal — if it does not take,
-open the hero in the Midjourney web UI, copy the image address, and swap it in
-below.
+Copied from the Midjourney web UI off the hero generation. It is already
+inlined in all twelve prompts below, so each one is a single paste.
+
+To replace it later, swap every copy at once:
+
+```sh
+sed -i 's|<old url>|<new url>|g' Midjourney.md
+```
 
 The hero itself is already done: `public/img/hero.webp`, 1680x720.
 
@@ -35,7 +38,7 @@ back to a generated gradient tile, so partial batches deploy fine.
 `public/img/pdfmerge.webp`
 
 ```
-two paper stacks interleaving into a single clean stack, sheets suspended mid-air, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+two paper stacks interleaving into a single clean stack, sheets suspended mid-air, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## QRGenerator
@@ -43,7 +46,7 @@ two paper stacks interleaving into a single clean stack, sheets suspended mid-ai
 `public/img/qrgenerator.webp`
 
 ```
-a glossy qr code tile bending into a ribbon, chips of color peeling off its corner, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a glossy qr code tile bending into a ribbon, chips of color peeling off its corner, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Presentations
@@ -51,7 +54,7 @@ a glossy qr code tile bending into a ribbon, chips of color peeling off its corn
 `public/img/presentations.webp`
 
 ```
-a stack of translucent glass slides fanned out like a deck of cards, one lit from within, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a stack of translucent glass slides fanned out like a deck of cards, one lit from within, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Starify Links
@@ -59,7 +62,7 @@ a stack of translucent glass slides fanned out like a deck of cards, one lit fro
 `public/img/starify-links.webp`
 
 ```
-a chain of links with small enamel star badges clipped onto each one, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a chain of links with small enamel star badges clipped onto each one, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Yoink
@@ -67,7 +70,7 @@ a chain of links with small enamel star badges clipped onto each one, isometric 
 `public/img/yoink.webp`
 
 ```
-a tiny stage curtain opening on a glowing notification bubble, confetti frozen mid-burst, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a tiny stage curtain opening on a glowing notification bubble, confetti frozen mid-burst, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Mi-Ke
@@ -75,7 +78,7 @@ a tiny stage curtain opening on a glowing notification bubble, confetti frozen m
 `public/img/mi-ke.webp`
 
 ```
-a mechanical keyboard with three keys lifted and hovering, thin light trails beneath them, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a mechanical keyboard with three keys lifted and hovering, thin light trails beneath them, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Git-NumberedAdd
@@ -83,7 +86,7 @@ a mechanical keyboard with three keys lifted and hovering, thin light trails ben
 `public/img/git-numberedadd.webp`
 
 ```
-a row of numbered file tiles on a rail, one pulled forward and highlighted, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a row of numbered file tiles on a rail, one pulled forward and highlighted, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## date-holidays-be
@@ -91,7 +94,7 @@ a row of numbered file tiles on a rail, one pulled forward and highlighted, isom
 `public/img/date-holidays-be.webp`
 
 ```
-a wall calendar with several days raised into small physical blocks, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a wall calendar with several days raised into small physical blocks, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## SQL Training
@@ -99,7 +102,7 @@ a wall calendar with several days raised into small physical blocks, isometric 3
 `public/img/sql-training.webp`
 
 ```
-a database cylinder split open like a training dummy, a small podium beside it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a database cylinder split open like a training dummy, a small podium beside it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Meme Poster
@@ -107,7 +110,7 @@ a database cylinder split open like a training dummy, a small podium beside it, 
 `public/img/meme-poster.webp`
 
 ```
-a mail chute dropping a framed picture into a chat window, timer gear behind it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a mail chute dropping a framed picture into a chat window, timer gear behind it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Scout
@@ -115,7 +118,7 @@ a mail chute dropping a framed picture into a chat window, timer gear behind it,
 `public/img/scout.webp`
 
 ```
-a brass surveying instrument on a tripod scanning a field of floating documents, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a brass surveying instrument on a tripod scanning a field of floating documents, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
 
 ## Meridian
@@ -123,5 +126,5 @@ a brass surveying instrument on a tripod scanning a field of floating documents,
 `public/img/meridian.webp`
 
 ```
-a curved timeline ribbon over a dark relief map, small photo cards pinned along it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
+a curved timeline ribbon over a dark relief map, small photo cards pinned along it, isometric 3d render, single subject centered, warm charcoal background, orange key light from the upper right, soft teal rim light, matte surfaces, shallow depth of field, no text, no letters, no logos, no watermark --ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/1728f718-86de-4944-9e81-09412947428a/0_2.png
 ```
