@@ -10,10 +10,11 @@ as the `--sref` for all twelve tiles — that is what keeps the palette and
 lighting consistent across the set. Until then the placeholder below works.
 
 ```
---ar 16:9 --style raw --stylize 250 --sref 3141592
+--ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
 ```
 
-Replace `3141592` with the hero's image URL once you have it.
+That sref is the generated hero. The UUID is the Midjourney job id, which is
+also the tail of the raw filename in `midjourney-raw/` (gitignored).
 
 Save results as `public/img/<slug>.webp` using the slugs in the table. Any
 missing file falls back to a generated gradient tile, so partial sets are fine.
@@ -39,7 +40,13 @@ light, matte surfaces, shallow depth of field, no text, no letters, no logos,
 no watermark --ar 21:9 --style raw --stylize 250
 ```
 
-Save as `public/img/hero.webp`.
+Done — generated and committed as `public/img/hero.webp` (1680x720).
+
+Converting a raw Midjourney PNG for the site:
+
+```sh
+cwebp -q 82 midjourney-raw/<file>.png -o public/img/<slug>.webp
+```
 
 ## Tiles
 
@@ -64,5 +71,5 @@ Each row becomes:
 <subject>, isometric 3d render, single subject centered, warm charcoal
 background, orange key light from the upper right, soft teal rim light, matte
 surfaces, shallow depth of field, no text, no letters, no logos, no watermark
---ar 16:9 --style raw --stylize 250 --sref <hero url>
+--ar 16:9 --style raw --stylize 250 --sref https://cdn.midjourney.com/5386d7e6-5b7b-4d6c-807c-28a0530d5cd9/0_0.png
 ```
