@@ -10,6 +10,8 @@ export type Project = {
   href?: string
   hrefLabel: string
   github: string
+  /** itenium.be write-up, when the primary link is not already the post */
+  blog?: string
   snippet?: string
   tags: string[]
   status?: 'wip'
@@ -40,6 +42,7 @@ export const projects: Project[] = [
     href: 'https://itenium-be.github.io/Presentations/',
     hrefLabel: 'Browse talks',
     github: 'https://github.com/itenium-be/Presentations',
+    blog: 'https://itenium.be/blog/ai/a-decade-of-itenium-slides-reborn-in-slidev-2/',
     tags: ['Slidev', 'Vue'],
   },
   {
@@ -60,6 +63,7 @@ export const projects: Project[] = [
     href: 'https://chromewebstore.google.com/detail/kpficnopciffopkhjpckhkgmnlakcmig',
     hrefLabel: 'Add to Chrome',
     github: 'https://github.com/itenium-be/starify-links',
+    blog: 'https://itenium.be/blog/javascript/starify-links/',
     tags: ['Chrome', 'TypeScript'],
   },
   {
@@ -70,6 +74,7 @@ export const projects: Project[] = [
     href: 'https://itenium-be.github.io/Yoink/',
     hrefLabel: 'Read more',
     github: 'https://github.com/itenium-be/Yoink',
+    blog: 'https://itenium.be/blog/ai/yoink-claude-notification-hooks/',
     snippet: '/plugin marketplace add itenium-be/Yoink',
     tags: ['Claude Code', 'PowerShell'],
   },
@@ -89,9 +94,10 @@ export const projects: Project[] = [
     name: 'Git-NumberedAdd',
     pitch: 'git add, diff and reset files by number instead of by path',
     category: 'install',
-    href: 'https://itenium.be/blog/productivity/git-numbered-add-for-powershell',
-    hrefLabel: 'Read the post',
+    href: 'https://www.powershellgallery.com/packages/Git-NumberedAdd',
+    hrefLabel: 'PowerShell Gallery',
     github: 'https://github.com/itenium-be/Git-NumberedAdd',
+    blog: 'https://itenium.be/blog/dev-setup/git-numbered-add-for-powershell/',
     snippet: 'Install-Module -Name Git-NumberedAdd',
     tags: ['PowerShell', 'Git'],
   },
@@ -135,6 +141,7 @@ export const projects: Project[] = [
     href: 'https://laoujin.github.io/Scout/',
     hrefLabel: 'Open the site',
     github: 'https://github.com/Laoujin/Scout',
+    blog: 'https://itenium.be/blog/ai/scout-a-self-hosted-deep-research-agent-on-claude-code-2/',
     tags: ['Claude Code', 'Self-hosted'],
   },
   {
@@ -145,6 +152,7 @@ export const projects: Project[] = [
     href: 'https://laoujin.github.io/Meridian/',
     hrefLabel: 'Open the site',
     github: 'https://github.com/Laoujin/Meridian',
+    blog: 'https://itenium.be/blog/ai/meridian-a-scroll-driven-memory-timeline/',
     tags: ['TypeScript', 'Self-hosted'],
   },
 ]
