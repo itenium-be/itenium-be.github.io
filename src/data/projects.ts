@@ -109,6 +109,7 @@ export const projects: Project[] = [
     href: 'https://www.npmjs.com/package/@itenium/date-holidays-be',
     hrefLabel: 'View on npm',
     github: 'https://github.com/itenium-be/date-holidays-be',
+    blog: 'https://itenium.be/blog/javascript/react-component-profiling/',
     snippet: 'bun add @itenium/date-holidays-be',
     tags: ['TypeScript', 'npm'],
   },
